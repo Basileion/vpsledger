@@ -1,0 +1,300 @@
+Up to 70% off VPS hosting
+this Black Friday
+Get dedicated resources, root access, and the freedom to configure your server your way.
+From $19.49 $6.49/mo
+Claim deal
+30-day money-back guarantee
+Fast compute and storage
+Run demanding workloads with AMD EPYC processors and NVMe SSD storage.
+Free weekly backups
+Keep your data protected with automatic weekly backups. Restore your VPS from your dashboard whenever needed.
+Use natural language commands
+Run commands and handle server tasks through the AI web terminal using natural language.
+Secure your deal before it’s gone
+Cancel anytime
+24/7 support
+67% off
+KVM 1
+$ 19.49
+$ 6.49 /mo
+Choose plan Today you pay $155.76 for 24 months. Renews at $11.99/mo for the same term. Cancel anytime.
+1 vCPU core
+4 GB RAM
+50 GB NVMe disk space
+4 TB bandwidth
+MOST POPULAR
+Special offer • 64% off
+KVM 2
+$ 24.49
+$ 8.79 /mo
+Choose plan Today you pay $210.96 for 24 months. Renews at $14.99/mo for the same term. Cancel anytime.
+2 vCPU cores
+8 GB RAM
+100 GB NVMe disk space
+8 TB bandwidth
+70% off
+KVM 4
+$ 42.99
+$ 12.99 /mo
+Choose plan Today you pay $311.76 for 24 months. Renews at $28.99/mo for the same term. Cancel anytime.
+4 vCPU cores
+16 GB RAM
+200 GB NVMe disk space
+16 TB bandwidth
+65% off
+KVM 8
+$ 73.99
+$ 25.99 /mo
+Choose plan Today you pay $623.76 for 24 months. Renews at $49.99/mo for the same term. Cancel anytime.
+8 vCPU cores
+32 GB RAM
+400 GB NVMe disk space
+32 TB bandwidth
+Every plan has everything you need and more
+AMD EPYC processors
+NVMe SSD storage
+Data centers worldwide
+Firewall management
+1 Gbps network speed
+Public API
+AI Web terminal
+Free domain for 1 year
+All plans are paid upfront. The monthly rate reflects the total plan price divided by the number of months in your plan.
+One VPS.
+Run what you need
+Run AI agents, websites, apps, private cloud, and more on a VPS you can configure for your needs.
+AI agents and automation
+Run AI agents and automations, independent of your personal computer, with control over how your workflows, data, and API keys are managed.
+Recommended:
+Run agents 24/7
+Manage access to your data and API keys
+Configure your automation stack to fit your needs
+Get started
+Open-source app self-hosting
+Host open-source apps with control over their configuration, access, and maintenance.
+Run your chosen apps in an environment you manage
+Configure access and settings to fit your needs
+Add services as your setup grows
+App and API deployment
+Deploy web applications and APIs in an environment you configure, with server resources you can adjust as your project grows.
+Configure your app environment and deployment process
+Run app and API services on one server
+Adjust resources as your project develops
+Databases and storage
+Run databases, caches, and storage services with control over their configuration and resource allocation.
+Choose database or storage tools that fit your stack
+Allocate resources for data-intensive workloads
+Plan backups around your data and recovery needs
+High-traffic and ecommerce sites
+Host high-traffic websites and online stores with server settings and resources you can adjust as your needs change.
+Configure caching and server settings for your site
+Keep your storefront and supporting services in one environment
+Add resources as traffic and requirements grow
+Choose your stack.
+Start your way
+Choose from popular Linux distros, control panels, and preconfigured apps. Install what you need with one click.
+Application
+Plain OS
+Control Panel
+Popular (20)
+9router
+AI API routing proxy with token optimization for 40+ LLM providers
+Agent Zero
+Open-source AI agent framework with multi-agent cooperation and persistent memory
+Buzz
+Self-hosted workspace where humans and AI agents share the same rooms
+Dify
+Open-source platform for building LLM applications with RAG, agents, and workflows
+Docker and Traefik
+Docker is a modern containerization platform that streamlines how applications are developed, shipped, and deployed. In this template, Docker is paired with Traefik, a powerful reverse proxy and load balancer, to provide automatic routing, SSL management, and secure access to your containers—ensuring consistent, scalable, and production-ready deployments across environments.
+Hermes Agent
+Self-improving AI agent with built-in learning loop and multi-platform messaging
+Home Assistant
+Open-source home automation platform for controlling smart devices
+IceWarp
+IceWarp is a unified communications and collaboration platform that combines email, team chat, voice and video calls, document editing, and file sharing into one solution. It’s designed for businesses that want a secure, all-in-one alternative to services like Microsoft 365 or Google Workspace.
+Immich
+Immich is a high-performance self-hosted photo and video management solution
+n8n
+Workflow automation platform with visual node-based interface
+Nextcloud
+Nextcloud is a powerful self-hosted productivity platform
+OpenClaw
+Personal AI assistant with multi-channel messaging and shared team sessions
+OpenLiteSpeed and Node.js
+The OpenLiteSpeed Node.js One-Click app automatically installs performance web server OpenLiteSpeed, and Node.js. This image tends to be more than 4 times faster than Node.js with Nginx! OpenLiteSpeed features easy setup for SSL and RewriteRules.
+Paperclip
+Paperclip is an AI/ML orchestration platform for autonomous teams
+PostgreSQL
+PostgreSQL is a powerful, open-source object-relational database system
+Uptime Kuma
+Uptime Kuma is a beautiful, self-hosted monitoring tool
+Vaultwarden
+Vaultwarden is a lightweight, self-hosted password manager compatible with Bitwarden
+Visual Studio Code Server
+Run Visual Studio Code in your browser anywhere
+WooCommerce
+WooCommerce is a popular open-source e-commerce plugin for WordPress . It is designed for small to large-sized online merchants using WordPress , offering a range of customizable options for building an online store. Its flexibility and ease of integration with WordPress make it a widely favored choice for businesses looking to sell products and services online.
+WordPress
+WordPress is the world's most popular website builder and CMS
+AlmaLinux
+AlmaLinux is a free and open source Linux distribution, created originally by CloudLinux to provide a community-supported, production-grade enterprise operating system that is binary-compatible with Red Hat Enterprise Linux.
+Debian
+Debian is a computer operating system composed of software packages released as free and open source software primarily under the GNU General Public License along with other free software licenses. Debian GNU/Linux, which includes the GNU OS tools and Linux kernel, is a popular and influential Linux distribution. It is distributed with access to repositories containing thousands of software packages ready for installation and use. Debian is known for relatively strict adherence to the philosophies of Unix and free software as well as using collaborative software development and testing processes.
+Rocky Linux
+Rocky Linux is a Linux distribution developed by Rocky Enterprise Software Foundation. It is intended to be a downstream, complete binary-compatible release using the Red Hat Enterprise Linux operating system source code.
+Ubuntu
+Ubuntu is a computer operating system based on the Debian Linux distribution and distributed as free and open source software, using its own desktop environment. Ubuntu is designed primarily for use on personal computers, although a server edition also exists.
+Alpine Linux
+Alpine Linux is an independent, non-commercial, general purpose Linux distribution designed for power users who appreciate security, simplicity and resource efficiency.
+Arch Linux
+Arch Linux is an independently developed, x86-64 general-purpose Linux distribution that strives to provide the latest stable versions of most software by following a rolling-release model. The default installation is a minimal base system, configured by the user to only add what is purposely required.
+CentOS
+CentOS is a free operating system distribution based upon the Linux kernel. It is derived entirely from the Red Hat Enterprise Linux (RHEL) distribution. CentOS exists to provide a free enterprise-class computing platform and strives to maintain 100% binary compatibility with its upstream source, Red Hat. CentOS stands for Community Enterprise Operating System.
+CloudLinux
+CloudLinux the operating system for multi-tenancy of shared server. It isolates each customer into a separate environment, which partitions, allocates, and limits server resources, like memory, CPU, and connections, for each tenant.
+Fedora Cloud
+Fedora Cloud is a streamlined version of the Fedora operating system tailored for cloud computing, offering a minimal footprint for containerized applications. It supports cutting-edge cloud technologies like Docker and Kubernetes, facilitating efficient container management. Ideal for developers and sysadmins, Fedora Cloud ensures fast, secure, and scalable deployments in both public and private cloud environments.
+Kali Linux
+Kali Linux is a powerful, open-source operating system widely used for digital forensics and penetration testing. Developed by Offensive Security, it comes pre-loaded with a comprehensive suite of tools for security auditing, network testing, and vulnerability identification within an IT environment. Kali Linux is built for cybersecurity professionals and IT experts, featuring a customizable environment that supports a broad range of hardware platforms.
+NixOS
+NixOS is a Linux distribution built around declarative system configuration. Configure your entire server in a single configuration file, perform reliable upgrades and rollbacks, and manage software with the Nix package manager.
+openSUSE
+openSUSE is an open-source community project with Linux-based distributions that is sponsored by SUSE Software Solutions Germany GmbH and other companies. The openSUSE Project has a large global community that develops openSUSE in collaboration with the open-source community and corporate sponsors.
+AdminBolt
+AdminBolt is a modern web hosting control panel built as an API-first, agent-based alternative to legacy panels like cPanel, DirectAdmin, and Plesk, targeting hosting providers, agencies, and VPS users.
+CloudPanel
+CloudPanel is a free and modern server control panel to configure and manage a server with an obsessive focus on simplicity. Run PHP, Node.js, Static Websites, Reverse Proxies, and Python Applications in no time on a High-Performance Technology Stack.
+Coolify
+Coolify is an open-source platform that simplifies the deployment and management of applications via a user-friendly control panel. It supports Docker , Kubernetes, and virtual machines, enabling continuous deployment from Git repositories. With tools for monitoring and resource management, Coolify is ideal for developers and teams aiming to streamline DevOps workflows.
+cPanel
+cPanel - Web Hosting Management. The cPanel & WHM software package is an easy-to-use control panel that gives web hosts, and the website owners they serve, the ability to quickly and easily manage their servers and websites.
+Dokploy
+Dokploy is a platform designed to streamline application deployment and management across various environments. It automates key DevOps tasks such as deployments and scaling, integrates with existing CI/CD pipelines, and supports multiple programming languages and frameworks. With its user-friendly interface, Dokploy helps teams enhance efficiency and maintain application performance effectively.
+Plesk
+Plesk was designed to install and manage web hosting systems and applications on a single server. The control panel is designed to simplify the management and administration of the web sites by automating various tasks on a single server. Plesk allows a server administrator to set up new websites, reseller accounts, email accounts, and DNS entries through a web-based interface. Plesk has integrated support for various Content Management Systems including WordPress , Joomla, Drupal, and other web software such as git, Docker , Multi-server management, as well as framework ready environment for Node.js, PHP, Python , Ruby on rails, and more.
+aaPanel
+aaPanel is a lightweight yet powerful web-based hosting control panel that simplifies server management with an intuitive GUI. It allows you to manage websites, databases, FTP accounts, firewalls, and software stacks like LNMP/LAMP with just a few clicks, making it ideal for users who want streamlined server control without complex command-line operations.
+Cosmos
+Cosmos is an open-source self-hosted platform for managing applications, containers, and servers through a unified web interface. It simplifies deploying and running Docker -based services by providing built-in tools for networking, security, reverse proxy, and application management.
+CyberPanel
+CyberPanel is a next-generation hosting control panel powered by OpenLiteSpeed/LiteSpeed. Built for speed, security, and reliability, CyberPanel automatically comes with built-in support for DNS, FTP, Databases, Email, File Manager, automatic SSL, and many other features, all this is free.
+DirectAdmin
+DirectAdmin is a graphical web-based web hosting control panel allowing administration of websites through a web browser. The software is configurable to enable standalone, reseller, and shared web hosting from a single instance Our DirectAdmin template is preinstalled with OpenLiteSpeed and MariaDB
+Easypanel
+Easypanel is a user-friendly control panel that simplifies server management. With its intuitive interface, you can effortlessly install applications, configure domains, manage email accounts, databases, and monitor server performance. It offers practical features like a file manager, DNS settings, and SSL certificate management, providing a seamless experience for beginners and experienced users alike. Focus on your website or application while leaving the technicalities to Easypanel.
+FASTPANEL
+FASTPANEL is a web hosting control panel designed to simplify the management of servers and websites. It provides an intuitive user interface for tasks such as domain management, email setup, and database administration. With its focus on efficiency and ease of use, FASTPANEL is suitable for both novice users and experienced system administrators.
+HestiaCP
+HestiaCP - Simple and clear interface. Instead of adding more elements to work with, this control panel prefer to remove as much as possible. The main goal of this panel was to improve the ergonomics by reducing unnecessary movements and operations. It is all about using less, because less is more.
+Kusanagi
+Ultra-fast CMS platform "KUSANAGI" developed and provided by Prime Strategy is a Linux based tuned server OS (Virual Machine Image) that runs WordPress and other CMS fast and securely.
+ServerKit
+ServerKit is a free and open-source, self-hosted control panel for managing web applications, databases, Docker containers, email, DNS, domains, and SSL certificates across your servers.
+TinyCP
+TinyCP is a lightweight web-based control panel designed for managing Linux servers, offering features like domain management, database administration, and file management through an intuitive interface. It is suitable for both small personal projects and larger professional deployments due to its simplicity and efficiency.
+Webmin
+Webmin is a web-based interface for system administration for Unix. Using any modern web browser, you can setup user accounts, Apache , DNS, file sharing and much more. Webmin removes the need to manually edit Unix configuration files like /etc/passwd, and lets you manage a system from the console or remotely. More information about Webmin you will find at http://www.webmin.com/ Virtualmin is a powerful and flexible web hosting control panel for Linux and UNIX systems based on the well-known Open Source web-based systems management GUI, Webmin. Manage your virtual domains, mailboxes, databases, applications, and the entire server, from one comprehensive and friendly interface More information about Virtualmin you will find at http://www.virtualmin.com/ Pre Installed network services are: Apache MySQL database PHP
+Webuzo
+Webuzo is a Single User Control Panel that helps users deploy Web Apps ( WordPress , Joomla, Drupal, etc) or System Apps ( Apache , NGINX, PHP, Java, MongoDB, etc) on their virtual machines or in the Cloud. Webuzo enables you to focus more on using applications rather than maintaining them. Webuzo is also available in the form of Virtual Appliances. More information about Webuzo on webuzo.com Follow the instructions on how to finish Webuzo installation.
+View more
+Global infrastructure,
+closer to your users
+Recommended location Checking...
+Deploy globally
+Launch your VPS in 10 data centers across 4 continents, from Boston to Jakarta. Keep your server closer to your users.
+Change location anytime
+Move your VPS to any of our 10 locations to stay closer to your users as your audience changes.
+Run on clean energy
+Every data center is matched with 100% renewable electricity, reducing your VPS's environmental footprint.
+Manage your VPS
+with AI assistance
+Use natural language to run commands, troubleshoot issues, and handle server tasks in your web terminal. Get guidance as you work, with less manual effort.
+Troubleshoot
+Set up
+Deploy
+Secure
+Get help troubleshooting issues
+Ask Hostinger Agent to check logs, explain errors, and identify possible causes. Get suggested next steps and help applying fixes directly in your AI web terminal.
+Get your server ready
+Describe what you want to run, and get help installing and configuring what you need, from web servers to Docker.
+Bring your project online
+Get help deploying a website or application on your VPS. Hostinger Agent can guide the setup, run commands, and help troubleshoot issues.
+Strengthen your server's security
+Get help applying security improvements and server updates. Hostinger Agent can guide you through changes directly from the VPS Web Console.
+Sorry, your browser doesn't support embedded videos.
+Full control.
+Tools to manage it
+AI web terminal
+Run terminal commands or use natural-language prompts to manage your VPS in your browser.
+Full root access
+Customize and manage your VPS environment with unrestricted administrative control.
+DDoS protection
+Wanguard DDoS filtering helps block harmful traffic and maintain server availability.
+Managed firewall
+Built-in firewall management protects your VPS environment from attacks and malicious traffic.
+Docker manager
+Visual controls and AI prompts simplify Docker Compose project management.
+Hostinger Agent
+Get AI guidance for setup, troubleshooting, deployment, and server management.
+Trusted by 5M+ users.
+Recommended by developers
+Gad Iradufasha
+I'm incredibly happy with Hostinger's VPS hosting! Their uptime is consistently top-notch, keeping my site running smoothly. Whenever I've needed help, their technical support team has been quick, knowledgeable, and genuinely helpful.
+Maxim Shishkin
+Everything is smooth and great with Hostinger, the AI chat bot + human chat, if AI can't resolve your question. Oh and them VPS is just fire, no ups and downs. Thank you dev team and everyone else involved. Keep it up 🚀
+Noel da Costa
+Finally a VPS hosting company that does it right! Well-priced. Excellent portal that respects their users' time. Seamless backups. Good support. Reliable. Feels rock-solid.
+Omkar
+I reached out to Hostinger support after losing access to my self-hosted n8n instance, and I couldn’t be more impressed. Hostinger Agent and Mohammad from the support team were incredibly patient and thorough.
+Sylvain
+Many thanks to Carla for helping me with this N8N upgrade on my Hostinger VPS. Professional and knowledgeable, thank you again Carla.
+Herriman
+Hostinger VPS is absolutely outstanding. It just always works. It is always fast and stable. Never down, never crashes.
+Martin K
+The company is doing well, I am very happy with the specific services I use through them. Not as expensive as some places with really great VPS set ups and price plans.
+Let AI manage your VPS
+Connect AI coding tools to your VPS with Hostinger Connector to deploy sites, set up domains, and handle server tasks with simple prompts.
+Connect your agent
+VPS hosting FAQs
+What is a VPS, and what is it used for?
+A virtual private server (VPS) is a type of hosting that provides an isolated environment with its own software, configuration, data, and resources, including CPU, RAM, storage, and bandwidth.
+Unlike a dedicated server, a VPS operates as a virtual machine running on top of a physical host using virtualization technology. It works like traditional web hosting but with full root access and a significantly higher level of isolation, which provides better flexibility and reliability.
+Combining the best of both worlds, a VPS is ideal for web professionals who want a high-performance hosting solution without the hassle of managing a physical server. It also caters to a vast range of user needs, such as, but not limited to:
+Website hosting. Host different types of websites, including large online stores built on platforms like PrestaShop, Magento, or WordPress.
+Software application hosting. Use a control panel, containerization software, or a framework to deploy various applications, such as databases, analytics platforms, customer relationship management apps, and more.
+Game server. Launch a private multiplayer server for online games like Minecraft or Counter-Strike.
+Workflow automation. Deploy n8n to connect various applications and create a custom workflow for automatic data processing, all on a centralized dashboard
+Personal large language models or AI agents. Run and tune personal large language models with Ollama, or host custom ChatGPT to assist you with specific tasks.
+For more information, check out our complete guide on virtual private servers .
+What is KVM? What are the benefits of KVM?
+Kernel-based virtual machine (KVM) is a full virtualization solution that divides a physical server into completely independent and isolated virtual environments. We at Hostinger use this technology on all of our VPS plans.
+Unlike other virtualization technologies, KVM gives you a higher level of isolation, reliability, and customizability – ideal if your development projects demand plenty of power and flexibility.
+With KVM VPS hosting services, you’ll be in complete control – freely customize the OS, control panel, and software to suit your needs. While you’ll be responsible for your virtual private servers, we’ll take care of the speed, uptime, and stability of our physical servers.
+With our KVM hosting, you’ll get cutting-edge HPE and Dell hardware, lightning-fast NVMe SSD storage, and the robust power of AMD EPYC processors. This winning combination ensures exceptional performance and responsiveness for your website or application.
+Why choose VPS hosting? When should I upgrade to a VPS?
+Virtual private servers are ideal for building complex projects like resource-intensive websites, web apps, online gaming servers, and WordPress multisite. You can install your own operating system and set up a perfect server environment tailored to your needs.
+Unlike traditional web hosting, you will get dedicated resources, such as CPU power, RAM, or disk space.
+Consider upgrading to VPS solutions once your managed web hosting no longer meets your requirements and you know how to manage a virtual server. If it's your first time upgrading to a VPS platform, check out our tutorial on how to host a website on VPS to understand all the basics.
+If you want to upgrade your current VPS plan , go to your Hostinger account and click the Upgrade button.
+Are KVM-based virtual private servers safe?
+Yes. Our VPS web hosting is securely partitioned to ensure top-notch protection. We also use advanced DDoS counter-measures and an AI-powered firewall with an integrated server defense to safeguard our infrastructure.
+Furthermore, every KVM VPS client gets a dedicated IP address. This lets you implement stronger security measures, such as setting firewall rules specific to your IP address.
+Finally, you will get a malware scanner that can automatically detect and remove any malicious files.
+Can I install custom software on my virtual server hosting?
+Yes. With full root access, you have the freedom to configure your VPS for many purposes, including hosting resource-intensive applications, deploying local AI models, setting up centralized automation workflows, and more. The power of the VPS solution lies in its unparalleled control – you can customize the server and allocate its resources in any way you want.
+We also provide the best-in-business control panels like cPanel, CyberPanel, Plesk, DirectAdmin, and more. Equipped with features like server monitoring and resource usage statistics, these panels make managing your own virtual server easier.
+Whether you’re setting up a website, app, or custom project, our Linux-based operating system templates help you get started fast. Preconfigured with a selection of software and control panels, they install with a single click – giving you a ready-to-use hosting environment right away.
+How much does virtual server hosting cost? How do I choose the right VPS plan for my needs?
+Our KVM VPS hosting plans range from $6.49–$25.99/month :
+KVM 1 – $6.49/month
+KVM 2 – $8.79/month
+KVM 4 – $12.99/month
+KVM 8 – $25.99/month
+When choosing a package, consider your needs first. For instance, the KVM 2 plan comes with two virtual CPU cores, 8 GB of RAM, and 100 GB of NVMe SSD storage – enough power to host medium-scale applications, like the n8n automation tool.
+There’s no need to worry about picking the wrong VPS hosting plan. You can always start small and upgrade to higher-tier plans whenever you need more resources.
+What are the CPU, RAM, inode, and disk limits of Hostinger plans?
+Visit our article on the parameters and limits for hosting plans to learn what resources our hosting solutions provide. This detailed article offers comprehensive information on the specific limits associated with each hosting plan we offer, helping you make an informed choice based on your online project's requirements.
+How can I get started with VPS hosting on your platform?
+To help you get started with VPS hosting, we've created a comprehensive onboarding process – you can simply choose a pre-installed operating system and software for a smoother start.
+For more detailed instructions, follow our tutorials on getting started with VPS hosting and what to do after buying a VPS .

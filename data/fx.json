@@ -1,0 +1,6 @@
+{
+ "eur_usd": 1.1188,
+ "date": "2026-10-26",
+ "source": "https://api.frankfurter.dev/v1/latest?base=EUR&symbols=USD",
+ "note": "ECB euro foreign exchange reference rate via Frankfurter"
+}

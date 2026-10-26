@@ -1,0 +1,154 @@
+Predictable Pricing
+Take control of your cloud computing costs and pay only for what you actually use.
+Flexible and affordable
+Kamatera&#8217;s pricing is straightforward. Our servers start at $4 a month, with no long-term contracts and no hidden fees. You pay for the resources that you use. We won&#8217;t lock you in or hit you with unexpected charges.
+Use our pricing calculator below to build your exact server configuration and get a clear cost estimate before you commit. Prefer to talk it through? Our account specialists are happy to help.
+Select the Server Configuration You Need
+and Deploy in 60 Seconds
+Recommended
+Customized
+Select Use Case
+Web Servers Firewalls CMS Databases Monitoring VPN ERP Virtual Desktop Forex
+Basic
+$4
+/mo
+Create server
+1 vCPU (2667 MHz)
+Type A &#8211; Availability
+1 GB RAM (Memory)
+20 GB NVMe SSD Storage
+5 TB Internet Traffic
+Ubuntu Server 24.04 (LTS) 64-bit
+Australia, Sydney Canada, Toronto China, Hong Kong Germany, Frankfurt Israel, Tel Aviv Italy, Milan Japan, Tokyo Romania, Bucharest Singapore Spain, Madrid Sweden, Stockholm The Netherlands, Amsterdam United Kingdom, London United States, Atlanta, Georgia United States, California, Los Angeles United States, California, Santa Clara United States, Florida, Miami United States, Illinois, Chicago United States, New York, New York United States, Seattle, Washington United States, Texas, Dallas
+Standard
+$25
+2 vCPU
+Type B &#8211; General Purpose
+2 GB RAM (Memory)
+Pro
+$39
+4 GB RAM (Memory)
+Type A – Availability Type B – General Purpose Type T – Burstable Type D – Dedicated 5000GB of traffic 50Mbit/Sec, Unmetered 1 2 3 4
+Type A
+Availability
+Budget Friendly
+Type B
+General Purpose
+Type D
+Dedicated
+High Performance
+Type T
+Burstable
+Burst Capable
+Type B – General Purpose
+Description:
+CPU threads are dedicated with reserved resources guaranteed. That means your vCPUs get a dedicated CPU thread, so fewer fluctuations under load.
+Use Cases:
+Good for standard production workloads: web servers, app servers, APIs, moderate DBs, etc. More reliable / predictable performance.
+Operating System
+Select the Operating System you want to install on your server. OS&#8217;s shown in gray can be created too.
+Ubuntu Server 26.04 (LTS) 64-bit Ubuntu Desktop 24.04 (LTS) 64-bit Ubuntu Server 24.04 (LTS) 64-bit Ubuntu Desktop 22.04 (LTS) 64-bit Ubuntu Server 22.04 (LTS) 64-bit Ubuntu Server 20.04 (LTS) 64-bit AlmaLinux 10 64-bit AlmaLinux 9 64-bit Alpine Server 64-bit Arch Linux 7 Arch Linux 6 CentOS Stream 10 64-bit CentOS Stream 9 64-bit Debian Desktop 13 64-bit Debian GNU/Linux 13 64-bit Debian GNU/Linux 12 64-bit Debian GNU/Linux 11 64-bit Fedora Desktop 43 64-bit Fedora Desktop 42 64-bit FreeBSD 15 64-bit FreeBSD 14.2 64-bit Gentoo Linux 64-bit Linux Mint Desktop 64-bit Rocky Linux 10 64-bit Rocky Linux 9 64-bit Rocky Linux 8 64-bit Windows Server 2025 Datacenter 64-bit Windows Server 2025 Standard 64-bit Windows Server 2022 Datacenter 64-bit Windows Server 2022 Standard 64-bit Windows Server 2019 Datacenter 64-bit Windows Server 2019 Standard 64-bit Windows Server 2016 Datacenter 64-bit Windows Server 2016 Standard 64-bit Windows Desktop 11 64-bit Windows Desktop 10 64-bit
+vCPU (Processor)
+Select the number of vCPUs you would like to have installed on your server. You can choose up to 104 vCPUs per server, based on Intel&#8217;s latest Xeon Platinum/Cascade Lake, 2.7GHz+ processors. 1 vCPU = 1 Virtual CPU Core
+Single Availability Core 2 Availability Cores 4 Availability Cores 6 Availability Cores 8 Availability Cores 12 Availability Cores 16 Availability Cores 20 Availability Cores 24 Availability Cores 28 Availability Cores 32 Availability Cores Single Core 2 Cores 4 Cores 6 Cores 8 Cores 12 Cores 16 Cores 20 Cores 24 Cores 28 Cores 32 Cores 36 Cores 40 Cores 48 Cores 56 Cores 64 Cores 72 Cores 88 Cores 104 Cores Single Dedicated Core 2 Dedicated Cores 4 Dedicated Cores 6 Dedicated Cores 8 Dedicated Cores 12 Dedicated Cores 16 Dedicated Cores 20 Dedicated Cores 24 Dedicated Cores 28 Dedicated Cores 32 Dedicated Cores 36 Dedicated Cores 40 Dedicated Cores Single Burstable Core 2 Burstable Cores 4 Burstable Cores 6 Burstable Cores 8 Burstable Cores 12 Burstable Cores 16 Burstable Cores 20 Burstable Cores 24 Burstable Cores 28 Burstable Cores 32 Burstable Cores 36 Burstable Cores 40 Burstable Cores 48 Burstable Cores 56 Burstable Cores 64 Burstable Cores 72 Burstable Cores 88 Burstable Cores 104 Burstable Cores
+RAM (Memory)
+Select the amount of RAM you would like to have installed on your server
+256 MB 512 MB 1 GB 2 GB 3 GB 4 GB 6 GB 8 GB 10 GB 12 GB 16 GB 24 GB 32 GB 48 GB 64 GB 96 GB 128 GB
+NVMe SSD Storage
+Select the servers&#8217; SSD disk storage size, based on SSD SAN storage array, you can add up to 16 drives per server.
+20GB 30GB 40GB 50GB 60GB 80GB 100GB 150GB 200GB 250GB 300GB 350GB 400GB 450GB 500GB 600GB 700GB 800GB 900GB 1000GB 1500GB 2000GB 3000GB 4000GB
+Data Centers
+Select the data center where you want to create your server.
+Advanced Configuration
+Extra Disk Storage:
+None 5GB 10GB 15GB 20GB 30GB 40GB 50GB 60GB 80GB 100GB 150GB 200GB 250GB 300GB 350GB 400GB 450GB 500GB 600GB 700GB 800GB 900GB 1000GB 1500GB 2000GB 3000GB 4000GB
++ Add storage
+Operating System Add-Ons
+Choose the OS add-ons you wish to have installed on your server
+None cPanel Admin – Up to 5 Accounts cPanel Pro – Up to 30 Accounts cPanel Premier – Up to 100 Accounts Plesk Web Admin – 10 Domains Plesk Web Pro – 30 Domains Plesk Web Host – Unlimited Domains Microsoft SQL Server Express (Free) Microsoft SQL Server Web Edition per vCPU Microsoft SQL Server Standard Edition per vCPU Microsoft SQL Server Enterprise per vCPU Microsoft Remote Desktop (TS) / User Microsoft Office Standard / User
++ Add OS add-ons
+Managed service
+Check box if you would like us to manage your server’s Operating System and System Configuration. If you are not familiar with Server Operating Systems, this option is highly recommended.
+Extended daily backup
+Highly Recommended. Check box if you would like to have extended daily backup of your server’s storage to an additional external storage array and the ability to restore previous file/directory/storage versions.
+Per Month
+Per Hour
+Powered On
+Powered Off
+Price estimate
+Server Type:
+B General Purpose
+CPU:
+Single Availability Core
+RAM:
+512MB
+Storage:
+5GB
+Traffic:
+5TB
+Ubuntu Server
+$10.00
+Hourly rate
+$0.014 /hr
+Plus 0
+/month for licenses
+Includes cost of licenses
+Includes:
+Additional traffic is only $0.01 per GB
+Additional storage is only $0.05 per GB per month
+Hourly servers are billed by the minute
+Reviews
+What our customers say about our cloud prices:
+&#8220;I&#8217;ve been using Kamatera for almost a year now, and even with a minimal A server, I can say the performance is 100% rock solid. I have not observed down-time or even degradation in performance. They really have the best prices, best service, best quality, with no hidden fees. &#8220;
+G Wilson
+&#8220;I&#8217;ve been a customer for one year, and have never had any issues. Very easy to create a server, easy to configure up or down based on current needs, transparent pricing , and service has always been excellent when I&#8217;ve had questions. &#8220;
+Carl Bryce
+&#8220;Kamatera offers great value for their services. We’ve compared their pricing with other providers, and Kamatera’s rates are not only competitive but also offer a higher level of service and flexibility. Their pricing model is transparent, with no hidden fees .&#8221;
+Codevisers OÜ
+&#8220;In terms of pricing, Kamatera offers fair and transparent rates . The flexible pricing model allows you to pay only for the resources you use, making it an economical choice for projects of any size. This approach, coupled with the absence of hidden fees, ensures that you get great value for your investment.&#8221;
+Vladimir
+&#8220;Pricing is refreshingly transparent—no hidden charges, predictable hourly billing, and generous bandwidth included. With a broad list of global locations, flexible plans, and rock-solid performance, this service is the easiest recommendation I’ve made all year. If you need speed, start here. Highly recommended for serious users. &#8220;
+Alex Man
+&#8220;The &#8216;pay-for-what-you-use&#8217; model offers exceptional value . You never pay for resources you don’t need. Their $4/month entry-level server is a great starting point for developers.&#8221;
+Itamar Haim
+Have questions? Speak with a specialist.
+First name
+Last name
+Email
+Phone
+Your message
+This site is protected by reCAPTCHA and the Google
+Privacy Policy and
+Terms of Service apply.
+Submit
+Thank you!
+OK
+Frequently Asked Questions
+Why should I choose Kamatera? Kamatera gives you enterprise-grade cloud infrastructure starting at $4 a month, with no contracts and no hidden fees. You get a 99.9% uptime guarantee covering your servers, CPUs, firewalls, load balancers, storage, and you only pay for the resources you actually use.
+Can I try Kamatera’s infrastructure for free? Kamatera offers a free 30-day trial period. This free trial offers services worth up to $100 on 1 server. After signing up, you can use our cloud management console to deploy a server and test our infrastructure. You can select a data center location, operating system, CPU, RAM, storage, and other system preferences.
+What if I need to upgrade, downgrade or cancel my services mid-contract? We do not require long-term commitments from our customers.
+You can scale up or down at any time.
+When you create a monthly server, you will prepay monthly for the server configuration you selected at the time of creation, plus a prorated amount for any upgrades made after that time.
+When you decide to terminate this server, you just need to pay for the current month in which you canceled. However, once the new month begins, if the monthly server is terminated, you will not be charged.
+If you deploy hourly servers, your charges will vary depending on whether the server is powered on or off. Once you terminate your hourly server, you will no longer be charged. You may terminate the service at any time.
+Which payment methods do you accept? We accept two methods of payment:
+Credit card: We accept all major credit and debit cards, provided they include the cardholder’s name. This includes virtual, prepaid, and electronic cards.
+Deposit: We accept a prepaid payment in the form of a deposit, which can be made by credit card or PayPal.
+What is unmetered hosting (50mbit/sec) and how does the pricing work? Our unmetered hosting service offers a 5000Mb package, which is the most popular choice among our clients. With unmetered hosting, there is no speed limit, and you can enjoy unlimited data traffic up to 5000gb per month. If you happen to exceed this limit, you will only be charged for the additional data used.
+It’s worth noting that approximately 90% of our clients don’t exceed 2000gb per month, ensuring they stay well within the included data allowance. Additionally, when your incoming traffic exceeds 33% of the overall traffic, you’ll be billed for the entire traffic. This 33% threshold is calculated based on a ratio of 2 times Transmit ‎compared to Receive‏ ‏(a ratio of 2/1).
+What operating systems does Kamatera offer? Kamatera offers a wide range of operating systems for deployment on their cloud VPS hosting platform. You can install any of the following operating systems or bring your own license or custom operating system:
+AlmaLinux
+Alpine Linux
+Arch Linux
+CentOS
+Debian
+FreeBSD
+Gentoo Linux
+Rocky Linux
+Ubuntu
+Windows Server
+Debian Desktop
+Fedora
+Linux Mint
+Ubuntu Desktop
+Windows Desktop

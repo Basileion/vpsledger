@@ -1,0 +1,62 @@
+[
+ {
+  "id": "www_digitalocean_com_pricing_droplets",
+  "status": "baseline"
+ },
+ {
+  "id": "api_vultr_com_v2_plans_type_vc2",
+  "status": "baseline"
+ },
+ {
+  "id": "api_linode_com_v4_linode_types",
+  "status": "baseline"
+ },
+ {
+  "id": "www_hetzner_com_cloud_cost_optimized",
+  "status": "baseline"
+ },
+ {
+  "id": "www_ovhcloud_com_en_vps_",
+  "status": "baseline"
+ },
+ {
+  "id": "www_scaleway_com_en_pricing_virtual_instances_",
+  "status": "baseline"
+ },
+ {
+  "id": "upcloud_com_pricing_",
+  "status": "baseline"
+ },
+ {
+  "id": "contabo_com_en_vps_",
+  "status": "baseline"
+ },
+ {
+  "id": "www_hostinger_com_vps_hosting",
+  "status": "baseline"
+ },
+ {
+  "id": "aws_amazon_com_lightsail_pricing_",
+  "status": "baseline"
+ },
+ {
+  "id": "cloud_google_com_products_compute_pricing_general_purpose",
+  "status": "baseline"
+ },
+ {
+  "id": "prices_azure_com_api_retail_prices",
+  "status": "baseline"
+ },
+ {
+  "id": "www_kamatera_com_pricing_",
+  "status": "baseline"
+ },
+ {
+  "id": "www_ionos_com_servers_vps",
+  "status": "baseline"
+ },
+ {
+  "id": "www_dreamhost_com_hosting_vps_",
+  "status": "baseline"
+ }
+]

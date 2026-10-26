@@ -1,0 +1,14 @@
+{
+ "name": "vpsledger",
+ "private": true,
+ "type": "module",
+ "engines": {"node": ">=20"},
+ "scripts": {
+  "check": "CHROME_BIN=${CHROME_BIN:-/usr/bin/google-chrome} node scripts/check.mjs",
+  "baseline": "CHROME_BIN=${CHROME_BIN:-/usr/bin/google-chrome} node scripts/check.mjs --baseline",
+  "visuals": "node scripts/visuals.mjs",
+  "build": "node scripts/build.mjs",
+  "build:prod": "PROD=1 node scripts/build.mjs",
+  "preview": "node scripts/build.mjs && python3 -m http.server 4173 -d dist"
+ }
+}

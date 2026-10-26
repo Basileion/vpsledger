@@ -1,0 +1,154 @@
+Cloud
+Cost-Optimized:
+Cheap Entry Level
+Very cost-effective
+For test environments
+Low to medium CPU usage
+Create cloud instance
+Affordable Cloud Servers
+With our Cost-Optimized plan, you get cloud instances at a very affordable price. Perfect for new test and development environments, smaller projects, or private blogs and web hosting.
+Since proven hardware generations that continue to be used are sufficient for these areas of application, we use them specifically and pass the savings directly on to you. However, this resource-saving use means that the number of available servers is limited.
+GDPR-compliant
+Over 1,000,000 happy customers
+VCPU
+RAM
+Drives
+Your server's bill will never exceed its monthly price cap. If you delete your cloud server before the end of the billing month, we will only bill you for the hourly rate. We will bill you for each cloud server until you choose to delete them.
+Price
+CX23
+not available
+Intel®/AMD
+4 GB
+40 GB
+NVMe
+from
+/month
+€ 5.99 per month, excl. VAT
+from /month
+/hour
+€ 0.0096 per hour, excl. VAT
+Create
+This product is currently unavailable. Please check back later.
+Details
+eu-central
+NBG1
+HEL1
+Traffic inclusive
+20
+TB
+Cloud servers located in the EU include at least 20 TB of included traffic. For each additional TB at EU-Central locations we charge € 1.00 per hour, excl. VAT .
+CAX11
+Ampere®
+€ 6.49 per month, excl. VAT
+€ 0.0104 per hour, excl. VAT
+CX33
+8 GB
+80 GB
+€ 8.99 per month, excl. VAT
+€ 0.0144 per hour, excl. VAT
+CAX21
+€ 10.99 per month, excl. VAT
+€ 0.0176 per hour, excl. VAT
+CX43
+16 GB
+160 GB
+€ 16.49 per month, excl. VAT
+€ 0.0264 per hour, excl. VAT
+CAX31
+€ 21.49 per month, excl. VAT
+€ 0.0344 per hour, excl. VAT
+CX53
+16
+32 GB
+320 GB
+€ 29.99 per month, excl. VAT
+€ 0.0481 per hour, excl. VAT
+CAX41
+€ 41.49 per month, excl. VAT
+€ 0.0665 per hour, excl. VAT
+Show more products
+Show less products
+Price incl. IPv4
+Available Locations
+FSN
+NBG
+HEL
+Extremely cost-effective
+Thanks to proven hardware with Arm64 and x86 (Intel®/AMD) architecture.
+Transparent prices
+No hidden costs; you can view all expenses at any time.
+Low to medium traffic
+For workloads that can handle variable CPU performance.
+Perfect for test environments
+Creates ideal conditions for simple testing and development environments.
+Just a few steps away from your own cloud server
+This is the plan for you if you want to set up a cloud server in a cost-effective and uncomplicated way. Whether you need development and test environments, proof-of-concepts and prototypes, learning and training environments, smaller websites, or your own private blog – here you can flexibly try things out, build them up, and discard them again without worrying about high costs.
+How can our servers be so price-friendly?
+We use proven components for as long as it makes technical and economic sense. This extends the service life of the components and is therefore sustainable and resource-efficient. For you, this means noticeably lower prices.
+For example, our Cost-Optimized plan uses older but reliable processor generations from Ampere®, Intel®, and AMD. For the typical use cases of this plan, this is the ideal compromise between cost and performance.
+Cloud comparison: save on your cloud expenses
+Hetzner Cloud is the winner in terms of price-performance ratio
+The independent price-performance check shows that Hetzner offers significantly more computing power per dollar compared to its competitors. The analysis is based on objective benchmark data from sparecores.com and highlights how efficiently our cloud servers operate in relation to their costs.
+Everything you need, included.
+API
+All essential functions for automatic management of the cloud infrastructure are also available via a developer-friendly REST API and a CLI tool.
+Integrations
+Integrations for various programming languages (e.g., Python and Go) and management frameworks (e.g., Ansible, Terraform, or Kubernetes) allow for a high degree of automation and integration of the cloud infrastructure, for example, in CI/CD pipelines.
+Networks
+Networks enable servers to communicate via a private network. They also allow complex network topologies to be created. Typical use cases include operating a Kubernetes cluster or a database that is not publicly accessible.
+Firewalls
+Our stateful firewalls enable easy infrastructure security without additional costs. Unwanted incoming and outgoing data traffic is blocked based on defined rules. Once configured, you can assign them to as many cloud servers as you like.
+Images
+Ubuntu, Debian, Fedora, and many other Linux distributions are available as operating systems. So whether you are looking for a particularly beginner-friendly solution or want to operate long-term, predictable enterprise servers, the right option is available.
+Enhance your cloud with add-ons: Snapshots
+Snapshots are one-time, manually created copies of the server hard drive that remain permanently stored until they are actively deleted. They are ideal for recording defined system states or duplicating identical servers. Snapshots remain intact even after the original server has been deleted and allow full control over the timing and retention period.
+Other useful add-ons are Backups and Floating IPs.
+Snapshots
+per GB per month
+€ 0.0143, excl. VAT
+Backups
+mo. price related to instance, starting at:
+€ 1.1980, excl. VAT
+Floating IPs
+per IPv6 per month
+€ 1.00, excl. VAT
+Scale your cloud with powerful add-ons
+Block Storage
+Learn more
+Object Storage
+Load Balancer
+Start your first cloud project now
+As always, we keep it simple - from setup to use. If questions come up, though, our docs and tutorials are ready to help.
+€ 5.99, excl. VAT
+Cloud Docs
+Docs
+Cloud Guides
+Tutorials
+API Docs
+Frequently asked questions
+How do you bill your servers?
+Servers have both a monthly price cap and a price per hour. Your server's bill will never exceed its monthly price cap. If you delete your Cloud Server before the end of the billing month, you will only be billed the hourly rate. We will bill you for each cloud server until you choose to delete them. Even if you aren't actively using your server, we will bill you for it.
+Do you bill servers that are off?
+Yes. All servers that have finished their creation process will be billed until they are deleted, regardless of their state. This is because, internally, we allocate full resources to servers regardless of their power state. And it enables rapid startup and boot times for you, the customer.
+What are the Hetzner Cloud Volumes?
+It is a feature for fast, flexible, and cost-effective (SSD based) block storage which you can attach to your Hetzner Cloud Server.
+How does Hetzner Online store the data in Volumes?
+Every block of data is stored on three different physical servers (triple replication).
+How many servers can I create?
+Each customer has a default limit for the number of Cloud resources that we simultaneously provide. If you would like to increase your limit, you can send a request to our support team by opening a support ticket via Hetzner Console. Our team will quickly review your request and, if everything is in order, they will increase your limit.
+Do you plan to add x feature?/Will you add more features?
+We want to keep adding new features and services and are always interested in hearing from you on how we can improve our product! There are several ways you can provide us with product feedback or feature requests:
+Via our forum: please post your request in the Hetzner Cloud Board
+Via email: send us your ideas to product-feedback@hetzner.com
+Unfortunately, we cannot give you a detailed roadmap of what we are working on. However, you can keep up to date by following us on our social media channels.
+Will you add additional locations in different geographic regions?
+We have continuously expanded our cloud locations in recent years. In addition to Germany and Finland, we now also have international locations in Ashburn, Virginia; Hillsboro, Oregon (USA) and Singapore. We are constantly examining possible future locations. If you don’t want to miss the opening of a new location, subscribe to our newsletter or follow us on our social media channels.
+More FAQs
+Not the right one?
+Discover our other offers
+Shared: Regular Performance
+starting from
+max/mo.
+Explore this plan
+Dedicated: General Purpose
+€ 43.49 per month, excl. VAT

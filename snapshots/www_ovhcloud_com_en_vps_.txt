@@ -1,0 +1,193 @@
+VPS
+Virtual Private Servers (VPS)
+A simple, powerful cloud platform tailored to your needs
+Maximised value for money, whatever the use
+Enhanced security with anti-DDoS and daily backup included
+Unlimited bandwidth, up to 3 Gbps *
+VPS 2027
+Choose the configuration that fits your needs – web hosting, gaming, VPN, development and more.
+2027
+VPS-1
+From $4.54 /month
+Configure
+2 vCores
+4 GB RAM
+40 GB SSD NVMe
+Daily backup of the previous 24 hours
+Unlimited traffic
+500 Mbps public bandwidth
+VPS-2
+From $8.50 /month
+4 vCores
+8 GB RAM
+75 GB SSD NVMe
+1 Gbps public bandwidth
+VPS-3
+From $12.32 /month
+6 vCores
+12 GB RAM
+100 GB SSD NVMe
+2 Gbps public bandwidth
+VPS-4
+From $23.37 /month
+8 vCores
+24 GB RAM
+200 GB SSD NVMe
+3 Gbps public bandwidth
+New VPS range: the essentials included, with added peace of mind
+Our new range is designed to focus on the essentials: configurations calibrated for your actual usage, automatic daily backup included to protect your data, and NVMe-level performance. You get high security without the premium price tag. And one click is all it takes to upgrade as your requirements change.
+Performance at the right price
+Isolated environment
+Scalable configuration
+Advanced management
+Our services and options included with your VPS
+HARDWARE
+SOFTWARE
+NETWORK & IP
+SERVICES
+1-click scaling
+Get more VPS resources instantly, with no service disruption or data migration. This keeps your configuration aligned with your project’s changing needs.
+Included
+Ultra-fast NVMe storage
+All our virtual servers come with NVMe disks, delivering speeds up to 6 times faster than standard SSDs. They are well-suited for high-speed applications.
+Except Local Zones
+Daily automatic backup*
+Rest easy knowing your data is automatically backed up daily; a simple restore of your VPS is just a click away if needed.
+Advanced backup options*
+Opt for Premium automatic backup, offering 7-day restore and secure external storage, tailored to your business requirements.
+Optional
+See more
+* A backup of your VPS (excluding additional disks) is scheduled daily (on a rolling 7-day basis), exported and replicated three times within the same datacentre before being available in the OVHcloud Control Panel.
+A wide range of OS and distributions
+In just a few clicks, install the right operating system for you – Linux, Windows, BSD, etc.
+Integrated control panels
+Manage your VPS easily with interfaces such as Plesk or cPanel. They are perfect for managing your websites and applications, even without deep technical expertise.
+Anti-DDoS protection included
+Thanks to exclusive security features, your VPS is continuously shielded from DDoS attacks. Mitigation is automatic, with no impact on your services.
+Managed via the OVHcloud Control Panel and API
+Managing and configuring your VPS is easy with our accessible customer interface. You can also automate your tasks using a comprehensive API.
+Integrated KVM console
+Directly access your VPS from the OVHcloud Control Panel. Skip the hassle of SSH and remote clients – manage your server with user-friendly simplicity.
+Game Panel
+Deploy your Game servers with a few clicks using the Game Panel, directly from your Control Panel. Minecraft, Palworld or Rust – install, configure and manage your instances without command lines.
+Managed MySQL databases
+Effortlessly deploy and manage your SQL and NoSQL databases; the reliable infrastructure you get will support your applications’ needs.
+Tap into unlimited network traffic* to ensure your services run smoothly and quickly.
+Dedicated IPv4
+Get a unique IPv4 address, for more flexibility and network compatibility.
+Compatible IPv6
+Prepare for the future with native IPv6 access, to improve your infrastructure’s connectivity and scalability.
+Load Balancer
+Improve your applications’ availability with our Load Balancer. You can then efficiently distribute your traffic across several servers.
+Additional IP
+For better security and easier project management on one VPS, use dedicated IP addresses to keep your services separate.
+Monitoring
+Track your virtual server’s CPU, RAM, and network status from your Control Panel. This way, you can proactively address issues.
+Network Security Dashboard
+Keep your network secure with a clear view of your network.
+Service level agreement
+Get guaranteed availability with a 99.9% service level agreement (SLA).
+Data protection
+Your data is hosted in certified datacentres compliant with the GDPR, and protected from extraterritorial laws such as the CLOUD Act.
+Support, guides and community
+You can contact our experts for assistance by phone or email. To optimise your VPS, you will find helpful resources on GitHub including detailed guides , an active community , and open-source tools.
+Your data, hosted wherever you need it
+Our VPS solutions are available in many global locations to guarantee low latency for your projects.
+Features not available in Local Zones
+Pre-installed apps, Windows, Additional Storage , Monitoring, additional IPs, Load Balancer, managed DBs.
+Options compatible with our VPS solutions
+Standard automatic backup
+Effortlessly protect your data every day.
+Daily backups are a free feature of your VPS.
+Premium automatic backup
+Your custom backup, with a rolling 7-day restore.
+From $1.40 /month
+Control panel
+Snapshots
+Easily back up and restore your data at any time.
+From $0.40 /month
+You can also customise your environment with additional IPs, a Load Balancer, and external storage.
+Discover more options
+Use cases
+Web hosting
+Host your websites on a flexible, high-powered VPS, with dedicated resources and high availability to deliver fast load times and a smooth user experience.
+Software hosting
+Deploy your applications on a secure, scalable VPS, with configurations tailored to your business development and usage.
+Database hosting
+Store and manage your databases on our fast and reliable VPS, designed to scale and adapt to the most demanding workloads.
+Hosting a WordPress multisite platform
+Build and manage your multisite platform in the cloud, at the very best price.
+Find out more
+Game hosting
+Host your online games on a scalable, secure VPS. It’s the perfect solution for creating private servers for Minecraft, Counter-Strike, DayZ, and many other titles.
+Test server deployment
+In just a few seconds, create a dynamic virtual sandbox to accelerate your workflow from concept to production.
+Hosting trading applications
+Run your Forex trading strategies on a high-performing and stable VPS built to handle market demands.
+Take your business to the next level!
+Choose a VPS
+Documentation & community
+Seamless VPS management is at your fingertips with our expert advice, helpful guides, and community support.
+Getting started with a VPS
+Find out how to set up, configure, and secure your server in a few simple steps.
+Advanced use
+Optimise performance, automate your tasks, and harness the advanced features of your VPS.
+Tutorials
+Learn everything about your server, from deployment to optimisation, with our detailed guides.
+Your questions answered
+Can I easily upgrade my VPS to a higher or downgrade to a lower configuration?
+Yes, you can upgrade to a higher configuration in one click from the Control Panel, without manually migrating your data, provided that the resources are available in the datacentre where your current VPS is hosted. The upgrade is only available within the same datacentre, and switching to a different one isn’t possible.
+However, to downgrade your configuration, you will need to subscribe to a new plan, transfer your data, then cancel your old service. Our support team is available to assist you if necessary.
+Is automatic backup included with my VPS?
+Yes, daily backup is included for free, so you can quickly restore your data if you need to.
+For even better protection, you can also opt for our Premium backup option. It offers:
+the option to revert to a backup that is up to a week old;
+the option to schedule backups, optimising data management and minimising impact on business operations.
+In addition, we offer:
+Snapshots: manual, instant backups that capture the exact state of your VPS just before an update or critical change.
+An external backup: that stores your data on a separate, secure space, allowing for easy recovery if a major incident occurs.
+By using these solutions, you can customise your backup management to fit your security and business continuity needs.
+What is a VPS, and what is it used for?
+A virtual private server (VPS) is used for hosting websites (e-commerce, content, visual media) and software applications (portals, extranets, collaborative solutions, wikis, CRM). Unlike shared hosting, a VPS offers an isolated environment, dedicated solely to one user. Our VPS solutions bridge the gap between shared web hosting and dedicated servers, combining performance and reliability without the hassle of hardware management. You can also easily upgrade your configuration without changing servers.
+Who are VPS solutions designed for?
+Using a VPS requires basic knowledge of server administration. Understanding this concept is crucial for effectively managing your OS ( Linux or Windows ), and setting up your applications, like PrestaShop or WordPress , for example.
+If you need a VPS but lack the technical expertise to manage it, consider reaching out to one of our partners for assistance.
+If you require provisioned resources but prefer not to deal with server administration, we recommend opting for our Performance web hosting plans .
+Why choose to host your VPS in Europe?
+The closer your datacentre is to your audience, the lower the latency will be, leading to a better user experience and increased trust in your services.
+Hosting your VPS in France or in Europe with OVHcloud also offers other advantages, including competitive pricing and reinforced data protection. Your service is not subject to the US CLOUD Act, shielding it from non-European interference.
+Can I host several websites on a VPS?
+Yes, a VPS can be configured to host multiple websites or projects. You can partition your space to suit your needs, and use control panels such as Plesk or cPanel to simplify your website management.
+Find out more about our server upgrade options.
+Will I get a domain name and email service included with my VPS?
+No, our VPS solutions do not include a domain name or email service. These options are available via the OVHcloud Control Panel once your VPS is delivered.
+How do I choose between a VPS and a Web Hosting plan?
+Web hosting: ideal for basic hosting needs with a pre-configured setup.
+VPS: more flexibility and control, perfect for scaling projects with complex configuration needs.
+VPS hosting lets you install your preferred software, customise server settings, and host multiple websites with dedicated resources. Please note that a VPS needs to be configured in a way that suits your application requirements and is adapted to your business growth.
+How do I choose between a VPS with Plesk and Plesk web hosting?
+Plesk web hosting : Plesk comes pre-installed, but you don’t manage the server. This solution is designed for website management only.
+VPS: Plesk can also be pre-installed. You have full control, which means you are solely responsible for configuring and maintaining the server.
+What is the difference between a VPS and Public Cloud solutions?
+VPS: an optimised and dedicated virtual machine suitable for both pre-production and production, designed to host several web projects.
+OVHcloud Public Cloud : offers a multi-server infrastructure with high availability and a private network (vRack), and is designed for complex, scalable architectures.
+What are the advantages of a VPS, compared to a dedicated server?
+VPS: offers simplified management without hardware maintenance, ideal for projects needing tight control.
+Dedicated server: recommended for complex infrastructure that require full hardware control and guaranteed performance.
+A VPS eliminates the need to manage physical hardware such as hard disks, RAM, and CPUs, making it well-suited for most web applications. As your business grows, you can upgrade to a dedicated server, or a Public Cloud solution for a more flexible and powerful infrastructure. Our new VPS range makes upgrading to a dedicated server even simpler, especially if your business is growing rapidly.
+What are the unique features of a Local Zone VPS?
+With a Local Zone VPS, you can significantly reduce access times to your sites and applications, because your data is hosted as close as possible to your users. Being so close greatly enhances the user experience. Simply select one of our available worldwide locations when placing an order.
+Our Local Zone VPS includes anti-DDoS protection and Standard automatic backup by default. You can also subscribe to additional services such as Premium automatic backup, snapshots, and external storage. However, some advanced options, such as Additional IPs or Load Balancer, are not available. Lastly, our Local Zone VPS only works with Linux; Windows, Plesk, cPanel, and Docker are not yet supported.
+When should I pick a Local Zone VPS over a datacentre VPS?
+A VPS in a Local Zone is particularly well-suited for businesses that need a local presence in order to be closer to their customers. This creates a better user experience by minimising latency – a crucial benefit for applications (streaming services, online games, collaborative tools, etc.) that are highly sensitive to response times.
+A Local Zone VPS also meets the needs of projects with data residency and sovereignty requirements. By hosting your services in a specific region, you can easily meet local regulations relating to data processing and storage, such as the European GDPR.
+What are the risks of using a VPS without DDoS protection?
+Virtual private servers without anti-DDoS protection are automatically exposed to distributed denial-of-service (DDoS) attacks, potentially resulting in service outages and serious security breaches.
+Direct exposure: if your server is targeted by a DDoS attack, the influx of malicious requests may overwhelm it, causing your sites and applications to become inaccessible.
+No automatic mitigation: to protect your server, you will need to fend off attacks using third-party security software or specific configurations.
+Additional management burden: the lack of robust, built-in security presents a major risk, highlighting the need for vigilant monitoring and proactive strategies, particularly for high-traffic projects.
+If resilience against DDoS attacks is a key criterion for your project, we recommend opting for an OVHcloud VPS, which comes with built-in protection.
+Can I migrate my VPS from a Local Zone to a datacentre, and vice versa?
+No, you cannot migrate directly. You will need to subscribe to your chosen VPS, transfer your data, then cancel your old service. Our support team can guide you through these steps if needed.
+* Our VPS solutions in the Asia-Pacific region (Mumbai, Singapore, Sydney) come with a set monthly quota: 500 GB for VPS-1, 1 TB for VPS-2 and VPS-3, 3 TB for VPS-4. Beyond this, the bandwidth is capped at 10 Mbps.
+Back to top

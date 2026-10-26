@@ -1,0 +1,189 @@
+VPS Hosting Your Own VPS. Full Root Access. Unmetered Bandwidth.
+Your virtual private server, yours to command — install any OS, deploy apps in minutes from your dashboard, and run your entire stack with full root control.
+AMD EPYC + NVMe SSD servers
+Unmetered bandwidth, no overage bills
+Full root access with no restrictions
+Docker + KVM virtualization
+Choose Your Plan
+Choose Your VPS Plan
+Every plan includes full root access and unmetered bandwidth — pick the resources your stack needs.
+Length of Subscription
+Monthly On Sale
+Stack 4
+For lightweight apps and solo projects
+On Sale
+First 3 months at
+$8.99 /mo
+SAVE 43%
+Sign Up Now Auto-renews at $15.99 /mo after 3 months.
+2 vCPU AMD EPYC
+4 GB RAM
+75 GB NVMe SSD
+Unmetered Bandwidth
+Full root access
+Choice of Linux OS
+Docker + KVM
+One-click app library
+DDoS protection
+24/7 Support
+Stack 8
+For apps running in production
+$13.99 /mo
+SAVE 36%
+Sign Up Now Auto-renews at $21.99 /mo after 3 months.
+8 GB RAM
+150 GB NVMe SSD
+Most Popular
+Stack 16
+For demanding workloads and multiple services
+$22.99 /mo
+SAVE 34%
+Sign Up Now Auto-renews at $34.99 /mo after 3 months.
+4 vCPU AMD EPYC
+16 GB RAM
+250 GB NVMe SSD
+Stack 32
+For high-traffic platforms and data-intensive apps
+$45.99 /mo
+SAVE 23%
+Sign Up Now Auto-renews at $59.99 /mo after 3 months.
+8 vCPU AMD EPYC
+32 GB RAM
+450 GB NVMe SSD
+The full term plus taxes are charged at checkout.
+Other VPS hosts meter your bandwidth. We don’t.
+Most providers hand you a transfer allowance, then bill you per gigabyte the moment you exceed it — so a traffic spike becomes a surprise invoice. DreamHost doesn’t meter bandwidth at all.
+$810 is what 10 TB of monthly transfer costs on AWS Lightsail. On a DreamHost VPS, the same 10 TB costs $0 .
+VPS bandwidth overage cost comparison, as of June 2026 Provider Bandwidth Overage rate Cost at 10 TB/mo Cost at 50 TB/mo
+DreamHost Unmetered No overage $0 $0
+AWS Lightsail Metered $0.09 /GB $810 $4,410
+DigitalOcean Metered $0.01 /GB $90 $490
+Vultr Metered $0.01 /GB $75 $475
+Linode / Akamai Metered $0.005 /GB $45 $245
+No transfer caps, no overage fees, no surprise invoice when your traffic spikes — fair use applies.
+See VPS Plans
+Competitor figures are each provider's publicly listed overage rates as of June 2026, for outbound transfer beyond each provider's included transfer allowance (plan plus any account-level free-transfer grant). Providers publish these rates in USD; amounts shown in other currencies are approximate conversions. DreamHost VPS includes unmetered bandwidth with no per-GB or per-TB overage charges, subject to terms.
+Acceptable Use Policy · Resource Allocation Policy
+What You Can Build
+Everything your stack needs to ship.
+A virtual private server (VPS) with full root access opens the door to any workload. If it runs on Linux, it runs here — from AI apps and automation to self-hosted infrastructure and production SaaS, build and deploy anything on infrastructure you fully control.
+AI INFRASTRUCTURE Self-hosted AI APIs, agents, and backends
+Run AI-powered services with full control over your data — no cold starts, no per-call SaaS fees, no vendor lock-in.
+PRIVACY & SELF-HOSTING Your own productivity stack, fully independent
+File storage, password management, code hosting, email. Run your team's entire toolset on one plan, completely under your control.
+APP DEPLOYMENT From prototype to production on your stack
+Deploy backends, frontends, and APIs. Whether you're shipping a side project or production SaaS, without paying per-seat or per-container.
+DATA & ANALYTICS Privacy-first analytics with full data ownership
+Self-host your analytics stack. No cookie banners, no third-party data sharing, and complete ownership of every event you collect.
+AUTOMATION Workflow automation that replaces your tools
+Connect your apps, automate repetitive work, and run dozens of active workflows on a single VPS plan, at a fraction of the SaaS cost.
+GAMING & COMMUNITY Always-on game servers and communities
+Host game servers, community bots, leaderboards, and forums. Low-latency, persistent, and yours to configure however you need.
+APP LIBRARY One server. Run anything.
+Your VPS is the foundation. Choose your OS, deploy any app in minutes from your dashboard, and run whatever you build on infrastructure you fully control.
+All
+Base OS Automation & AI Development Database Productivity Publishing Analytics & Monitoring Gaming
+OpenClaw
+AI Agent
+Open-source AI assistant for WhatsApp, Telegram, and Slack. Always-on private AI.
+Select Plan
+Hermes Agent
+Automation & AI
+Open-source AI agent that remembers your projects and gets more capable over time. Self-hosted, private, always on.
+n8n
+Workflow Automation
+Connect apps and automate complex workflows without coding. 190k+ GitHub stars.
+Node.js
+Development
+Scalable JavaScript runtime for building fast network applications. Includes npm to manage thousands of open-source libraries.
+Ubuntu
+Base OS
+Universal default. Maximum compatibility with apps, tutorials, and resources.
+Rocky Linux
+Community-governed. RHEL-compatible enterprise-grade Linux with a 10-year support lifecycle.
+AlmaLinux
+Required for cPanel. RHEL-compatible enterprise-grade Linux for sysadmins.
+Debian 13
+Lean, reliable, battle-tested. Preferred by experienced sysadmins.
+Docker + Portainer
+Run containers and compose multi-service stacks with Portainer CE for visual container management.
+Supabase
+Database
+Open-source Firebase alternative — database, auth, file storage, and real-time APIs.
+PostgreSQL
+The most advanced open-source relational database. Runs under n8n, GitLab, and Supabase.
+Ghost
+Publishing
+Modern platform for blogs, newsletters, and content monetization. Fast self-hosted publishing.
+GitLab CE
+Self-hosted Git, CI/CD pipelines, issue tracking, and a private container registry.
+LAMP Stack
+Linux + Apache + MariaDB + PHP. 25 years of web history.
+Dokploy
+Self-hosted PaaS to deploy and manage apps, databases, and SSL with a visual dashboard. Modern Heroku alternative.
+Pelican Panel
+Gaming
+Run Minecraft, Palworld, and hundreds of other game servers from one web panel. Each server isolated, with its own console, files, and backups.
+Paperclip
+Coordinate your own AI agents with per-agent budgets and audit trails.
+Immich
+Productivity
+Automatic photo and video backup on a server you control.
+Umami
+Analytics & Monitoring
+Track visitors, referrers, and events without cookies or a consent banner. Every data point stays on your server.
+Uptime Kuma
+Monitor your sites, APIs, and servers, with down alerts to email, chat, or push.
+Third-party logos and marks are trademarks of their respective owners, used solely to indicate compatibility. DreamHost claims no affiliation with or endorsement by them.
+Get Started
+All VPS Plans Include
+Full Root Access
+Total control over your server. Install anything, configure everything, no restrictions.
+No transfer caps and no per-GB overage fees on any plan, subject to terms.
+Full Linux Environment
+Your OS, your config, your rules. Choose from Ubuntu, Debian, or AlmaLinux and own the whole stack.
+Docker & KVM Support
+Run containers or full virtual machines natively. No extra setup, no compatibility issues.
+Deploy in Minutes
+Install any app in our library straight from your dashboard. No command line required.
+DDoS Protection
+Automatic, always-on protection against volumetric attacks. No configuration required.
+100% Uptime Guarantee
+Your server stays online. Hardware, network, and connectivity backed by an infrastructure SLA.
+SSH & SFTP Access
+Connect and transfer files from anywhere, anytime. Always on, no restrictions.
+IPv4 & IPv6 Support
+Dual-stack networking ready from day one. Full IPv4 and IPv6 support on every plan.
+Prefer we manage the server for you? Explore Managed VPS
+Join thousands of businesses and developers worldwide on infrastructure that performs.
+A host with staying power.
+I've been hosting with DreamHost for many years and I have all the control I need with my VPS. Their support is great and my clients have never complained of any downtime. Recommended highly!
+NA
+Nathan via Trustpilot
+August 14, 2025
+I highly recommend Dreamhost.
+After parting company with several web hosting companies, I finally found myself with Dreamhost. I've been with them now for several years and have found them to have the highest website uptime compared with all others I've tried. Websites on our VPS load quickly and work. The Dreamhost support team and always friendly and quick to respond to with helpful advice and/or to get something fixed. Based on my experience, I highly recommend Dreamhost.
+MA
+Mathew via Trustpilot
+August 12, 2020
+great support for newbie developer
+After I taught myself Django I got my site up without much difficulty by referring to their "Knowledge Base." Later I made the switch to VPS also without issues. But when they upgraded their VPS I ran into difficulties with libraries. After a little back and forth with tech support my problem was resolved. Their assistance was both timely and professional and much appreciated.
+Morris Small via Trustpilot
+September 30, 2025
+GET STARTED TODAY Your stack deserves a server that can actually run it.
+Frequently Asked Questions
+What is a VPS and who is it for? A VPS gives you a full virtual server with root access. You install what you need, configure your stack, and run whatever applications you want. It's designed for developers, technical builders, and self-hosters who need flexibility beyond traditional web hosting. If you're running Node, Python, Docker, or anything your AI tools help you build, you're in the right place.
+If you're looking for a more hands-off experience, you can explore our managed VPS options here .
+If you're looking to run a WordPress site, DreamPress managed hosting is a better fit.
+Do I have to manage the server myself? You manage your applications and software stack — but we don't disappear. DreamHost guarantees the underlying infrastructure: hardware, network, and uptime. Our support team is available 24/7.
+What can I run on a VPS? Anything that runs on Linux. Node.js, Python services, Docker containers, AI-powered APIs, automation platforms, analytics tools, self-hosted productivity suites, custom databases, game servers — you have complete freedom over the software stack. You can install any OS, runtime, framework, or service you need. If it runs on a Linux server, it runs here.
+Are there bandwidth or traffic limitations? No. All plans include unmetered bandwidth — no transfer caps, no overage fees, no surprises when traffic spikes. You pay the same flat monthly rate whether your app gets 10 visitors or 10,000.
+Can I scale up my plan as my project grows? Yes. You can move between Stack plans as your resource requirements grow — from Stack 4 to Stack 32 is straightforward, and your environment moves with you. Scaling down to a smaller Stack is not currently supported.
+What support is included? DreamHost support is available 24/7 — hardware, network, and connectivity are all supported by our team. You can also reach us via live chat or email through the panel at any time.
+Need Some Help?
+Whether you're stuck or just want some tips on where to start, hit up our experts anytime. We're here to help!
+DreamHost Sales Help 24/7/365 Through the Chat Widget
+Chat Now
+Customer Support Chat 24/7/365 Through the Panel
+Go to Panel
+Customer Support Email 24/7/365 Through the Panel

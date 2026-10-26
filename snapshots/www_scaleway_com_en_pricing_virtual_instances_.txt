@@ -1,0 +1,495 @@
+Virtual Instances Pricing
+Get a wide range of scalable, high-performance computing options with Scaleway's Virtual Instances. Hosted in our European data centers, we offer straightforward pricing without egress fees, helping you control costs while meeting data privacy regulations.
+Provision your virtual machines in seconds to access a secure, efficient, and sustainable platform. Save up to 25% on your monthly compute costs with our Savings Plans.
+List prices include egress and IPv6 addresses. Storage (local, block) and attached public IPv4 addresses are excluded.
+Close Filters Virtual Instances
+Filters (total selected) 0
+Clear filters
+Monthly price
+0 € 2500 €
+€0
+€10
+€20
+€30
+€40
+€50
+€60
+€70
+€80
+€90
+€100
+€150
+€200
+€250
+€300
+€350
+€400
+€450
+€500
+€600
+€700
+€800
+€900
+€1000
+€1100
+€1200
+€1300
+€1400
+€1500
+€1600
+€1700
+€1800
+€1900
+€2000
+€2100
+€2200
+€2300
+€2400
+€2500
+vCPUs Type Dedicated vCPUs
+Shared vCPUs
+RAM (GB)
+1 GB 512 GB
+1 GB
+2 GB
+4 GB
+8 GB
+12 GB
+16 GB
+24 GB
+32 GB
+48 GB
+64 GB
+96 GB
+128 GB
+192 GB
+256 GB
+384 GB
+512 GB
+vCPUs
+1 vCPU 96 vCPUs
+1 vCPU
+2 vCPUs
+3 vCPUs
+4 vCPUs
+6 vCPUs
+8 vCPUs
+12 vCPUs
+16 vCPUs
+24 vCPUs
+32 vCPUs
+48 vCPUs
+64 vCPUs
+96 vCPUs
+Bandwidth
+100 Mbps 16 Gbps
+100 Mbps
+200 Mbps
+300 Mbps
+350 Mbps
+400 Mbps
+500 Mbps
+600 Mbps
+700 Mbps
+800 Mbps
+1 Gbps
+1.05 Gbps
+1.2 Gbps
+1.5 Gbps
+1.6 Gbps
+2 Gbps
+2.25 Gbps
+2.4 Gbps
+3 Gbps
+3.2 Gbps
+4 Gbps
+4.8 Gbps
+5 Gbps
+6 Gbps
+6.4 Gbps
+8 Gbps
+9.6 Gbps
+10 Gbps
+12.8 Gbps
+16 Gbps
+Learn more about Savings Plans
+Virtual Instances documentation
+Filters Open 0 (total selected) Number of results: 120
+Development Instances
+Development virtual machines offer a cost-effective and efficient solution for lightweight, low-traffic environments, making them ideal for building, testing, and deploying smaller applications.
+Select Availability Zone PAR-1
+Compute - instance - Development Name vCPU RAM Bandwidth Price (€/hour) Approx. per month
+PLAY2-PICO
+€0.01428 / HOUR
+~€10.42 / MONTH
+PLAY2-NANO
+€0.02754 / HOUR
+~€20.10 / MONTH
+PLAY2-MICRO
+€0.05508 / HOUR
+~€40.20 / MONTH
+STARDUST1-S
+€0.0006 / HOUR
+~€0.43 / MONTH
+DEV1-S
+€0.00898 / HOUR
+~€6.55 / MONTH
+DEV1-M
+€0.0202 / HOUR
+~€14.74 / MONTH
+DEV1-L
+€0.04284 / HOUR
+~€31.27 / MONTH
+DEV1-XL
+€0.06508 / HOUR
+~€47.50 / MONTH
+Legal notice Prices before tax.
+Order this instance
+General Purpose Instances
+General-Purpose virtual machines are the standard choice for reliable performance across a wide range of applications. With a balanced mix of compute, memory, and networking, they offer consistent performance and value for everything from development environments to production applications.
+Compute - instance - General Purpose Name vCPU RAM Bandwidth Price (€/hour) Approx. per month
+BASIC3-X2C-4G
+€0.03945 / HOUR
+~€28.79 / MONTH
+BASIC3-X2C-8G
+€0.05923 / HOUR
+~€43.23 / MONTH
+BASIC3-X4C-8G
+€0.079 / HOUR
+~€57.67 / MONTH
+BASIC3-X4C-16G
+€0.11845 / HOUR
+~€86.46 / MONTH
+BASIC3-X6C-12G
+1.1 Gbps
+€0.1356 / HOUR
+~€98.98 / MONTH
+BASIC3-X6C-24G
+€0.1553 / HOUR
+~€113.36 / MONTH
+BASIC3-X8C-16G
+€0.17768 / HOUR
+~€129.70 / MONTH
+BASIC3-X8C-32G
+€0.2368 / HOUR
+~€172.86 / MONTH
+BASIC3-X12C-24G
+2.3 Gbps
+€0.2711 / HOUR
+~€197.90 / MONTH
+BASIC3-X12C-48G
+€0.3104 / HOUR
+~€226.59 / MONTH
+BASIC3-X16C-32G
+€0.35525 / HOUR
+~€259.33 / MONTH
+BASIC3-X16C-64G
+€0.47329 / HOUR
+~€345.49 / MONTH
+STANDARD3-X2C-8G
+€0.0809 / HOUR
+~€59.05 / MONTH
+STANDARD3-X4C-16G
+€0.1617 / HOUR
+~€118.04 / MONTH
+STANDARD3-X6C-24G
+€0.2345 / HOUR
+~€171.18 / MONTH
+STANDARD3-X8C-32G
+€0.319 / HOUR
+~€232.87 / MONTH
+STANDARD3-X12C-48G
+€0.4626 / HOUR
+~€337.69 / MONTH
+STANDARD3-X16C-64G
+€0.649 / HOUR
+~€473.77 / MONTH
+STANDARD3-X24C-96G
+€0.9411 / HOUR
+~€687.00 / MONTH
+STANDARD3-X32C-128G
+€1.298 / HOUR
+~€947.54 / MONTH
+STANDARD3-X48C-192G
+€1.947 / HOUR
+~€1,421.31 / MONTH
+STANDARD3-X64C-256G
+€2.585 / HOUR
+~€1,887.05 / MONTH
+POP2-2C-8G
+€0.0735 / HOUR
+~€53.65 / MONTH
+POP2-4C-16G
+€0.147 / HOUR
+~€107.31 / MONTH
+POP2-6C-24G
+€0.2205 / HOUR
+~€160.96 / MONTH
+POP2-8C-32G
+€0.29 / HOUR
+~€211.70 / MONTH
+POP2-12C-48G
+€0.435 / HOUR
+~€317.55 / MONTH
+POP2-16C-64G
+€0.59 / HOUR
+~€430.70 / MONTH
+POP2-24C-96G
+€0.885 / HOUR
+~€646.04 / MONTH
+POP2-32C-128G
+€1.18 / HOUR
+~€861.40 / MONTH
+POP2-48C-192G
+€1.77 / HOUR
+~€1,292.09 / MONTH
+POP2-64C-256G
+€2.35 / HOUR
+~€1,715.50 / MONTH
+BASIC2-A2C-4G
+€0.023 / HOUR
+~€16.79 / MONTH
+BASIC2-A2C-8G
+€0.0345 / HOUR
+~€25.18 / MONTH
+BASIC2-A4C-8G
+€0.0517 / HOUR
+~€37.74 / MONTH
+BASIC2-A4C-16G
+€0.0689 / HOUR
+~€50.29 / MONTH
+BASIC2-A6C-12G
+€0.0789 / HOUR
+~€57.59 / MONTH
+BASIC2-A6C-24G
+€0.0903 / HOUR
+~€65.91 / MONTH
+BASIC2-A8C-16G
+€0.1034 / HOUR
+~€75.48 / MONTH
+BASIC2-A8C-32G
+€0.1378 / HOUR
+~€100.59 / MONTH
+BASIC2-A12C-24G
+€0.1578 / HOUR
+~€115.19 / MONTH
+BASIC2-A12C-48G
+€0.1807 / HOUR
+~€131.91 / MONTH
+BASIC2-A16C-32G
+€0.2067 / HOUR
+~€150.89 / MONTH
+BASIC2-A16C-64G
+€0.2756 / HOUR
+~€201.18 / MONTH
+POP2-2C-8G-WIN
+€0.1823 / HOUR
+~€133.07 / MONTH
+POP2-4C-16G-WIN
+€0.3637 / HOUR
+~€265.50 / MONTH
+POP2-8C-32G-WIN
+€0.7233 / HOUR
+~€528.00 / MONTH
+POP2-16C-64G-WIN
+€1.4567 / HOUR
+~€1,063.39 / MONTH
+POP2-32C-128G-WIN
+€2.9133 / HOUR
+~€2,126.70 / MONTH
+STANDARD2-A2C-8G
+€0.0586 / HOUR
+~€42.77 / MONTH
+STANDARD2-A4C-16G
+€0.1171 / HOUR
+~€85.48 / MONTH
+STANDARD2-A6C-24G
+€0.1533 / HOUR
+~€111.90 / MONTH
+STANDARD2-A8C-32G
+€0.2343 / HOUR
+~€171.03 / MONTH
+STANDARD2-A12C-48G
+€0.3068 / HOUR
+~€223.96 / MONTH
+STANDARD2-A16C-64G
+€0.5039 / HOUR
+~€367.84 / MONTH
+STANDARD2-A24C-96G
+€0.6551 / HOUR
+~€478.22 / MONTH
+STANDARD2-A32C-128G
+€1.0078 / HOUR
+~€735.69 / MONTH
+STANDARD2-A48C-192G
+€1.5117 / HOUR
+~€1,103.54 / MONTH
+STANDARD2-A64C-256G
+€2.0142 / HOUR
+~€1,470.36 / MONTH
+PRO2-XXS
+€0.0561 / HOUR
+~€40.95 / MONTH
+PRO2-XS
+€0.1122 / HOUR
+~€81.90 / MONTH
+PRO2-S
+€0.22338 / HOUR
+~€163.06 / MONTH
+PRO2-M
+€0.44676 / HOUR
+~€326.13 / MONTH
+PRO2-L
+€0.89454 / HOUR
+~€653.01 / MONTH
+GP1-XS
+€0.09282 / HOUR
+~€67.75 / MONTH
+GP1-S
+€0.19074 / HOUR
+~€139.24 / MONTH
+GP1-M
+€0.38352 / HOUR
+~€279.96 / MONTH
+GP1-L
+€0.77418 / HOUR
+~€565.15 / MONTH
+GP1-XL
+€1.67382 / HOUR
+~€1,221.88 / MONTH
+Compute Optimized Instances
+Compute Optimized virtual machines are built for applications that need raw processing power, such as machine learning and CI/CD. They feature dedicated physical cores, providing consistent, high-performance compute for the most CPU-intensive tasks.
+Compute - instance - Specialized Name vCPU RAM Bandwidth Price (€/hour) Approx. per month
+COMPUTE3-X2C-4G
+€0.0585 / HOUR
+~€42.70 / MONTH
+COMPUTE3-X4C-8G
+€0.117 / HOUR
+~€85.41 / MONTH
+COMPUTE3-X6C-12G
+€0.1756 / HOUR
+~€128.18 / MONTH
+COMPUTE3-X8C-16G
+€0.2341 / HOUR
+~€170.89 / MONTH
+COMPUTE3-X12C-24G
+€0.3511 / HOUR
+~€256.30 / MONTH
+COMPUTE3-X16C-32G
+€0.4682 / HOUR
+~€341.78 / MONTH
+COMPUTE3-X24C-48G
+€0.7022 / HOUR
+~€512.60 / MONTH
+COMPUTE3-X32C-64G
+€0.9363 / HOUR
+~€683.49 / MONTH
+COMPUTE3-X48C-96G
+€1.397 / HOUR
+~€1,019.81 / MONTH
+COMPUTE3-X64C-128G
+€1.8726 / HOUR
+~€1,366.99 / MONTH
+COMPUTE3-X96C-192G
+€2.794 / HOUR
+~€2,039.62 / MONTH
+POP2-HC-2C-4G
+€0.0532 / HOUR
+~€38.83 / MONTH
+POP2-HC-4C-8G
+€0.1064 / HOUR
+~€77.67 / MONTH
+POP2-HC-6C-12G
+€0.1596 / HOUR
+~€116.50 / MONTH
+POP2-HC-8C-16G
+€0.2128 / HOUR
+~€155.34 / MONTH
+POP2-HC-12C-24G
+€0.3192 / HOUR
+~€233.01 / MONTH
+POP2-HC-16C-32G
+€0.4256 / HOUR
+~€310.68 / MONTH
+POP2-HC-24C-48G
+€0.6384 / HOUR
+~€466.03 / MONTH
+POP2-HC-32C-64G
+€0.8512 / HOUR
+~€621.37 / MONTH
+POP2-HC-48C-96G
+€1.27 / HOUR
+~€927.10 / MONTH
+POP2-HC-64C-128G
+€1.7024 / HOUR
+~€1,242.75 / MONTH
+Memory Optimized Instances
+Memory Optimized virtual machines are designed for demanding, memory-intensive workloads like analytics, databases, and scientific computing. With dedicated physical cores, they provide the consistent high performance your most critical applications need.
+MEMORY3-X2C-16G
+€0.1133 / HOUR
+~€82.70 / MONTH
+MEMORY3-X4C-32G
+€0.2266 / HOUR
+~€165.41 / MONTH
+MEMORY3-X6C-48G
+€0.3399 / HOUR
+~€248.12 / MONTH
+MEMORY3-X8C-64G
+€0.4532 / HOUR
+~€330.83 / MONTH
+MEMORY3-X12C-96G
+€0.6798 / HOUR
+~€496.25 / MONTH
+MEMORY3-X16C-128G
+€0.9064 / HOUR
+~€661.67 / MONTH
+MEMORY3-X24C-192G
+€1.3596 / HOUR
+~€992.50 / MONTH
+MEMORY3-X32C-256G
+€1.8128 / HOUR
+~€1,323.34 / MONTH
+MEMORY3-X48C-384G
+€2.717 / HOUR
+~€1,983.41 / MONTH
+POP2-HM-2C-16G
+€0.103 / HOUR
+~€75.19 / MONTH
+POP2-HM-4C-32G
+€0.206 / HOUR
+~€150.38 / MONTH
+POP2-HM-6C-48G
+€0.309 / HOUR
+~€225.57 / MONTH
+POP2-HM-8C-64G
+€0.412 / HOUR
+~€300.76 / MONTH
+POP2-HM-12C-96G
+€0.618 / HOUR
+~€451.14 / MONTH
+POP2-HM-16C-128G
+€0.824 / HOUR
+~€601.52 / MONTH
+POP2-HM-24C-192G
+€1.236 / HOUR
+~€902.28 / MONTH
+POP2-HM-32C-256G
+€1.648 / HOUR
+~€1,203.04 / MONTH
+POP2-HM-48C-384G
+€2.47 / HOUR
+~€1,803.10 / MONTH
+POP2-HM-64C-512G
+€3.296 / HOUR
+~€2,406.08 / MONTH
+Network Optimized Instances
+Network-Optimized virtual machines offer the same vCPU/RAM ratio as our Compute-Optimized Instances while meeting the needs of high bandwidth and resource optimization.
+POP2-HN-3
+€0.2554 / HOUR
+~€186.44 / MONTH
+POP2-HN-5
+€0.4524 / HOUR
+~€330.25 / MONTH
+POP2-HN-10
+€0.7264 / HOUR
+~€530.27 / MONTH

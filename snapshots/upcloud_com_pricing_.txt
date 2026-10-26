@@ -1,0 +1,787 @@
+Fixed prices with zero-cost data transfer fees
+New GPU Server plans now available!
+Enjoy the best price-to-performance ratio on the market paired with zero-cost data transfer fees. All services are billed by the hour and provide the flexibility needed to run any business, big or small!
+Pricing changes to previous Cloud Server plans, Standard and Archive Block Storage, and Windows Server licenses taking effect on November 16th .
+Sign up for a free trial
+UpCloud Pricing Calculator
+Jannika, Senior Account Executive
+Products
+Compute
+Cloud Servers
+GPU Servers
+Private Cloud
+Databases
+Kubernetes
+Storage
+Block Storage
+File Storage
+Object Storage
+Backups
+Networking
+Load Balancer
+VPN Gateway
+NAT Gateway
+Software Defined Network
+Choose the currency
+EUR
+USD
+Starter
+Premium
+Cloud Native
+What is this?
+Starter plans are designed for development, testing, self-hosting, and other cost-conscious workloads. The new Starter plans will replace our current Developer plans at on average 25% less expensive than previous-generation while offering the same 99.99% SLA.
+Standard storage
+10 &#8211; 50 GB
+Memory
+1 &#8211; 16 GB
+CPU cores
+1 &#8211; 4
+45 second deployment
+Standard performance SSD storage
+Previous-gen AMD CPUs
+IPv4 included
+99.99% SLA
+Starting from
+€3/mo
+Global price
+Get started
+See all options
+Bandwidth
+Price
+1 GB
+250 Mbit/s
+10 GB
+€3/mo *
+2 GB
+20 GB
+€6/mo
+30 GB
+€8/mo
+4 GB
+€10/mo
+500 Mbit/s
+€12/mo
+8 GB
+40 GB
+€18/mo
+€20/mo
+16 GB
+50 GB
+€24/mo
+€28/mo
+* The 1GB x 1vCPU Starter plans are limited to 5 concurrent deployments per customer.
+Starter plans are billed by the starting hour, maximum of 28 days per month. Prices exclude any applicable local taxes . All plans include zero-cost egress, Fair Transfer Policy applies.
+UpCloud SLA
+Premium plans are designed for production and business-critical workloads where performance and consistency matter most. These plans will become our default recommendation for production use, combining MaxIOPS storage and modern infrastructure with a clearer more simple positioning in the portfolio backed by 99.999% SLA.
+MaxIOPS Storage
+25 &#8211; 500 GB
+1 &#8211; 512 GB
+CPU Cores
+1 &#8211; 80
+Transfer Included
+99.999% SLA
+15 global DCs
+Premium AMD CPUs
+MaxIOPS high performance storage
+1000 Mbps Internet & IPv4 included
+€5/mo
+MaxIOPS
+25 GB
+€16/mo
+€26/mo
+100 GB
+€38/mo
+€52/mo
+150 GB
+€72/mo
+€92/mo
+200 GB
+€148/mo
+32 GB
+€142/mo
+€192/mo
+16
+300 GB
+€310/mo
+64 GB
+€268/mo
+€384/mo
+32
+€620/mo
+96 GB
+24
+400 GB
+€576/mo
+48
+€1056/mo
+128 GB
+€480/mo
+€768/mo
+64
+500 GB
+€1248/mo
+192 GB
+38
+€1024/mo
+256 GB
+€1364/mo
+384 GB
+€1992/mo
+512 GB
+80
+€2552/mo
+Premium plans are billed by the starting hour, maximum of 28 days per month. Prices exclude any applicable local taxes . All plans include zero-cost egress, Fair Transfer Policy applies.
+Cloud Native plans offer even greater flexibility by decoupling compute and storage pricing. 99.999% SLA
+4 &#8211; 512 GB
+Choice of MaxIOPS, Standard or Archive storage
+1000 Mbps Internet
+Server stopped, no charges
+€15/mo
+€32/mo
+€34/mo
+€68/mo
+€74/mo
+€80/mo
+24 GB
+€78/mo
+€84/mo
+12
+€90/mo
+€130/mo
+€145/mo
+€160/mo
+48 GB
+€190/mo
+€230/mo
+€220/mo
+€270/mo
+20
+€285/mo
+€300/mo
+€240/mo
+€340/mo
+€380/mo
+€370/mo
+€460/mo
+€560/mo
+€670/mo
+€700/mo
+€720/mo
+€740/mo
+€820/mo
+€880/mo
+€920/mo
+€980/mo
+€1200/mo
+€1400/mo
+€1800/mo
+Cloud Native plans are billed by the starting hour, maximum of 28 days per month. Prices exclude any applicable local taxes . All plans include zero-cost egress, Fair Transfer Policy applies.
+Additional services
+Features and services specific to Cloud Servers.
+Cloud Servers can attach up to 16 concurrent storage devices per server to a total of 64 TB of storage.
+Storage type
+Global Price
+Helsinki Price
+€0.220/GB/mo
+Standard
+€0.085/GB/mo
+Archive
+€0.056/GB/mo
+€0.100/GB/mo
+Custom image
+€0.330/GB/mo
+Cloud Server plans include 1 IPv4 address but can have up to 5 concurrent IPv4 addresses.
+IP addresses
+Floating IP address
+€3.47/mo
+Additional public IPv4 address
+Networking and security
+SDN Private Network
+€0.00
+SDN Router
+Firewall
+Windows licenses
+Host your Windows application with the options for Standard and Datacenter Windows Server versions. Licences are charged by the hour. Monthly prices are estimates based on a 30-day month.
+Version
+Windows Server Standard, per CPU core
+€12.00/mo
+Windows Server Datacenter, per CPU core
+€29.02/mo
+Previous plans
+Discontinued Cloud Server plans no longer available for deployment.
+Developer plans
+Purchase limit
+2 per customer
+5 per customer
+€4.5/mo
+Unlimited
+60 GB
+80 GB
+€25/mo
+€35/mo
+General Purpose plans
+MaxIOPS storage
+€7.6/mo
+€7.5/mo
+€14.2/mo
+€19.5/mo
+€28.5/mo
+€30/mo
+160 GB
+€56.5/mo
+€60/mo
+320 GB
+€104/mo
+€120/mo
+640 GB
+€208/mo
+960 GB
+€312/mo
+€360/mo
+1280 GB
+€416/mo
+1920 GB
+€622/mo
+2048 GB
+€830/mo
+€960/mo
+€1106/mo
+€1280/mo
+€1473/mo
+€1705/mo
+€2152/mo
+€2403/mo
+€2756/mo
+€3190/mo
+High CPU plans
+12 GB
+€140.5/mo
+€162/mo
+€174/mo
+€282/mo
+€336/mo
+€372/mo
+€574/mo
+€689/mo
+€806/mo
+€1,140/mo
+€1372/mo
+€1,348/mo
+€1620/mo
+High Memory plans
+€43.5/mo
+€50/mo
+€70.5/mo
+€94/mo
+€144/mo
+€168/mo
+€260/mo
+€520/mo
+€680/mo
+€908/mo
+€1060/mo
+€1,166/mo
+€1290/mo
+600 GB
+€1,814/mo
+€1990/mo
+700 GB
+€2,332/mo
+€2700/mo
+NVIDIA L4
+NVIDIA L40S
+NVIDIA RTX 6000
+NVIDIA H100
+NVIDIA B200
+NVIDIA B300
+GPU Servers with NVIDIA L4
+GPUs
+1 &#8211; 3 per server
+8 &#8211; 32
+64 – 384 GB
+Up to 100k IOPS with MaxIOPS
+Choice of Block Storage
+1000 Mbps networking
+Zero egress fees
+€0.57/hour
+Sign up
+GPU
+RAM
+Spot Price
+1 x NVIDIA L4
+8 cores
+€0.57/h
+€0.58/h
+12 cores
+€0.69/h
+€0.70/h
+16 cores
+€0.81/h
+€0.82/h
+20 cores
+€0.93/h
+€0.94/h
+2 x NVIDIA L4
+€1.17/h
+€1.18/h
+€1.29/h
+€1.30/h
+€1.41/h
+€1.42/h
+32 cores
+€1.63/h
+€1.64/h
+3 x NVIDIA L4
+€1.79/h
+€1.80/h
+€1.91/h
+€1.92/h
+€2.13/h
+€2.14/h
+GPU Server plans are billed by the starting hour. Monthly prices are estimates based on a 30-day month. Prices exclude any applicable local taxes .
+All plans include zero-cost egress, Fair Transfer Policy applies.
+GPU Servers with NVIDIA L40S
+64 &#8211; 384 GB
+€0.83/hour
+1 x NVIDIA L40S
+€0.83/h
+€1.11/h
+€1.25/h
+€1.15/h
+€1.53/h
+€1.35/h
+€1.81/h
+2 x NVIDIA L40S
+€1.56/h
+€2.08/h
+€1.98/h
+€2.64/h
+€2.40/h
+€3.19/h
+€2.81/h
+€3.75/h
+3 x NVIDIA L40S
+€3.23/h
+€4.31/h
+€3.65/h
+€4.86/h
+GPU Servers with NVIDIA RTX PRO 6000
+1 &#8211; 8 per server
+16 &#8211; 128
+80 &#8211; 640 GB
+€0.87/hour
+1 x NVIDIA RTX PRO 6000
+€0.87/h
+€1.65/h
+2 x NVIDIA RTX PRO 6000
+€1.74/h
+€3.30/h
+4 x NVIDIA RTX PRO 6000
+64 cores
+€3.48/h
+€6.60/h
+8 x NVIDIA RTX PRO 6000
+128 cores
+€6.96/h
+€13.20/h
+GPU Servers with NVIDIA H100
+12 &#8211; 96
+240 – 1920 GB
+Premium Intel Xeon CPUs
+€1.79/hour
+1 x NVIDIA H100
+240 GB
+€2.17/h
+2 x NVIDIA H100
+24 cores
+480 GB
+€3.58/h
+€4.34/h
+4 x NVIDIA H100
+48 cores
+€7.16/h
+€8.68/h
+8 x NVIDIA H100
+96 cores
+€14.32/h
+€17.36/h
+GPU Servers with NVIDIA B200
+240 &#8211; 1920 GB
+€3.68/hour
+1 x NVIDIA B200
+€3.68/h
+€5.26/h
+2 x NVIDIA B200
+€7.36/h
+€10.52/h
+4 x NVIDIA B200
+€14.73/h
+€21.04/h
+8 x NVIDIA B200
+192 cores
+€29.46/h
+€42.08/h
+GPU Servers with NVIDIA B300
+28 &#8211; 224
+Premium Intel CPUs
+€5.21/hour
+1 x NVIDIA B300
+28 cores
+€5.21/h
+€6.95/h
+2 x NVIDIA B300
+56 cores
+€10.43/h
+€13.90/h
+4 x NVIDIA B300
+112 cores
+€20.85/h
+€27.80/h
+8 x NVIDIA B300
+224 cores
+€41.70/h
+€55.60/h
+Calculate your costs
+Take control of your cloud spend. Quickly estimate costs based on your specific needs.
+Calculator
+Exclusive Cloud infrastructure starting at €3190 per month
+High-Performance Node
+Premium Node
+Standard Node
+Private Cloud storage
+High-Performance Private Cloud
+Private Cloud provides an exclusive corner of the internet without noisy neighbours configurable straight from your UpCloud Control Panel.
+Deploy as many Cloud Servers as you like within the memory amount. CPU cores can be freely allocated as you see fit, including oversubscribing.
+Architecture
+AMD EPYC 9575F
+64 CPU cores / 128 threads
+Up to 500 VMs
+Includes: API, CLI, Terraform
+Dedicated hardware
+24/7 Support
+99.999% uptime SLA
+Request Quote
+Contact sales
+Premium Private Cloud
+Up to 300 VMs
+Private Cloud hosts
+AMD EPYC 9355
+32 CPU cores / 64 threads
+2-Month Free Migration
+Limitless scalability
+Private Cloud plans come with a plethora of computational power for you to use as you see fit while allocating storage as needed.
+Storage Type
+Faster-than-SSD block storage
+€0.22/GB/mo
+General purpose block storage
+Block storage for larger data sets
+Managed Databases
+Relational databases
+Developer
+High Memory
+MySQL & PostgreSQL
+Managed Databases for MySQL & PostgreSQL offer maintenance-free database hosting supported by expert level installation and zero downtime scaling.
+Nodes
+1 &#8211; 4 GB
+10 &#8211; 2.5 TB
+No manual maintenance required
+Automated Backups
+Quick and easy to deploy
+Enhanced Security
+High Availability with 99.999% Uptime SLA
+Additional storage up to 2.5 TB
+€9/mo
+Cores
+PITR backup days
+€14/mo
+Point-in-Time Recovery (PITR) allows data restoration to any minute within the backup retention period.
+Resources are charged by the hour. Monthly prices are estimates based on a 30-day month.
+1 &#8211; 3
+8 &#8211; 320 GB
+2 &#8211; 80
+10 GB &#8211; 7 TB
+Additional storage up to 7 TB
+15
+€140/mo
+€317/mo
+€485/mo
+€665/mo
+€993/mo
+€1317/mo
+€2017/mo
+€2669/mo
+€3429/mo
+16 &#8211; 512 GB
+2 &#8211; 64
+€126/mo
+€283/mo
+€593/mo
+€883/mo
+€1173/mo
+€2380/mo
+€3655/mo
+€4855/mo
+Apply high availability with additional database nodes, expand your database with more storage, or increase your backup retention period.
+High Availability
+Standard and High Memory plan Managed Databases for MySQL and PostgreSQL are available with 1 to 3 database nodes.
+Plan
+Second Node
+Third Node
+&#8211;
+-10%
+-30%
+Managed Databases can be deployed with storage ranging from 10 GB up to 7 TiB for MySQL and 15 TiB for PostgreSQL plans.
+Additional Storage
+Standard &#8211; €0.04/GB/mo
+MaxIOPS &#8211; €0.10/GB/mo
+Regular 15-day PITR automated backups are included on Standard and High Memory plans with Extended 31-day backup retention available as an option.
+Mini &#8211; 3 Days
+Regular &#8211; 15 Days
+Extended &#8211; 31 Days
+&#8211; from 10 GB
+&#8211; from 80 GB
+&#8211; from 500 GB
+&#8211; from 3 TB
+Included
+€29/mo
+€99/mo
+€299/mo
+In-memory databases
+1 Node
+2 Nodes
+3 Nodes
+Valkey
+Managed Databases for Valkey provide open source, in-memory, key-value data store supporting millions of requests per second for real-time applications.
+1 &#8211; 112 GB
+1 &#8211; 16
+Backup hours
+All data lives in memory
+14 GB
+28 GB
+56 GB
+€590/mo
+112 GB
+€1160/mo
+Backups are taken every 12 hours and retained according to the selected Managed Database plan.
+2 &#8211; 112 GB
+36
+€100/mo
+€170/mo
+€600/mo
+€1170/mo
+€2320/mo
+84
+€150/mo
+€350/mo
+€470/mo
+€900/mo
+€1760/mo
+€3480/mo
+Search and analytics
+Development
+Business
+OpenSearch
+OpenSearch is an open-source distributed search and analytics suite that offers a vendor-agnostic toolset for website search functionality.
+Single node databases are suitable for test and development environments with high performance needs.
+4 &#8211; 8 GB
+80 &#8211; 160 GB
+Backup days
+Real-time application performance & usage monitoring
+Log storage, retrieval, and analysis
+Document storage for orders, receipts, and records
+Efficient application search
+High-availability clusters provide even greater redundancy and performance benefits as well tolerance for multiple node failures, as well as enable interruption free maintenance .
+Backup PTR for 72 hours (3 days)
+4 &#8211; 14 GB
+3 &#8211; 15
+120 &#8211; 2100 GB
+€280/mo
+120 GB
+€400/mo
+420 GB
+€580/mo
+840 GB
+1260 GB
+€1730/mo
+1680 GB
+€2310/mo
+2100 GB
+€2890/mo
+Backup PTR for a week (7 days)
+600 &#8211; 10500 GB
+1200 GB
+€1000/mo
+4200 GB
+€3240/mo
+6300 GB
+€4860/mo
+8400 GB
+€6480/mo
+10500 GB
+€8100/mo
+Managed Kubernetes
+Control plane
+Data plane
+Managed Kubernetes Control plane
+Managed Kubernetes offers a fully serviced container orchestration system that allows easy deployment, scaling and management of containerised applications.
+Flexible Storage Options
+CNCF certified
+Private and Protected
+Integrated with UpCloud platform
+€0/mo
+Data plane nodes
+Up to 30
+Production
+Up to 120
+Managed Kubernetes Data plane
+Choose from Starter, Premium, Cloud Native and GPU server plans to build your Kubernetes worker node groups. The worker nodes run the workloads and are managed by the control plane up to 30 nodes per Development plan and up to 120 nodes per Production plan.
+1 &#8211; 120
+2 &#8211; 512 GB
+Anti-affinity
+Private networking
+Built-in CSI
+Autoscaling
+Cilium CNI
+Cluster-level encryption
+Plans
+€252.88/mo
+€756.85/mo
+The plans listed are examples for possible node groups, additional configuration options are available according to Cloud Server and GPU Server plan pricing.
+All node plans are billed by the starting hour, maximum of 28 days per month. Prices exclude any applicable local taxes .
+Experience UpCloud
+Take our services for a spin with a free 30-day trial
+MaxIOPS® is our in-house developed storage technology that enables read performance of up to 100k IOPS.
+Standard storage tier offers a reliable and cost-effective solution for general-purpose storage needs, up to 10k IOPS performance.
+Archive storage tier offers best bang for the buck for larger data store needs and up to 600 IOPS performance.
+Each storage device can be scaled from 10 GB up to a maximum of 4 TB per volume in 1 GB increments. Cloud servers can attach up to 16 concurrent storage devices per server to a total of 64 TB of storage.
+Block Storage is priced by allocated size per GB. Resources are charged by the hour. Monthly prices are estimates for 1 GB based on a 30-day month.
+Network File System
+File Storage provides a managed Network File System (NFS) that enables multiple servers to access shared files over the SDN Private Networks .
+Perfect for applications that require shared data access, collaborative workloads, or centralized file management across your cloud infrastructure.
+Network-based access control
+Encryption at rest
+Up to 50 shares per instance
+From 250 GiB to 25 TiB
+Scale up by 50 GiB increments
+Up to 16 TiB per file
+€37.50/mo
+Size
+250 GB
+€0.15 per GiB
+Additional storage
+File Storage is connected to Cloud Servers using SDN Private Networks. Network transfer is free in private networks.
+Managed Object Storage
+Managed Object Storage provides mass storage at minimal cost for handling large data sets with automated upscaling. Get started quick and easy without ever worrying about running out of storage.
+Automatic scaling based on usage
+No data transfer fees
+Only pay for the storage you use
+Scale up to petabytes
+Transfer
++ 250 GB for each upscale
++ €5/mo
+Managed Object Storage includes zero-cost egress, Fair Transfer Policy applies.
+Simple Backups
+Simple Backups for Block Storage
+Simple Backups are the perfect companion for your Block Storage attached to Cloud Servers while On-demand backups offer custom configuration per Block Storage device.
+Backup type
+Day plan , daily backup for 24h
++10% of the server plan price
+– Cloud Native plans
+– GPU Server plans
+– Additional storage devices
+€0.019/mo per GB
+€0.028/mo per GB
+Week plan , daily backups for 7 days
++20% of the server plan price
+€0.05/mo per GB
+€0.075/mo per GB
+Month plan , weekly backups for 4 weeks + daily
++40% of the server plan price
+€0.10/mo per GB
+€0.15/mo per GB
+Year plan , monthly backups + weekly and daily
++60% of the server plan price
+€0.225/mo per GB
+Flexible and on-demand backups
+€0.056/mo per GB
+Resources are charged by the hour per GB of usage. Monthly prices are estimates for 1 GB based on a 30-day month.
+Any questions about our pricing?
+Contact our sales team
+Managed Load Balancer
+Managed Load Balancer empowers anyone to quickly build resilience and increase the capabilities of their application by employing load balancing.
+1 &#8211; 5
+Sessions per node
+1000 &#8211; 50,000
+Simple setup
+Zero data transfer fees
+API for both HTTP(S) and TCP applications
+Resilient by design
+Essentials
+1000
+Production S
+50 000
+Production M
+€75/mo
+NAT and VPN Gateways
+Managed Gateways
+NAT Gateways provide outbound internet access from servers without dedicated public IP addresses when needed.
+VPN Gateways allows creating a secure connect to external networks through VPN endpoints. The VPN feature supports site-to-site IPSec connections.
+VPN tunnels
+1 &#8211; 10
+Throughput
+100 &#8211; 1000 Mbit/s
+Max connections
+10,000 &#8211; 250,000
+Enhanced security
+Available across our 15 global DCs
+Instant integration with private networks
+Features
+High availability
+VPN bandwidth
+NAT + VPN
+No
+100 Mbit/s
+10,000
+Yes
+100,000
+300 Mbit/s
+1000 Mbit/s
+Advanced
+10
+250,000
+SDN Private Networks, additional IPv4 and IPv6 as well as Floating IPs allow you to customise your cloud networking.
+Private IPv4 address
+Public IPv6 address
+Network Transfer
+Public outbound transfer, per GiB
+Public inbound transfer, per GiB
+Private outbound transfer, per GiB
+Private inbound transfer, per GiB
+Resources, except for transfer, are charged by the hour. Monthly prices are estimates based on a 30-day month.
+Network transfer is included in all product plans at zero-egress cost, Fair Transfer Policy applies.
+Do you have questions about our pricing?
+Frequently asked questions
+How are your services billed?
+UpCloud uses a prepaid system where you can add balance to your account by making a payment at any time. Your services are then deducted from this balance on an hourly basis.
+Can I pay in other currencies than EUR?
+Yes, you can pay in other currencies other than EUR. We support payments made in EUR, USD, GBP, and SGP. Payments that are not in EUR will be exchanged to EUR.
+The day&#8217;s exchange rate, which is the market rate of the currency, will be applied. You can find the exchange rate in your UpCloud Control Panel when making a payment.
+How can I stop the charges to my account?
+You are able to delete the services at any point. The service charge accumulation will stop the point of deletion. You will be able to utilise your remaining balance at any time.
+Which regions can I deploy in?
+UpCloud runs 15 data centres across the globe, so you can put your infrastructure close to your users for lower latency, or in a specific region to keep your data where you need it.
+For more information see our Data Centers page .
+Are there any hidden fees?
+No, and we&#8217;re a bit proud of that. The price you see is the price you pay, aside from any local taxes that apply where you are. No egress charges, no surprise line items, no penalty for leaving. Everything&#8217;s laid out on this page, and if anything&#8217;s unclear our sales team is happy to walk you through it.
+Can I try before I buy, without signing up?
+Yes, if you&#8217;d rather not create an account yet. Our live demo lets you explore the UpCloud platform with no signup and no commitment. Kick the tyres, then sign up when you&#8217;re ready.
+Is there a free trial?
+Yes. New sign-ups get free credit to try UpCloud before committing to a paid plan. The exact amount changes from time to time, so head to the sign-up page to see the current offer.
+What does zero-cost data transfer actually mean?
+It means outbound data transfer is free, full stop. Most providers quietly add egress fees that swell your bill as your traffic grows. We don&#8217;t. Both inbound and outbound transfer are included at no extra cost on every plan, with our Fair Transfer Policy keeping things sensible. There&#8217;s more on this over on the Zero-cost Egress page .
+Are all your products covered by the zero-cost egress policy?
+Our zero-cost egress policy applies exclusively to standard traffic originating directly from UpCloud data centers. Content delivery network traffic processed through our CDN powered by bunny.net operates under a separate billing model and is excluded from this zero-cost egress policy .
+Do you offer refunds?
+We offer a 30-day money back guarantee during which you can have a full refund on your first payment. We are unable to offer refunds on unused balance outside this period.
+Need help planning your infrastructure?
+We’ve got you covered!

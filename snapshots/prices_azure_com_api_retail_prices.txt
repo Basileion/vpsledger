@@ -1,0 +1,268 @@
+{"id":"Standard_B12ms B12ms Virtual Machines BS Series Windows","p":0.547}
+{"id":"Standard_B12ms B12ms Virtual Machines BS Series","p":0.499}
+{"id":"Standard_B16als_v2 B16als v2 Basv2 Series Cloud Services","p":0.606}
+{"id":"Standard_B16als_v2 B16als v2 Low Priority Basv2 Series Cloud Services","p":0.243}
+{"id":"Standard_B16als_v2 B16als v2 Low Priority Virtual Machines Basv2 Series Windows","p":0.243}
+{"id":"Standard_B16als_v2 B16als v2 Low Priority Virtual Machines Basv2 Series","p":0.107}
+{"id":"Standard_B16als_v2 B16als v2 Spot Virtual Machines Basv2 Series Windows","p":0.5454}
+{"id":"Standard_B16als_v2 B16als v2 Spot Virtual Machines Basv2 Series","p":0.4797}
+{"id":"Standard_B16als_v2 B16als v2 Virtual Machines Basv2 Series Windows","p":0.606}
+{"id":"Standard_B16als_v2 B16als v2 Virtual Machines Basv2 Series","p":0.533}
+{"id":"Standard_B16as_v2 B16as v2 Basv2 Series Cloud Services","p":0.675}
+{"id":"Standard_B16as_v2 B16as v2 Low Priority Basv2 Series Cloud Services","p":0.27}
+{"id":"Standard_B16as_v2 B16as v2 Low Priority Virtual Machines Basv2 Series Windows","p":0.27}
+{"id":"Standard_B16as_v2 B16as v2 Low Priority Virtual Machines Basv2 Series","p":0.12}
+{"id":"Standard_B16as_v2 B16as v2 Spot Virtual Machines Basv2 Series Windows","p":0.6075}
+{"id":"Standard_B16as_v2 B16as v2 Spot Virtual Machines Basv2 Series","p":0.5418}
+{"id":"Standard_B16as_v2 B16as v2 Virtual Machines Basv2 Series Windows","p":0.675}
+{"id":"Standard_B16as_v2 B16as v2 Virtual Machines Basv2 Series","p":0.602}
+{"id":"Standard_B16ls_v2 B16ls v2 Bsv2 Series Cloud Services","p":0.663}
+{"id":"Standard_B16ls_v2 B16ls v2 Low Priority Bsv2 Series Cloud Services","p":0.265}
+{"id":"Standard_B16ls_v2 B16ls v2 Low Priority Virtual Machines Bsv2 Series Windows","p":0.265}
+{"id":"Standard_B16ls_v2 B16ls v2 Low Priority Virtual Machines Bsv2 Series","p":0.118}
+{"id":"Standard_B16ls_v2 B16ls v2 Spot Virtual Machines Bsv2 Series Windows","p":0.5967}
+{"id":"Standard_B16ls_v2 B16ls v2 Spot Virtual Machines Bsv2 Series","p":0.5301}
+{"id":"Standard_B16ls_v2 B16ls v2 Virtual Machines Bsv2 Series Windows","p":0.663}
+{"id":"Standard_B16ls_v2 B16ls v2 Virtual Machines Bsv2 Series","p":0.589}
+{"id":"Standard_B16ms B16ms Virtual Machines BS Series Windows","p":0.73}
+{"id":"Standard_B16ms B16ms Virtual Machines BS Series","p":0.666}
+{"id":"Standard_B16pls_v2 B16pls v2 Bpsv2 Series Cloud Services","p":0.55}
+{"id":"Standard_B16pls_v2 B16pls v2 Low Priority Bpsv2 Series Cloud Services","p":0.22}
+{"id":"Standard_B16pls_v2 B16pls v2 Low Priority Virtual Machines Bpsv2 Series Windows","p":0.22}
+{"id":"Standard_B16pls_v2 B16pls v2 Low Priority Virtual Machines Bpsv2 Series","p":0.0952}
+{"id":"Standard_B16pls_v2 B16pls v2 Spot Virtual Machines Bpsv2 Series Windows","p":0.495}
+{"id":"Standard_B16pls_v2 B16pls v2 Spot Virtual Machines Bpsv2 Series","p":0.4284}
+{"id":"Standard_B16pls_v2 B16pls v2 Virtual Machines Bpsv2 Series Windows","p":0.55}
+{"id":"Standard_B16pls_v2 B16pls v2 Virtual Machines Bpsv2 Series","p":0.476}
+{"id":"Standard_B16ps_v2 B16ps v2 Bpsv2 Series Cloud Services","p":0.611}
+{"id":"Standard_B16ps_v2 B16ps v2 Low Priority Bpsv2 Series Cloud Services","p":0.244}
+{"id":"Standard_B16ps_v2 B16ps v2 Low Priority Virtual Machines Bpsv2 Series Windows","p":0.244}
+{"id":"Standard_B16ps_v2 B16ps v2 Low Priority Virtual Machines Bpsv2 Series","p":0.108}
+{"id":"Standard_B16ps_v2 B16ps v2 Spot Virtual Machines Bpsv2 Series Windows","p":0.5499}
+{"id":"Standard_B16ps_v2 B16ps v2 Spot Virtual Machines Bpsv2 Series","p":0.4842}
+{"id":"Standard_B16ps_v2 B16ps v2 Virtual Machines Bpsv2 Series Windows","p":0.611}
+{"id":"Standard_B16ps_v2 B16ps v2 Virtual Machines Bpsv2 Series","p":0.538}
+{"id":"Standard_B16s_v2 B16s v2 Bsv2 Series Cloud Services","p":0.739}
+{"id":"Standard_B16s_v2 B16s v2 Low Priority Bsv2 Series Cloud Services","p":0.296}
+{"id":"Standard_B16s_v2 B16s v2 Low Priority Virtual Machines Bsv2 Series Windows","p":0.296}
+{"id":"Standard_B16s_v2 B16s v2 Low Priority Virtual Machines Bsv2 Series","p":0.133}
+{"id":"Standard_B16s_v2 B16s v2 Spot Virtual Machines Bsv2 Series Windows","p":0.6651}
+{"id":"Standard_B16s_v2 B16s v2 Spot Virtual Machines Bsv2 Series","p":0.5994}
+{"id":"Standard_B16s_v2 B16s v2 Virtual Machines Bsv2 Series Windows","p":0.739}
+{"id":"Standard_B16s_v2 B16s v2 Virtual Machines Bsv2 Series","p":0.666}
+{"id":"Standard_B1ls B1ls Virtual Machines BS Series Windows","p":0.0092}
+{"id":"Standard_B1ls B1ls Virtual Machines BS Series","p":0.0052}
+{"id":"Standard_B1ms B1ms Virtual Machines BS Series Windows","p":0.0246}
+{"id":"Standard_B1ms B1ms Virtual Machines BS Series","p":0.0207}
+{"id":"Standard_B1s B1s Virtual Machines BS Series Windows","p":0.014}
+{"id":"Standard_B1s B1s Virtual Machines BS Series","p":0.0104}
+{"id":"Standard_B20ms B20ms Virtual Machines BS Series Windows","p":0.912}
+{"id":"Standard_B20ms B20ms Virtual Machines BS Series","p":0.832}
+{"id":"Standard_B2als_v2 B2als v2 Basv2 Series Cloud Services","p":0.0468}
+{"id":"Standard_B2als_v2 B2als v2 Low Priority Basv2 Series Cloud Services","p":0.0187}
+{"id":"Standard_B2als_v2 B2als v2 Low Priority Virtual Machines Basv2 Series Windows","p":0.0187}
+{"id":"Standard_B2als_v2 B2als v2 Low Priority Virtual Machines Basv2 Series","p":0.00752}
+{"id":"Standard_B2als_v2 B2als v2 Spot Virtual Machines Basv2 Series Windows","p":0.04212}
+{"id":"Standard_B2als_v2 B2als v2 Spot Virtual Machines Basv2 Series","p":0.03384}
+{"id":"Standard_B2als_v2 B2als v2 Virtual Machines Basv2 Series Windows","p":0.0468}
+{"id":"Standard_B2als_v2 B2als v2 Virtual Machines Basv2 Series","p":0.0376}
+{"id":"Standard_B2as_v2 B2as v2 Basv2 Series Cloud Services","p":0.0844}
+{"id":"Standard_B2as_v2 B2as v2 Low Priority Basv2 Series Cloud Services","p":0.0338}
+{"id":"Standard_B2as_v2 B2as v2 Low Priority Virtual Machines Basv2 Series Windows","p":0.0338}
+{"id":"Standard_B2as_v2 B2as v2 Low Priority Virtual Machines Basv2 Series","p":0.015}
+{"id":"Standard_B2as_v2 B2as v2 Spot Virtual Machines Basv2 Series Windows","p":0.07596}
+{"id":"Standard_B2as_v2 B2as v2 Spot Virtual Machines Basv2 Series","p":0.06768}
+{"id":"Standard_B2as_v2 B2as v2 Virtual Machines Basv2 Series Windows","p":0.0844}
+{"id":"Standard_B2as_v2 B2as v2 Virtual Machines Basv2 Series","p":0.0752}
+{"id":"Standard_B2ats_v2 B2ats v2 Basv2 Series Cloud Services","p":0.0186}
+{"id":"Standard_B2ats_v2 B2ats v2 Low Priority Basv2 Series Cloud Services","p":0.00744}
+{"id":"Standard_B2ats_v2 B2ats v2 Low Priority Virtual Machines Basv2 Series Windows","p":0.00744}
+{"id":"Standard_B2ats_v2 B2ats v2 Low Priority Virtual Machines Basv2 Series","p":0.00188}
+{"id":"Standard_B2ats_v2 B2ats v2 Spot Virtual Machines Basv2 Series Windows","p":0.01674}
+{"id":"Standard_B2ats_v2 B2ats v2 Spot Virtual Machines Basv2 Series","p":0.00846}
+{"id":"Standard_B2ats_v2 B2ats v2 Virtual Machines Basv2 Series Windows","p":0.0186}
+{"id":"Standard_B2ats_v2 B2ats v2 Virtual Machines Basv2 Series","p":0.0094}
+{"id":"Standard_B2ls_v2 B2ls v2 Bsv2 Series Cloud Services","p":0.0508}
+{"id":"Standard_B2ls_v2 B2ls v2 Low Priority Bsv2 Series Cloud Services","p":0.0203}
+{"id":"Standard_B2ls_v2 B2ls v2 Low Priority Virtual Machines Bsv2 Series Windows","p":0.0203}
+{"id":"Standard_B2ls_v2 B2ls v2 Low Priority Virtual Machines Bsv2 Series","p":0.00832}
+{"id":"Standard_B2ls_v2 B2ls v2 Spot Virtual Machines Bsv2 Series Windows","p":0.04572}
+{"id":"Standard_B2ls_v2 B2ls v2 Spot Virtual Machines Bsv2 Series","p":0.03744}
+{"id":"Standard_B2ls_v2 B2ls v2 Virtual Machines Bsv2 Series Windows","p":0.0508}
+{"id":"Standard_B2ls_v2 B2ls v2 Virtual Machines Bsv2 Series","p":0.0416}
+{"id":"Standard_B2ms B2ms Virtual Machines BS Series Windows","p":0.0912}
+{"id":"Standard_B2ms B2ms Virtual Machines BS Series","p":0.0832}
+{"id":"Standard_B2pls_v2 B2pls v2 Bpsv2 Series Cloud Services","p":0.0428}
+{"id":"Standard_B2pls_v2 B2pls v2 Low Priority Bpsv2 Series Cloud Services","p":0.0171}
+{"id":"Standard_B2pls_v2 B2pls v2 Low Priority Virtual Machines Bpsv2 Series Windows","p":0.0171}
+{"id":"Standard_B2pls_v2 B2pls v2 Low Priority Virtual Machines Bpsv2 Series","p":0.00672}
+{"id":"Standard_B2pls_v2 B2pls v2 Spot Virtual Machines Bpsv2 Series Windows","p":0.03852}
+{"id":"Standard_B2pls_v2 B2pls v2 Spot Virtual Machines Bpsv2 Series","p":0.03024}
+{"id":"Standard_B2pls_v2 B2pls v2 Virtual Machines Bpsv2 Series Windows","p":0.0428}
+{"id":"Standard_B2pls_v2 B2pls v2 Virtual Machines Bpsv2 Series","p":0.0336}
+{"id":"Standard_B2ps_v2 B2ps v2 Bpsv2 Series Cloud Services","p":0.0764}
+{"id":"Standard_B2ps_v2 B2ps v2 Low Priority Bpsv2 Series Cloud Services","p":0.0306}
+{"id":"Standard_B2ps_v2 B2ps v2 Low Priority Virtual Machines Bpsv2 Series Windows","p":0.0306}
+{"id":"Standard_B2ps_v2 B2ps v2 Low Priority Virtual Machines Bpsv2 Series","p":0.0134}
+{"id":"Standard_B2ps_v2 B2ps v2 Spot Virtual Machines Bpsv2 Series Windows","p":0.06876}
+{"id":"Standard_B2ps_v2 B2ps v2 Spot Virtual Machines Bpsv2 Series","p":0.06048}
+{"id":"Standard_B2ps_v2 B2ps v2 Virtual Machines Bpsv2 Series Windows","p":0.0764}
+{"id":"Standard_B2ps_v2 B2ps v2 Virtual Machines Bpsv2 Series","p":0.0672}
+{"id":"Standard_B2pts_v2 B2pts v2 Bpsv2 Series Cloud Services","p":0.0176}
+{"id":"Standard_B2pts_v2 B2pts v2 Low Priority Bpsv2 Series Cloud Services","p":0.00704}
+{"id":"Standard_B2pts_v2 B2pts v2 Low Priority Virtual Machines Bpsv2 Series Windows","p":0.00704}
+{"id":"Standard_B2pts_v2 B2pts v2 Low Priority Virtual Machines Bpsv2 Series","p":0.00168}
+{"id":"Standard_B2pts_v2 B2pts v2 Spot Virtual Machines Bpsv2 Series Windows","p":0.01584}
+{"id":"Standard_B2pts_v2 B2pts v2 Spot Virtual Machines Bpsv2 Series","p":0.00756}
+{"id":"Standard_B2pts_v2 B2pts v2 Virtual Machines Bpsv2 Series Windows","p":0.0176}
+{"id":"Standard_B2pts_v2 B2pts v2 Virtual Machines Bpsv2 Series","p":0.0084}
+{"id":"Standard_B2s B2s Virtual Machines BS Series Windows","p":0.0496}
+{"id":"Standard_B2s B2s Virtual Machines BS Series","p":0.0416}
+{"id":"Standard_B2s_v2 B2s v2 Bsv2 Series Cloud Services","p":0.0924}
+{"id":"Standard_B2s_v2 B2s v2 Low Priority Bsv2 Series Cloud Services","p":0.037}
+{"id":"Standard_B2s_v2 B2s v2 Low Priority Virtual Machines Bsv2 Series Windows","p":0.037}
+{"id":"Standard_B2s_v2 B2s v2 Low Priority Virtual Machines Bsv2 Series","p":0.0166}
+{"id":"Standard_B2s_v2 B2s v2 Spot Virtual Machines Bsv2 Series Windows","p":0.08316}
+{"id":"Standard_B2s_v2 B2s v2 Spot Virtual Machines Bsv2 Series","p":0.07488}
+{"id":"Standard_B2s_v2 B2s v2 Virtual Machines Bsv2 Series Windows","p":0.0924}
+{"id":"Standard_B2s_v2 B2s v2 Virtual Machines Bsv2 Series","p":0.0832}
+{"id":"Standard_B2ts_v2 B2ts v2 Bsv2 Series Cloud Services","p":0.0196}
+{"id":"Standard_B2ts_v2 B2ts v2 Low Priority Bsv2 Series Cloud Services","p":0.00784}
+{"id":"Standard_B2ts_v2 B2ts v2 Low Priority Virtual Machines Bsv2 Series Windows","p":0.00784}
+{"id":"Standard_B2ts_v2 B2ts v2 Low Priority Virtual Machines Bsv2 Series","p":0.00208}
+{"id":"Standard_B2ts_v2 B2ts v2 Spot Virtual Machines Bsv2 Series Windows","p":0.01764}
+{"id":"Standard_B2ts_v2 B2ts v2 Spot Virtual Machines Bsv2 Series","p":0.00936}
+{"id":"Standard_B2ts_v2 B2ts v2 Virtual Machines Bsv2 Series Windows","p":0.0196}
+{"id":"Standard_B2ts_v2 B2ts v2 Virtual Machines Bsv2 Series","p":0.0104}
+{"id":"Standard_B32als_v2 B32als v2 Basv2 Series Cloud Services","p":1.213}
+{"id":"Standard_B32als_v2 B32als v2 Low Priority Basv2 Series Cloud Services","p":0.485}
+{"id":"Standard_B32als_v2 B32als v2 Low Priority Virtual Machines Basv2 Series Windows","p":0.485}
+{"id":"Standard_B32als_v2 B32als v2 Low Priority Virtual Machines Basv2 Series","p":0.213}
+{"id":"Standard_B32als_v2 B32als v2 Spot Virtual Machines Basv2 Series Windows","p":1.0917}
+{"id":"Standard_B32als_v2 B32als v2 Spot Virtual Machines Basv2 Series","p":0.9585}
+{"id":"Standard_B32als_v2 B32als v2 Virtual Machines Basv2 Series Windows","p":1.213}
+{"id":"Standard_B32als_v2 B32als v2 Virtual Machines Basv2 Series","p":1.065}
+{"id":"Standard_B32as_v2 B32as v2 Basv2 Series Cloud Services","p":1.35}
+{"id":"Standard_B32as_v2 B32as v2 Low Priority Basv2 Series Cloud Services","p":0.54}
+{"id":"Standard_B32as_v2 B32as v2 Low Priority Virtual Machines Basv2 Series Windows","p":0.54}
+{"id":"Standard_B32as_v2 B32as v2 Low Priority Virtual Machines Basv2 Series","p":0.241}
+{"id":"Standard_B32as_v2 B32as v2 Spot Virtual Machines Basv2 Series Windows","p":1.215}
+{"id":"Standard_B32as_v2 B32as v2 Spot Virtual Machines Basv2 Series","p":1.0827}
+{"id":"Standard_B32as_v2 B32as v2 Virtual Machines Basv2 Series Windows","p":1.35}
+{"id":"Standard_B32as_v2 B32as v2 Virtual Machines Basv2 Series","p":1.203}
+{"id":"Standard_B32ls_v2 B32ls v2 Bsv2 Series Cloud Services","p":1.326}
+{"id":"Standard_B32ls_v2 B32ls v2 Low Priority Bsv2 Series Cloud Services","p":0.53}
+{"id":"Standard_B32ls_v2 B32ls v2 Low Priority Virtual Machines Bsv2 Series Windows","p":0.53}
+{"id":"Standard_B32ls_v2 B32ls v2 Low Priority Virtual Machines Bsv2 Series","p":0.236}
+{"id":"Standard_B32ls_v2 B32ls v2 Spot Virtual Machines Bsv2 Series Windows","p":1.1934}
+{"id":"Standard_B32ls_v2 B32ls v2 Spot Virtual Machines Bsv2 Series","p":1.0611}
+{"id":"Standard_B32ls_v2 B32ls v2 Virtual Machines Bsv2 Series Windows","p":1.326}
+{"id":"Standard_B32ls_v2 B32ls v2 Virtual Machines Bsv2 Series","p":1.179}
+{"id":"Standard_B32s_v2 B32s v2 Bsv2 Series Cloud Services","p":1.478}
+{"id":"Standard_B32s_v2 B32s v2 Low Priority Bsv2 Series Cloud Services","p":0.591}
+{"id":"Standard_B32s_v2 B32s v2 Low Priority Virtual Machines Bsv2 Series Windows","p":0.591}
+{"id":"Standard_B32s_v2 B32s v2 Low Priority Virtual Machines Bsv2 Series","p":0.266}
+{"id":"Standard_B32s_v2 B32s v2 Spot Virtual Machines Bsv2 Series Windows","p":1.3302}
+{"id":"Standard_B32s_v2 B32s v2 Spot Virtual Machines Bsv2 Series","p":1.1979}
+{"id":"Standard_B32s_v2 B32s v2 Virtual Machines Bsv2 Series Windows","p":1.478}
+{"id":"Standard_B32s_v2 B32s v2 Virtual Machines Bsv2 Series","p":1.331}
+{"id":"Standard_B4als_v2 B4als v2 Basv2 Series Cloud Services","p":0.152}
+{"id":"Standard_B4als_v2 B4als v2 Low Priority Basv2 Series Cloud Services","p":0.0606}
+{"id":"Standard_B4als_v2 B4als v2 Low Priority Virtual Machines Basv2 Series Windows","p":0.0606}
+{"id":"Standard_B4als_v2 B4als v2 Low Priority Virtual Machines Basv2 Series","p":0.0266}
+{"id":"Standard_B4als_v2 B4als v2 Spot Virtual Machines Basv2 Series Windows","p":0.1368}
+{"id":"Standard_B4als_v2 B4als v2 Spot Virtual Machines Basv2 Series","p":0.1197}
+{"id":"Standard_B4als_v2 B4als v2 Virtual Machines Basv2 Series Windows","p":0.152}
+{"id":"Standard_B4als_v2 B4als v2 Virtual Machines Basv2 Series","p":0.133}
+{"id":"Standard_B4as_v2 B4as v2 Basv2 Series Cloud Services","p":0.169}
+{"id":"Standard_B4as_v2 B4as v2 Low Priority Basv2 Series Cloud Services","p":0.0675}
+{"id":"Standard_B4as_v2 B4as v2 Low Priority Virtual Machines Basv2 Series Windows","p":0.0675}
+{"id":"Standard_B4as_v2 B4as v2 Low Priority Virtual Machines Basv2 Series","p":0.0301}
+{"id":"Standard_B4as_v2 B4as v2 Spot Virtual Machines Basv2 Series Windows","p":0.1521}
+{"id":"Standard_B4as_v2 B4as v2 Spot Virtual Machines Basv2 Series","p":0.135}
+{"id":"Standard_B4as_v2 B4as v2 Virtual Machines Basv2 Series Windows","p":0.169}
+{"id":"Standard_B4as_v2 B4as v2 Virtual Machines Basv2 Series","p":0.15}
+{"id":"Standard_B4ls_v2 B4ls v2 Bsv2 Series Cloud Services","p":0.166}
+{"id":"Standard_B4ls_v2 B4ls v2 Low Priority Bsv2 Series Cloud Services","p":0.0663}
+{"id":"Standard_B4ls_v2 B4ls v2 Low Priority Virtual Machines Bsv2 Series Windows","p":0.0663}
+{"id":"Standard_B4ls_v2 B4ls v2 Low Priority Virtual Machines Bsv2 Series","p":0.0295}
+{"id":"Standard_B4ls_v2 B4ls v2 Spot Virtual Machines Bsv2 Series Windows","p":0.1494}
+{"id":"Standard_B4ls_v2 B4ls v2 Spot Virtual Machines Bsv2 Series","p":0.1323}
+{"id":"Standard_B4ls_v2 B4ls v2 Virtual Machines Bsv2 Series Windows","p":0.166}
+{"id":"Standard_B4ls_v2 B4ls v2 Virtual Machines Bsv2 Series","p":0.147}
+{"id":"Standard_B4ms B4ms Virtual Machines BS Series Windows","p":0.182}
+{"id":"Standard_B4ms B4ms Virtual Machines BS Series","p":0.166}
+{"id":"Standard_B4pls_v2 B4pls v2 Bpsv2 Series Cloud Services","p":0.137}
+{"id":"Standard_B4pls_v2 B4pls v2 Low Priority Bpsv2 Series Cloud Services","p":0.055}
+{"id":"Standard_B4pls_v2 B4pls v2 Low Priority Virtual Machines Bpsv2 Series Windows","p":0.055}
+{"id":"Standard_B4pls_v2 B4pls v2 Low Priority Virtual Machines Bpsv2 Series","p":0.0238}
+{"id":"Standard_B4pls_v2 B4pls v2 Spot Virtual Machines Bpsv2 Series Windows","p":0.1233}
+{"id":"Standard_B4pls_v2 B4pls v2 Spot Virtual Machines Bpsv2 Series","p":0.1071}
+{"id":"Standard_B4pls_v2 B4pls v2 Virtual Machines Bpsv2 Series Windows","p":0.137}
+{"id":"Standard_B4pls_v2 B4pls v2 Virtual Machines Bpsv2 Series","p":0.119}
+{"id":"Standard_B4ps_v2 B4ps v2 Bpsv2 Series Cloud Services","p":0.153}
+{"id":"Standard_B4ps_v2 B4ps v2 Low Priority Bpsv2 Series Cloud Services","p":0.0611}
+{"id":"Standard_B4ps_v2 B4ps v2 Low Priority Virtual Machines Bpsv2 Series Windows","p":0.0611}
+{"id":"Standard_B4ps_v2 B4ps v2 Low Priority Virtual Machines Bpsv2 Series","p":0.0269}
+{"id":"Standard_B4ps_v2 B4ps v2 Spot Virtual Machines Bpsv2 Series Windows","p":0.1377}
+{"id":"Standard_B4ps_v2 B4ps v2 Spot Virtual Machines Bpsv2 Series","p":0.1206}
+{"id":"Standard_B4ps_v2 B4ps v2 Virtual Machines Bpsv2 Series Windows","p":0.153}
+{"id":"Standard_B4ps_v2 B4ps v2 Virtual Machines Bpsv2 Series","p":0.134}
+{"id":"Standard_B4s_v2 B4s v2 Bsv2 Series Cloud Services","p":0.185}
+{"id":"Standard_B4s_v2 B4s v2 Low Priority Bsv2 Series Cloud Services","p":0.0739}
+{"id":"Standard_B4s_v2 B4s v2 Low Priority Virtual Machines Bsv2 Series Windows","p":0.0739}
+{"id":"Standard_B4s_v2 B4s v2 Low Priority Virtual Machines Bsv2 Series","p":0.0333}
+{"id":"Standard_B4s_v2 B4s v2 Spot Virtual Machines Bsv2 Series Windows","p":0.1665}
+{"id":"Standard_B4s_v2 B4s v2 Spot Virtual Machines Bsv2 Series","p":0.1494}
+{"id":"Standard_B4s_v2 B4s v2 Virtual Machines Bsv2 Series Windows","p":0.185}
+{"id":"Standard_B4s_v2 B4s v2 Virtual Machines Bsv2 Series","p":0.166}
+{"id":"Standard_B8als_v2 B8als v2 Basv2 Series Cloud Services","p":0.303}
+{"id":"Standard_B8als_v2 B8als v2 Low Priority Basv2 Series Cloud Services","p":0.121}
+{"id":"Standard_B8als_v2 B8als v2 Low Priority Virtual Machines Basv2 Series Windows","p":0.121}
+{"id":"Standard_B8als_v2 B8als v2 Low Priority Virtual Machines Basv2 Series","p":0.0533}
+{"id":"Standard_B8als_v2 B8als v2 Spot Virtual Machines Basv2 Series Windows","p":0.2727}
+{"id":"Standard_B8als_v2 B8als v2 Spot Virtual Machines Basv2 Series","p":0.2394}
+{"id":"Standard_B8als_v2 B8als v2 Virtual Machines Basv2 Series Windows","p":0.303}
+{"id":"Standard_B8als_v2 B8als v2 Virtual Machines Basv2 Series","p":0.266}
+{"id":"Standard_B8as_v2 B8as v2 Basv2 Series Cloud Services","p":0.338}
+{"id":"Standard_B8as_v2 B8as v2 Low Priority Basv2 Series Cloud Services","p":0.135}
+{"id":"Standard_B8as_v2 B8as v2 Low Priority Virtual Machines Basv2 Series Windows","p":0.135}
+{"id":"Standard_B8as_v2 B8as v2 Low Priority Virtual Machines Basv2 Series","p":0.0602}
+{"id":"Standard_B8as_v2 B8as v2 Spot Virtual Machines Basv2 Series Windows","p":0.3042}
+{"id":"Standard_B8as_v2 B8as v2 Spot Virtual Machines Basv2 Series","p":0.2709}
+{"id":"Standard_B8as_v2 B8as v2 Virtual Machines Basv2 Series Windows","p":0.338}
+{"id":"Standard_B8as_v2 B8as v2 Virtual Machines Basv2 Series","p":0.301}
+{"id":"Standard_B8ls_v2 B8ls v2 Bsv2 Series Cloud Services","p":0.332}
+{"id":"Standard_B8ls_v2 B8ls v2 Low Priority Bsv2 Series Cloud Services","p":0.133}
+{"id":"Standard_B8ls_v2 B8ls v2 Low Priority Virtual Machines Bsv2 Series Windows","p":0.133}
+{"id":"Standard_B8ls_v2 B8ls v2 Low Priority Virtual Machines Bsv2 Series","p":0.0589}
+{"id":"Standard_B8ls_v2 B8ls v2 Spot Virtual Machines Bsv2 Series Windows","p":0.2988}
+{"id":"Standard_B8ls_v2 B8ls v2 Spot Virtual Machines Bsv2 Series","p":0.2655}
+{"id":"Standard_B8ls_v2 B8ls v2 Virtual Machines Bsv2 Series Windows","p":0.332}
+{"id":"Standard_B8ls_v2 B8ls v2 Virtual Machines Bsv2 Series","p":0.295}
+{"id":"Standard_B8ms B8ms Virtual Machines BS Series Windows","p":0.365}
+{"id":"Standard_B8ms B8ms Virtual Machines BS Series","p":0.333}
+{"id":"Standard_B8pls_v2 B8pls v2 Bpsv2 Series Cloud Services","p":0.275}
+{"id":"Standard_B8pls_v2 B8pls v2 Low Priority Bpsv2 Series Cloud Services","p":0.11}
+{"id":"Standard_B8pls_v2 B8pls v2 Low Priority Virtual Machines Bpsv2 Series Windows","p":0.11}
+{"id":"Standard_B8pls_v2 B8pls v2 Low Priority Virtual Machines Bpsv2 Series","p":0.0476}
+{"id":"Standard_B8pls_v2 B8pls v2 Spot Virtual Machines Bpsv2 Series Windows","p":0.2475}
+{"id":"Standard_B8pls_v2 B8pls v2 Spot Virtual Machines Bpsv2 Series","p":0.2142}
+{"id":"Standard_B8pls_v2 B8pls v2 Virtual Machines Bpsv2 Series Windows","p":0.275}
+{"id":"Standard_B8pls_v2 B8pls v2 Virtual Machines Bpsv2 Series","p":0.238}
+{"id":"Standard_B8ps_v2 B8ps v2 Bpsv2 Series Cloud Services","p":0.306}
+{"id":"Standard_B8ps_v2 B8ps v2 Low Priority Bpsv2 Series Cloud Services","p":0.122}
+{"id":"Standard_B8ps_v2 B8ps v2 Low Priority Virtual Machines Bpsv2 Series Windows","p":0.122}
+{"id":"Standard_B8ps_v2 B8ps v2 Low Priority Virtual Machines Bpsv2 Series","p":0.0538}
+{"id":"Standard_B8ps_v2 B8ps v2 Spot Virtual Machines Bpsv2 Series Windows","p":0.2754}
+{"id":"Standard_B8ps_v2 B8ps v2 Spot Virtual Machines Bpsv2 Series","p":0.2421}
+{"id":"Standard_B8ps_v2 B8ps v2 Virtual Machines Bpsv2 Series Windows","p":0.306}
+{"id":"Standard_B8ps_v2 B8ps v2 Virtual Machines Bpsv2 Series","p":0.269}
+{"id":"Standard_B8s_v2 B8s v2 Bsv2 Series Cloud Services","p":0.37}
+{"id":"Standard_B8s_v2 B8s v2 Low Priority Bsv2 Series Cloud Services","p":0.148}
+{"id":"Standard_B8s_v2 B8s v2 Low Priority Virtual Machines Bsv2 Series Windows","p":0.148}
+{"id":"Standard_B8s_v2 B8s v2 Low Priority Virtual Machines Bsv2 Series","p":0.0666}
+{"id":"Standard_B8s_v2 B8s v2 Spot Virtual Machines Bsv2 Series Windows","p":0.333}
+{"id":"Standard_B8s_v2 B8s v2 Spot Virtual Machines Bsv2 Series","p":0.2997}
+{"id":"Standard_B8s_v2 B8s v2 Virtual Machines Bsv2 Series Windows","p":0.37}
+{"id":"Standard_B8s_v2 B8s v2 Virtual Machines Bsv2 Series","p":0.333}
