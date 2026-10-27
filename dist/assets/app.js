@@ -33,3 +33,8 @@ async function check(){const o=$('#k-out');if(!o)return;const d=await data(),P=O
 table();calc();check();
 
 const tt=document.getElementById('tt');if(tt){const cur=()=>document.documentElement.dataset.theme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');const lab=()=>tt.setAttribute('aria-label','Switch to '+(cur()==='dark'?'light':'dark')+' theme');lab();tt.addEventListener('click',()=>{const n=cur()==='dark'?'light':'dark';document.documentElement.dataset.theme=n;try{localStorage.setItem('vl-theme',n)}catch(e){}lab()})}
+// Billing toggle (Pro + checkout): annual by default
+document.querySelectorAll('.toggle').forEach(g=>g.addEventListener('click',e=>{const b=e.target.closest('button[data-bill]');if(!b)return;const v=b.dataset.bill;
+ g.querySelectorAll('button').forEach(x=>x.setAttribute('aria-checked',x===b));
+ document.querySelectorAll('[data-annual]').forEach(el=>{const val=el.dataset[v];if(el.tagName==='A')el.href=val;else el.innerHTML=val});
+ const go=document.getElementById('pro-go');if(go)go.textContent='Continue with Pro '+v;}));
