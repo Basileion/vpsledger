@@ -27,5 +27,5 @@ Outline: 1) Why list price lies (IPv4, backups 20%, overage $0.01–$0.09/GB, pr
 
 ## Sponsor outreach (email draft)
 Subject: Founding sponsor slot on VPSLedger — VPS buyers at decision time
-Body: Hi {name}, I run VPSLedger, a sourced cost-of-ownership ledger for VPS plans (calculator + head-to-head pages). Readers arrive while choosing a server. I'm offering three founding sponsors a labeled placement on the calculator and compare pages plus the monthly email: $199/quarter. Sponsors never affect rankings. We're new — no inflated numbers; I'll share real traffic monthly. Interested? — Kurt
+Body: Hi {name}, I run VPSLedger, a sourced cost-of-ownership ledger for VPS plans (calculator + head-to-head pages). Readers arrive while choosing a server. I'm offering a founding sponsor slot: one clearly labeled placement in the weekly newsletter for $49 (https://o11y-watch.kit.com/products/vps-ledger-sponsor-slot-founding). Sponsors never affect rankings. We're new — no inflated numbers; I'll share real traffic monthly. Interested? — Kurt
 Targets: control panels (RunCloud, Ploi, Coolify Cloud, CloudPanel), backup/monitoring (BetterStack, Healthchecks.io, SnapShooter), managed-DB and CDN vendors.
