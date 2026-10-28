@@ -1,0 +1,9 @@
+date,provider,kind,summary,source,observed,plan_id
+"2026-10-26","Hetzner","availability","CX23 (€5.99/mo) shown as “not available” / currently unavailable in listed locations.","https://www.hetzner.com/cloud/cost-optimized","2026-10-26",""
+"2026-10-26","Hostinger VPS","promo","KVM 1 promo $6.49/mo on 24-month term; renews at $11.99/mo.","https://www.hostinger.com/vps-hosting","2026-10-26","hostinger-kvm-1"
+"2026-10-26","DreamHost","promo","Stack 4 $8.99/mo for first 3 months, then $15.99/mo.","https://www.dreamhost.com/hosting/vps/","2026-10-26","dreamhost-stack-4"
+"2026-10-26","OVHcloud","lineup","“VPS 2027” range listed, VPS-1 from $4.54/mo (2 vCore, 4 GB).","https://www.ovhcloud.com/en/vps/","2026-10-26",""
+"2026-10-26","Linode / Akamai","transfer","G8 and GPU plans do not include bundled transfer; older plans include 0–20 TB.","https://www.linode.com/pricing/","2026-10-26",""
+"2026-10-26","Hostinger VPS","promo","KVM 2 promo $8.79/mo on 24-month term; renews at $14.99/mo.","https://www.hostinger.com/vps-hosting","2026-10-26","hostinger-kvm-2"
+"2026-10-26","DreamHost","promo","Stack 16 $22.99/mo for first 3 months, then $34.99/mo.","https://www.dreamhost.com/hosting/vps/","2026-10-26","dreamhost-stack-16"
+"2026-01-01","DigitalOcean","billing","Droplets move to per-second billing (minimum 60 s or $0.01).","https://www.digitalocean.com/pricing/droplets","2026-10-26",""

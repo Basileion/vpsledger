@@ -1,0 +1,432 @@
+# VPSLedger — full ledger
+
+33 plans, 26 verified, 15 providers. Checked through 2026-10-26. FX: 1.1188 USD/EUR on 2026-10-26.
+
+## Providers
+### DigitalOcean
+- id: digitalocean
+- source: https://www.digitalocean.com/pricing/droplets
+- checked: 2026-10-26
+- ipv4: 0 (verified)
+- backup: 20% (verified)
+- overage: 0.01 (unverified)
+
+### Vultr
+- id: vultr
+- source: https://api.vultr.com/v2/plans?type=vc2
+- checked: 2026-10-26
+- ipv4: 0 (unverified)
+- backup: 20% (unverified)
+- overage: 0.01 (unverified)
+
+### Linode / Akamai
+- id: linode
+- source: https://api.linode.com/v4/linode/types
+- checked: 2026-10-26
+- ipv4: 0 (unverified)
+- backup: see plan% (verified)
+- overage: 0.005 (unverified)
+
+### Hetzner
+- id: hetzner
+- source: https://www.hetzner.com/cloud/cost-optimized
+- checked: 2026-10-26
+- ipv4: not published (unverified)
+- backup: 20% (unverified)
+- overage: 0.001 (verified)
+
+### OVHcloud
+- id: ovhcloud
+- source: https://www.ovhcloud.com/en/vps/
+- checked: 2026-10-26
+- ipv4: 0 (verified)
+- backup: 0% (verified)
+- overage: 0 (verified)
+
+### Scaleway
+- id: scaleway
+- source: https://www.scaleway.com/en/pricing/virtual-instances/
+- checked: 2026-10-26
+- ipv4: not published (unverified)
+- backup: see plan% (unverified)
+- overage: 0 (unverified)
+
+### UpCloud
+- id: upcloud
+- source: https://upcloud.com/pricing/
+- checked: 2026-10-26
+- ipv4: 0 (verified)
+- backup: see plan% (unverified)
+- overage: 0 (verified)
+
+### Contabo
+- id: contabo
+- source: https://contabo.com/en/vps/
+- checked: 2026-10-26
+- ipv4: 0 (unverified)
+- backup: see plan% (unverified)
+- overage: 0 (unverified)
+
+### Hostinger VPS
+- id: hostinger
+- source: https://www.hostinger.com/vps-hosting
+- checked: 2026-10-26
+- ipv4: 0 (unverified)
+- backup: 0% (verified)
+- overage: 0 (unverified)
+
+### AWS Lightsail
+- id: lightsail
+- source: https://aws.amazon.com/lightsail/pricing/
+- checked: 2026-10-26
+- ipv4: 0 (verified)
+- backup: see plan% (unverified)
+- overage: 0.09 (verified)
+
+### Google Cloud e2
+- id: gcp
+- source: https://cloud.google.com/products/compute/pricing/general-purpose
+- checked: 2026-10-26
+- ipv4: not published (unverified)
+- backup: see plan% (unverified)
+- overage: not published (unverified)
+
+### Azure B-series
+- id: azure
+- source: https://prices.azure.com/api/retail/prices
+- checked: 2026-10-26
+- ipv4: not published (unverified)
+- backup: see plan% (unverified)
+- overage: not published (unverified)
+
+### Kamatera
+- id: kamatera
+- source: https://www.kamatera.com/pricing/
+- checked: 2026-10-26
+- ipv4: 0 (unverified)
+- backup: see plan% (unverified)
+- overage: 0.01 (verified)
+
+### IONOS
+- id: ionos
+- source: https://www.ionos.com/servers/vps
+- checked: 2026-10-26
+- ipv4: 0 (verified)
+- backup: see plan% (unverified)
+- overage: 0 (unverified)
+
+### DreamHost
+- id: dreamhost
+- source: https://www.dreamhost.com/hosting/vps/
+- checked: 2026-10-26
+- ipv4: 0 (unverified)
+- backup: see plan% (unverified)
+- overage: 0 (verified)
+
+## Plans
+### DigitalOcean Basic 1 GB
+- id: digitalocean-basic-1-gb
+- specs: 1 vCPU / 1 GB / 25 GB disk / 1 TB
+- price_mo: 6 USD
+- promo_mo: none
+- status: verified
+- source: https://www.digitalocean.com/pricing/droplets (2026-10-26)
+- notes: Regular SSD Basic Droplet
+
+### DigitalOcean Basic 512 MiB
+- id: digitalocean-basic-512-mib
+- specs: 1 vCPU / 0.5 GB / 10 GB disk / 0.5 TB
+- price_mo: 4 USD
+- promo_mo: none
+- status: verified
+- source: https://www.digitalocean.com/pricing/droplets (2026-10-26)
+- notes: 
+
+### DigitalOcean Basic 4 GB
+- id: digitalocean-basic-4-gb
+- specs: 2 vCPU / 4 GB / 80 GB disk / 4 TB
+- price_mo: 24 USD
+- promo_mo: none
+- status: verified
+- source: https://www.digitalocean.com/pricing/droplets (2026-10-26)
+- notes: 
+
+### Vultr vc2-1c-1gb
+- id: vultr-vc2-1c-1gb
+- specs: 1 vCPU / 1 GB / 25 GB disk / 1 TB
+- price_mo: 5 USD
+- promo_mo: none
+- status: verified
+- source: https://api.vultr.com/v2/plans?type=vc2 (2026-10-26)
+- notes: Cloud Compute regular; official public API
+
+### Vultr vc2-1c-0.5gb
+- id: vultr-vc2-1c-0-5gb
+- specs: 1 vCPU / 0.5 GB / 10 GB disk / 0.5 TB
+- price_mo: 3.5 USD
+- promo_mo: none
+- status: verified
+- source: https://api.vultr.com/v2/plans?type=vc2 (2026-10-26)
+- notes: 
+
+### Vultr vc2-2c-4gb
+- id: vultr-vc2-2c-4gb
+- specs: 2 vCPU / 4 GB / 80 GB disk / 3 TB
+- price_mo: 20 USD
+- promo_mo: none
+- status: verified
+- source: https://api.vultr.com/v2/plans?type=vc2 (2026-10-26)
+- notes: 
+
+### Linode / Akamai Nanode 1 GB
+- id: linode-nanode-1-gb
+- specs: 1 vCPU / 1 GB / 25 GB disk / 1 TB
+- price_mo: 5 USD
+- promo_mo: none
+- status: verified
+- source: https://api.linode.com/v4/linode/types (2026-10-26)
+- notes: Backups $2/mo (API)
+
+### Linode / Akamai Linode 2 GB
+- id: linode-linode-2-gb
+- specs: 1 vCPU / 2 GB / 50 GB disk / 2 TB
+- price_mo: 12 USD
+- promo_mo: none
+- status: verified
+- source: https://api.linode.com/v4/linode/types (2026-10-26)
+- notes: Backups $2.50/mo
+
+### Linode / Akamai Linode 4 GB
+- id: linode-linode-4-gb
+- specs: 2 vCPU / 4 GB / 80 GB disk / 4 TB
+- price_mo: 24 USD
+- promo_mo: none
+- status: verified
+- source: https://api.linode.com/v4/linode/types (2026-10-26)
+- notes: Backups $5/mo
+
+### Hetzner CX23
+- id: hetzner-cx23
+- specs: 2 vCPU / 4 GB / 40 GB disk / 20 TB
+- price_mo: 5.99 EUR
+- promo_mo: none
+- status: verified
+- source: https://www.hetzner.com/cloud/cost-optimized (2026-10-26)
+- notes: Excl. VAT; marked "not available" in some locations on check date
+
+### Hetzner CX33
+- id: hetzner-cx33
+- specs: 4 vCPU / 8 GB / 80 GB disk / 20 TB
+- price_mo: 8.99 EUR
+- promo_mo: none
+- status: verified
+- source: https://www.hetzner.com/cloud/cost-optimized (2026-10-26)
+- notes: Excl. VAT
+
+### OVHcloud VPS-1
+- id: ovhcloud-vps-1
+- specs: 2 vCPU / 4 GB / 40 GB disk / ? TB
+- price_mo: 4.54 USD
+- promo_mo: none
+- status: verified
+- source: https://www.ovhcloud.com/en/vps/ (2026-10-26)
+- notes: "From" price; unlimited traffic, 500 Mbps
+
+### OVHcloud VPS-2
+- id: ovhcloud-vps-2
+- specs: 4 vCPU / 8 GB / 75 GB disk / ? TB
+- price_mo: 8.5 USD
+- promo_mo: none
+- status: verified
+- source: https://www.ovhcloud.com/en/vps/ (2026-10-26)
+- notes: "From" price; 1 Gbps
+
+### OVHcloud VPS-3
+- id: ovhcloud-vps-3
+- specs: 6 vCPU / 12 GB / 100 GB disk / ? TB
+- price_mo: 12.32 USD
+- promo_mo: none
+- status: verified
+- source: https://www.ovhcloud.com/en/vps/ (2026-10-26)
+- notes: "From" price; 2 Gbps
+
+### Scaleway DEV1-S
+- id: scaleway-dev1-s
+- specs: 2 vCPU / 2 GB / 20 GB disk / ? TB
+- price_mo: 6.55 EUR
+- promo_mo: none
+- status: unverified
+- source: https://www.scaleway.com/en/pricing/virtual-instances/ (2026-10-26)
+- notes: ~€/month from hourly €0.00898; specs not legible on page
+
+### Scaleway DEV1-M
+- id: scaleway-dev1-m
+- specs: 3 vCPU / 4 GB / 40 GB disk / ? TB
+- price_mo: 14.74 EUR
+- promo_mo: none
+- status: unverified
+- source: https://www.scaleway.com/en/pricing/virtual-instances/ (2026-10-26)
+- notes: ~€/month from hourly €0.0202; specs not legible on page
+
+### UpCloud Developer 1 GB
+- id: upcloud-developer-1-gb
+- specs: 1 vCPU / 1 GB / 10 GB disk / ? TB
+- price_mo: 3.5 USD
+- promo_mo: none
+- status: verified
+- source: https://upcloud.com/pricing/ (2026-10-26)
+- notes: Starter plan, max 5 deployments
+
+### UpCloud Premium entry
+- id: upcloud-premium-entry
+- specs: null vCPU / null GB / 25 GB disk / ? TB
+- price_mo: 6 USD
+- promo_mo: none
+- status: unverified
+- source: https://upcloud.com/pricing/ (2026-10-26)
+- notes: RAM/CPU columns not legible on check date
+
+### Contabo Cloud VPS 4
+- id: contabo-cloud-vps-4
+- specs: 4 vCPU / 8 GB / null GB disk / ? TB
+- price_mo: 5.5 EUR
+- promo_mo: none
+- status: unverified
+- source: https://contabo.com/en-us/vps/ (2026-10-26)
+- notes: 4 vCPU / 8 GB confirmed; € price shown "for the first 24 months", VAT treatment ambiguous
+
+### Hostinger VPS KVM 1
+- id: hostinger-kvm-1
+- specs: 1 vCPU / 4 GB / 50 GB disk / 4 TB
+- price_mo: 11.99 USD
+- promo_mo: 6.49
+- status: verified
+- source: https://www.hostinger.com/vps-hosting (2026-10-26)
+- notes: Promo $6.49/mo on 24-month prepay; renews $11.99
+
+### Hostinger VPS KVM 2
+- id: hostinger-kvm-2
+- specs: 2 vCPU / 8 GB / 100 GB disk / 8 TB
+- price_mo: 14.99 USD
+- promo_mo: 8.79
+- status: verified
+- source: https://www.hostinger.com/vps-hosting (2026-10-26)
+- notes: Promo $8.79/mo on 24-month prepay; renews $14.99
+
+### AWS Lightsail Linux 0.5 GB
+- id: lightsail-linux-0-5-gb
+- specs: 2 vCPU / 0.5 GB / 20 GB disk / 1 TB
+- price_mo: 5 USD
+- promo_mo: none
+- status: verified
+- source: https://aws.amazon.com/lightsail/pricing/ (2026-10-26)
+- notes: IPv4 bundle
+
+### AWS Lightsail Linux 4 GB
+- id: lightsail-linux-4-gb
+- specs: 2 vCPU / 4 GB / 80 GB disk / 4 TB
+- price_mo: 24 USD
+- promo_mo: none
+- status: verified
+- source: https://aws.amazon.com/lightsail/pricing/ (2026-10-26)
+- notes: IPv4 bundle; 4 TB transfer
+
+### Google Cloud e2 e2-standard-2
+- id: gcp-e2-standard-2
+- specs: 2 vCPU / 8 GB / null GB disk / 0 TB
+- price_mo: 48.92 USD
+- promo_mo: none
+- status: verified
+- source: https://cloud.google.com/products/compute/pricing/general-purpose (2026-10-26)
+- notes: On-demand $0.06701142/h × 730 h, page default region; disk, IPv4 and egress billed separately. Shared-core e2-small/medium rates not published in the table read.
+
+### Google Cloud e2 e2-standard-4
+- id: gcp-e2-standard-4
+- specs: 4 vCPU / 16 GB / null GB disk / 0 TB
+- price_mo: 97.84 USD
+- promo_mo: none
+- status: verified
+- source: https://cloud.google.com/products/compute/pricing/general-purpose (2026-10-26)
+- notes: On-demand $0.13402284/h × 730 h; disk, IPv4 and egress extra.
+
+### Azure B-series B1s (Linux, East US)
+- id: azure-b1s-linux-east-us
+- specs: 1 vCPU / 1 GB / null GB disk / 0 TB
+- price_mo: 7.59 USD
+- promo_mo: none
+- status: verified
+- source: https://prices.azure.com/api/retail/prices (2026-10-26)
+- notes: $0.0104/h × 730 h, Retail Prices API; disk and IP extra
+
+### Azure B-series B2s (Linux, East US)
+- id: azure-b2s-linux-east-us
+- specs: 2 vCPU / 4 GB / null GB disk / 0 TB
+- price_mo: 30.37 USD
+- promo_mo: none
+- status: verified
+- source: https://prices.azure.com/api/retail/prices (2026-10-26)
+- notes: $0.0416/h × 730 h; disk and IP extra
+
+### Kamatera Basic
+- id: kamatera-basic
+- specs: 1 vCPU / 1 GB / 20 GB disk / 5 TB
+- price_mo: 4 USD
+- promo_mo: none
+- status: verified
+- source: https://www.kamatera.com/pricing/ (2026-10-26)
+- notes: Type A
+
+### Kamatera Standard
+- id: kamatera-standard
+- specs: 2 vCPU / 2 GB / null GB disk / ? TB
+- price_mo: 25 USD
+- promo_mo: none
+- status: unverified
+- source: https://www.kamatera.com/pricing/ (2026-10-26)
+- notes: Storage/traffic not legible
+
+### IONOS VPS S+
+- id: ionos-vps-s
+- specs: 1 vCPU / 2 GB / 60 GB disk / ? TB
+- price_mo: null USD
+- promo_mo: none
+- status: unverified
+- source: https://www.ionos.com/servers/vps (2026-10-26)
+- notes: Term/promo display ambiguous; regular price not read
+
+### IONOS VPS M+
+- id: ionos-vps-m
+- specs: 2 vCPU / 4 GB / 120 GB disk / ? TB
+- price_mo: 5 USD
+- promo_mo: none
+- status: unverified
+- source: https://www.ionos.com/servers/vps (2026-10-26)
+- notes: $5/month shown with 1-year term; confirm
+
+### DreamHost Stack 4
+- id: dreamhost-stack-4
+- specs: 2 vCPU / 4 GB / 75 GB disk / ? TB
+- price_mo: 15.99 USD
+- promo_mo: 8.99
+- status: verified
+- source: https://www.dreamhost.com/hosting/vps/ (2026-10-26)
+- notes: Promo $8.99 first 3 months; renews $15.99
+
+### DreamHost Stack 16
+- id: dreamhost-stack-16
+- specs: 4 vCPU / 16 GB / 250 GB disk / ? TB
+- price_mo: 34.99 USD
+- promo_mo: 22.99
+- status: verified
+- source: https://www.dreamhost.com/hosting/vps/ (2026-10-26)
+- notes: Promo $22.99 first 3 months; renews $34.99
+
+## Changes
+- 2026-10-26 Hetzner (availability): CX23 (€5.99/mo) shown as “not available” / currently unavailable in listed locations. [https://www.hetzner.com/cloud/cost-optimized]
+- 2026-10-26 Hostinger VPS (promo): KVM 1 promo $6.49/mo on 24-month term; renews at $11.99/mo. [https://www.hostinger.com/vps-hosting]
+- 2026-10-26 DreamHost (promo): Stack 4 $8.99/mo for first 3 months, then $15.99/mo. [https://www.dreamhost.com/hosting/vps/]
+- 2026-10-26 OVHcloud (lineup): “VPS 2027” range listed, VPS-1 from $4.54/mo (2 vCore, 4 GB). [https://www.ovhcloud.com/en/vps/]
+- 2026-10-26 Linode / Akamai (transfer): G8 and GPU plans do not include bundled transfer; older plans include 0–20 TB. [https://www.linode.com/pricing/]
+- 2026-10-26 Hostinger VPS (promo): KVM 2 promo $8.79/mo on 24-month term; renews at $14.99/mo. [https://www.hostinger.com/vps-hosting]
+- 2026-10-26 DreamHost (promo): Stack 16 $22.99/mo for first 3 months, then $34.99/mo. [https://www.dreamhost.com/hosting/vps/]
+- 2026-01-01 DigitalOcean (billing): Droplets move to per-second billing (minimum 60 s or $0.01). [https://www.digitalocean.com/pricing/droplets]
