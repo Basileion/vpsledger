@@ -1,7 +1,7 @@
 // Data study: VPS price per GB RAM / per vCPU, intro vs renewal. Only verified ledger rows; no invented numbers.
 export default function study(ctx){
 const {plans,page,W,SITE,NAME,esc,lastChecked,FX_EUR_USD,FX,mailBox,meth,ORG}=ctx;
-const file='study/vps-price-per-gb-ram.html',url=`${SITE}/${file}`,embedFile='embed/vps-price-per-gb-ram.html',csvFile='api/study-vps-price-per-gb.csv';
+const file='study/vps-price-per-gb-ram.html',url=`${SITE}/study/vps-price-per-gb-ram`,embedFile='embed/vps-price-per-gb-ram.html',csvFile='api/study-vps-price-per-gb.csv';
 const m2=v=>'$'+v.toFixed(2),m3=v=>'$'+v.toFixed(3);
 const rows=plans.filter(p=>p.status==='verified'&&p.price_mo!=null&&p.vcpu&&p.ram_gb).map(p=>{const k=p.currency==='EUR'?FX_EUR_USD:1,ren=p.price_mo*k,intro=p.promo_mo!=null?p.promo_mo*k:null;
   return {p,ren,intro,ram:ren/p.ram_gb,cpu:ren/p.vcpu,disk:p.disk_gb?ren/p.disk_gb:null,ramIntro:intro!=null?intro/p.ram_gb:null,jump:intro!=null?(ren/intro-1)*100:null}});
