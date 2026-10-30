@@ -111,6 +111,63 @@ ${cite(`Hetzner alternatives as of ${lastChecked}`)}
   }
 }
 
+// Generic provider alternatives (cheaper on true monthly cost) for high-intent queries
+for(const pid of ['digitalocean','vultr','linode','lightsail','hostinger','ovhcloud']){
+  const pr=providers.find(p=>p.id===pid); if(!pr) continue;
+  const mine=ver.filter(p=>p.provider_id===pid);
+  if(mine.length<1) continue;
+  const file=`guides/${pid}-alternatives.html`;
+  const answers=[];
+  for(const s of SPECS){
+    const r=rankFor(s);
+    const self=r.find(x=>x.p.provider_id===pid);
+    if(!self) continue;
+    const cheaper=r.filter(x=>x.p.provider_id!==pid&&x.t.total<self.t.total);
+    answers.push({s,self,cheaper,rank:r.findIndex(x=>x.p.provider_id===pid)+1,total:r.length});
+  }
+  if(!answers.length) continue;
+  const lead=answers[0];
+  const answer=lead
+    ? `As of ${lastChecked}, for ${lead.s.cpu} vCPU / ${lead.s.ram} GB at ${EG} TB egress with backups, ${pr.name} ${lead.self.p.plan} costs ${usd(lead.self.t.total)}/mo true cost (rank #${lead.rank} of ${lead.total}). ${lead.cheaper.length?`${lead.cheaper.length} verified alternative(s) are cheaper — lowest is ${lead.cheaper[0].p.provider} ${lead.cheaper[0].p.plan} at ${usd(lead.cheaper[0].t.total)}/mo.`:`No verified alternative in this dataset is cheaper on true monthly cost for this spec.`}`
+    : `${pr.name} has ${mine.length} verified plan(s) in the ledger as of ${lastChecked}.`;
+  const faq=[
+    [`What are cheaper ${pr.name} alternatives?`, answer],
+    ['Do you include fees?', `Yes — true monthly cost adds IPv4, backups and overage at ${EG} TB.`],
+    ['Last verified?', lastChecked],
+  ];
+  page({file,og:'compare',title:`${pr.name} alternatives (${lastChecked.slice(0,4)}) — cheaper VPS by true cost | ${NAME}`,desc:answer.slice(0,155),ld:[
+    ORG, crumbLd([{label:'Home',href:'/'},{label:'Guides',href:'/guides/'},{label:`${pr.name} alternatives`,href:'/'+file}]),
+    {'@context':'https://schema.org','@type':'FAQPage',mainEntity:faq.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))}
+  ],body:`
+${crumbs([{href:'/',label:'Home'},{href:'/guides/',label:'Guides'},{href:'/'+file,label:`${pr.name} alternatives`}])}
+<section class="hero"><div class="eyebrow">Alternatives · sourced</div><h1>${esc(pr.name)} alternatives (cheaper)</h1>
+<p class="lede"><b>Answer:</b> ${esc(answer)}</p></section>
+${keyStats([
+  [`${pr.name} plans tracked`, String(mine.length)],
+  ...(lead?[[`${pr.name} true / mo (${lead.s.cpu}/${lead.s.ram})`, usd(lead.self.t.total)],['Cheaper verified alts', String(lead.cheaper.length)]]:[]),
+  ['Last verified', lastChecked],
+  ['Source', pr.source],
+])}
+<h2>${esc(pr.name)} plans in the ledger</h2>
+<div class="tbl"><table><thead><tr><th>Plan</th><th class="n">vCPU</th><th class="n">RAM</th><th class="n">List</th><th class="n">True @${EG}TB</th><th>Source</th></tr></thead><tbody>
+${mine.map(p=>{const t=tco(p,EG,true,true);return `<tr><td>${esc(p.plan)}</td><td class="n">${p.vcpu}</td><td class="n">${p.ram_gb}</td><td class="n">${p.currency==='EUR'?'€':'$'}${p.price_mo?.toFixed(2)}</td><td class="n">${usd(t?.total)}</td><td class="src"><a href="${p.source}">source</a> · ${p.checked}</td></tr>`}).join('')}
+</tbody></table></div>
+<h2>Head-to-head by spec</h2>
+${answers.map(({s,self,cheaper,rank,total})=>{
+  const r=rankFor(s).slice(0,8);
+  return `<h3>${s.cpu} vCPU / ${s.ram} GB</h3><div class="tbl"><table><thead><tr><th>#</th><th>Provider</th><th>Plan</th><th class="n">True / mo</th><th class="n">vs ${esc(pr.name)} / yr</th></tr></thead><tbody>
+${r.map((x,i)=>`<tr${x.p.provider_id===pid?' style="font-weight:600"':''}><td class="n">${i+1}</td><td>${esc(x.p.provider)}</td><td>${esc(x.p.plan)}</td><td class="n">${usd(x.t.total)}</td><td class="n">${x.p.provider_id===pid?'—':yr(x.t.total-self.t.total)}</td></tr>`).join('')}
+</tbody></table></div><p class="note">${esc(pr.name)} rank #${rank} of ${total}; ${cheaper.length} cheaper verified alt(s).</p>`;
+}).join('')}
+<p><a class="btn ghost" href="/providers/${pid}.html">Full ${esc(pr.name)} page</a> <a class="btn ghost" href="/calculator.html">TCO calculator</a> <a class="btn ghost" href="/guides/${pid}-pricing.html">${esc(pr.name)} pricing</a></p>
+${o11yNote(`${pr.name} or alternative fleet`)}
+${mailBox('galt'+pid,`Watch ${pr.name} and cheaper alts`,'Send the weekly ledger')}
+${cite(`${pr.name} alternatives as of ${lastChecked}`)}
+`});
+  hub.push({file,title:`${pr.name} alternatives`,blurb:lead?`${pr.name} ${lead.self.p.plan} ${usd(lead.self.t.total)}/mo; ${lead.cheaper.length} cheaper verified alt(s)`:`${mine.length} ${pr.name} plans tracked`});
+}
+
+
 // Renewal / promo price pages
 const promoProviders=[...new Set(ver.filter(p=>p.promo_mo!=null).map(p=>p.provider_id))];
 for(const pid of promoProviders){
@@ -150,7 +207,7 @@ ${cite(`${pr.name} renewal vs intro as of ${lastChecked}`)}
 }
 
 // Provider pricing explainers for majors (answer-first wrappers around provider data)
-for(const pid of ['digitalocean','vultr','linode','ovhcloud','lightsail','hostinger']){
+for(const pid of ['digitalocean','vultr','linode','ovhcloud','lightsail','hostinger','hetzner','kamatera','upcloud','gcp','azure','contabo','scaleway','ionos','dreamhost']){
   const pr=P[pid]; if(!pr) continue;
   const ps=plans.filter(p=>p.provider_id===pid);
   const vps=ps.filter(p=>p.status==='verified'&&p.price_mo!=null);
@@ -181,7 +238,7 @@ ${keyStats([
 <div class="tbl"><table><thead><tr><th>Plan</th><th class="n">vCPU</th><th class="n">RAM</th><th class="n">List</th><th class="n">Intro</th><th class="n">True @${EG}TB</th><th>Status</th></tr></thead><tbody>
 ${vps.map(p=>{const t=tco(p,EG,true,true);return `<tr><td>${esc(p.plan)}</td><td class="n">${p.vcpu??'—'}</td><td class="n">${p.ram_gb??'—'}</td><td class="n">${p.currency==='EUR'?'€':'$'}${p.price_mo.toFixed(2)}</td><td class="n">${p.promo_mo?'$'+p.promo_mo.toFixed(2):'—'}</td><td class="n">${usd(t?.total)}</td><td>${tag(p.status)}</td></tr>`}).join('')}
 </tbody></table></div>
-<p><a class="btn" href="/providers/${pid}.html">Full ${esc(pr.name)} page</a> <a class="btn ghost" href="/calculator.html">TCO calculator</a></p>
+<p><a class="btn" href="/providers/${pid}.html">Full ${esc(pr.name)} page</a> <a class="btn ghost" href="/calculator.html">TCO calculator</a> <a class="btn ghost" href="/guides/${pid}-alternatives.html">${esc(pr.name)} alternatives</a></p>
 ${o11yNote(`${pr.name} VPS`)}
 ${mailBox('gp'+pid,`Watch ${pr.name} prices`,'Send the weekly ledger')}
 ${cite(`${pr.name} VPS pricing as of ${pr.checked}`)}

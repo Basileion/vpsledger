@@ -149,6 +149,17 @@ page({file:'offline.html',title:`Offline | ${NAME}`,desc:'Offline',body:`<sectio
 page({file:'404.html',title:`Not found | ${NAME}`,desc:'Not found',body:`<section class="hero"><h1>Page not found.</h1><a class="btn" href="/">Back to the ledger</a></section>`});
 const FLY=(await import('./flywheel.inc.mjs')).default({providers,plans,changes,P,page,W,SITE,NAME,esc,usd,yr,tco,ver,lastChecked,EG,SPECS,equiv,rankFor,mailBox,meth,asOf,FX,FX_EUR_USD,tag,aff});
 console.log('flywheel guides:',FLY.guideCount);
+{
+  const guideLines=(FLY.hub||[]).map(h=>`- [${h.title}](${SITE}/${h.file})`).join('\n');
+  const fullPath=path.join(D,'llms-full.txt');
+  let full=fs.readFileSync(fullPath,'utf8');
+  if(!full.includes('## Pricing guides')) full=full.replace('\n## Changes\n',`\n## Pricing guides\n${guideLines}\n\n## Changes\n`);
+  fs.writeFileSync(fullPath,full);
+  const briefPath=path.join(D,'llms.txt');
+  let brief=fs.readFileSync(briefPath,'utf8');
+  if(!brief.includes('## Pricing guides')) brief=brief.replace(`- [Guides hub](${SITE}/guides/)\n`,`- [Guides hub](${SITE}/guides/)\n\n## Pricing guides\n${guideLines}\n`);
+  fs.writeFileSync(briefPath,brief);
+}
 if(INDEXNOW_KEY)W(INDEXNOW_KEY+'.txt',INDEXNOW_KEY);
 const sm=urls.filter(u=>!['offline.html','404.html'].includes(u));
 W('sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${sm.map(u=>`<url><loc>${SITE}/${u}</loc><lastmod>${lastChecked}</lastmod></url>`).join('')}</urlset>`);

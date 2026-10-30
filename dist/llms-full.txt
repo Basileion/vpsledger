@@ -421,6 +421,29 @@
 - source: https://www.dreamhost.com/hosting/vps/ (2026-10-26)
 - notes: Promo $22.99 first 3 months; renews $34.99
 
+## Pricing guides
+- [Cheapest 4 GB VPS](https://vpsledger.pages.dev/guides/cheapest-4gb-vps.html)
+- [Cheapest 8 GB VPS](https://vpsledger.pages.dev/guides/cheapest-8gb-vps.html)
+- [Hetzner alternatives](https://vpsledger.pages.dev/guides/hetzner-alternatives.html)
+- [DigitalOcean alternatives](https://vpsledger.pages.dev/guides/digitalocean-alternatives.html)
+- [Vultr alternatives](https://vpsledger.pages.dev/guides/vultr-alternatives.html)
+- [Linode / Akamai alternatives](https://vpsledger.pages.dev/guides/linode-alternatives.html)
+- [AWS Lightsail alternatives](https://vpsledger.pages.dev/guides/lightsail-alternatives.html)
+- [Hostinger VPS alternatives](https://vpsledger.pages.dev/guides/hostinger-alternatives.html)
+- [OVHcloud alternatives](https://vpsledger.pages.dev/guides/ovhcloud-alternatives.html)
+- [Hostinger VPS renewal price](https://vpsledger.pages.dev/guides/hostinger-renewal-price.html)
+- [DreamHost renewal price](https://vpsledger.pages.dev/guides/dreamhost-renewal-price.html)
+- [DigitalOcean VPS pricing](https://vpsledger.pages.dev/guides/digitalocean-pricing.html)
+- [Vultr VPS pricing](https://vpsledger.pages.dev/guides/vultr-pricing.html)
+- [Linode / Akamai VPS pricing](https://vpsledger.pages.dev/guides/linode-pricing.html)
+- [OVHcloud VPS pricing](https://vpsledger.pages.dev/guides/ovhcloud-pricing.html)
+- [AWS Lightsail VPS pricing](https://vpsledger.pages.dev/guides/lightsail-pricing.html)
+- [Hostinger VPS VPS pricing](https://vpsledger.pages.dev/guides/hostinger-pricing.html)
+- [Hetzner VPS pricing](https://vpsledger.pages.dev/guides/hetzner-pricing.html)
+- [Kamatera VPS pricing](https://vpsledger.pages.dev/guides/kamatera-pricing.html)
+- [UpCloud VPS pricing](https://vpsledger.pages.dev/guides/upcloud-pricing.html)
+- [DreamHost VPS pricing](https://vpsledger.pages.dev/guides/dreamhost-pricing.html)
+
 ## Changes
 - 2026-10-26 Hetzner (availability): CX23 (€5.99/mo) shown as “not available” / currently unavailable in listed locations. [https://www.hetzner.com/cloud/cost-optimized]
 - 2026-10-26 Hostinger VPS (promo): KVM 1 promo $6.49/mo on 24-month term; renews at $11.99/mo. [https://www.hostinger.com/vps-hosting]
