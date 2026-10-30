@@ -12,7 +12,7 @@ const crumbs=(parts)=>`<nav class="crumbs" aria-label="Breadcrumb" style="font-s
 const crumbLd=(parts)=>({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:parts.map((p,i)=>({'@type':'ListItem',position:i+1,name:p.label,item:p.href.startsWith('http')?p.href:SITE+p.href}))});
 const keyStats=(items)=>`<div class="panel"><div class="eyebrow">Key stats</div><ul style="margin:10px 0 0;padding-left:18px">${items.map(([k,v])=>`<li><b>${esc(k)}:</b> ${esc(v)}</li>`).join('')}</ul><p class="note" style="margin-top:10px">Last verified ${lastChecked}. ${meth}.</p></div>`;
 const cite=(label)=>`<div class="panel"><h3 class="h3">Cite this</h3><p class="note">CC BY 4.0 — please attribute “${NAME}” with a link to ${SITE}/.</p><pre style="white-space:pre-wrap;font-size:12px">${esc(`Data: ${label}. Source: ${NAME} (${SITE}). License: CC BY 4.0.`)}</pre></div>`;
-const o11yNote=(topic)=>`<div class="panel" style="border-style:dashed"><div class="eyebrow">Related · observability cost</div><p class="mut">Monitoring your VPS fleet? See what observability costs on <a href="${O11Y}/guides/">O11y Watch pricing guides</a> or run the free <a href="${O11Y}/audit.html">$149 audit estimate</a> (${topic}).</p></div>`;
+const o11yNote=(topic)=>`<div class="panel" style="border-style:dashed"><div class="eyebrow">Related · observability cost</div><p class="mut">Monitoring your VPS fleet? See what observability costs on <a href="${O11Y}/guides/">O11y Watch pricing guides</a> or get a <a href="${O11Y}/audit">free savings estimate</a> (${topic}); the full ranked report is a separate, optional $149 unlock.</p></div>`;
 const hub=[];
 
 // Cheapest by RAM

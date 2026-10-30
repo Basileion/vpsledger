@@ -3,7 +3,7 @@
   "id": "digitalocean",
   "name": "DigitalOcean",
   "source": "https://www.digitalocean.com/pricing/droplets",
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "verified",
@@ -20,7 +20,7 @@
   "id": "vultr",
   "name": "Vultr",
   "source": "https://api.vultr.com/v2/plans?type=vc2",
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "unverified",
@@ -37,7 +37,7 @@
   "id": "linode",
   "name": "Linode / Akamai",
   "source": "https://api.linode.com/v4/linode/types",
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "unverified",
@@ -89,7 +89,7 @@
   "id": "scaleway",
   "name": "Scaleway",
   "source": "https://www.scaleway.com/en/pricing/virtual-instances/",
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "fees": {
    "ipv4": null,
    "ipv4_s": "unverified",
@@ -140,7 +140,7 @@
   "id": "hostinger",
   "name": "Hostinger VPS",
   "source": "https://www.hostinger.com/vps-hosting",
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "unverified",
@@ -157,7 +157,7 @@
   "id": "lightsail",
   "name": "AWS Lightsail",
   "source": "https://aws.amazon.com/lightsail/pricing/",
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "verified",
@@ -174,7 +174,7 @@
   "id": "gcp",
   "name": "Google Cloud e2",
   "source": "https://cloud.google.com/products/compute/pricing/general-purpose",
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "fees": {
    "ipv4": null,
    "ipv4_s": "unverified",
@@ -191,7 +191,7 @@
   "id": "azure",
   "name": "Azure B-series",
   "source": "https://prices.azure.com/api/retail/prices",
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "fees": {
    "ipv4": null,
    "ipv4_s": "unverified",
@@ -208,7 +208,7 @@
   "id": "kamatera",
   "name": "Kamatera",
   "source": "https://www.kamatera.com/pricing/",
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "unverified",
@@ -225,7 +225,7 @@
   "id": "ionos",
   "name": "IONOS",
   "source": "https://www.ionos.com/servers/vps",
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "verified",
@@ -242,7 +242,7 @@
   "id": "dreamhost",
   "name": "DreamHost",
   "source": "https://www.dreamhost.com/hosting/vps/",
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "unverified",

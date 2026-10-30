@@ -1,0 +1,67 @@
+{
+ "date": "2026-10-30",
+ "method": "Re-read every source page/API; compared with the snapshot taken when the row was verified and confirmed each listed price still appears. Rows are re-dated only when the page is unchanged or every listed price is still present.",
+ "sources": [
+  {
+   "url": "https://www.digitalocean.com/pricing/droplets",
+   "result": "unchanged"
+  },
+  {
+   "url": "https://api.vultr.com/v2/plans?type=vc2",
+   "result": "unchanged"
+  },
+  {
+   "url": "https://api.linode.com/v4/linode/types",
+   "result": "unchanged"
+  },
+  {
+   "url": "https://www.hetzner.com/cloud/cost-optimized",
+   "result": "unchanged"
+  },
+  {
+   "url": "https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US",
+   "result": "prices-confirmed"
+  },
+  {
+   "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+   "result": "unchanged"
+  },
+  {
+   "url": "https://upcloud.com/pricing/",
+   "result": "error",
+   "error": "HTTP 403"
+  },
+  {
+   "url": "https://contabo.com/en-us/vps/",
+   "result": "prices-confirmed"
+  },
+  {
+   "url": "https://www.hostinger.com/vps-hosting",
+   "result": "unchanged"
+  },
+  {
+   "url": "https://aws.amazon.com/lightsail/pricing/",
+   "result": "unchanged"
+  },
+  {
+   "url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+   "result": "unchanged"
+  },
+  {
+   "url": "https://prices.azure.com/api/retail/prices",
+   "result": "unchanged"
+  },
+  {
+   "url": "https://www.kamatera.com/pricing/",
+   "result": "unchanged"
+  },
+  {
+   "url": "https://www.ionos.com/servers/vps",
+   "result": "prices-confirmed"
+  },
+  {
+   "url": "https://www.dreamhost.com/hosting/vps/",
+   "result": "unchanged"
+  }
+ ]
+}

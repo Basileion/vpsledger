@@ -6,7 +6,7 @@
 ### DigitalOcean
 - id: digitalocean
 - source: https://www.digitalocean.com/pricing/droplets
-- checked: 2026-10-26
+- checked: 2026-10-30
 - ipv4: 0 (verified)
 - backup: 20% (verified)
 - overage: 0.01 (unverified)
@@ -14,7 +14,7 @@
 ### Vultr
 - id: vultr
 - source: https://api.vultr.com/v2/plans?type=vc2
-- checked: 2026-10-26
+- checked: 2026-10-30
 - ipv4: 0 (unverified)
 - backup: 20% (unverified)
 - overage: 0.01 (unverified)
@@ -22,7 +22,7 @@
 ### Linode / Akamai
 - id: linode
 - source: https://api.linode.com/v4/linode/types
-- checked: 2026-10-26
+- checked: 2026-10-30
 - ipv4: 0 (unverified)
 - backup: see plan% (verified)
 - overage: 0.005 (unverified)
@@ -46,7 +46,7 @@
 ### Scaleway
 - id: scaleway
 - source: https://www.scaleway.com/en/pricing/virtual-instances/
-- checked: 2026-10-26
+- checked: 2026-10-30
 - ipv4: not published (unverified)
 - backup: see plan% (unverified)
 - overage: 0 (unverified)
@@ -70,7 +70,7 @@
 ### Hostinger VPS
 - id: hostinger
 - source: https://www.hostinger.com/vps-hosting
-- checked: 2026-10-26
+- checked: 2026-10-30
 - ipv4: 0 (unverified)
 - backup: 0% (verified)
 - overage: 0 (unverified)
@@ -78,7 +78,7 @@
 ### AWS Lightsail
 - id: lightsail
 - source: https://aws.amazon.com/lightsail/pricing/
-- checked: 2026-10-26
+- checked: 2026-10-30
 - ipv4: 0 (verified)
 - backup: see plan% (unverified)
 - overage: 0.09 (verified)
@@ -86,7 +86,7 @@
 ### Google Cloud e2
 - id: gcp
 - source: https://cloud.google.com/products/compute/pricing/general-purpose
-- checked: 2026-10-26
+- checked: 2026-10-30
 - ipv4: not published (unverified)
 - backup: see plan% (unverified)
 - overage: not published (unverified)
@@ -94,7 +94,7 @@
 ### Azure B-series
 - id: azure
 - source: https://prices.azure.com/api/retail/prices
-- checked: 2026-10-26
+- checked: 2026-10-30
 - ipv4: not published (unverified)
 - backup: see plan% (unverified)
 - overage: not published (unverified)
@@ -102,7 +102,7 @@
 ### Kamatera
 - id: kamatera
 - source: https://www.kamatera.com/pricing/
-- checked: 2026-10-26
+- checked: 2026-10-30
 - ipv4: 0 (unverified)
 - backup: see plan% (unverified)
 - overage: 0.01 (verified)
@@ -110,7 +110,7 @@
 ### IONOS
 - id: ionos
 - source: https://www.ionos.com/servers/vps
-- checked: 2026-10-26
+- checked: 2026-10-30
 - ipv4: 0 (verified)
 - backup: see plan% (unverified)
 - overage: 0 (unverified)
@@ -118,7 +118,7 @@
 ### DreamHost
 - id: dreamhost
 - source: https://www.dreamhost.com/hosting/vps/
-- checked: 2026-10-26
+- checked: 2026-10-30
 - ipv4: 0 (unverified)
 - backup: see plan% (unverified)
 - overage: 0 (verified)
@@ -130,7 +130,7 @@
 - price_mo: 6 USD
 - promo_mo: none
 - status: verified
-- source: https://www.digitalocean.com/pricing/droplets (2026-10-26)
+- source: https://www.digitalocean.com/pricing/droplets (2026-10-30)
 - notes: Regular SSD Basic Droplet
 
 ### DigitalOcean Basic 512 MiB
@@ -139,7 +139,7 @@
 - price_mo: 4 USD
 - promo_mo: none
 - status: verified
-- source: https://www.digitalocean.com/pricing/droplets (2026-10-26)
+- source: https://www.digitalocean.com/pricing/droplets (2026-10-30)
 - notes: 
 
 ### DigitalOcean Basic 4 GB
@@ -148,7 +148,7 @@
 - price_mo: 24 USD
 - promo_mo: none
 - status: verified
-- source: https://www.digitalocean.com/pricing/droplets (2026-10-26)
+- source: https://www.digitalocean.com/pricing/droplets (2026-10-30)
 - notes: 
 
 ### Vultr vc2-1c-1gb
@@ -157,7 +157,7 @@
 - price_mo: 5 USD
 - promo_mo: none
 - status: verified
-- source: https://api.vultr.com/v2/plans?type=vc2 (2026-10-26)
+- source: https://api.vultr.com/v2/plans?type=vc2 (2026-10-30)
 - notes: Cloud Compute regular; official public API
 
 ### Vultr vc2-1c-0.5gb
@@ -166,7 +166,7 @@
 - price_mo: 3.5 USD
 - promo_mo: none
 - status: verified
-- source: https://api.vultr.com/v2/plans?type=vc2 (2026-10-26)
+- source: https://api.vultr.com/v2/plans?type=vc2 (2026-10-30)
 - notes: 
 
 ### Vultr vc2-2c-4gb
@@ -175,7 +175,7 @@
 - price_mo: 20 USD
 - promo_mo: none
 - status: verified
-- source: https://api.vultr.com/v2/plans?type=vc2 (2026-10-26)
+- source: https://api.vultr.com/v2/plans?type=vc2 (2026-10-30)
 - notes: 
 
 ### Linode / Akamai Nanode 1 GB
@@ -184,7 +184,7 @@
 - price_mo: 5 USD
 - promo_mo: none
 - status: verified
-- source: https://api.linode.com/v4/linode/types (2026-10-26)
+- source: https://api.linode.com/v4/linode/types (2026-10-30)
 - notes: Backups $2/mo (API)
 
 ### Linode / Akamai Linode 2 GB
@@ -193,7 +193,7 @@
 - price_mo: 12 USD
 - promo_mo: none
 - status: verified
-- source: https://api.linode.com/v4/linode/types (2026-10-26)
+- source: https://api.linode.com/v4/linode/types (2026-10-30)
 - notes: Backups $2.50/mo
 
 ### Linode / Akamai Linode 4 GB
@@ -202,7 +202,7 @@
 - price_mo: 24 USD
 - promo_mo: none
 - status: verified
-- source: https://api.linode.com/v4/linode/types (2026-10-26)
+- source: https://api.linode.com/v4/linode/types (2026-10-30)
 - notes: Backups $5/mo
 
 ### Hetzner CX23
@@ -256,7 +256,7 @@
 - price_mo: 6.55 EUR
 - promo_mo: none
 - status: unverified
-- source: https://www.scaleway.com/en/pricing/virtual-instances/ (2026-10-26)
+- source: https://www.scaleway.com/en/pricing/virtual-instances/ (2026-10-30)
 - notes: ~€/month from hourly €0.00898; specs not legible on page
 
 ### Scaleway DEV1-M
@@ -265,7 +265,7 @@
 - price_mo: 14.74 EUR
 - promo_mo: none
 - status: unverified
-- source: https://www.scaleway.com/en/pricing/virtual-instances/ (2026-10-26)
+- source: https://www.scaleway.com/en/pricing/virtual-instances/ (2026-10-30)
 - notes: ~€/month from hourly €0.0202; specs not legible on page
 
 ### UpCloud Developer 1 GB
@@ -292,7 +292,7 @@
 - price_mo: 5.5 EUR
 - promo_mo: none
 - status: unverified
-- source: https://contabo.com/en-us/vps/ (2026-10-26)
+- source: https://contabo.com/en-us/vps/ (2026-10-30)
 - notes: 4 vCPU / 8 GB confirmed; € price shown "for the first 24 months", VAT treatment ambiguous
 
 ### Hostinger VPS KVM 1
@@ -301,7 +301,7 @@
 - price_mo: 11.99 USD
 - promo_mo: 6.49
 - status: verified
-- source: https://www.hostinger.com/vps-hosting (2026-10-26)
+- source: https://www.hostinger.com/vps-hosting (2026-10-30)
 - notes: Promo $6.49/mo on 24-month prepay; renews $11.99
 
 ### Hostinger VPS KVM 2
@@ -310,7 +310,7 @@
 - price_mo: 14.99 USD
 - promo_mo: 8.79
 - status: verified
-- source: https://www.hostinger.com/vps-hosting (2026-10-26)
+- source: https://www.hostinger.com/vps-hosting (2026-10-30)
 - notes: Promo $8.79/mo on 24-month prepay; renews $14.99
 
 ### AWS Lightsail Linux 0.5 GB
@@ -319,7 +319,7 @@
 - price_mo: 5 USD
 - promo_mo: none
 - status: verified
-- source: https://aws.amazon.com/lightsail/pricing/ (2026-10-26)
+- source: https://aws.amazon.com/lightsail/pricing/ (2026-10-30)
 - notes: IPv4 bundle
 
 ### AWS Lightsail Linux 4 GB
@@ -328,7 +328,7 @@
 - price_mo: 24 USD
 - promo_mo: none
 - status: verified
-- source: https://aws.amazon.com/lightsail/pricing/ (2026-10-26)
+- source: https://aws.amazon.com/lightsail/pricing/ (2026-10-30)
 - notes: IPv4 bundle; 4 TB transfer
 
 ### Google Cloud e2 e2-standard-2
@@ -337,7 +337,7 @@
 - price_mo: 48.92 USD
 - promo_mo: none
 - status: verified
-- source: https://cloud.google.com/products/compute/pricing/general-purpose (2026-10-26)
+- source: https://cloud.google.com/products/compute/pricing/general-purpose (2026-10-30)
 - notes: On-demand $0.06701142/h × 730 h, page default region; disk, IPv4 and egress billed separately. Shared-core e2-small/medium rates not published in the table read.
 
 ### Google Cloud e2 e2-standard-4
@@ -346,7 +346,7 @@
 - price_mo: 97.84 USD
 - promo_mo: none
 - status: verified
-- source: https://cloud.google.com/products/compute/pricing/general-purpose (2026-10-26)
+- source: https://cloud.google.com/products/compute/pricing/general-purpose (2026-10-30)
 - notes: On-demand $0.13402284/h × 730 h; disk, IPv4 and egress extra.
 
 ### Azure B-series B1s (Linux, East US)
@@ -355,7 +355,7 @@
 - price_mo: 7.59 USD
 - promo_mo: none
 - status: verified
-- source: https://prices.azure.com/api/retail/prices (2026-10-26)
+- source: https://prices.azure.com/api/retail/prices (2026-10-30)
 - notes: $0.0104/h × 730 h, Retail Prices API; disk and IP extra
 
 ### Azure B-series B2s (Linux, East US)
@@ -364,7 +364,7 @@
 - price_mo: 30.37 USD
 - promo_mo: none
 - status: verified
-- source: https://prices.azure.com/api/retail/prices (2026-10-26)
+- source: https://prices.azure.com/api/retail/prices (2026-10-30)
 - notes: $0.0416/h × 730 h; disk and IP extra
 
 ### Kamatera Basic
@@ -373,7 +373,7 @@
 - price_mo: 4 USD
 - promo_mo: none
 - status: verified
-- source: https://www.kamatera.com/pricing/ (2026-10-26)
+- source: https://www.kamatera.com/pricing/ (2026-10-30)
 - notes: Type A
 
 ### Kamatera Standard
@@ -382,7 +382,7 @@
 - price_mo: 25 USD
 - promo_mo: none
 - status: unverified
-- source: https://www.kamatera.com/pricing/ (2026-10-26)
+- source: https://www.kamatera.com/pricing/ (2026-10-30)
 - notes: Storage/traffic not legible
 
 ### IONOS VPS S+
@@ -391,7 +391,7 @@
 - price_mo: null USD
 - promo_mo: none
 - status: unverified
-- source: https://www.ionos.com/servers/vps (2026-10-26)
+- source: https://www.ionos.com/servers/vps (2026-10-30)
 - notes: Term/promo display ambiguous; regular price not read
 
 ### IONOS VPS M+
@@ -400,7 +400,7 @@
 - price_mo: 5 USD
 - promo_mo: none
 - status: unverified
-- source: https://www.ionos.com/servers/vps (2026-10-26)
+- source: https://www.ionos.com/servers/vps (2026-10-30)
 - notes: $5/month shown with 1-year term; confirm
 
 ### DreamHost Stack 4
@@ -409,7 +409,7 @@
 - price_mo: 15.99 USD
 - promo_mo: 8.99
 - status: verified
-- source: https://www.dreamhost.com/hosting/vps/ (2026-10-26)
+- source: https://www.dreamhost.com/hosting/vps/ (2026-10-30)
 - notes: Promo $8.99 first 3 months; renews $15.99
 
 ### DreamHost Stack 16
@@ -418,38 +418,38 @@
 - price_mo: 34.99 USD
 - promo_mo: 22.99
 - status: verified
-- source: https://www.dreamhost.com/hosting/vps/ (2026-10-26)
+- source: https://www.dreamhost.com/hosting/vps/ (2026-10-30)
 - notes: Promo $22.99 first 3 months; renews $34.99
 
 ## Data study: VPS price per GB RAM / per vCPU
 Across 26 verified VPS plans from 12 providers (checked through 2026-10-30), list price per GB of RAM ranges from $1.21/GB/mo (OVHcloud VPS-3) to $10.00/GB/mo (AWS Lightsail Linux 0.5 GB) — 8.3× apart; the median is $5.00/GB. Per vCPU, OVHcloud VPS-3 is cheapest at $2.42/vCPU/mo vs a $6.75 median. Intro prices hide renewal jumps of up to +85% (Hostinger VPS KVM 1).
-- Page: https://vpsledger.pages.dev/study/vps-price-per-gb-ram.html
+- Page: https://vpsledger.pages.dev/study/vps-price-per-gb-ram
 - CSV: https://vpsledger.pages.dev/api/study-vps-price-per-gb.csv
 
 ## Pricing guides
-- [VPS price per GB RAM & per vCPU — data study](https://vpsledger.pages.dev/study/vps-price-per-gb-ram.html)
-- [Cheapest 4 GB VPS](https://vpsledger.pages.dev/guides/cheapest-4gb-vps.html)
-- [Cheapest 8 GB VPS](https://vpsledger.pages.dev/guides/cheapest-8gb-vps.html)
-- [Hetzner alternatives](https://vpsledger.pages.dev/guides/hetzner-alternatives.html)
-- [DigitalOcean alternatives](https://vpsledger.pages.dev/guides/digitalocean-alternatives.html)
-- [Vultr alternatives](https://vpsledger.pages.dev/guides/vultr-alternatives.html)
-- [Linode / Akamai alternatives](https://vpsledger.pages.dev/guides/linode-alternatives.html)
-- [AWS Lightsail alternatives](https://vpsledger.pages.dev/guides/lightsail-alternatives.html)
-- [Hostinger VPS alternatives](https://vpsledger.pages.dev/guides/hostinger-alternatives.html)
-- [OVHcloud alternatives](https://vpsledger.pages.dev/guides/ovhcloud-alternatives.html)
-- [OVHcloud renewal price](https://vpsledger.pages.dev/guides/ovhcloud-renewal-price.html)
-- [Hostinger VPS renewal price](https://vpsledger.pages.dev/guides/hostinger-renewal-price.html)
-- [DreamHost renewal price](https://vpsledger.pages.dev/guides/dreamhost-renewal-price.html)
-- [DigitalOcean VPS pricing](https://vpsledger.pages.dev/guides/digitalocean-pricing.html)
-- [Vultr VPS pricing](https://vpsledger.pages.dev/guides/vultr-pricing.html)
-- [Linode / Akamai VPS pricing](https://vpsledger.pages.dev/guides/linode-pricing.html)
-- [OVHcloud VPS pricing](https://vpsledger.pages.dev/guides/ovhcloud-pricing.html)
-- [AWS Lightsail VPS pricing](https://vpsledger.pages.dev/guides/lightsail-pricing.html)
-- [Hostinger VPS VPS pricing](https://vpsledger.pages.dev/guides/hostinger-pricing.html)
-- [Hetzner VPS pricing](https://vpsledger.pages.dev/guides/hetzner-pricing.html)
-- [Kamatera VPS pricing](https://vpsledger.pages.dev/guides/kamatera-pricing.html)
-- [UpCloud VPS pricing](https://vpsledger.pages.dev/guides/upcloud-pricing.html)
-- [DreamHost VPS pricing](https://vpsledger.pages.dev/guides/dreamhost-pricing.html)
+- [VPS price per GB RAM & per vCPU — data study](https://vpsledger.pages.dev/study/vps-price-per-gb-ram)
+- [Cheapest 4 GB VPS](https://vpsledger.pages.dev/guides/cheapest-4gb-vps)
+- [Cheapest 8 GB VPS](https://vpsledger.pages.dev/guides/cheapest-8gb-vps)
+- [Hetzner alternatives](https://vpsledger.pages.dev/guides/hetzner-alternatives)
+- [DigitalOcean alternatives](https://vpsledger.pages.dev/guides/digitalocean-alternatives)
+- [Vultr alternatives](https://vpsledger.pages.dev/guides/vultr-alternatives)
+- [Linode / Akamai alternatives](https://vpsledger.pages.dev/guides/linode-alternatives)
+- [AWS Lightsail alternatives](https://vpsledger.pages.dev/guides/lightsail-alternatives)
+- [Hostinger VPS alternatives](https://vpsledger.pages.dev/guides/hostinger-alternatives)
+- [OVHcloud alternatives](https://vpsledger.pages.dev/guides/ovhcloud-alternatives)
+- [OVHcloud renewal price](https://vpsledger.pages.dev/guides/ovhcloud-renewal-price)
+- [Hostinger VPS renewal price](https://vpsledger.pages.dev/guides/hostinger-renewal-price)
+- [DreamHost renewal price](https://vpsledger.pages.dev/guides/dreamhost-renewal-price)
+- [DigitalOcean VPS pricing](https://vpsledger.pages.dev/guides/digitalocean-pricing)
+- [Vultr VPS pricing](https://vpsledger.pages.dev/guides/vultr-pricing)
+- [Linode / Akamai VPS pricing](https://vpsledger.pages.dev/guides/linode-pricing)
+- [OVHcloud VPS pricing](https://vpsledger.pages.dev/guides/ovhcloud-pricing)
+- [AWS Lightsail VPS pricing](https://vpsledger.pages.dev/guides/lightsail-pricing)
+- [Hostinger VPS VPS pricing](https://vpsledger.pages.dev/guides/hostinger-pricing)
+- [Hetzner VPS pricing](https://vpsledger.pages.dev/guides/hetzner-pricing)
+- [Kamatera VPS pricing](https://vpsledger.pages.dev/guides/kamatera-pricing)
+- [UpCloud VPS pricing](https://vpsledger.pages.dev/guides/upcloud-pricing)
+- [DreamHost VPS pricing](https://vpsledger.pages.dev/guides/dreamhost-pricing)
 
 ## Changes
 - 2026-10-30 OVHcloud (correction): Corrected VPS-1/2/3 list prices to no-commitment monthly $5.35/$10.00/$14.50 (was 12-mo upfront $4.54/$8.50/$12.32 shown as monthly). 12-mo prepay kept as promo_mo. Source: OVH US public catalog API. [https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US]
