@@ -97,3 +97,19 @@ dl.sum{display:grid;grid-template-columns:max-content 1fr;gap:12px var(--s4);mar
 .ticks{list-style:none;padding:0;margin:0 0 var(--s4)}.ticks li{padding:8px 0 8px 26px;position:relative;color:var(--ink-2);border-top:1px solid var(--line)}.ticks li::before{content:"✓";position:absolute;left:4px;color:var(--pos);font-weight:700}
 .sticky-cta{display:none}@media(max-width:700px){.sticky-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:30;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);border-top:1px solid var(--line)}body{padding-bottom:72px}}
 .hero .alt li{grid-template-columns:1fr auto;gap:4px 12px}.hero .alt .badge-save{grid-column:1/-1;justify-self:start}.hero .big{font-size:var(--t-xl)}
+
+/* ---- design-standard v1 alignment (finance-grade) ---- */
+html{scroll-behavior:smooth}
+.plan.feat .ribbon{margin-bottom:var(--s3)}
+.ds-std-mark{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+/* Multi-column footer groups (footer.design pattern) */
+footer.ds-foot .wrap{grid-template-columns:2fr 1fr 1fr 1fr;gap:var(--s4)}
+footer.ds-foot .col h3{font:600 11px/1.4 var(--f-sans);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);margin:0 0 var(--s2)}
+footer.ds-foot .col nav{display:flex;flex-direction:column;gap:8px;justify-content:flex-start}
+footer.ds-foot .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:var(--s3);margin-top:var(--s2);font-size:12px}
+@media(max-width:800px){footer.ds-foot .wrap{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){footer.ds-foot .wrap{grid-template-columns:1fr}}
+/* Subtle motion on cards/buttons already uses --dur; reinforce reduced-motion */
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* Dormant A/B hook: when grow.js enables design-standard-v1, control can soft-fade accents */
+html[data-ab-design-standard-v1=control] .plan.feat{border-color:var(--line);box-shadow:var(--shadow)}
