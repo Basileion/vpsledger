@@ -3,22 +3,22 @@
 > True monthly VPS cost (base + IPv4 + backups + overage), 33 plans, 26 verified, 15 providers, checked 2026-10-26.
 
 ## Methodology
-Prices come only from each provider's own pricing page or official public API. Verified rows were hand-checked on the date shown. We never invent a price. EUR→USD uses ECB reference 1.1188 (2026-10-26). Details: http://localhost:4173/methodology.html
+Prices come only from each provider's own pricing page or official public API. Verified rows were hand-checked on the date shown. We never invent a price. EUR→USD uses ECB reference 1.1188 (2026-10-26). Details: https://vpsledger.pages.dev/methodology.html
 
-## Data (CC BY 4.0 — please attribute "VPSLedger" + link http://localhost:4173/)
-- [Plans JSON](http://localhost:4173/api/plans.json)
-- [Plans CSV](http://localhost:4173/api/plans.csv)
-- [Changes JSON](http://localhost:4173/api/changes.json)
-- [Changes CSV](http://localhost:4173/api/changes.csv)
-- [Stats](http://localhost:4173/api/stats.json)
-- [Full dump](http://localhost:4173/llms-full.txt)
+## Data (CC BY 4.0 — please attribute "VPSLedger" + link https://vpsledger.pages.dev/)
+- [Plans JSON](https://vpsledger.pages.dev/api/plans.json)
+- [Plans CSV](https://vpsledger.pages.dev/api/plans.csv)
+- [Changes JSON](https://vpsledger.pages.dev/api/changes.json)
+- [Changes CSV](https://vpsledger.pages.dev/api/changes.csv)
+- [Stats](https://vpsledger.pages.dev/api/stats.json)
+- [Full dump](https://vpsledger.pages.dev/llms-full.txt)
 
 ## Key pages
-- [Calculator](http://localhost:4173/calculator.html)
-- [Compare hub](http://localhost:4173/compare/)
-- [Guides hub](http://localhost:4173/guides/)
-- [Methodology](http://localhost:4173/methodology.html)
-- [Data](http://localhost:4173/data.html)
+- [Calculator](https://vpsledger.pages.dev/calculator.html)
+- [Compare hub](https://vpsledger.pages.dev/compare/)
+- [Guides hub](https://vpsledger.pages.dev/guides/)
+- [Methodology](https://vpsledger.pages.dev/methodology.html)
+- [Data](https://vpsledger.pages.dev/data.html)
 
 ## Cheapest verified at 1 TB egress
 - UpCloud Developer 1 GB: $3.50/mo (https://upcloud.com/pricing/, 2026-10-26)
