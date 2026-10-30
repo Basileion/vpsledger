@@ -421,7 +421,13 @@
 - source: https://www.dreamhost.com/hosting/vps/ (2026-10-26)
 - notes: Promo $22.99 first 3 months; renews $34.99
 
+## Data study: VPS price per GB RAM / per vCPU
+Across 26 verified VPS plans from 12 providers (checked through 2026-10-26), list price per GB of RAM ranges from $1.03/GB/mo (OVHcloud VPS-3) to $10.00/GB/mo (AWS Lightsail Linux 0.5 GB) — 9.7× apart; the median is $5.00/GB. Per vCPU, OVHcloud VPS-3 is cheapest at $2.05/vCPU/mo vs a $6.75 median. Intro prices hide renewal jumps of up to +85% (Hostinger VPS KVM 1).
+- Page: https://vpsledger.pages.dev/study/vps-price-per-gb-ram.html
+- CSV: https://vpsledger.pages.dev/api/study-vps-price-per-gb.csv
+
 ## Pricing guides
+- [VPS price per GB RAM & per vCPU — data study](https://vpsledger.pages.dev/study/vps-price-per-gb-ram.html)
 - [Cheapest 4 GB VPS](https://vpsledger.pages.dev/guides/cheapest-4gb-vps.html)
 - [Cheapest 8 GB VPS](https://vpsledger.pages.dev/guides/cheapest-8gb-vps.html)
 - [Hetzner alternatives](https://vpsledger.pages.dev/guides/hetzner-alternatives.html)

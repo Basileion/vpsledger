@@ -19,6 +19,7 @@ Prices come only from each provider's own pricing page or official public API. V
 - [Guides hub](https://vpsledger.pages.dev/guides/)
 
 ## Pricing guides
+- [VPS price per GB RAM & per vCPU — data study](https://vpsledger.pages.dev/study/vps-price-per-gb-ram.html)
 - [Cheapest 4 GB VPS](https://vpsledger.pages.dev/guides/cheapest-4gb-vps.html)
 - [Cheapest 8 GB VPS](https://vpsledger.pages.dev/guides/cheapest-8gb-vps.html)
 - [Hetzner alternatives](https://vpsledger.pages.dev/guides/hetzner-alternatives.html)

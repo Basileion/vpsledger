@@ -1,6 +1,7 @@
 // Programmatic SEO + GEO flywheel for VPSLedger. Cross-links O11y Watch where relevant.
 export default function flywheel(ctx){
-const {providers,plans,changes,P,page,W,SITE,NAME,esc,usd,yr,tco,ver,lastChecked,EG,SPECS,equiv,rankFor,mailBox,meth,asOf,FX,FX_EUR_USD,tag,aff}=ctx;
+const {STUDY,providers,plans,changes,P,page:page0,W,SITE,NAME,esc,usd,yr,tco,ver,lastChecked,EG,SPECS,equiv,rankFor,mailBox,meth,asOf,FX,FX_EUR_USD,tag,aff}=ctx;
+const page=o=>page0(STUDY&&o.file.startsWith('guides/')?{...o,body:o.body.replace('<section class="mail">',STUDY.callout+'<section class="mail">')}:o);
 const O11Y='https://o11y-watch.pages.dev';
 const ORG={
   '@context':'https://schema.org','@type':'Organization','@id':SITE+'/#org',
@@ -247,6 +248,7 @@ ${cite(`${pr.name} VPS pricing as of ${pr.checked}`)}
 }
 
 // Hub
+if(STUDY)hub.unshift({file:STUDY.file,title:STUDY.title,blurb:STUDY.blurb});
 page({file:'guides/index.html',og:'compare',title:`VPS pricing guides — cheapest plans, renewals, alternatives | ${NAME}`,desc:`${hub.length} sourced VPS guides: cheapest by RAM, renewal jumps, Hetzner alternatives and provider pricing explainers.`,ld:[
   ORG, crumbLd([{label:'Home',href:'/'},{label:'Guides',href:'/guides/'}]),
   {'@context':'https://schema.org','@type':'CollectionPage',name:'VPS pricing guides',url:SITE+'/guides/'}

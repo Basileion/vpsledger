@@ -57,6 +57,7 @@ const STATS={as_of:lastChecked,verified_plans:ver.length,egress_tb:EG,specs:spec
 const signup=(id='s',hook='Get the weekly VPS ledger')=>`<form class="signup" action="${FORM_ACTION}" method="post" data-form="kit"><label for="${id}-e" class="skip">Email</label><input id="${id}-e" type="email" name="email_address" required placeholder="you@company.com" autocomplete="email"><button class="btn" type="submit">${esc(hook)}</button></form><p class="note">Weekly: every price change our check found, intro prices about to renew, and the cheapest verified plan for 2 vCPU / 4 GB and 4 vCPU / 8 GB. Free; unsubscribe in one click.</p>`;
 const mailBox=(id,h,hook)=>`<section class="mail"><div><div class="eyebrow">Free weekly ledger</div><h2 class="h3">${esc(h)}</h2></div><div>${signup(id,hook)}</div></section>`;
 const trust=`<ul class="trust"><li><b>Source-linked</b> every price links the provider’s own page</li><li><b>Independent</b> no provider pays for placement</li><li><b>Checked weekly</b> a script diffs every source page</li><li><b>No paid rankings</b> ordered by computed cost only</li></ul>`;
+const STUDY=(await import('./study.inc.mjs')).default({plans,page,W,SITE,NAME,esc,lastChecked,FX_EUR_USD,FX,mailBox,meth,ORG:ORG_LD});
 // ---- Home
 const ranked=plans.map(p=>({p,t:tco(p,1,false)})).filter(x=>x.t&&x.p.status==='verified').sort((a,b)=>a.t.total-b.t.total);
 const planOpts=plans.filter(p=>p.price_mo!=null&&p.vcpu).map(p=>`<option value="${p.id}">${esc(p.provider)} · ${esc(p.plan)} (${p.vcpu} vCPU / ${p.ram_gb} GB)</option>`).join('');
@@ -68,6 +69,7 @@ ${trust}</section>
 
 <div class="kpis">${specStats.map(s=>`<div><b>${yr(s.gap)}</b><span>yearly gap, cheapest vs priciest ${s.cpu} vCPU / ${s.ram} GB (${s.n} plans, ${EG} TB)</span></div>`).join('')}<div><b>$${fees[0].fee.toFixed(2)}</b><span>largest monthly add-on over sticker (${esc(fees[0].p.provider)} ${esc(fees[0].p.plan)})</span></div><div><b>+${Math.round(promos[0].pct)}%</b><span>intro-to-renewal jump (${esc(promos[0].p.provider)} ${esc(promos[0].p.plan)})</span></div></div>
 <p class="note">${asOf} at ${EG} TB egress with backups; “equivalent” = 1–2× the vCPU and RAM. ${meth}.</p>
+${STUDY.callout}
 <section class="essential"><h2>Prices move quietly. We write it down.</h2><div class="grid3"><div><h3>Renewal jumps</h3><p>${promos.slice(0,2).map(x=>`${esc(x.p.provider)} ${esc(x.p.plan)} goes from $${x.p.promo_mo.toFixed(2)} to $${x.p.price_mo.toFixed(2)}/mo (+${Math.round(x.pct)}%)`).join('; ')}.</p></div><div><h3>Hidden fees</h3><p>Backups, IPv4 and overage are rarely on the plan card. On ${esc(fees[0].p.provider)} ${esc(fees[0].p.plan)} they add $${fees[0].fee.toFixed(2)}/mo (${yr(fees[0].fee)}/yr).</p></div><div><h3>Silent changes</h3><p>${changes.length} dated entries in the <a href="/changes.html">price log</a>, each linked to the page it came from. Subscribers get them weekly.</p></div></div></section>
 <h2>The ledger</h2><p class="mut">Monthly USD. “Add-ons” = IPv4 + backups + overage. Sorted by true monthly cost.</p>
 <div class="filters"><label>Monthly egress (TB)<input id="eg" type="number" min="0" step="0.5" value="1"></label><label class="chk"><input id="bk" type="checkbox" checked> Include backups</label><label class="chk"><input id="vo" type="checkbox"> Verified only</label><span id="count" class="note" style="margin-left:auto"></span></div>
@@ -147,13 +149,13 @@ const V='vl-'+Date.now().toString(36),pre=['/','/calculator.html','/compare/','/
 W('sw.js',`const V='${V}',PRE=${JSON.stringify(pre)};self.addEventListener('install',e=>e.waitUntil(caches.open(V).then(c=>c.addAll(PRE)).then(()=>self.skipWaiting())));self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET'||new URL(r.url).origin!==location.origin)return;e.respondWith(fetch(r).then(res=>{const c=res.clone();caches.open(V).then(x=>x.put(r,c));return res}).catch(()=>caches.match(r).then(m=>m||(r.mode==='navigate'?caches.match('/offline.html'):undefined))))});`);
 page({file:'offline.html',title:`Offline | ${NAME}`,desc:'Offline',body:`<section class="hero"><h1>You are offline.</h1><p class="lede">Pages you opened are still available.</p><a class="btn" href="/">Open the ledger</a></section>`});
 page({file:'404.html',title:`Not found | ${NAME}`,desc:'Not found',body:`<section class="hero"><h1>Page not found.</h1><a class="btn" href="/">Back to the ledger</a></section>`});
-const FLY=(await import('./flywheel.inc.mjs')).default({providers,plans,changes,P,page,W,SITE,NAME,esc,usd,yr,tco,ver,lastChecked,EG,SPECS,equiv,rankFor,mailBox,meth,asOf,FX,FX_EUR_USD,tag,aff});
+const FLY=(await import('./flywheel.inc.mjs')).default({STUDY,providers,plans,changes,P,page,W,SITE,NAME,esc,usd,yr,tco,ver,lastChecked,EG,SPECS,equiv,rankFor,mailBox,meth,asOf,FX,FX_EUR_USD,tag,aff});
 console.log('flywheel guides:',FLY.guideCount);
 {
   const guideLines=(FLY.hub||[]).map(h=>`- [${h.title}](${SITE}/${h.file})`).join('\n');
   const fullPath=path.join(D,'llms-full.txt');
   let full=fs.readFileSync(fullPath,'utf8');
-  if(!full.includes('## Pricing guides')) full=full.replace('\n## Changes\n',`\n## Pricing guides\n${guideLines}\n\n## Changes\n`);
+  if(!full.includes('## Pricing guides')) full=full.replace('\n## Changes\n',`\n## Data study: VPS price per GB RAM / per vCPU\n${STUDY.answer}\n- Page: ${SITE}/${STUDY.file}\n- CSV: ${SITE}/${STUDY.csvFile}\n\n## Pricing guides\n${guideLines}\n\n## Changes\n`);
   fs.writeFileSync(fullPath,full);
   const briefPath=path.join(D,'llms.txt');
   let brief=fs.readFileSync(briefPath,'utf8');
