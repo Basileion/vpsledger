@@ -1,6 +1,6 @@
 # VPSLedger — full ledger
 
-33 plans, 26 verified, 15 providers. Checked through 2026-10-26. FX: 1.1188 USD/EUR on 2026-10-26.
+33 plans, 26 verified, 15 providers. Checked through 2026-10-30. FX: 1.1188 USD/EUR on 2026-10-26.
 
 ## Providers
 ### DigitalOcean
@@ -30,7 +30,7 @@
 ### Hetzner
 - id: hetzner
 - source: https://www.hetzner.com/cloud/cost-optimized
-- checked: 2026-10-26
+- checked: 2026-10-30
 - ipv4: not published (unverified)
 - backup: 20% (unverified)
 - overage: 0.001 (verified)
@@ -38,7 +38,7 @@
 ### OVHcloud
 - id: ovhcloud
 - source: https://www.ovhcloud.com/en/vps/
-- checked: 2026-10-26
+- checked: 2026-10-30
 - ipv4: 0 (verified)
 - backup: 0% (verified)
 - overage: 0 (verified)
@@ -211,8 +211,8 @@
 - price_mo: 5.99 EUR
 - promo_mo: none
 - status: verified
-- source: https://www.hetzner.com/cloud/cost-optimized (2026-10-26)
-- notes: Excl. VAT; marked "not available" in some locations on check date
+- source: https://www.hetzner.com/cloud/cost-optimized (2026-10-30)
+- notes: Excl. VAT; CURRENTLY UNAVAILABLE on Hetzner cost-optimized page (checked 2026-10-30)
 
 ### Hetzner CX33
 - id: hetzner-cx33
@@ -220,35 +220,35 @@
 - price_mo: 8.99 EUR
 - promo_mo: none
 - status: verified
-- source: https://www.hetzner.com/cloud/cost-optimized (2026-10-26)
-- notes: Excl. VAT
+- source: https://www.hetzner.com/cloud/cost-optimized (2026-10-30)
+- notes: Excl. VAT; CURRENTLY UNAVAILABLE on Hetzner cost-optimized page (checked 2026-10-30)
 
 ### OVHcloud VPS-1
 - id: ovhcloud-vps-1
 - specs: 2 vCPU / 4 GB / 40 GB disk / ? TB
-- price_mo: 4.54 USD
-- promo_mo: none
+- price_mo: 5.35 USD
+- promo_mo: 4.54
 - status: verified
-- source: https://www.ovhcloud.com/en/vps/ (2026-10-26)
-- notes: "From" price; unlimited traffic, 500 Mbps
+- source: https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US (2026-10-30)
+- notes: No-commitment monthly (US catalog API); 12-mo prepay $4.54/mo. Unlimited traffic, 500 Mbps
 
 ### OVHcloud VPS-2
 - id: ovhcloud-vps-2
 - specs: 4 vCPU / 8 GB / 75 GB disk / ? TB
-- price_mo: 8.5 USD
-- promo_mo: none
+- price_mo: 10 USD
+- promo_mo: 8.5
 - status: verified
-- source: https://www.ovhcloud.com/en/vps/ (2026-10-26)
-- notes: "From" price; 1 Gbps
+- source: https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US (2026-10-30)
+- notes: No-commitment monthly (US catalog API); 12-mo prepay $8.50/mo. 1 Gbps
 
 ### OVHcloud VPS-3
 - id: ovhcloud-vps-3
 - specs: 6 vCPU / 12 GB / 100 GB disk / ? TB
-- price_mo: 12.32 USD
-- promo_mo: none
+- price_mo: 14.5 USD
+- promo_mo: 12.32
 - status: verified
-- source: https://www.ovhcloud.com/en/vps/ (2026-10-26)
-- notes: "From" price; 2 Gbps
+- source: https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US (2026-10-30)
+- notes: No-commitment monthly (US catalog API); 12-mo prepay $12.32/mo. 2 Gbps
 
 ### Scaleway DEV1-S
 - id: scaleway-dev1-s
@@ -422,7 +422,7 @@
 - notes: Promo $22.99 first 3 months; renews $34.99
 
 ## Data study: VPS price per GB RAM / per vCPU
-Across 26 verified VPS plans from 12 providers (checked through 2026-10-26), list price per GB of RAM ranges from $1.03/GB/mo (OVHcloud VPS-3) to $10.00/GB/mo (AWS Lightsail Linux 0.5 GB) — 9.7× apart; the median is $5.00/GB. Per vCPU, OVHcloud VPS-3 is cheapest at $2.05/vCPU/mo vs a $6.75 median. Intro prices hide renewal jumps of up to +85% (Hostinger VPS KVM 1).
+Across 26 verified VPS plans from 12 providers (checked through 2026-10-30), list price per GB of RAM ranges from $1.21/GB/mo (OVHcloud VPS-3) to $10.00/GB/mo (AWS Lightsail Linux 0.5 GB) — 8.3× apart; the median is $5.00/GB. Per vCPU, OVHcloud VPS-3 is cheapest at $2.42/vCPU/mo vs a $6.75 median. Intro prices hide renewal jumps of up to +85% (Hostinger VPS KVM 1).
 - Page: https://vpsledger.pages.dev/study/vps-price-per-gb-ram.html
 - CSV: https://vpsledger.pages.dev/api/study-vps-price-per-gb.csv
 
@@ -437,6 +437,7 @@ Across 26 verified VPS plans from 12 providers (checked through 2026-10-26), lis
 - [AWS Lightsail alternatives](https://vpsledger.pages.dev/guides/lightsail-alternatives.html)
 - [Hostinger VPS alternatives](https://vpsledger.pages.dev/guides/hostinger-alternatives.html)
 - [OVHcloud alternatives](https://vpsledger.pages.dev/guides/ovhcloud-alternatives.html)
+- [OVHcloud renewal price](https://vpsledger.pages.dev/guides/ovhcloud-renewal-price.html)
 - [Hostinger VPS renewal price](https://vpsledger.pages.dev/guides/hostinger-renewal-price.html)
 - [DreamHost renewal price](https://vpsledger.pages.dev/guides/dreamhost-renewal-price.html)
 - [DigitalOcean VPS pricing](https://vpsledger.pages.dev/guides/digitalocean-pricing.html)
@@ -451,6 +452,8 @@ Across 26 verified VPS plans from 12 providers (checked through 2026-10-26), lis
 - [DreamHost VPS pricing](https://vpsledger.pages.dev/guides/dreamhost-pricing.html)
 
 ## Changes
+- 2026-10-30 OVHcloud (correction): Corrected VPS-1/2/3 list prices to no-commitment monthly $5.35/$10.00/$14.50 (was 12-mo upfront $4.54/$8.50/$12.32 shown as monthly). 12-mo prepay kept as promo_mo. Source: OVH US public catalog API. [https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US]
+- 2026-10-30 Hetzner (availability): CX23 and CX33 re-confirmed currently unavailable on Hetzner cost-optimized / cloud pages (badge: Currently not available). [https://www.hetzner.com/cloud/cost-optimized]
 - 2026-10-26 Hetzner (availability): CX23 (€5.99/mo) shown as “not available” / currently unavailable in listed locations. [https://www.hetzner.com/cloud/cost-optimized]
 - 2026-10-26 Hostinger VPS (promo): KVM 1 promo $6.49/mo on 24-month term; renews at $11.99/mo. [https://www.hostinger.com/vps-hosting]
 - 2026-10-26 DreamHost (promo): Stack 4 $8.99/mo for first 3 months, then $15.99/mo. [https://www.dreamhost.com/hosting/vps/]

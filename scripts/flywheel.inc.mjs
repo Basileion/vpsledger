@@ -1,6 +1,6 @@
 // Programmatic SEO + GEO flywheel for VPSLedger. Cross-links O11y Watch where relevant.
 export default function flywheel(ctx){
-const {STUDY,providers,plans,changes,P,page:page0,W,SITE,NAME,esc,usd,yr,tco,ver,lastChecked,EG,SPECS,equiv,rankFor,mailBox,meth,asOf,FX,FX_EUR_USD,tag,aff}=ctx;
+const {STUDY,providers,plans,changes,P,page:page0,W,SITE,NAME,esc,usd,yr,tco,ver,verBuy=ver,unavail=()=>false,lastChecked,EG,SPECS,equiv,rankFor,mailBox,meth,asOf,FX,FX_EUR_USD,tag,aff}=ctx;
 const page=o=>page0(STUDY&&o.file.startsWith('guides/')?{...o,body:o.body.replace('<section class="mail">',STUDY.callout+'<section class="mail">')}:o);
 const O11Y='https://o11y-watch.pages.dev';
 const ORG={
@@ -17,11 +17,14 @@ const hub=[];
 
 // Cheapest by RAM
 for(const ram of [2,4,8]){
-  const rows=ver.filter(p=>p.ram_gb===ram).map(p=>({p,t:tco(p,EG,true,true)})).filter(x=>x.t).sort((a,b)=>a.t.total-b.t.total);
+  const rowsAll=ver.filter(p=>p.ram_gb===ram).map(p=>({p,t:tco(p,EG,true,true)})).filter(x=>x.t).sort((a,b)=>a.t.total-b.t.total);
+  const rows=rowsAll.filter(x=>!unavail(x.p));
   if(rows.length<2) continue;
   const best=rows[0], worst=rows.at(-1);
   const file=`guides/cheapest-${ram}gb-vps.html`;
-  const answer=`As of ${lastChecked}, among ${rows.length} verified ${ram} GB RAM plans at ${EG} TB egress with backups, the cheapest true monthly cost is ${best.p.provider} ${best.p.plan} at ${usd(best.t.total)}/mo. The priciest in this slice is ${worst.p.provider} ${worst.p.plan} at ${usd(worst.t.total)}/mo — a gap of ${yr(worst.t.total-best.t.total)}/yr.`;
+  const sold=rowsAll.filter(x=>unavail(x.p));
+  const soldNote=sold.length?` ${sold.map(x=>`${x.p.provider} ${x.p.plan} (${usd(x.t.total)}/mo)`).join(', ')} listed but currently unavailable to order.`: '';
+  const answer=`As of ${lastChecked}, among ${rows.length} orderable verified ${ram} GB RAM plans at ${EG} TB egress with backups, the cheapest true monthly cost is ${best.p.provider} ${best.p.plan} at ${usd(best.t.total)}/mo. The priciest in this slice is ${worst.p.provider} ${worst.p.plan} at ${usd(worst.t.total)}/mo — a gap of ${yr(worst.t.total-best.t.total)}/yr.${soldNote}`;
   const faq=[
     [`What is the cheapest ${ram} GB VPS?`, `${best.p.provider} ${best.p.plan} at ${usd(best.t.total)}/mo true cost (${EG} TB egress, backups on), checked ${best.p.checked}.`],
     ['What is “true monthly cost”?','List/renewal price + IPv4 + backups + bandwidth overage at the egress you choose. EUR converted at the ECB rate on the methodology page.'],
@@ -45,8 +48,9 @@ ${keyStats([
 <h2>Ranked ${ram} GB plans</h2>
 <div class="tbl"><table><thead><tr><th>#</th><th>Provider</th><th>Plan</th><th class="n">vCPU</th><th class="n">Disk</th><th class="n">Incl. TB</th><th class="n">List</th><th class="n">True / mo</th><th>Source</th></tr></thead><tbody>
 ${rows.map((x,i)=>`<tr><td class="n">${i+1}</td><td><a href="/providers/${x.p.provider_id}.html">${esc(x.p.provider)}</a></td><td>${esc(x.p.plan)}</td><td class="n">${x.p.vcpu??'—'}</td><td class="n">${x.p.disk_gb??'—'}</td><td class="n">${x.p.transfer_tb??'—'}</td><td class="n">${usd(x.t.base)}</td><td class="n">${usd(x.t.total)}</td><td class="src"><a href="${x.p.source}">source</a> · ${x.p.checked}</td></tr>`).join('')}
+${sold.map(x=>`<tr><td class="n">—</td><td><a href="/providers/${x.p.provider_id}.html">${esc(x.p.provider)}</a></td><td>${esc(x.p.plan)} <span class="tag u">Unavailable</span></td><td class="n">${x.p.vcpu??'—'}</td><td class="n">${x.p.disk_gb??'—'}</td><td class="n">${x.p.transfer_tb??'—'}</td><td class="n">${usd(x.t.base)}</td><td class="n">${usd(x.t.total)}</td><td class="src"><a href="${x.p.source}">source</a> · currently unavailable</td></tr>`).join('')}
 </tbody></table></div>
-<p class="note">${asOf}. ${meth}.</p>
+<p class="note">${asOf}. Ranked rows are orderable; unavailable plans are listed below the ranking but not counted as cheapest. ${meth}.</p>
 ${o11yNote(`${ram} GB fleet`)}
 ${mailBox('g'+ram,`Alert me when a cheaper ${ram} GB plan appears`,'Send the weekly ledger')}
 ${cite(`Cheapest ${ram} GB VPS ranking as of ${lastChecked}`)}
@@ -72,8 +76,8 @@ ${cite(`Cheapest ${ram} GB VPS ranking as of ${lastChecked}`)}
     }
     const lead=answers[0];
     const answer=lead
-      ? `As of ${lastChecked}, for ${lead.s.cpu} vCPU / ${lead.s.ram} GB at ${EG} TB egress with backups, Hetzner ${lead.h.p.plan} costs ${usd(lead.h.t.total)}/mo true cost (rank #${rankFor(lead.s).findIndex(x=>x.p.provider_id==='hetzner')+1} of ${rankFor(lead.s).length}). ${lead.cheaper.length?`${lead.cheaper.length} verified alternative(s) are cheaper — lowest is ${lead.cheaper[0].p.provider} ${lead.cheaper[0].p.plan} at ${usd(lead.cheaper[0].t.total)}/mo.`:`No verified alternative in this dataset is cheaper on true monthly cost.`}`
-      : `Hetzner has ${hPlans.length} verified plans in the ledger as of ${lastChecked}; compare true monthly cost against other providers below.`;
+      ? `As of ${lastChecked}, for ${lead.s.cpu} vCPU / ${lead.s.ram} GB at ${EG} TB egress with backups, Hetzner ${lead.h.p.plan} costs ${usd(lead.h.t.total)}/mo true cost${unavail(lead.h.p)?' but is currently unavailable to order':''}. ${lead.cheaper.length?`${lead.cheaper.filter(x=>!unavail(x.p)).length} orderable verified alternative(s) are cheaper — lowest is ${(lead.cheaper.find(x=>!unavail(x.p))||lead.cheaper[0]).p.provider} ${(lead.cheaper.find(x=>!unavail(x.p))||lead.cheaper[0]).p.plan} at ${usd((lead.cheaper.find(x=>!unavail(x.p))||lead.cheaper[0]).t.total)}/mo.`:`No verified alternative in this dataset is cheaper on true monthly cost.`}`
+      : `Hetzner has ${hPlans.length} verified plans in the ledger as of ${lastChecked}; CX23/CX33 are currently unavailable to order — compare true monthly cost against other providers below.`;
     const faq=[
       ['What are the best Hetzner alternatives?', answer],
       ['Do you include fees?', `Yes — true monthly cost adds IPv4, backups and overage at ${EG} TB. ${meth.replace(/<[^>]+>/g,'')}`],
@@ -94,7 +98,7 @@ ${keyStats([
 ])}
 <h2>Hetzner plans in the ledger</h2>
 <div class="tbl"><table><thead><tr><th>Plan</th><th class="n">vCPU</th><th class="n">RAM</th><th class="n">List</th><th class="n">True @${EG}TB</th><th>Source</th></tr></thead><tbody>
-${hPlans.map(p=>{const t=tco(p,EG,true,true);return `<tr><td>${esc(p.plan)}</td><td class="n">${p.vcpu}</td><td class="n">${p.ram_gb}</td><td class="n">${p.currency==='EUR'?'€':'$'}${p.price_mo?.toFixed(2)}</td><td class="n">${usd(t?.total)}</td><td class="src"><a href="${p.source}">source</a> · ${p.checked}</td></tr>`}).join('')}
+${hPlans.map(p=>{const t=tco(p,EG,true,true);return `<tr><td>${esc(p.plan)}${unavail(p)?' <span class="tag u">Unavailable</span>':''}</td><td class="n">${p.vcpu}</td><td class="n">${p.ram_gb}</td><td class="n">${p.currency==='EUR'?'€':'$'}${p.price_mo?.toFixed(2)}</td><td class="n">${usd(t?.total)}</td><td class="src"><a href="${p.source}">source</a> · ${unavail(p)?'currently unavailable · ':''}${p.checked}</td></tr>`}).join('')}
 </tbody></table></div>
 <h2>Head-to-head by spec</h2>
 ${answers.map(({s,h,cheaper})=>{

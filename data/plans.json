@@ -186,8 +186,8 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://www.hetzner.com/cloud/cost-optimized",
-  "checked": "2026-10-26",
-  "notes": "Excl. VAT; marked \"not available\" in some locations on check date"
+  "checked": "2026-10-30",
+  "notes": "Excl. VAT; CURRENTLY UNAVAILABLE on Hetzner cost-optimized page (checked 2026-10-30)"
  },
  {
   "id": "hetzner-cx33",
@@ -205,8 +205,8 @@
   "tier": "mid",
   "status": "verified",
   "source": "https://www.hetzner.com/cloud/cost-optimized",
-  "checked": "2026-10-26",
-  "notes": "Excl. VAT"
+  "checked": "2026-10-30",
+  "notes": "Excl. VAT; CURRENTLY UNAVAILABLE on Hetzner cost-optimized page (checked 2026-10-30)"
  },
  {
   "id": "ovhcloud-vps-1",
@@ -217,15 +217,15 @@
   "ram_gb": 4,
   "disk_gb": 40,
   "transfer_tb": null,
-  "price_mo": 4.54,
+  "price_mo": 5.35,
   "currency": "USD",
-  "promo_mo": null,
+  "promo_mo": 4.54,
   "backup_mo": null,
   "tier": "entry",
   "status": "verified",
-  "source": "https://www.ovhcloud.com/en/vps/",
-  "checked": "2026-10-26",
-  "notes": "\"From\" price; unlimited traffic, 500 Mbps"
+  "source": "https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US",
+  "checked": "2026-10-30",
+  "notes": "No-commitment monthly (US catalog API); 12-mo prepay $4.54/mo. Unlimited traffic, 500 Mbps"
  },
  {
   "id": "ovhcloud-vps-2",
@@ -236,15 +236,15 @@
   "ram_gb": 8,
   "disk_gb": 75,
   "transfer_tb": null,
-  "price_mo": 8.5,
+  "price_mo": 10.0,
   "currency": "USD",
-  "promo_mo": null,
+  "promo_mo": 8.5,
   "backup_mo": null,
   "tier": "mid",
   "status": "verified",
-  "source": "https://www.ovhcloud.com/en/vps/",
-  "checked": "2026-10-26",
-  "notes": "\"From\" price; 1 Gbps"
+  "source": "https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US",
+  "checked": "2026-10-30",
+  "notes": "No-commitment monthly (US catalog API); 12-mo prepay $8.50/mo. 1 Gbps"
  },
  {
   "id": "ovhcloud-vps-3",
@@ -255,15 +255,15 @@
   "ram_gb": 12,
   "disk_gb": 100,
   "transfer_tb": null,
-  "price_mo": 12.32,
+  "price_mo": 14.5,
   "currency": "USD",
-  "promo_mo": null,
+  "promo_mo": 12.32,
   "backup_mo": null,
   "tier": "mid",
   "status": "verified",
-  "source": "https://www.ovhcloud.com/en/vps/",
-  "checked": "2026-10-26",
-  "notes": "\"From\" price; 2 Gbps"
+  "source": "https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US",
+  "checked": "2026-10-30",
+  "notes": "No-commitment monthly (US catalog API); 12-mo prepay $12.32/mo. 2 Gbps"
  },
  {
   "id": "scaleway-dev1-s",
@@ -282,7 +282,7 @@
   "status": "unverified",
   "source": "https://www.scaleway.com/en/pricing/virtual-instances/",
   "checked": "2026-10-26",
-  "notes": "~€/month from hourly €0.00898; specs not legible on page"
+  "notes": "~\u20ac/month from hourly \u20ac0.00898; specs not legible on page"
  },
  {
   "id": "scaleway-dev1-m",
@@ -301,7 +301,7 @@
   "status": "unverified",
   "source": "https://www.scaleway.com/en/pricing/virtual-instances/",
   "checked": "2026-10-26",
-  "notes": "~€/month from hourly €0.0202; specs not legible on page"
+  "notes": "~\u20ac/month from hourly \u20ac0.0202; specs not legible on page"
  },
  {
   "id": "upcloud-developer-1-gb",
@@ -358,7 +358,7 @@
   "status": "unverified",
   "source": "https://contabo.com/en-us/vps/",
   "checked": "2026-10-26",
-  "notes": "4 vCPU / 8 GB confirmed; € price shown \"for the first 24 months\", VAT treatment ambiguous"
+  "notes": "4 vCPU / 8 GB confirmed; \u20ac price shown \"for the first 24 months\", VAT treatment ambiguous"
  },
  {
   "id": "hostinger-kvm-1",
@@ -453,7 +453,7 @@
   "status": "verified",
   "source": "https://cloud.google.com/products/compute/pricing/general-purpose",
   "checked": "2026-10-26",
-  "notes": "On-demand $0.06701142/h × 730 h, page default region; disk, IPv4 and egress billed separately. Shared-core e2-small/medium rates not published in the table read."
+  "notes": "On-demand $0.06701142/h \u00d7 730 h, page default region; disk, IPv4 and egress billed separately. Shared-core e2-small/medium rates not published in the table read."
  },
  {
   "id": "gcp-e2-standard-4",
@@ -472,7 +472,7 @@
   "status": "verified",
   "source": "https://cloud.google.com/products/compute/pricing/general-purpose",
   "checked": "2026-10-26",
-  "notes": "On-demand $0.13402284/h × 730 h; disk, IPv4 and egress extra."
+  "notes": "On-demand $0.13402284/h \u00d7 730 h; disk, IPv4 and egress extra."
  },
  {
   "id": "azure-b1s-linux-east-us",
@@ -491,7 +491,7 @@
   "status": "verified",
   "source": "https://prices.azure.com/api/retail/prices",
   "checked": "2026-10-26",
-  "notes": "$0.0104/h × 730 h, Retail Prices API; disk and IP extra"
+  "notes": "$0.0104/h \u00d7 730 h, Retail Prices API; disk and IP extra"
  },
  {
   "id": "azure-b2s-linux-east-us",
@@ -510,7 +510,7 @@
   "status": "verified",
   "source": "https://prices.azure.com/api/retail/prices",
   "checked": "2026-10-26",
-  "notes": "$0.0416/h × 730 h; disk and IP extra"
+  "notes": "$0.0416/h \u00d7 730 h; disk and IP extra"
  },
  {
   "id": "kamatera-basic",

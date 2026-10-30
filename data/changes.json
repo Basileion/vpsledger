@@ -12,7 +12,7 @@
   "observed": "2026-10-26",
   "provider": "Hetzner",
   "kind": "availability",
-  "summary": "CX23 (€5.99/mo) shown as “not available” / currently unavailable in listed locations.",
+  "summary": "CX23 (\u20ac5.99/mo) shown as \u201cnot available\u201d / currently unavailable in listed locations.",
   "source": "https://www.hetzner.com/cloud/cost-optimized"
  },
  {
@@ -38,7 +38,7 @@
   "observed": "2026-10-26",
   "provider": "OVHcloud",
   "kind": "lineup",
-  "summary": "“VPS 2027” range listed, VPS-1 from $4.54/mo (2 vCore, 4 GB).",
+  "summary": "\u201cVPS 2027\u201d range listed, VPS-1 from $4.54/mo (2 vCore, 4 GB).",
   "source": "https://www.ovhcloud.com/en/vps/"
  },
  {
@@ -46,7 +46,7 @@
   "observed": "2026-10-26",
   "provider": "Linode / Akamai",
   "kind": "transfer",
-  "summary": "G8 and GPU plans do not include bundled transfer; older plans include 0–20 TB.",
+  "summary": "G8 and GPU plans do not include bundled transfer; older plans include 0\u201320 TB.",
   "source": "https://www.linode.com/pricing/"
  },
  {
@@ -66,5 +66,23 @@
   "summary": "Stack 16 $22.99/mo for first 3 months, then $34.99/mo.",
   "source": "https://www.dreamhost.com/hosting/vps/",
   "plan_id": "dreamhost-stack-16"
+ },
+ {
+  "date": "2026-10-30",
+  "observed": "2026-10-30",
+  "provider": "OVHcloud",
+  "kind": "correction",
+  "plan_id": "ovhcloud-vps-1",
+  "summary": "Corrected VPS-1/2/3 list prices to no-commitment monthly $5.35/$10.00/$14.50 (was 12-mo upfront $4.54/$8.50/$12.32 shown as monthly). 12-mo prepay kept as promo_mo. Source: OVH US public catalog API.",
+  "source": "https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US"
+ },
+ {
+  "date": "2026-10-30",
+  "observed": "2026-10-30",
+  "provider": "Hetzner",
+  "kind": "availability",
+  "plan_id": "hetzner-cx23",
+  "summary": "CX23 and CX33 re-confirmed currently unavailable on Hetzner cost-optimized / cloud pages (badge: Currently not available).",
+  "source": "https://www.hetzner.com/cloud/cost-optimized"
  }
 ]

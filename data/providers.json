@@ -54,7 +54,7 @@
   "id": "hetzner",
   "name": "Hetzner",
   "source": "https://www.hetzner.com/cloud/cost-optimized",
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "fees": {
    "ipv4": null,
    "ipv4_s": "unverified",
@@ -65,14 +65,14 @@
    "overage": 0.001,
    "cur": "EUR",
    "overage_s": "verified",
-   "overage_n": "€1.00 per additional TB beyond 20 TB (EU)"
+   "overage_n": "\u20ac1.00 per additional TB beyond 20 TB (EU)"
   }
  },
  {
   "id": "ovhcloud",
   "name": "OVHcloud",
   "source": "https://www.ovhcloud.com/en/vps/",
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "verified",
@@ -130,7 +130,7 @@
    "ipv4_n": "IPv4 included",
    "backup_pct": null,
    "backup_s": "unverified",
-   "backup_n": "Snapshots included (1–3); auto backup add-on",
+   "backup_n": "Snapshots included (1\u20133); auto backup add-on",
    "overage": 0,
    "overage_s": "unverified",
    "overage_n": "Unlimited traffic at port speed"
@@ -184,7 +184,7 @@
    "backup_n": "Snapshots billed per GB",
    "overage": null,
    "overage_s": "unverified",
-   "overage_n": "Internet egress billed per GB (tiered); not in this ledger — totals exclude GCP egress"
+   "overage_n": "Internet egress billed per GB (tiered); not in this ledger \u2014 totals exclude GCP egress"
   }
  },
  {

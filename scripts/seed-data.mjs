@@ -28,11 +28,11 @@ const R=[
 ['linode','Nanode 1 GB',1,1,25,1,5,'USD','verified','entry','Backups $2/mo (API)',null,2],
 ['linode','Linode 2 GB',1,2,50,2,12,'USD','verified','entry','Backups $2.50/mo',null,2.5],
 ['linode','Linode 4 GB',2,4,80,4,24,'USD','verified','mid','Backups $5/mo',null,5],
-['hetzner','CX23',2,4,40,20,5.99,'EUR','verified','entry','Excl. VAT; marked "not available" in some locations on check date'],
-['hetzner','CX33',4,8,80,20,8.99,'EUR','verified','mid','Excl. VAT'],
-['ovhcloud','VPS-1',2,4,40,null,4.54,'USD','verified','entry','"From" price; unlimited traffic, 500 Mbps'],
-['ovhcloud','VPS-2',4,8,75,null,8.50,'USD','verified','mid','"From" price; 1 Gbps'],
-['ovhcloud','VPS-3',6,12,100,null,12.32,'USD','verified','mid','"From" price; 2 Gbps'],
+['hetzner','CX23',2,4,40,20,5.99,'EUR','verified','entry','Excl. VAT; CURRENTLY UNAVAILABLE on Hetzner cost-optimized page (checked 2026-10-30)'],
+['hetzner','CX33',4,8,80,20,8.99,'EUR','verified','mid','Excl. VAT; CURRENTLY UNAVAILABLE on Hetzner cost-optimized page (checked 2026-10-30)'],
+['ovhcloud','VPS-1',2,4,40,null,5.35,'USD','verified','entry','No-commitment monthly (US catalog API); 12-mo prepay $4.54/mo. Unlimited traffic, 500 Mbps',4.54],
+['ovhcloud','VPS-2',4,8,75,null,10.00,'USD','verified','mid','No-commitment monthly (US catalog API); 12-mo prepay $8.50/mo. 1 Gbps',8.50],
+['ovhcloud','VPS-3',6,12,100,null,14.50,'USD','verified','mid','No-commitment monthly (US catalog API); 12-mo prepay $12.32/mo. 2 Gbps',12.32],
 ['scaleway','DEV1-S',2,2,20,null,6.55,'EUR','unverified','entry','~€/month from hourly €0.00898; specs not legible on page'],
 ['scaleway','DEV1-M',3,4,40,null,14.74,'EUR','unverified','mid','~€/month from hourly €0.0202; specs not legible on page'],
 ['upcloud','Developer 1 GB',1,1,10,null,3.5,'USD','verified','entry','Starter plan, max 5 deployments'],
@@ -61,7 +61,7 @@ const changes=[
 {date:C,observed:C,provider:'Hetzner',kind:'availability',summary:'CX23 (€5.99/mo) shown as “not available” / currently unavailable in listed locations.',source:'https://www.hetzner.com/cloud/cost-optimized'},
 {date:C,observed:C,provider:'Hostinger VPS',kind:'promo',summary:'KVM 1 promo $6.49/mo on 24-month term; renews at $11.99/mo.',source:'https://www.hostinger.com/vps-hosting'},
 {date:C,observed:C,provider:'DreamHost',kind:'promo',summary:'Stack 4 $8.99/mo for first 3 months, then $15.99/mo.',source:'https://www.dreamhost.com/hosting/vps/'},
-{date:C,observed:C,provider:'OVHcloud',kind:'lineup',summary:'“VPS 2027” range listed, VPS-1 from $4.54/mo (2 vCore, 4 GB).',source:'https://www.ovhcloud.com/en/vps/'},
+{date:C,observed:C,provider:'OVHcloud',kind:'lineup',summary:'“VPS 2027” range listed; marketing From=$4.54 is 12-mo prepay; no-commitment monthly $5.35 (VPS-1).',source:'https://www.ovhcloud.com/en/vps/'},
 {date:C,observed:C,provider:'Linode / Akamai',kind:'transfer',summary:'G8 and GPU plans do not include bundled transfer; older plans include 0–20 TB.',source:'https://www.linode.com/pricing/'}];
 fs.mkdirSync('data',{recursive:true});for(const [f,v] of [['providers',P],['plans',plans],['changes',changes]])fs.writeFileSync(`data/${f}.json`,JSON.stringify(v,null,1));
 console.log(P.length,'providers',plans.length,'plans',plans.filter(p=>p.status==='verified').length,'verified');

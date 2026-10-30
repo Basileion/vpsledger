@@ -1,9 +1,9 @@
 rank_usd_per_gb_ram,id,provider,plan,vcpu,ram_gb,disk_gb,currency,price_mo_local,intro_mo_usd,renewal_mo_usd,usd_per_gb_ram,usd_per_vcpu,usd_per_gb_disk,intro_to_renewal_pct,source,checked,license,attribution
-1,ovhcloud-vps-3,OVHcloud,VPS-3,6,12,100,USD,12.32,,12.32,1.027,2.053,0.123,,https://www.ovhcloud.com/en/vps/,2026-10-26,CC-BY-4.0,https://vpsledger.pages.dev/study/vps-price-per-gb-ram
-2,ovhcloud-vps-2,OVHcloud,VPS-2,4,8,75,USD,8.5,,8.50,1.063,2.125,0.113,,https://www.ovhcloud.com/en/vps/,2026-10-26,CC-BY-4.0,https://vpsledger.pages.dev/study/vps-price-per-gb-ram
-3,ovhcloud-vps-1,OVHcloud,VPS-1,2,4,40,USD,4.54,,4.54,1.135,2.270,0.114,,https://www.ovhcloud.com/en/vps/,2026-10-26,CC-BY-4.0,https://vpsledger.pages.dev/study/vps-price-per-gb-ram
-4,hetzner-cx33,Hetzner,CX33,4,8,80,EUR,8.99,,10.06,1.257,2.515,0.126,,https://www.hetzner.com/cloud/cost-optimized,2026-10-26,CC-BY-4.0,https://vpsledger.pages.dev/study/vps-price-per-gb-ram
-5,hetzner-cx23,Hetzner,CX23,2,4,40,EUR,5.99,,6.70,1.675,3.351,0.168,,https://www.hetzner.com/cloud/cost-optimized,2026-10-26,CC-BY-4.0,https://vpsledger.pages.dev/study/vps-price-per-gb-ram
+1,ovhcloud-vps-3,OVHcloud,VPS-3,6,12,100,USD,14.5,12.32,14.50,1.208,2.417,0.145,17.7,https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US,2026-10-30,CC-BY-4.0,https://vpsledger.pages.dev/study/vps-price-per-gb-ram
+2,ovhcloud-vps-2,OVHcloud,VPS-2,4,8,75,USD,10,8.50,10.00,1.250,2.500,0.133,17.6,https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US,2026-10-30,CC-BY-4.0,https://vpsledger.pages.dev/study/vps-price-per-gb-ram
+3,hetzner-cx33,Hetzner,CX33,4,8,80,EUR,8.99,,10.06,1.257,2.515,0.126,,https://www.hetzner.com/cloud/cost-optimized,2026-10-30,CC-BY-4.0,https://vpsledger.pages.dev/study/vps-price-per-gb-ram
+4,ovhcloud-vps-1,OVHcloud,VPS-1,2,4,40,USD,5.35,4.54,5.35,1.337,2.675,0.134,17.8,https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US,2026-10-30,CC-BY-4.0,https://vpsledger.pages.dev/study/vps-price-per-gb-ram
+5,hetzner-cx23,Hetzner,CX23,2,4,40,EUR,5.99,,6.70,1.675,3.351,0.168,,https://www.hetzner.com/cloud/cost-optimized,2026-10-30,CC-BY-4.0,https://vpsledger.pages.dev/study/vps-price-per-gb-ram
 6,hostinger-kvm-2,Hostinger VPS,KVM 2,2,8,100,USD,14.99,8.79,14.99,1.874,7.495,0.150,70.5,https://www.hostinger.com/vps-hosting,2026-10-26,CC-BY-4.0,https://vpsledger.pages.dev/study/vps-price-per-gb-ram
 7,dreamhost-stack-16,DreamHost,Stack 16,4,16,250,USD,34.99,22.99,34.99,2.187,8.748,0.140,52.2,https://www.dreamhost.com/hosting/vps/,2026-10-26,CC-BY-4.0,https://vpsledger.pages.dev/study/vps-price-per-gb-ram
 8,hostinger-kvm-1,Hostinger VPS,KVM 1,1,4,50,USD,11.99,6.49,11.99,2.998,11.990,0.240,84.7,https://www.hostinger.com/vps-hosting,2026-10-26,CC-BY-4.0,https://vpsledger.pages.dev/study/vps-price-per-gb-ram
