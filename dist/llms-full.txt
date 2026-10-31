@@ -472,6 +472,7 @@ Across 28 verified VPS plans from 12 providers (checked through 2026-10-31), lis
 - CSV: https://vpsledger.pages.dev/api/study-vps-price-per-gb.csv
 
 ## Pricing guides
+- [Black Friday VPS deals 2026: the renewal math](https://vpsledger.pages.dev/guides/black-friday-vps-deals-2026)
 - [VPS price per GB RAM & per vCPU — data study](https://vpsledger.pages.dev/study/vps-price-per-gb-ram)
 - [Cheapest 4 GB VPS](https://vpsledger.pages.dev/guides/cheapest-4gb-vps)
 - [Cheapest 8 GB VPS](https://vpsledger.pages.dev/guides/cheapest-8gb-vps)
@@ -511,3 +512,22 @@ Across 28 verified VPS plans from 12 providers (checked through 2026-10-31), lis
 - 2026-10-26 Hostinger VPS (promo): KVM 2 promo $8.79/mo on 24-month term; renews at $14.99/mo. [https://www.hostinger.com/vps-hosting]
 - 2026-10-26 DreamHost (promo): Stack 16 $22.99/mo for first 3 months, then $34.99/mo. [https://www.dreamhost.com/hosting/vps/]
 - 2026-01-01 DigitalOcean (billing): Droplets move to per-second billing (minimum 60 s or $0.01). [https://www.digitalocean.com/pricing/droplets]
+
+
+## Black Friday VPS deals 2026: renewal math (checked 2026-10-31)
+Page: https://vpsledger.pages.dev/guides/black-friday-vps-deals-2026
+The Black Friday price is not what you pay at renewal. As of 2026-10-31, Hostinger's VPS sale lists KVM 2 (2 vCPU / 8 GB) at $8.79/mo, but only on a 24-month prepay ($210.96 today), and it renews at $14.99/mo (+71%). Its 3-year cost is $390.84 ($10.86/mo averaged). The biggest renewal jump is KVM 4: $12.99 → $28.99 (+123%). Even at renewal, these plans stay below Vultr and DigitalOcean list prices for the same RAM; the catch is the up-front prepay and the lock-in.
+- Hostinger KVM 1 (1 vCPU/4 GB): deal $6.49/mo on 24-mo prepay ($155.76 today), renews $11.99/mo (+85%); cost 1y $155.76, 2y $155.76, 3y $299.64; source https://www.hostinger.com/vps-hosting
+- Hostinger KVM 2 (2 vCPU/8 GB): deal $8.79/mo on 24-mo prepay ($210.96 today), renews $14.99/mo (+71%); cost 1y $210.96, 2y $210.96, 3y $390.84; source https://www.hostinger.com/vps-hosting
+- Hostinger KVM 4 (4 vCPU/16 GB): deal $12.99/mo on 24-mo prepay ($311.76 today), renews $28.99/mo (+123%); cost 1y $311.76, 2y $311.76, 3y $659.64; source https://www.hostinger.com/vps-hosting
+- Hostinger KVM 8 (8 vCPU/32 GB): deal $25.99/mo on 24-mo prepay ($623.76 today), renews $49.99/mo (+92%); cost 1y $623.76, 2y $623.76, 3y $1223.64; source https://www.hostinger.com/vps-hosting
+- Q: What is the best Black Friday VPS deal in 2026?
+  A: We only list deals we read on the vendor's own page. As of 2026-10-31 that is Hostinger's VPS sale: KVM 1 $6.49/mo (renews $11.99), KVM 2 $8.79/mo (renews $14.99), KVM 4 $12.99/mo (renews $28.99), KVM 8 $25.99/mo (renews $49.99), each on a 24-month prepay. DigitalOcean, Vultr, Hetzner, OVHcloud, DreamHost, IONOS, Contabo showed no Black Friday VPS price on the pages we read that day.
+- Q: How much does a Hostinger Black Friday VPS cost after renewal?
+  A: KVM 1: $6.49/mo now, renews at $11.99/mo (+85%); KVM 2: $8.79/mo now, renews at $14.99/mo (+71%); KVM 4: $12.99/mo now, renews at $28.99/mo (+123%); KVM 8: $25.99/mo now, renews at $49.99/mo (+92%). Hostinger's page says the renewal is "for the same term", so renewing a 24-month plan is billed up front again (KVM 2: $359.76).
+- Q: Do I have to prepay to get the Black Friday VPS price?
+  A: Yes for Hostinger: the page says "All plans are paid upfront" and each deal shows the 24-month total (KVM 1 $155.76). Hostinger offers a 30-day money-back guarantee. Vultr and DigitalOcean bill monthly/hourly with no prepay.
+- Q: Is a Black Friday VPS cheaper than DigitalOcean or Vultr over 3 years?
+  A: KVM 1 (4 GB): $299.64 over 3 years vs Vultr $720.00, DigitalOcean $864.00; KVM 2 (8 GB): $390.84 over 3 years vs Vultr $1,440.00, DigitalOcean $1,728.00; KVM 4 (16 GB): $659.64 over 3 years vs Vultr $2,880.00, DigitalOcean $3,456.00; KVM 8 (32 GB): $1,223.64 over 3 years vs Vultr $5,760.00. List prices only; Vultr automatic backups add 20%, Hostinger includes weekly backups.
+- Q: When was this checked?
+  A: 2026-10-31. Each row links the vendor page we read. Sales change daily; re-check the vendor page before you pay.

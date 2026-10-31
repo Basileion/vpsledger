@@ -19,6 +19,7 @@ Prices come only from each provider's own pricing page or official public API. V
 - [Guides hub](https://vpsledger.pages.dev/guides/)
 
 ## Pricing guides
+- [Black Friday VPS deals 2026: the renewal math](https://vpsledger.pages.dev/guides/black-friday-vps-deals-2026)
 - [VPS price per GB RAM & per vCPU — data study](https://vpsledger.pages.dev/study/vps-price-per-gb-ram)
 - [Cheapest 4 GB VPS](https://vpsledger.pages.dev/guides/cheapest-4gb-vps)
 - [Cheapest 8 GB VPS](https://vpsledger.pages.dev/guides/cheapest-8gb-vps)

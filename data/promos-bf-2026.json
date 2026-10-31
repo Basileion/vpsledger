@@ -1,0 +1,37 @@
+{
+ "checked": "2026-10-31",
+ "season": "Black Friday / Cyber Monday 2026",
+ "deals": [
+  {"provider_id":"hostinger","provider":"Hostinger","plan":"KVM 1","vcpu":1,"ram_gb":4,"disk_gb":50,"transfer_tb":4,"promo_mo":6.49,"strike_mo":19.49,"prepay_months":24,"prepay_total":155.76,"renew_mo":11.99,"includes":"free weekly backups","quote":"Today you pay $155.76 for 24 months. Renews at $11.99/mo for the same term.","source":"https://www.hostinger.com/vps-hosting","checked":"2026-10-31"},
+  {"provider_id":"hostinger","provider":"Hostinger","plan":"KVM 2","vcpu":2,"ram_gb":8,"disk_gb":100,"transfer_tb":8,"promo_mo":8.79,"strike_mo":24.49,"prepay_months":24,"prepay_total":210.96,"renew_mo":14.99,"includes":"free weekly backups","quote":"Today you pay $210.96 for 24 months. Renews at $14.99/mo for the same term.","source":"https://www.hostinger.com/vps-hosting","checked":"2026-10-31"},
+  {"provider_id":"hostinger","provider":"Hostinger","plan":"KVM 4","vcpu":4,"ram_gb":16,"disk_gb":200,"transfer_tb":16,"promo_mo":12.99,"strike_mo":42.99,"prepay_months":24,"prepay_total":311.76,"renew_mo":28.99,"includes":"free weekly backups","quote":"Today you pay $311.76 for 24 months. Renews at $28.99/mo for the same term.","source":"https://www.hostinger.com/vps-hosting","checked":"2026-10-31"},
+  {"provider_id":"hostinger","provider":"Hostinger","plan":"KVM 8","vcpu":8,"ram_gb":32,"disk_gb":400,"transfer_tb":32,"promo_mo":25.99,"strike_mo":73.99,"prepay_months":24,"prepay_total":623.76,"renew_mo":49.99,"includes":"free weekly backups","quote":"Today you pay $623.76 for 24 months. Renews at $49.99/mo for the same term.","source":"https://www.hostinger.com/vps-hosting","checked":"2026-10-31"}
+ ],
+ "alternatives": {
+  "4": [
+   {"provider_id":"vultr","provider":"Vultr","plan":"Regular Performance 2 vCPU / 4 GB / 80 GB","plan_id":"vultr-vc2-2c-4gb","mo":20,"note":"automatic backups +20% of base","source":"https://www.vultr.com/pricing/","checked":"2026-10-31"},
+   {"provider_id":"digitalocean","provider":"DigitalOcean","plan":"Basic Regular 2 vCPU / 4 GiB / 80 GiB","plan_id":"digitalocean-basic-4-gb","mo":24,"note":"backups extra","source":"https://www.digitalocean.com/pricing/droplets","checked":"2026-10-31"}
+  ],
+  "8": [
+   {"provider_id":"vultr","provider":"Vultr","plan":"Regular Performance 4 vCPU / 8 GB / 160 GB","mo":40,"note":"automatic backups +20% of base","source":"https://www.vultr.com/pricing/","checked":"2026-10-31"},
+   {"provider_id":"digitalocean","provider":"DigitalOcean","plan":"Basic Regular 4 vCPU / 8 GiB / 160 GiB","mo":48,"note":"backups extra","source":"https://www.digitalocean.com/pricing/droplets","checked":"2026-10-31"}
+  ],
+  "16": [
+   {"provider_id":"vultr","provider":"Vultr","plan":"Regular Performance 6 vCPU / 16 GB / 320 GB","mo":80,"note":"automatic backups +20% of base","source":"https://www.vultr.com/pricing/","checked":"2026-10-31"},
+   {"provider_id":"digitalocean","provider":"DigitalOcean","plan":"Basic Regular 8 vCPU / 16 GiB / 320 GiB","mo":96,"note":"backups extra","source":"https://www.digitalocean.com/pricing/droplets","checked":"2026-10-31"}
+  ],
+  "32": [
+   {"provider_id":"vultr","provider":"Vultr","plan":"Regular Performance 8 vCPU / 32 GB / 640 GB","mo":160,"note":"automatic backups +20% of base","source":"https://www.vultr.com/pricing/","checked":"2026-10-31"}
+  ]
+ },
+ "checked_no_bf_price": [
+  {"provider":"DigitalOcean","url":"https://www.digitalocean.com/pricing/droplets"},
+  {"provider":"Vultr","url":"https://www.vultr.com/pricing/"},
+  {"provider":"Hetzner","url":"https://www.hetzner.com/cloud/"},
+  {"provider":"OVHcloud","url":"https://www.ovhcloud.com/en/vps/"},
+  {"provider":"DreamHost","url":"https://www.dreamhost.com/hosting/vps/"},
+  {"provider":"IONOS","url":"https://www.ionos.com/servers/vps"},
+  {"provider":"Contabo","url":"https://contabo.com/en/vps/"}
+ ],
+ "not_yet_checked": ["Linode / Akamai","Kamatera","UpCloud","Scaleway","AWS Lightsail","InterServer","RackNerd","Namecheap VPS","Bluehost VPS"]
+}

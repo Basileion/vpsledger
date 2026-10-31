@@ -1,4 +1,5 @@
 // Programmatic SEO + GEO flywheel for VPSLedger. Cross-links O11y Watch where relevant.
+import bfPage from './bf.inc.mjs';
 export default function flywheel(ctx){
 const {STUDY,providers,plans,changes,P,page:page0,W,SITE,NAME,esc,usd,yr,tco,ver,verBuy=ver,unavail=()=>false,lastChecked,EG,SPECS,equiv,rankFor,mailBox,meth,asOf,FX,FX_EUR_USD,tag,aff,soldTxt=()=>'Sold out',regionShort=()=>'',hzUsNote=()=>''}=ctx;
 const soldLbl=p=>`${soldTxt(p)}${p.region_scope?' · '+regionShort(p):''}`;
@@ -206,7 +207,7 @@ ${keyStats([
 <div class="tbl"><table><thead><tr><th>Plan</th><th class="n">Intro / mo</th><th class="n">Renewal / mo</th><th class="n">Jump</th><th class="n">$/yr extra</th><th>Source</th></tr></thead><tbody>
 ${ps.map(p=>`<tr><td>${esc(p.plan)}</td><td class="n">$${p.promo_mo.toFixed(2)}</td><td class="n">$${p.price_mo.toFixed(2)}</td><td class="n">+${Math.round((p.price_mo/p.promo_mo-1)*100)}%</td><td class="n">$${((p.price_mo-p.promo_mo)*12).toFixed(0)}</td><td class="src"><a href="${p.source}">source</a> · ${p.checked}</td></tr>`).join('')}
 </tbody></table></div>
-<p><a href="/providers/${pid}.html">${esc(pr.name)} provider page</a> · <a href="/changes.html">Price log</a></p>
+${pid==='hostinger'?`<p><b>Black Friday 2026:</b> <a href="/guides/black-friday-vps-deals-2026">Hostinger KVM 1–8 sale prices vs renewal, with 1/2/3-year cost</a>.</p>`:''}<p><a href="/providers/${pid}.html">${esc(pr.name)} provider page</a> · <a href="/changes.html">Price log</a></p>
 ${o11yNote(`${pr.name} hosts`)}
 ${mailBox('gr'+pid,`Warn me before ${pr.name} renewals jump`,'Send the weekly ledger')}
 ${cite(`${pr.name} renewal vs intro as of ${lastChecked}`)}
@@ -257,8 +258,11 @@ ${cite(`${pr.name} VPS pricing as of ${pr.checked}`)}
   hub.push({file,title:`${pr.name} VPS pricing`,blurb:cheapest?`Cheapest orderable: ${cheapest.p.plan} ${usd(cheapest.t.total)}/mo`:`All ${vps.length} tracked plans sold out (checked ${soldAll[0].p.availability_checked})`});
 }
 
+// Black Friday renewal math (RT-20261031-53)
+const BF=bfPage({page,SITE,NAME,esc,mailBox,crumbs,crumbLd,ORG,cite,root:ctx.root});
 // Hub
 if(STUDY)hub.unshift({file:STUDY.file,title:STUDY.title,blurb:STUDY.blurb});
+hub.unshift(BF.hub);
 page({file:'guides/index.html',og:'compare',title:`VPS pricing guides — cheapest plans, renewals, alternatives | ${NAME}`,desc:`${hub.length} sourced VPS guides: cheapest by RAM, renewal jumps, Hetzner alternatives and provider pricing explainers.`,ld:[
   ORG, crumbLd([{label:'Home',href:'/'},{label:'Guides',href:'/guides/'}]),
   {'@context':'https://schema.org','@type':'CollectionPage',name:'VPS pricing guides',url:SITE+'/guides/'}
@@ -279,5 +283,5 @@ const planHeader=['id','provider_id','provider','plan','vcpu','ram_gb','disk_gb'
 W('api/plans.csv',[planHeader.join(','),...plans.map(p=>planHeader.map(k=>csvEsc(p[k])).join(','))].join('\n'));
 W('api/changes.csv',[['date','provider','kind','summary','source','observed','plan_id'].join(','),...changes.map(c=>[c.date,c.provider,c.kind,c.summary,c.source,c.observed,c.plan_id].map(csvEsc).join(','))].join('\n'));
 
-return {org:ORG,hub,guideCount:hub.length+1};
+return {org:ORG,hub,guideCount:hub.length+1,BF};
 }
