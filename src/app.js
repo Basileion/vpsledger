@@ -2,7 +2,7 @@ import {tco,switchTargets,calcRank,soldOut} from './switch.js';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 if('serviceWorker'in navigator)addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
 const fmt=v=>v==null||isNaN(v)?'—':'$'+v.toFixed(2);
-const so=p=>soldOut(p)?` <span class="tag u">Sold out (checked ${p.availability_checked})</span>`+(p.region_scope?` <span class="tag u">${/^EU only/.test(p.region_scope)?'EU only':p.region_scope}</span>`:''):'';
+const so=p=>soldOut(p)?` <span class="tag u">${p.availability==='discontinued'?'Discontinued':'Sold out'} (checked ${p.availability_checked})</span>`+(p.region_scope?` <span class="tag u">${/^EU only/.test(p.region_scope)?'EU only':p.region_scope}</span>`:''):'';
 let D;async function data(){return D??=(await fetch('/api/plans.json')).json()}
 async function table(){const t=$('#plans');if(!t)return;const d=await data(),P=Object.fromEntries(d.providers.map(p=>[p.id,p]));
  const draw=()=>{const eg=+$('#eg').value,bk=$('#bk').checked,vo=$('#vo').checked;let rows=d.plans.filter(p=>!vo||p.status==='verified').map(p=>({p,t:tco(p,P[p.provider_id],d.fx_eur_usd,eg,bk)}));

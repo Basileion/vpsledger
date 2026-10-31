@@ -1,7 +1,7 @@
 // Shared switch-target logic (RT-20261030-52): used by the home "Are you overpaying?" check, the calculator
 // and the build guard in scripts/build.mjs. Sold-out plans (availability === 'unavailable') are never suggested.
-export const buyable=p=>!!p&&p.availability!=='unavailable';
-export const soldOut=p=>!!p&&p.availability==='unavailable';
+export const buyable=p=>!!p&&p.availability!=='unavailable'&&p.availability!=='discontinued';
+export const soldOut=p=>!!p&&(p.availability==='unavailable'||p.availability==='discontinued');
 // TCO: base + IPv4 + backups + overage at egress TB. Mirrors scripts/build.mjs.
 export function tco(p,prov,fx,egress,backups){if(p.price_mo==null)return null;const k=p.currency==='EUR'?fx:1,f=prov.fees;const base=p.price_mo*k;
  const ip=f.ipv4??0,bk=backups?(p.backup_mo!=null?p.backup_mo:f.backup_pct!=null?base*f.backup_pct/100:0):0;

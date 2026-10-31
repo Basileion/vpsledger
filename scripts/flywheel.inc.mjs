@@ -14,7 +14,7 @@ const crumbLd=(parts)=>({'@context':'https://schema.org','@type':'BreadcrumbList
 const keyStats=(items)=>`<div class="panel"><div class="eyebrow">Key stats</div><ul style="margin:10px 0 0;padding-left:18px">${items.map(([k,v])=>`<li><b>${esc(k)}:</b> ${esc(v)}</li>`).join('')}</ul><p class="note" style="margin-top:10px">Last verified ${lastChecked}. ${meth}.</p></div>`;
 const cite=(label)=>`<div class="panel"><h3 class="h3">Cite this</h3><p class="note">CC BY 4.0 — please attribute “${NAME}” with a link to ${SITE}/.</p><pre style="white-space:pre-wrap;font-size:12px">${esc(`Data: ${label}. Source: ${NAME} (${SITE}). License: CC BY 4.0.`)}</pre></div>`;
 const o11yNote=(topic)=>`<div class="panel" style="border-style:dashed"><div class="eyebrow">Related · observability cost</div><p class="mut">Monitoring your VPS fleet? See what observability costs on <a href="${O11Y}/guides/">O11y Watch pricing guides</a> or get a <a href="${O11Y}/audit">free savings estimate</a> (${topic}); the full ranked report is a separate, optional $149 unlock.</p></div>`;
-const hub=[];
+const hub=[];const altBuilt=new Set(); // RT-20261031-51: only link alternatives guides that exist
 
 // Cheapest by RAM
 for(const ram of [2,4,8]){
@@ -65,7 +65,7 @@ ${cite(`Cheapest ${ram} GB VPS ranking as of ${lastChecked}`)}
   if(hetz){
     const hPlans=ver.filter(p=>p.provider_id==='hetzner');
     const alts=ver.filter(p=>p.provider_id!=='hetzner');
-    const file='guides/hetzner-alternatives.html';
+    const file='guides/hetzner-alternatives.html';altBuilt.add('hetzner');
     const answers=[];
     for(const s of SPECS){
       const r=rankFor(s);
@@ -124,7 +124,7 @@ for(const pid of ['digitalocean','vultr','linode','lightsail','hostinger','ovhcl
   const pr=providers.find(p=>p.id===pid); if(!pr) continue;
   const mine=ver.filter(p=>p.provider_id===pid);
   if(mine.length<1) continue;
-  const file=`guides/${pid}-alternatives.html`;
+  const file=`guides/${pid}-alternatives.html`;altBuilt.add(pid);
   const answers=[];
   for(const s of SPECS){
     const r=rankFor(s);
@@ -249,7 +249,7 @@ ${keyStats([
 ${vps.map(p=>{const t=tco(p,EG,true,true);return `<tr><td>${esc(p.plan)}</td><td class="n">${p.vcpu??'—'}</td><td class="n">${p.ram_gb??'—'}</td><td class="n">${p.currency==='EUR'?'€':'$'}${p.price_mo.toFixed(2)}</td><td class="n">${p.promo_mo?'$'+p.promo_mo.toFixed(2):'—'}</td><td class="n">${usd(t?.total)}</td><td>${tag(p.status,p)}</td></tr>`}).join('')}
 </tbody></table></div>
 ${pid==='hetzner'?hzUsNote():''}
-<p><a class="btn" href="/providers/${pid}.html">Full ${esc(pr.name)} page</a> <a class="btn ghost" href="/calculator.html">TCO calculator</a> <a class="btn ghost" href="/guides/${pid}-alternatives.html">${esc(pr.name)} alternatives</a></p>
+<p><a class="btn" href="/providers/${pid}.html">Full ${esc(pr.name)} page</a> <a class="btn ghost" href="/calculator.html">TCO calculator</a>${altBuilt.has(pid)?` <a class="btn ghost" href="/guides/${pid}-alternatives.html">${esc(pr.name)} alternatives</a>`:''}</p>
 ${o11yNote(`${pr.name} VPS`)}
 ${mailBox('gp'+pid,`Watch ${pr.name} prices`,'Send the weekly ledger')}
 ${cite(`${pr.name} VPS pricing as of ${pr.checked}`)}

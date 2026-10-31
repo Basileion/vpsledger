@@ -88,6 +88,24 @@
  {
   "date": "2026-10-31",
   "observed": "2026-10-31",
+  "provider": "UpCloud",
+  "kind": "correction",
+  "plan_id": "upcloud-starter-1-gb",
+  "summary": "Correction: the $3.50 UpCloud row was labeled “Developer 1 GB”, a plan UpCloud now lists as discontinued. Renamed to the orderable Starter 1 GB ($3.50, 250 Mbit/s, max 5 per customer), Premium 1 GB ($6) verified and Starter 4 GB / 2 vCPU ($14) added, all re-read from UpCloud’s global pricing page. UpCloud Simple Backup (+20%) is now counted when backups are on. Discontinued plans are never ranked or suggested.",
+  "source": "https://upcloud.com/global/pricing/"
+ },
+ {
+  "date": "2026-10-31",
+  "observed": "2026-10-31",
+  "provider": "Vultr",
+  "kind": "correction",
+  "plan_id": "vultr-vc2-2c-4gb",
+  "summary": "Correction: our verdicts, rankings and savings figures left out Vultr’s published 20% backup fee while the tables on the same pages included it. Vultr vc2-2c-4gb was shown as $20.00/mo “with backups” (and $106/yr cheaper than DigitalOcean); the true cost is $24.00/mo and the gap is $57.60/yr. Affected 19 pages. One fee policy now applies everywhere (every fee we hold is counted in tables, verdicts, rankings, widget and calculator), Vultr backup (20%) and overage ($0.01/GB) and Hetzner backup (20%) are now verified from official docs, and a build check fails if any verdict price differs from its own table.",
+  "source": "https://docs.vultr.com/support/platform/billing/how-much-does-it-cost-to-enable-automatic-backups"
+ },
+ {
+  "date": "2026-10-31",
+  "observed": "2026-10-31",
   "provider": "Hetzner",
   "kind": "availability",
   "plan_id": "hetzner-cx23",

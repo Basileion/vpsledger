@@ -261,7 +261,8 @@
   "notes": "No-commitment monthly (US catalog API); 12-mo prepay $4.54/mo. Unlimited traffic, 500 Mbps",
   "availability": "in_stock",
   "availability_checked": "2026-10-30",
-  "region_scope": null
+  "region_scope": null,
+  "promo_type": "commitment"
  },
  {
   "id": "ovhcloud-vps-2",
@@ -283,7 +284,8 @@
   "notes": "No-commitment monthly (US catalog API); 12-mo prepay $8.50/mo. 1 Gbps",
   "availability": "in_stock",
   "availability_checked": "2026-10-30",
-  "region_scope": null
+  "region_scope": null,
+  "promo_type": "commitment"
  },
  {
   "id": "ovhcloud-vps-3",
@@ -305,7 +307,8 @@
   "notes": "No-commitment monthly (US catalog API); 12-mo prepay $12.32/mo. 2 Gbps",
   "availability": "in_stock",
   "availability_checked": "2026-10-30",
-  "region_scope": null
+  "region_scope": null,
+  "promo_type": "commitment"
  },
  {
   "id": "scaleway-dev1-s",
@@ -352,10 +355,10 @@
   "region_scope": null
  },
  {
-  "id": "upcloud-developer-1-gb",
+  "id": "upcloud-starter-1-gb",
   "provider_id": "upcloud",
   "provider": "UpCloud",
-  "plan": "Developer 1 GB",
+  "plan": "Starter 1 GB",
   "vcpu": 1,
   "ram_gb": 1,
   "disk_gb": 10,
@@ -366,20 +369,20 @@
   "backup_mo": null,
   "tier": "entry",
   "status": "verified",
-  "source": "https://upcloud.com/pricing/",
-  "checked": "2026-10-26",
-  "notes": "Starter plan, max 5 deployments",
+  "source": "https://upcloud.com/global/pricing/",
+  "checked": "2026-10-31",
+  "notes": "Global USD price. 250 Mbit/s port; the 1 GB Starter plan is limited to 5 concurrent deployments per customer. Replaces the discontinued Developer 1 GB. Zero-cost egress (Fair Transfer Policy)",
   "availability": "in_stock",
-  "availability_checked": "2026-10-26",
+  "availability_checked": "2026-10-31",
   "region_scope": null
  },
  {
   "id": "upcloud-premium-entry",
   "provider_id": "upcloud",
   "provider": "UpCloud",
-  "plan": "Premium entry",
-  "vcpu": null,
-  "ram_gb": null,
+  "plan": "Premium 1 GB",
+  "vcpu": 1,
+  "ram_gb": 1,
   "disk_gb": 25,
   "transfer_tb": null,
   "price_mo": 6,
@@ -387,12 +390,34 @@
   "promo_mo": null,
   "backup_mo": null,
   "tier": "entry",
-  "status": "unverified",
-  "source": "https://upcloud.com/pricing/",
-  "checked": "2026-10-26",
-  "notes": "RAM/CPU columns not legible on check date",
+  "status": "verified",
+  "source": "https://upcloud.com/global/pricing/",
+  "checked": "2026-10-31",
+  "notes": "Global USD price. MaxIOPS storage, 1000 Mbps, IPv4 included. Zero-cost egress (Fair Transfer Policy)",
   "availability": "in_stock",
-  "availability_checked": "2026-10-26",
+  "availability_checked": "2026-10-31",
+  "region_scope": null
+ },
+ {
+  "id": "upcloud-starter-4-gb-2-cpu",
+  "provider_id": "upcloud",
+  "provider": "UpCloud",
+  "plan": "Starter 4 GB / 2 vCPU",
+  "vcpu": 2,
+  "ram_gb": 4,
+  "disk_gb": 30,
+  "transfer_tb": null,
+  "price_mo": 14,
+  "currency": "USD",
+  "promo_mo": null,
+  "backup_mo": null,
+  "tier": "mid",
+  "status": "verified",
+  "source": "https://upcloud.com/global/pricing/",
+  "checked": "2026-10-31",
+  "notes": "Global USD price. 500 Mbit/s port, standard SSD. Zero-cost egress (Fair Transfer Policy)",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-31",
   "region_scope": null
  },
  {
@@ -437,7 +462,8 @@
   "notes": "Promo $6.49/mo on 24-month prepay; renews $11.99",
   "availability": "in_stock",
   "availability_checked": "2026-10-30",
-  "region_scope": null
+  "region_scope": null,
+  "promo_type": "intro"
  },
  {
   "id": "hostinger-kvm-2",
@@ -459,7 +485,8 @@
   "notes": "Promo $8.79/mo on 24-month prepay; renews $14.99",
   "availability": "in_stock",
   "availability_checked": "2026-10-30",
-  "region_scope": null
+  "region_scope": null,
+  "promo_type": "intro"
  },
  {
   "id": "lightsail-linux-0-5-gb",
@@ -701,7 +728,8 @@
   "notes": "Promo $8.99 first 3 months; renews $15.99",
   "availability": "in_stock",
   "availability_checked": "2026-10-30",
-  "region_scope": null
+  "region_scope": null,
+  "promo_type": "intro"
  },
  {
   "id": "dreamhost-stack-16",
@@ -723,6 +751,7 @@
   "notes": "Promo $22.99 first 3 months; renews $34.99",
   "availability": "in_stock",
   "availability_checked": "2026-10-30",
-  "region_scope": null
+  "region_scope": null,
+  "promo_type": "intro"
  }
 ]

@@ -12,8 +12,9 @@
    "backup_s": "verified",
    "backup_n": "Weekly backups 20% of Droplet price (daily 30%)",
    "overage": 0.01,
-   "overage_s": "unverified",
-   "overage_n": "$0.01/GiB beyond pooled allowance (bandwidth docs; confirm)"
+   "overage_s": "verified",
+   "overage_n": "$0.01 per GiB of outbound transfer beyond the pooled Droplet allowance (DigitalOcean bandwidth docs, read 2026-10-31); ledger applies it per TB as 1,000 units",
+   "overage_src": "https://docs.digitalocean.com/platform/billing/bandwidth/"
   }
  },
  {
@@ -26,11 +27,13 @@
    "ipv4_s": "unverified",
    "ipv4_n": "IPv4 included on standard plans (IPv6-only plan cheaper)",
    "backup_pct": 20,
-   "backup_s": "unverified",
-   "backup_n": "Automatic backups ~20% of plan (confirm on vultr.com/pricing)",
+   "backup_s": "verified",
+   "backup_n": "Automatic Backups add 20% to the instance’s base hourly or monthly price (Vultr docs, read 2026-10-31)",
    "overage": 0.01,
-   "overage_s": "unverified",
-   "overage_n": "$0.01/GB overage (confirm)"
+   "overage_s": "verified",
+   "overage_n": "$0.01/GB outbound beyond the plan quota (Vultr docs, read 2026-10-31); account-level free 2 TB/mo allotment not counted",
+   "backup_src": "https://docs.vultr.com/support/platform/billing/how-much-does-it-cost-to-enable-automatic-backups",
+   "overage_src": "https://docs.vultr.com/support/platform/billing/what-is-the-bandwidth-overage-rate"
   }
  },
  {
@@ -60,12 +63,13 @@
    "ipv4_s": "unverified",
    "ipv4_n": "Primary IPv4 billed separately; amount not read on check date",
    "backup_pct": 20,
-   "backup_s": "unverified",
-   "backup_n": "Backups 20% of server price (confirm)",
+   "backup_s": "verified",
+   "backup_n": "Backups are a flat 20% of the server price, 7 daily slots (Hetzner billing FAQ, read 2026-10-31)",
    "overage": 0.001,
    "cur": "EUR",
    "overage_s": "verified",
-   "overage_n": "€1.00 per additional TB beyond 20 TB (EU)"
+   "overage_n": "€1.00 per additional TB beyond 20 TB (EU)",
+   "backup_src": "https://docs.hetzner.com/cloud/billing/faq/"
   }
  },
  {
@@ -105,18 +109,19 @@
  {
   "id": "upcloud",
   "name": "UpCloud",
-  "source": "https://upcloud.com/pricing/",
-  "checked": "2026-10-26",
+  "source": "https://upcloud.com/global/pricing/",
+  "checked": "2026-10-31",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "verified",
    "ipv4_n": "1 IPv4 included",
-   "backup_pct": null,
-   "backup_s": "unverified",
-   "backup_n": "Simple Backups add-on",
+   "backup_pct": 20,
+   "backup_s": "verified",
+   "backup_n": "Simple Backup “Week” plan (daily backups kept 7 days) +20% of the server plan price; “Day” plan +10% (UpCloud pricing, read 2026-10-31)",
    "overage": 0,
    "overage_s": "verified",
-   "overage_n": "Zero-cost egress, Fair Transfer Policy"
+   "overage_n": "Zero-cost egress, Fair Transfer Policy",
+   "backup_src": "https://upcloud.com/global/pricing/"
   }
  },
  {

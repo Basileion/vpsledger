@@ -1,6 +1,6 @@
 # VPSLedger — full ledger
 
-33 plans, 26 verified, 15 providers. Checked through 2026-10-31. FX: 1.1188 USD/EUR on 2026-10-26.
+34 plans, 28 verified, 15 providers. Checked through 2026-10-31. FX: 1.1188 USD/EUR on 2026-10-26.
 
 ## Providers
 ### DigitalOcean
@@ -9,15 +9,15 @@
 - checked: 2026-10-31
 - ipv4: 0 (verified)
 - backup: 20% (verified)
-- overage: 0.01 (unverified)
+- overage: 0.01 (verified)
 
 ### Vultr
 - id: vultr
 - source: https://api.vultr.com/v2/plans?type=vc2
 - checked: 2026-10-31
 - ipv4: 0 (unverified)
-- backup: 20% (unverified)
-- overage: 0.01 (unverified)
+- backup: 20% (verified)
+- overage: 0.01 (verified)
 
 ### Linode / Akamai
 - id: linode
@@ -32,7 +32,7 @@
 - source: https://www.hetzner.com/cloud/cost-optimized
 - checked: 2026-10-31
 - ipv4: not published (unverified)
-- backup: 20% (unverified)
+- backup: 20% (verified)
 - overage: 0.001 (verified)
 
 ### OVHcloud
@@ -53,10 +53,10 @@
 
 ### UpCloud
 - id: upcloud
-- source: https://upcloud.com/pricing/
-- checked: 2026-10-26
+- source: https://upcloud.com/global/pricing/
+- checked: 2026-10-31
 - ipv4: 0 (verified)
-- backup: see plan% (unverified)
+- backup: 20% (verified)
 - overage: 0 (verified)
 
 ### Contabo
@@ -286,25 +286,35 @@
 - source: https://www.scaleway.com/en/pricing/virtual-instances/ (2026-10-30)
 - notes: ~€/month from hourly €0.0202; specs not legible on page
 
-### UpCloud Developer 1 GB
-- id: upcloud-developer-1-gb
+### UpCloud Starter 1 GB
+- id: upcloud-starter-1-gb
 - specs: 1 vCPU / 1 GB / 10 GB disk / ? TB
 - price_mo: 3.5 USD
 - promo_mo: none
 - status: verified
-- availability: in_stock (checked 2026-10-26)
-- source: https://upcloud.com/pricing/ (2026-10-26)
-- notes: Starter plan, max 5 deployments
+- availability: in_stock (checked 2026-10-31)
+- source: https://upcloud.com/global/pricing/ (2026-10-31)
+- notes: Global USD price. 250 Mbit/s port; the 1 GB Starter plan is limited to 5 concurrent deployments per customer. Replaces the discontinued Developer 1 GB. Zero-cost egress (Fair Transfer Policy)
 
-### UpCloud Premium entry
+### UpCloud Premium 1 GB
 - id: upcloud-premium-entry
-- specs: null vCPU / null GB / 25 GB disk / ? TB
+- specs: 1 vCPU / 1 GB / 25 GB disk / ? TB
 - price_mo: 6 USD
 - promo_mo: none
-- status: unverified
-- availability: in_stock (checked 2026-10-26)
-- source: https://upcloud.com/pricing/ (2026-10-26)
-- notes: RAM/CPU columns not legible on check date
+- status: verified
+- availability: in_stock (checked 2026-10-31)
+- source: https://upcloud.com/global/pricing/ (2026-10-31)
+- notes: Global USD price. MaxIOPS storage, 1000 Mbps, IPv4 included. Zero-cost egress (Fair Transfer Policy)
+
+### UpCloud Starter 4 GB / 2 vCPU
+- id: upcloud-starter-4-gb-2-cpu
+- specs: 2 vCPU / 4 GB / 30 GB disk / ? TB
+- price_mo: 14 USD
+- promo_mo: none
+- status: verified
+- availability: in_stock (checked 2026-10-31)
+- source: https://upcloud.com/global/pricing/ (2026-10-31)
+- notes: Global USD price. 500 Mbit/s port, standard SSD. Zero-cost egress (Fair Transfer Policy)
 
 ### Contabo Cloud VPS 4
 - id: contabo-cloud-vps-4
@@ -457,7 +467,7 @@
 - notes: Promo $22.99 first 3 months; renews $34.99
 
 ## Data study: VPS price per GB RAM / per vCPU
-Across 26 verified VPS plans from 12 providers (checked through 2026-10-31), list price per GB of RAM ranges from $1.21/GB/mo (OVHcloud VPS-3) to $10.00/GB/mo (AWS Lightsail Linux 0.5 GB) — 8.3× apart; the median is $5.00/GB. Hetzner CX23 and Hetzner CX33 would rank lower per GB but are sold out as of 2026-10-31, so they are left out of these figures. Per vCPU, OVHcloud VPS-3 is cheapest at $2.42/vCPU/mo vs a $6.75 median. Intro prices hide renewal jumps of up to +85% (Hostinger VPS KVM 1).
+Across 28 verified VPS plans from 12 providers (checked through 2026-10-31), list price per GB of RAM ranges from $1.21/GB/mo (OVHcloud VPS-3) to $10.00/GB/mo (AWS Lightsail Linux 0.5 GB) — 8.3× apart; the median is $5.00/GB. Hetzner CX23 and Hetzner CX33 would rank lower per GB but are sold out as of 2026-10-31, so they are left out of these figures. Per vCPU, OVHcloud VPS-3 is cheapest at $2.42/vCPU/mo vs a $6.50 median. Intro prices hide renewal jumps of up to +85% (Hostinger VPS KVM 1).
 - Page: https://vpsledger.pages.dev/study/vps-price-per-gb-ram
 - CSV: https://vpsledger.pages.dev/api/study-vps-price-per-gb.csv
 
@@ -487,6 +497,8 @@ Across 26 verified VPS plans from 12 providers (checked through 2026-10-31), lis
 - [DreamHost VPS pricing](https://vpsledger.pages.dev/guides/dreamhost-pricing)
 
 ## Changes
+- 2026-10-31 UpCloud (correction): Correction: the $3.50 UpCloud row was labeled “Developer 1 GB”, a plan UpCloud now lists as discontinued. Renamed to the orderable Starter 1 GB ($3.50, 250 Mbit/s, max 5 per customer), Premium 1 GB ($6) verified and Starter 4 GB / 2 vCPU ($14) added, all re-read from UpCloud’s global pricing page. UpCloud Simple Backup (+20%) is now counted when backups are on. Discontinued plans are never ranked or suggested. [https://upcloud.com/global/pricing/]
+- 2026-10-31 Vultr (correction): Correction: our verdicts, rankings and savings figures left out Vultr’s published 20% backup fee while the tables on the same pages included it. Vultr vc2-2c-4gb was shown as $20.00/mo “with backups” (and $106/yr cheaper than DigitalOcean); the true cost is $24.00/mo and the gap is $57.60/yr. Affected 19 pages. One fee policy now applies everywhere (every fee we hold is counted in tables, verdicts, rankings, widget and calculator), Vultr backup (20%) and overage ($0.01/GB) and Hetzner backup (20%) are now verified from official docs, and a build check fails if any verdict price differs from its own table. [https://docs.vultr.com/support/platform/billing/how-much-does-it-cost-to-enable-automatic-backups]
 - 2026-10-31 Hetzner (availability): Re-checked: all 8 Cost-Optimized plans (CX23, CX33, CX43, CX53, CAX11, CAX21, CAX31, CAX41) are marked “not available” (“This product is currently unavailable. Please check back later.”). Cost-Optimized is listed for eu-central NBG1/HEL1 only. [https://www.hetzner.com/cloud/cost-optimized]
 - 2026-10-31 Hetzner (correction): Correction: VPSLedger’s “Are you overpaying?” check, calculator and guides had suggested switching to Hetzner CX23/CX33 although Hetzner lists them as unavailable since our 2026-10-26 check. They are now labeled “Sold out” and “EU only” and are no longer suggested as switch targets; savings figures were recomputed from orderable plans only. [https://www.hetzner.com/cloud/cost-optimized]
 - 2026-10-30 OVHcloud (correction): Corrected VPS-1/2/3 list prices to no-commitment monthly $5.35/$10.00/$14.50 (was 12-mo upfront $4.54/$8.50/$12.32 shown as monthly). 12-mo prepay kept as promo_mo. Source: OVH US public catalog API. [https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US]
