@@ -243,7 +243,7 @@
 - promo_mo: 4.54
 - status: verified
 - availability: in_stock (checked 2026-10-30)
-- source: https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US (2026-10-30)
+- source: https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US (2026-10-31)
 - notes: No-commitment monthly (US catalog API); 12-mo prepay $4.54/mo. Unlimited traffic, 500 Mbps
 
 ### OVHcloud VPS-2
@@ -253,7 +253,7 @@
 - promo_mo: 8.5
 - status: verified
 - availability: in_stock (checked 2026-10-30)
-- source: https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US (2026-10-30)
+- source: https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US (2026-10-31)
 - notes: No-commitment monthly (US catalog API); 12-mo prepay $8.50/mo. 1 Gbps
 
 ### OVHcloud VPS-3
@@ -263,7 +263,7 @@
 - promo_mo: 12.32
 - status: verified
 - availability: in_stock (checked 2026-10-30)
-- source: https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US (2026-10-30)
+- source: https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US (2026-10-31)
 - notes: No-commitment monthly (US catalog API); 12-mo prepay $12.32/mo. 2 Gbps
 
 ### Scaleway DEV1-S
@@ -463,45 +463,46 @@
 - promo_mo: 22.99
 - status: verified
 - availability: in_stock (checked 2026-10-30)
-- source: https://www.dreamhost.com/hosting/vps/ (2026-10-30)
+- source: https://www.dreamhost.com/hosting/vps/ (2026-10-31)
 - notes: Promo $22.99 first 3 months; renews $34.99
 
 ## Data study: VPS price per GB RAM / per vCPU
 Across 28 verified VPS plans from 12 providers (checked through 2026-10-31), list price per GB of RAM ranges from $1.21/GB/mo (OVHcloud VPS-3) to $10.00/GB/mo (AWS Lightsail Linux 0.5 GB) — 8.3× apart; the median is $5.00/GB. Hetzner CX23 and Hetzner CX33 would rank lower per GB but are sold out as of 2026-10-31, so they are left out of these figures. Per vCPU, OVHcloud VPS-3 is cheapest at $2.42/vCPU/mo vs a $6.50 median. Intro prices hide renewal jumps of up to +85% (Hostinger VPS KVM 1).
-- Page: https://vpsledger.pages.dev/study/vps-price-per-gb-ram
-- CSV: https://vpsledger.pages.dev/api/study-vps-price-per-gb.csv
+- Page: http://localhost:4173/study/vps-price-per-gb-ram
+- CSV: http://localhost:4173/api/study-vps-price-per-gb.csv
 
 ## Pricing guides
-- [Black Friday VPS deals 2026: the renewal math](https://vpsledger.pages.dev/guides/black-friday-vps-deals-2026)
-- [VPS price per GB RAM & per vCPU — data study](https://vpsledger.pages.dev/study/vps-price-per-gb-ram)
-- [Cheapest 4 GB VPS](https://vpsledger.pages.dev/guides/cheapest-4gb-vps)
-- [Cheapest 8 GB VPS](https://vpsledger.pages.dev/guides/cheapest-8gb-vps)
-- [Hetzner alternatives](https://vpsledger.pages.dev/guides/hetzner-alternatives)
-- [DigitalOcean alternatives](https://vpsledger.pages.dev/guides/digitalocean-alternatives)
-- [Vultr alternatives](https://vpsledger.pages.dev/guides/vultr-alternatives)
-- [Linode / Akamai alternatives](https://vpsledger.pages.dev/guides/linode-alternatives)
-- [AWS Lightsail alternatives](https://vpsledger.pages.dev/guides/lightsail-alternatives)
-- [Hostinger VPS alternatives](https://vpsledger.pages.dev/guides/hostinger-alternatives)
-- [OVHcloud alternatives](https://vpsledger.pages.dev/guides/ovhcloud-alternatives)
-- [OVHcloud renewal price](https://vpsledger.pages.dev/guides/ovhcloud-renewal-price)
-- [Hostinger VPS renewal price](https://vpsledger.pages.dev/guides/hostinger-renewal-price)
-- [DreamHost renewal price](https://vpsledger.pages.dev/guides/dreamhost-renewal-price)
-- [DigitalOcean VPS pricing](https://vpsledger.pages.dev/guides/digitalocean-pricing)
-- [Vultr VPS pricing](https://vpsledger.pages.dev/guides/vultr-pricing)
-- [Linode / Akamai VPS pricing](https://vpsledger.pages.dev/guides/linode-pricing)
-- [OVHcloud VPS pricing](https://vpsledger.pages.dev/guides/ovhcloud-pricing)
-- [AWS Lightsail VPS pricing](https://vpsledger.pages.dev/guides/lightsail-pricing)
-- [Hostinger VPS VPS pricing](https://vpsledger.pages.dev/guides/hostinger-pricing)
-- [Hetzner VPS pricing](https://vpsledger.pages.dev/guides/hetzner-pricing)
-- [Kamatera VPS pricing](https://vpsledger.pages.dev/guides/kamatera-pricing)
-- [UpCloud VPS pricing](https://vpsledger.pages.dev/guides/upcloud-pricing)
-- [DreamHost VPS pricing](https://vpsledger.pages.dev/guides/dreamhost-pricing)
+- [Black Friday VPS deals 2026: the renewal math](http://localhost:4173/guides/black-friday-vps-deals-2026)
+- [VPS price per GB RAM & per vCPU — data study](http://localhost:4173/study/vps-price-per-gb-ram)
+- [Cheapest 4 GB VPS](http://localhost:4173/guides/cheapest-4gb-vps)
+- [Cheapest 8 GB VPS](http://localhost:4173/guides/cheapest-8gb-vps)
+- [Hetzner alternatives](http://localhost:4173/guides/hetzner-alternatives)
+- [DigitalOcean alternatives](http://localhost:4173/guides/digitalocean-alternatives)
+- [Vultr alternatives](http://localhost:4173/guides/vultr-alternatives)
+- [Linode / Akamai alternatives](http://localhost:4173/guides/linode-alternatives)
+- [AWS Lightsail alternatives](http://localhost:4173/guides/lightsail-alternatives)
+- [Hostinger VPS alternatives](http://localhost:4173/guides/hostinger-alternatives)
+- [OVHcloud alternatives](http://localhost:4173/guides/ovhcloud-alternatives)
+- [OVHcloud renewal price](http://localhost:4173/guides/ovhcloud-renewal-price)
+- [Hostinger VPS renewal price](http://localhost:4173/guides/hostinger-renewal-price)
+- [DreamHost renewal price](http://localhost:4173/guides/dreamhost-renewal-price)
+- [DigitalOcean VPS pricing](http://localhost:4173/guides/digitalocean-pricing)
+- [Vultr VPS pricing](http://localhost:4173/guides/vultr-pricing)
+- [Linode / Akamai VPS pricing](http://localhost:4173/guides/linode-pricing)
+- [OVHcloud VPS pricing](http://localhost:4173/guides/ovhcloud-pricing)
+- [AWS Lightsail VPS pricing](http://localhost:4173/guides/lightsail-pricing)
+- [Hostinger VPS VPS pricing](http://localhost:4173/guides/hostinger-pricing)
+- [Hetzner VPS pricing](http://localhost:4173/guides/hetzner-pricing)
+- [Kamatera VPS pricing](http://localhost:4173/guides/kamatera-pricing)
+- [UpCloud VPS pricing](http://localhost:4173/guides/upcloud-pricing)
+- [DreamHost VPS pricing](http://localhost:4173/guides/dreamhost-pricing)
 
 ## Changes
 - 2026-10-31 UpCloud (correction): Correction: the $3.50 UpCloud row was labeled “Developer 1 GB”, a plan UpCloud now lists as discontinued. Renamed to the orderable Starter 1 GB ($3.50, 250 Mbit/s, max 5 per customer), Premium 1 GB ($6) verified and Starter 4 GB / 2 vCPU ($14) added, all re-read from UpCloud’s global pricing page. UpCloud Simple Backup (+20%) is now counted when backups are on. Discontinued plans are never ranked or suggested. [https://upcloud.com/global/pricing/]
 - 2026-10-31 Vultr (correction): Correction: our verdicts, rankings and savings figures left out Vultr’s published 20% backup fee while the tables on the same pages included it. Vultr vc2-2c-4gb was shown as $20.00/mo “with backups” (and $106/yr cheaper than DigitalOcean); the true cost is $24.00/mo and the gap is $57.60/yr. Affected 19 pages. One fee policy now applies everywhere (every fee we hold is counted in tables, verdicts, rankings, widget and calculator), Vultr backup (20%) and overage ($0.01/GB) and Hetzner backup (20%) are now verified from official docs, and a build check fails if any verdict price differs from its own table. [https://docs.vultr.com/support/platform/billing/how-much-does-it-cost-to-enable-automatic-backups]
 - 2026-10-31 Hetzner (availability): Re-checked: all 8 Cost-Optimized plans (CX23, CX33, CX43, CX53, CAX11, CAX21, CAX31, CAX41) are marked “not available” (“This product is currently unavailable. Please check back later.”). Cost-Optimized is listed for eu-central NBG1/HEL1 only. [https://www.hetzner.com/cloud/cost-optimized]
 - 2026-10-31 Hetzner (correction): Correction: VPSLedger’s “Are you overpaying?” check, calculator and guides had suggested switching to Hetzner CX23/CX33 although Hetzner lists them as unavailable since our 2026-10-26 check. They are now labeled “Sold out” and “EU only” and are no longer suggested as switch targets; savings figures were recomputed from orderable plans only. [https://www.hetzner.com/cloud/cost-optimized]
+- 2026-10-31 Hostinger VPS (correction): Correction to the Black Friday VPS guide: it bolded Hostinger as lowest for each RAM size but compared it only with Vultr and DigitalOcean, leaving out cheaper no-prepay plans in our own ledger. OVHcloud VPS-1 (2 vCPU / 4 GB, $5.35/mo, no commitment, re-read 2026-10-31) costs $64.20 / $128.40 / $192.60 over 1/2/3 years vs Hostinger KVM 1 $155.76 / $155.76 / $443.52, and OVHcloud VPS-2 (4 vCPU / 8 GB, $10/mo) is lower than KVM 2 at 1 and 3 years. The guide now adds the cheapest verified, in-stock, no-prepay plan per RAM size and a build check fails if a 'lowest' label skips a cheaper row. The 3-year column assumed a 12-month renewal Hostinger doesn't show (KVM 1 $299.64); it now uses the stated same-term renewal (24 months billed up front at month 25): KVM 1 $443.52, KVM 2 $570.72, KVM 4 $1,007.52, KVM 8 $1,823.52. Sale window Oct 19 – Dec 14, 2026 added from Hostinger's Black Friday page. [https://www.hostinger.com/vps-hosting]
 - 2026-10-30 OVHcloud (correction): Corrected VPS-1/2/3 list prices to no-commitment monthly $5.35/$10.00/$14.50 (was 12-mo upfront $4.54/$8.50/$12.32 shown as monthly). 12-mo prepay kept as promo_mo. Source: OVH US public catalog API. [https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US]
 - 2026-10-30 Hetzner (availability): CX23 and CX33 re-confirmed currently unavailable on Hetzner cost-optimized / cloud pages (badge: Currently not available). [https://www.hetzner.com/cloud/cost-optimized]
 - 2026-10-26 Hetzner (availability): CX23 (€5.99/mo) shown as “not available” / currently unavailable in listed locations. [https://www.hetzner.com/cloud/cost-optimized]
@@ -515,19 +516,25 @@ Across 28 verified VPS plans from 12 providers (checked through 2026-10-31), lis
 
 
 ## Black Friday VPS deals 2026: renewal math (checked 2026-10-31)
-Page: https://vpsledger.pages.dev/guides/black-friday-vps-deals-2026
-The Black Friday price is not what you pay at renewal. As of 2026-10-31, Hostinger's VPS sale lists KVM 2 (2 vCPU / 8 GB) at $8.79/mo, but only on a 24-month prepay ($210.96 today), and it renews at $14.99/mo (+71%). Its 3-year cost is $390.84 ($10.86/mo averaged). The biggest renewal jump is KVM 4: $12.99 → $28.99 (+123%). Even at renewal, these plans stay below Vultr and DigitalOcean list prices for the same RAM; the catch is the up-front prepay and the lock-in.
-- Hostinger KVM 1 (1 vCPU/4 GB): deal $6.49/mo on 24-mo prepay ($155.76 today), renews $11.99/mo (+85%); cost 1y $155.76, 2y $155.76, 3y $299.64; source https://www.hostinger.com/vps-hosting
-- Hostinger KVM 2 (2 vCPU/8 GB): deal $8.79/mo on 24-mo prepay ($210.96 today), renews $14.99/mo (+71%); cost 1y $210.96, 2y $210.96, 3y $390.84; source https://www.hostinger.com/vps-hosting
-- Hostinger KVM 4 (4 vCPU/16 GB): deal $12.99/mo on 24-mo prepay ($311.76 today), renews $28.99/mo (+123%); cost 1y $311.76, 2y $311.76, 3y $659.64; source https://www.hostinger.com/vps-hosting
-- Hostinger KVM 8 (8 vCPU/32 GB): deal $25.99/mo on 24-mo prepay ($623.76 today), renews $49.99/mo (+92%); cost 1y $623.76, 2y $623.76, 3y $1223.64; source https://www.hostinger.com/vps-hosting
+Page: http://localhost:4173/guides/black-friday-vps-deals-2026
+The Black Friday price is not what you pay at renewal. As of 2026-10-31, Hostinger's VPS sale (runs Oct 19 – Dec 14, 2026) lists KVM 2 (2 vCPU / 8 GB) at $8.79/mo, but only on a 24-month prepay ($210.96 today). It renews at $14.99/mo (+71%) for the same 24-month term, billed up front again ($359.76), so keeping it past 2 years costs $570.72 in cash by month 25. The biggest renewal jump is KVM 4: $12.99 → $28.99 (+123%). If you can’t prepay 24 months: OVHcloud VPS-1 (2 vCPU / 4 GB, $5.35/mo, no commitment) costs less than Hostinger KVM 1 at 1, 2 and 3 years ($192.60 vs $443.52 over 3 years).
+- Hostinger KVM 1 (1 vCPU/4 GB): deal $6.49/mo on 24-mo prepay ($155.76 today), renews $11.99/mo (+85%); cash 1y $155.76, 2y $155.76, 3y $443.52 (renews for the same 24-month term, billed up front at month 25; covers 48 months); source https://www.hostinger.com/vps-hosting
+- Hostinger KVM 2 (2 vCPU/8 GB): deal $8.79/mo on 24-mo prepay ($210.96 today), renews $14.99/mo (+71%); cash 1y $210.96, 2y $210.96, 3y $570.72 (renews for the same 24-month term, billed up front at month 25; covers 48 months); source https://www.hostinger.com/vps-hosting
+- Hostinger KVM 4 (4 vCPU/16 GB): deal $12.99/mo on 24-mo prepay ($311.76 today), renews $28.99/mo (+123%); cash 1y $311.76, 2y $311.76, 3y $1007.52 (renews for the same 24-month term, billed up front at month 25; covers 48 months); source https://www.hostinger.com/vps-hosting
+- Hostinger KVM 8 (8 vCPU/32 GB): deal $25.99/mo on 24-mo prepay ($623.76 today), renews $49.99/mo (+92%); cash 1y $623.76, 2y $623.76, 3y $1823.52 (renews for the same 24-month term, billed up front at month 25; covers 48 months); source https://www.hostinger.com/vps-hosting
+- 4 GB: lowest 1 year OVHcloud VPS-1 $64.20; 2 years OVHcloud VPS-1 $128.40; 3 years OVHcloud VPS-1 $192.60
+- 8 GB: lowest 1 year OVHcloud VPS-2 $120.00; 2 years Hostinger KVM 2 $210.96; 3 years OVHcloud VPS-2 $360.00
+- 16 GB: lowest 1 year Hostinger KVM 4 $311.76; 2 years Hostinger KVM 4 $311.76; 3 years Hostinger KVM 4 $1,007.52
+- 32 GB: lowest 1 year Hostinger KVM 8 $623.76; 2 years Hostinger KVM 8 $623.76; 3 years Hostinger KVM 8 $1,823.52
 - Q: What is the best Black Friday VPS deal in 2026?
-  A: We only list deals we read on the vendor's own page. As of 2026-10-31 that is Hostinger's VPS sale: KVM 1 $6.49/mo (renews $11.99), KVM 2 $8.79/mo (renews $14.99), KVM 4 $12.99/mo (renews $28.99), KVM 8 $25.99/mo (renews $49.99), each on a 24-month prepay. DigitalOcean, Vultr, Hetzner, OVHcloud, DreamHost, IONOS, Contabo showed no Black Friday VPS price on the pages we read that day.
+  A: We only list deals we read on the vendor's own page. As of 2026-10-31 that is Hostinger's VPS sale (Oct 19 – Dec 14, 2026): KVM 1 $6.49/mo (renews $11.99), KVM 2 $8.79/mo (renews $14.99), KVM 4 $12.99/mo (renews $28.99), KVM 8 $25.99/mo (renews $49.99), each on a 24-month prepay. It is not always the cheapest option: If you can’t prepay 24 months: OVHcloud VPS-1 (2 vCPU / 4 GB, $5.35/mo, no commitment) costs less than Hostinger KVM 1 at 1, 2 and 3 years ($192.60 vs $443.52 over 3 years). DigitalOcean, Vultr, Hetzner, OVHcloud, DreamHost, IONOS, Contabo showed no Black Friday VPS price on the pages we read that day.
 - Q: How much does a Hostinger Black Friday VPS cost after renewal?
-  A: KVM 1: $6.49/mo now, renews at $11.99/mo (+85%); KVM 2: $8.79/mo now, renews at $14.99/mo (+71%); KVM 4: $12.99/mo now, renews at $28.99/mo (+123%); KVM 8: $25.99/mo now, renews at $49.99/mo (+92%). Hostinger's page says the renewal is "for the same term", so renewing a 24-month plan is billed up front again (KVM 2: $359.76).
+  A: KVM 1: $6.49/mo now, renews at $11.99/mo (+85%); KVM 2: $8.79/mo now, renews at $14.99/mo (+71%); KVM 4: $12.99/mo now, renews at $28.99/mo (+123%); KVM 8: $25.99/mo now, renews at $49.99/mo (+92%). Hostinger's page says the renewal is "for the same term", so renewing a 24-month plan is billed up front again (KVM 2: $359.76). Cash by month 25: KVM 1 $443.52, KVM 2 $570.72, KVM 4 $1,007.52, KVM 8 $1,823.52.
+- Q: When does the Hostinger Black Friday sale end?
+  A: Hostinger's Black Friday page says: "The Hostinger Black Friday sale runs from October 19 to December 14, 2026." (read 2026-10-31). Prices can change during the sale; re-check before you pay.
 - Q: Do I have to prepay to get the Black Friday VPS price?
-  A: Yes for Hostinger: the page says "All plans are paid upfront" and each deal shows the 24-month total (KVM 1 $155.76). Hostinger offers a 30-day money-back guarantee. Vultr and DigitalOcean bill monthly/hourly with no prepay.
-- Q: Is a Black Friday VPS cheaper than DigitalOcean or Vultr over 3 years?
-  A: KVM 1 (4 GB): $299.64 over 3 years vs Vultr $720.00, DigitalOcean $864.00; KVM 2 (8 GB): $390.84 over 3 years vs Vultr $1,440.00, DigitalOcean $1,728.00; KVM 4 (16 GB): $659.64 over 3 years vs Vultr $2,880.00, DigitalOcean $3,456.00; KVM 8 (32 GB): $1,223.64 over 3 years vs Vultr $5,760.00. List prices only; Vultr automatic backups add 20%, Hostinger includes weekly backups.
+  A: Yes for Hostinger: the page says "All plans are paid upfront" and each deal shows the 24-month total (KVM 1 $155.76). Hostinger offers a 30-day money-back guarantee. OVHcloud, Vultr and DigitalOcean plans in our table bill monthly with no prepay.
+- Q: Is a Black Friday VPS cheaper than a no-prepay VPS over 3 years?
+  A: 4 GB: lowest 1 year OVHcloud VPS-1 $64.20; 2 years OVHcloud VPS-1 $128.40; 3 years OVHcloud VPS-1 $192.60; 8 GB: lowest 1 year OVHcloud VPS-2 $120.00; 2 years Hostinger KVM 2 $210.96; 3 years OVHcloud VPS-2 $360.00; 16 GB: lowest 1 year Hostinger KVM 4 $311.76; 2 years Hostinger KVM 4 $311.76; 3 years Hostinger KVM 4 $1,007.52; 32 GB: lowest 1 year Hostinger KVM 8 $623.76; 2 years Hostinger KVM 8 $623.76; 3 years Hostinger KVM 8 $1,823.52. 3-year Hostinger figures are cash if you renew the same 24-month term (it covers service to month 48). List prices before tax; specs differ.
 - Q: When was this checked?
   A: 2026-10-31. Each row links the vendor page we read. Sales change daily; re-check the vendor page before you pay.

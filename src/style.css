@@ -128,3 +128,6 @@ body.embed main,#embed-main{padding-top:12px}
 .calc-share textarea{width:100%;min-height:72px;font:12px/1.45 var(--f-mono,ui-monospace,monospace);padding:10px;border:1px solid var(--line);border-radius:var(--r-sm,6px);background:var(--surface);color:var(--ink)}
 .calc-share .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 
+/* RT-20261031-92: BF guide tables as stacked labelled cards on phones (desktop keeps the table) */
+.bf-lowest{padding-left:18px}.bf-lowest li{margin:6px 0}
+@media(max-width:600px){.tbl.cards{overflow:visible;background:transparent;border:0;box-shadow:none}.tbl.cards table,.tbl.cards tbody,.tbl.cards tr,.tbl.cards td{display:block;width:100%}.tbl.cards thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.tbl.cards tr{background:var(--surface)!important;border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);margin:0 0 12px;padding:6px 14px}.tbl.cards td{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px solid var(--line);white-space:normal;text-align:right}.tbl.cards td:last-child{border-bottom:0}.tbl.cards td::before{content:attr(data-label);color:var(--mut);font-size:12px;font-weight:400;text-align:left;flex:0 0 auto}.tbl.cards td[data-label=Plan],.tbl.cards td[data-label=RAM]{font-size:15px}}

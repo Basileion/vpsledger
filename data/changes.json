@@ -120,5 +120,14 @@
   "plan_id": "hetzner-cx33",
   "summary": "Correction: VPSLedger’s “Are you overpaying?” check, calculator and guides had suggested switching to Hetzner CX23/CX33 although Hetzner lists them as unavailable since our 2026-10-26 check. They are now labeled “Sold out” and “EU only” and are no longer suggested as switch targets; savings figures were recomputed from orderable plans only.",
   "source": "https://www.hetzner.com/cloud/cost-optimized"
+ },
+ {
+  "date": "2026-10-31",
+  "observed": "2026-10-31",
+  "provider": "Hostinger VPS",
+  "kind": "correction",
+  "plan_id": "hostinger-kvm-1",
+  "summary": "Correction to the Black Friday VPS guide: it bolded Hostinger as lowest for each RAM size but compared it only with Vultr and DigitalOcean, leaving out cheaper no-prepay plans in our own ledger. OVHcloud VPS-1 (2 vCPU / 4 GB, $5.35/mo, no commitment, re-read 2026-10-31) costs $64.20 / $128.40 / $192.60 over 1/2/3 years vs Hostinger KVM 1 $155.76 / $155.76 / $443.52, and OVHcloud VPS-2 (4 vCPU / 8 GB, $10/mo) is lower than KVM 2 at 1 and 3 years. The guide now adds the cheapest verified, in-stock, no-prepay plan per RAM size and a build check fails if a 'lowest' label skips a cheaper row. The 3-year column assumed a 12-month renewal Hostinger doesn't show (KVM 1 $299.64); it now uses the stated same-term renewal (24 months billed up front at month 25): KVM 1 $443.52, KVM 2 $570.72, KVM 4 $1,007.52, KVM 8 $1,823.52. Sale window Oct 19 – Dec 14, 2026 added from Hostinger's Black Friday page.",
+  "source": "https://www.hostinger.com/vps-hosting"
  }
 ]
