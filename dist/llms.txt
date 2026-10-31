@@ -1,6 +1,6 @@
 # VPSLedger
 
-> True monthly VPS cost (base + IPv4 + backups + overage), 33 plans, 26 verified, 15 providers, checked 2026-10-30.
+> True monthly VPS cost (base + IPv4 + backups + overage), 33 plans, 26 verified, 15 providers, checked 2026-10-31.
 
 ## Methodology
 Prices come only from each provider's own pricing page or official public API. Verified rows were hand-checked on the date shown. We never invent a price. EUR→USD uses ECB reference 1.1188 (2026-10-26). Details: https://vpsledger.pages.dev/methodology
@@ -48,7 +48,7 @@ Prices come only from each provider's own pricing page or official public API. V
 - [Privacy](https://vpsledger.pages.dev/privacy)
 - [Terms](https://vpsledger.pages.dev/terms)
 
-## Cheapest verified at 1 TB egress
+## Cheapest verified, orderable at 1 TB egress (sold-out plans excluded)
 - UpCloud Developer 1 GB: $3.50/mo (https://upcloud.com/pricing/, 2026-10-26)
 - Kamatera Basic: $4.00/mo (https://www.kamatera.com/pricing/, 2026-10-30)
 - Vultr vc2-1c-1gb: $5.00/mo (https://api.vultr.com/v2/plans?type=vc2, 2026-10-30)
@@ -56,6 +56,6 @@ Prices come only from each provider's own pricing page or official public API. V
 - AWS Lightsail Linux 0.5 GB: $5.00/mo (https://aws.amazon.com/lightsail/pricing/, 2026-10-30)
 - OVHcloud VPS-1: $5.35/mo (https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US, 2026-10-30)
 - DigitalOcean Basic 1 GB: $6.00/mo (https://www.digitalocean.com/pricing/droplets, 2026-10-30)
-- Hetzner CX23: $6.70/mo (https://www.hetzner.com/cloud/cost-optimized, 2026-10-30)
 - Vultr vc2-1c-0.5gb: $8.50/mo (https://api.vultr.com/v2/plans?type=vc2, 2026-10-30)
 - DigitalOcean Basic 512 MiB: $9.00/mo (https://www.digitalocean.com/pricing/droplets, 2026-10-30)
+- OVHcloud VPS-2: $10.00/mo (https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US, 2026-10-30)

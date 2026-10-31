@@ -1,6 +1,6 @@
 # VPSLedger — full ledger
 
-33 plans, 26 verified, 15 providers. Checked through 2026-10-30. FX: 1.1188 USD/EUR on 2026-10-26.
+33 plans, 26 verified, 15 providers. Checked through 2026-10-31. FX: 1.1188 USD/EUR on 2026-10-26.
 
 ## Providers
 ### DigitalOcean
@@ -130,6 +130,7 @@
 - price_mo: 6 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://www.digitalocean.com/pricing/droplets (2026-10-30)
 - notes: Regular SSD Basic Droplet
 
@@ -139,6 +140,7 @@
 - price_mo: 4 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://www.digitalocean.com/pricing/droplets (2026-10-30)
 - notes: 
 
@@ -148,6 +150,7 @@
 - price_mo: 24 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://www.digitalocean.com/pricing/droplets (2026-10-30)
 - notes: 
 
@@ -157,6 +160,7 @@
 - price_mo: 5 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://api.vultr.com/v2/plans?type=vc2 (2026-10-30)
 - notes: Cloud Compute regular; official public API
 
@@ -166,6 +170,7 @@
 - price_mo: 3.5 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://api.vultr.com/v2/plans?type=vc2 (2026-10-30)
 - notes: 
 
@@ -175,6 +180,7 @@
 - price_mo: 20 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://api.vultr.com/v2/plans?type=vc2 (2026-10-30)
 - notes: 
 
@@ -184,6 +190,7 @@
 - price_mo: 5 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://api.linode.com/v4/linode/types (2026-10-30)
 - notes: Backups $2/mo (API)
 
@@ -193,6 +200,7 @@
 - price_mo: 12 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://api.linode.com/v4/linode/types (2026-10-30)
 - notes: Backups $2.50/mo
 
@@ -202,6 +210,7 @@
 - price_mo: 24 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://api.linode.com/v4/linode/types (2026-10-30)
 - notes: Backups $5/mo
 
@@ -211,8 +220,10 @@
 - price_mo: 5.99 EUR
 - promo_mo: none
 - status: verified
-- source: https://www.hetzner.com/cloud/cost-optimized (2026-10-30)
-- notes: Excl. VAT; CURRENTLY UNAVAILABLE on Hetzner cost-optimized page (checked 2026-10-30)
+- availability: unavailable (checked 2026-10-31)
+- region: EU only (NBG1, HEL1)
+- source: https://www.hetzner.com/cloud/cost-optimized (2026-10-31)
+- notes: Excl. VAT. Sold out: Hetzner cost-optimized page marks CX23 “not available” and shows “This product is currently unavailable. Please check back later.” (checked 2026-10-31). EU only (NBG1, HEL1); not offered in Hetzner US locations.
 
 ### Hetzner CX33
 - id: hetzner-cx33
@@ -220,8 +231,10 @@
 - price_mo: 8.99 EUR
 - promo_mo: none
 - status: verified
-- source: https://www.hetzner.com/cloud/cost-optimized (2026-10-30)
-- notes: Excl. VAT; CURRENTLY UNAVAILABLE on Hetzner cost-optimized page (checked 2026-10-30)
+- availability: unavailable (checked 2026-10-31)
+- region: EU only (NBG1, HEL1)
+- source: https://www.hetzner.com/cloud/cost-optimized (2026-10-31)
+- notes: Excl. VAT. Sold out: Hetzner cost-optimized page marks CX33 “not available” and shows “This product is currently unavailable. Please check back later.” (checked 2026-10-31). EU only (NBG1, HEL1); not offered in Hetzner US locations.
 
 ### OVHcloud VPS-1
 - id: ovhcloud-vps-1
@@ -229,6 +242,7 @@
 - price_mo: 5.35 USD
 - promo_mo: 4.54
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US (2026-10-30)
 - notes: No-commitment monthly (US catalog API); 12-mo prepay $4.54/mo. Unlimited traffic, 500 Mbps
 
@@ -238,6 +252,7 @@
 - price_mo: 10 USD
 - promo_mo: 8.5
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US (2026-10-30)
 - notes: No-commitment monthly (US catalog API); 12-mo prepay $8.50/mo. 1 Gbps
 
@@ -247,6 +262,7 @@
 - price_mo: 14.5 USD
 - promo_mo: 12.32
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US (2026-10-30)
 - notes: No-commitment monthly (US catalog API); 12-mo prepay $12.32/mo. 2 Gbps
 
@@ -256,6 +272,7 @@
 - price_mo: 6.55 EUR
 - promo_mo: none
 - status: unverified
+- availability: in_stock (checked 2026-10-30)
 - source: https://www.scaleway.com/en/pricing/virtual-instances/ (2026-10-30)
 - notes: ~€/month from hourly €0.00898; specs not legible on page
 
@@ -265,6 +282,7 @@
 - price_mo: 14.74 EUR
 - promo_mo: none
 - status: unverified
+- availability: in_stock (checked 2026-10-30)
 - source: https://www.scaleway.com/en/pricing/virtual-instances/ (2026-10-30)
 - notes: ~€/month from hourly €0.0202; specs not legible on page
 
@@ -274,6 +292,7 @@
 - price_mo: 3.5 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-26)
 - source: https://upcloud.com/pricing/ (2026-10-26)
 - notes: Starter plan, max 5 deployments
 
@@ -283,6 +302,7 @@
 - price_mo: 6 USD
 - promo_mo: none
 - status: unverified
+- availability: in_stock (checked 2026-10-26)
 - source: https://upcloud.com/pricing/ (2026-10-26)
 - notes: RAM/CPU columns not legible on check date
 
@@ -292,6 +312,7 @@
 - price_mo: 5.5 EUR
 - promo_mo: none
 - status: unverified
+- availability: in_stock (checked 2026-10-30)
 - source: https://contabo.com/en-us/vps/ (2026-10-30)
 - notes: 4 vCPU / 8 GB confirmed; € price shown "for the first 24 months", VAT treatment ambiguous
 
@@ -301,6 +322,7 @@
 - price_mo: 11.99 USD
 - promo_mo: 6.49
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://www.hostinger.com/vps-hosting (2026-10-30)
 - notes: Promo $6.49/mo on 24-month prepay; renews $11.99
 
@@ -310,6 +332,7 @@
 - price_mo: 14.99 USD
 - promo_mo: 8.79
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://www.hostinger.com/vps-hosting (2026-10-30)
 - notes: Promo $8.79/mo on 24-month prepay; renews $14.99
 
@@ -319,6 +342,7 @@
 - price_mo: 5 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://aws.amazon.com/lightsail/pricing/ (2026-10-30)
 - notes: IPv4 bundle
 
@@ -328,6 +352,7 @@
 - price_mo: 24 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://aws.amazon.com/lightsail/pricing/ (2026-10-30)
 - notes: IPv4 bundle; 4 TB transfer
 
@@ -337,6 +362,7 @@
 - price_mo: 48.92 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://cloud.google.com/products/compute/pricing/general-purpose (2026-10-30)
 - notes: On-demand $0.06701142/h × 730 h, page default region; disk, IPv4 and egress billed separately. Shared-core e2-small/medium rates not published in the table read.
 
@@ -346,6 +372,7 @@
 - price_mo: 97.84 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://cloud.google.com/products/compute/pricing/general-purpose (2026-10-30)
 - notes: On-demand $0.13402284/h × 730 h; disk, IPv4 and egress extra.
 
@@ -355,6 +382,7 @@
 - price_mo: 7.59 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://prices.azure.com/api/retail/prices (2026-10-30)
 - notes: $0.0104/h × 730 h, Retail Prices API; disk and IP extra
 
@@ -364,6 +392,7 @@
 - price_mo: 30.37 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://prices.azure.com/api/retail/prices (2026-10-30)
 - notes: $0.0416/h × 730 h; disk and IP extra
 
@@ -373,6 +402,7 @@
 - price_mo: 4 USD
 - promo_mo: none
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://www.kamatera.com/pricing/ (2026-10-30)
 - notes: Type A
 
@@ -382,6 +412,7 @@
 - price_mo: 25 USD
 - promo_mo: none
 - status: unverified
+- availability: in_stock (checked 2026-10-30)
 - source: https://www.kamatera.com/pricing/ (2026-10-30)
 - notes: Storage/traffic not legible
 
@@ -391,6 +422,7 @@
 - price_mo: null USD
 - promo_mo: none
 - status: unverified
+- availability: in_stock (checked 2026-10-30)
 - source: https://www.ionos.com/servers/vps (2026-10-30)
 - notes: Term/promo display ambiguous; regular price not read
 
@@ -400,6 +432,7 @@
 - price_mo: 5 USD
 - promo_mo: none
 - status: unverified
+- availability: in_stock (checked 2026-10-30)
 - source: https://www.ionos.com/servers/vps (2026-10-30)
 - notes: $5/month shown with 1-year term; confirm
 
@@ -409,6 +442,7 @@
 - price_mo: 15.99 USD
 - promo_mo: 8.99
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://www.dreamhost.com/hosting/vps/ (2026-10-30)
 - notes: Promo $8.99 first 3 months; renews $15.99
 
@@ -418,11 +452,12 @@
 - price_mo: 34.99 USD
 - promo_mo: 22.99
 - status: verified
+- availability: in_stock (checked 2026-10-30)
 - source: https://www.dreamhost.com/hosting/vps/ (2026-10-30)
 - notes: Promo $22.99 first 3 months; renews $34.99
 
 ## Data study: VPS price per GB RAM / per vCPU
-Across 26 verified VPS plans from 12 providers (checked through 2026-10-30), list price per GB of RAM ranges from $1.21/GB/mo (OVHcloud VPS-3) to $10.00/GB/mo (AWS Lightsail Linux 0.5 GB) — 8.3× apart; the median is $5.00/GB. Per vCPU, OVHcloud VPS-3 is cheapest at $2.42/vCPU/mo vs a $6.75 median. Intro prices hide renewal jumps of up to +85% (Hostinger VPS KVM 1).
+Across 26 verified VPS plans from 12 providers (checked through 2026-10-31), list price per GB of RAM ranges from $1.21/GB/mo (OVHcloud VPS-3) to $10.00/GB/mo (AWS Lightsail Linux 0.5 GB) — 8.3× apart; the median is $5.00/GB. Hetzner CX23 and Hetzner CX33 would rank lower per GB but are sold out as of 2026-10-31, so they are left out of these figures. Per vCPU, OVHcloud VPS-3 is cheapest at $2.42/vCPU/mo vs a $6.75 median. Intro prices hide renewal jumps of up to +85% (Hostinger VPS KVM 1).
 - Page: https://vpsledger.pages.dev/study/vps-price-per-gb-ram
 - CSV: https://vpsledger.pages.dev/api/study-vps-price-per-gb.csv
 
@@ -452,6 +487,8 @@ Across 26 verified VPS plans from 12 providers (checked through 2026-10-30), lis
 - [DreamHost VPS pricing](https://vpsledger.pages.dev/guides/dreamhost-pricing)
 
 ## Changes
+- 2026-10-31 Hetzner (availability): Re-checked: all 8 Cost-Optimized plans (CX23, CX33, CX43, CX53, CAX11, CAX21, CAX31, CAX41) are marked “not available” (“This product is currently unavailable. Please check back later.”). Cost-Optimized is listed for eu-central NBG1/HEL1 only. [https://www.hetzner.com/cloud/cost-optimized]
+- 2026-10-31 Hetzner (correction): Correction: VPSLedger’s “Are you overpaying?” check, calculator and guides had suggested switching to Hetzner CX23/CX33 although Hetzner lists them as unavailable since our 2026-10-26 check. They are now labeled “Sold out” and “EU only” and are no longer suggested as switch targets; savings figures were recomputed from orderable plans only. [https://www.hetzner.com/cloud/cost-optimized]
 - 2026-10-30 OVHcloud (correction): Corrected VPS-1/2/3 list prices to no-commitment monthly $5.35/$10.00/$14.50 (was 12-mo upfront $4.54/$8.50/$12.32 shown as monthly). 12-mo prepay kept as promo_mo. Source: OVH US public catalog API. [https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US]
 - 2026-10-30 Hetzner (availability): CX23 and CX33 re-confirmed currently unavailable on Hetzner cost-optimized / cloud pages (badge: Currently not available). [https://www.hetzner.com/cloud/cost-optimized]
 - 2026-10-26 Hetzner (availability): CX23 (€5.99/mo) shown as “not available” / currently unavailable in listed locations. [https://www.hetzner.com/cloud/cost-optimized]

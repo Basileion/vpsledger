@@ -12,7 +12,7 @@
   "observed": "2026-10-26",
   "provider": "Hetzner",
   "kind": "availability",
-  "summary": "CX23 (\u20ac5.99/mo) shown as \u201cnot available\u201d / currently unavailable in listed locations.",
+  "summary": "CX23 (€5.99/mo) shown as “not available” / currently unavailable in listed locations.",
   "source": "https://www.hetzner.com/cloud/cost-optimized"
  },
  {
@@ -38,7 +38,7 @@
   "observed": "2026-10-26",
   "provider": "OVHcloud",
   "kind": "lineup",
-  "summary": "\u201cVPS 2027\u201d range listed, VPS-1 from $4.54/mo (2 vCore, 4 GB).",
+  "summary": "“VPS 2027” range listed, VPS-1 from $4.54/mo (2 vCore, 4 GB).",
   "source": "https://www.ovhcloud.com/en/vps/"
  },
  {
@@ -46,7 +46,7 @@
   "observed": "2026-10-26",
   "provider": "Linode / Akamai",
   "kind": "transfer",
-  "summary": "G8 and GPU plans do not include bundled transfer; older plans include 0\u201320 TB.",
+  "summary": "G8 and GPU plans do not include bundled transfer; older plans include 0–20 TB.",
   "source": "https://www.linode.com/pricing/"
  },
  {
@@ -83,6 +83,24 @@
   "kind": "availability",
   "plan_id": "hetzner-cx23",
   "summary": "CX23 and CX33 re-confirmed currently unavailable on Hetzner cost-optimized / cloud pages (badge: Currently not available).",
+  "source": "https://www.hetzner.com/cloud/cost-optimized"
+ },
+ {
+  "date": "2026-10-31",
+  "observed": "2026-10-31",
+  "provider": "Hetzner",
+  "kind": "availability",
+  "plan_id": "hetzner-cx23",
+  "summary": "Re-checked: all 8 Cost-Optimized plans (CX23, CX33, CX43, CX53, CAX11, CAX21, CAX31, CAX41) are marked “not available” (“This product is currently unavailable. Please check back later.”). Cost-Optimized is listed for eu-central NBG1/HEL1 only.",
+  "source": "https://www.hetzner.com/cloud/cost-optimized"
+ },
+ {
+  "date": "2026-10-31",
+  "observed": "2026-10-31",
+  "provider": "Hetzner",
+  "kind": "correction",
+  "plan_id": "hetzner-cx33",
+  "summary": "Correction: VPSLedger’s “Are you overpaying?” check, calculator and guides had suggested switching to Hetzner CX23/CX33 although Hetzner lists them as unavailable since our 2026-10-26 check. They are now labeled “Sold out” and “EU only” and are no longer suggested as switch targets; savings figures were recomputed from orderable plans only.",
   "source": "https://www.hetzner.com/cloud/cost-optimized"
  }
 ]

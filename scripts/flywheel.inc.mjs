@@ -1,6 +1,7 @@
 // Programmatic SEO + GEO flywheel for VPSLedger. Cross-links O11y Watch where relevant.
 export default function flywheel(ctx){
-const {STUDY,providers,plans,changes,P,page:page0,W,SITE,NAME,esc,usd,yr,tco,ver,verBuy=ver,unavail=()=>false,lastChecked,EG,SPECS,equiv,rankFor,mailBox,meth,asOf,FX,FX_EUR_USD,tag,aff}=ctx;
+const {STUDY,providers,plans,changes,P,page:page0,W,SITE,NAME,esc,usd,yr,tco,ver,verBuy=ver,unavail=()=>false,lastChecked,EG,SPECS,equiv,rankFor,mailBox,meth,asOf,FX,FX_EUR_USD,tag,aff,soldTxt=()=>'Sold out',regionShort=()=>'',hzUsNote=()=>''}=ctx;
+const soldLbl=p=>`${soldTxt(p)}${p.region_scope?' · '+regionShort(p):''}`;
 const page=o=>page0(STUDY&&o.file.startsWith('guides/')?{...o,body:o.body.replace('<section class="mail">',STUDY.callout+'<section class="mail">')}:o);
 const O11Y='https://o11y-watch.pages.dev';
 const ORG={
@@ -23,7 +24,7 @@ for(const ram of [2,4,8]){
   const best=rows[0], worst=rows.at(-1);
   const file=`guides/cheapest-${ram}gb-vps.html`;
   const sold=rowsAll.filter(x=>unavail(x.p));
-  const soldNote=sold.length?` ${sold.map(x=>`${x.p.provider} ${x.p.plan} (${usd(x.t.total)}/mo)`).join(', ')} listed but currently unavailable to order.`: '';
+  const soldNote=sold.length?` ${sold.map(x=>`${x.p.provider} ${x.p.plan} (${usd(x.t.total)}/mo, ${regionShort(x.p)||'region n/a'})`).join(', ')} ${sold.length>1?'are':'is'} sold out on the provider’s page (checked ${sold[0].p.availability_checked}) and not ranked.`: '';
   const answer=`As of ${lastChecked}, among ${rows.length} orderable verified ${ram} GB RAM plans at ${EG} TB egress with backups, the cheapest true monthly cost is ${best.p.provider} ${best.p.plan} at ${usd(best.t.total)}/mo. The priciest in this slice is ${worst.p.provider} ${worst.p.plan} at ${usd(worst.t.total)}/mo — a gap of ${yr(worst.t.total-best.t.total)}/yr.${soldNote}`;
   const faq=[
     [`What is the cheapest ${ram} GB VPS?`, `${best.p.provider} ${best.p.plan} at ${usd(best.t.total)}/mo true cost (${EG} TB egress, backups on), checked ${best.p.checked}.`],
@@ -48,9 +49,9 @@ ${keyStats([
 <h2>Ranked ${ram} GB plans</h2>
 <div class="tbl"><table><thead><tr><th>#</th><th>Provider</th><th>Plan</th><th class="n">vCPU</th><th class="n">Disk</th><th class="n">Incl. TB</th><th class="n">List</th><th class="n">True / mo</th><th>Source</th></tr></thead><tbody>
 ${rows.map((x,i)=>`<tr><td class="n">${i+1}</td><td><a href="/providers/${x.p.provider_id}.html">${esc(x.p.provider)}</a></td><td>${esc(x.p.plan)}</td><td class="n">${x.p.vcpu??'—'}</td><td class="n">${x.p.disk_gb??'—'}</td><td class="n">${x.p.transfer_tb??'—'}</td><td class="n">${usd(x.t.base)}</td><td class="n">${usd(x.t.total)}</td><td class="src"><a href="${x.p.source}">source</a> · ${x.p.checked}</td></tr>`).join('')}
-${sold.map(x=>`<tr><td class="n">—</td><td><a href="/providers/${x.p.provider_id}.html">${esc(x.p.provider)}</a></td><td>${esc(x.p.plan)} <span class="tag u">Unavailable</span></td><td class="n">${x.p.vcpu??'—'}</td><td class="n">${x.p.disk_gb??'—'}</td><td class="n">${x.p.transfer_tb??'—'}</td><td class="n">${usd(x.t.base)}</td><td class="n">${usd(x.t.total)}</td><td class="src"><a href="${x.p.source}">source</a> · currently unavailable</td></tr>`).join('')}
+${sold.map(x=>`<tr><td class="n">—</td><td><a href="/providers/${x.p.provider_id}.html">${esc(x.p.provider)}</a></td><td>${esc(x.p.plan)} <span class="tag u">${esc(soldLbl(x.p))}</span></td><td class="n">${x.p.vcpu??'—'}</td><td class="n">${x.p.disk_gb??'—'}</td><td class="n">${x.p.transfer_tb??'—'}</td><td class="n">${usd(x.t.base)}</td><td class="n">${usd(x.t.total)}</td><td class="src"><a href="${x.p.source}">source</a> · sold out, checked ${x.p.availability_checked}</td></tr>`).join('')}
 </tbody></table></div>
-<p class="note">${asOf}. Ranked rows are orderable; unavailable plans are listed below the ranking but not counted as cheapest. ${meth}.</p>
+<p class="note">${asOf}. Ranked rows are orderable; sold-out plans are listed below the ranking, labeled, and never counted as cheapest or suggested. ${meth}.</p>
 ${o11yNote(`${ram} GB fleet`)}
 ${mailBox('g'+ram,`Alert me when a cheaper ${ram} GB plan appears`,'Send the weekly ledger')}
 ${cite(`Cheapest ${ram} GB VPS ranking as of ${lastChecked}`)}
@@ -77,7 +78,7 @@ ${cite(`Cheapest ${ram} GB VPS ranking as of ${lastChecked}`)}
     const lead=answers[0];
     const answer=lead
       ? `As of ${lastChecked}, for ${lead.s.cpu} vCPU / ${lead.s.ram} GB at ${EG} TB egress with backups, Hetzner ${lead.h.p.plan} costs ${usd(lead.h.t.total)}/mo true cost${unavail(lead.h.p)?' but is currently unavailable to order':''}. ${lead.cheaper.length?`${lead.cheaper.filter(x=>!unavail(x.p)).length} orderable verified alternative(s) are cheaper — lowest is ${(lead.cheaper.find(x=>!unavail(x.p))||lead.cheaper[0]).p.provider} ${(lead.cheaper.find(x=>!unavail(x.p))||lead.cheaper[0]).p.plan} at ${usd((lead.cheaper.find(x=>!unavail(x.p))||lead.cheaper[0]).t.total)}/mo.`:`No verified alternative in this dataset is cheaper on true monthly cost.`}`
-      : `Hetzner has ${hPlans.length} verified plans in the ledger as of ${lastChecked}; CX23/CX33 are currently unavailable to order — compare true monthly cost against other providers below.`;
+      : (()=>{const so=hPlans.filter(unavail);const alt=rankFor(SPECS[0])[0];return `As of ${lastChecked}, ${so.length?`${so.map(p=>p.plan).join(' and ')} — the ${so.length===hPlans.length?'only':''} Hetzner plans in the ledger — are sold out on Hetzner’s page (checked ${so[0].availability_checked}) and are EU only (NBG1, HEL1), so they are not ranked or suggested.`:`Hetzner has ${hPlans.length} verified plans in the ledger.`}${alt?` The cheapest orderable verified ${SPECS[0].cpu} vCPU / ${SPECS[0].ram} GB-class plan at ${EG} TB egress with backups is ${alt.p.provider} ${alt.p.plan} at ${usd(alt.t.total)}/mo.`:''}`})();
     const faq=[
       ['What are the best Hetzner alternatives?', answer],
       ['Do you include fees?', `Yes — true monthly cost adds IPv4, backups and overage at ${EG} TB. ${meth.replace(/<[^>]+>/g,'')}`],
@@ -98,21 +99,23 @@ ${keyStats([
 ])}
 <h2>Hetzner plans in the ledger</h2>
 <div class="tbl"><table><thead><tr><th>Plan</th><th class="n">vCPU</th><th class="n">RAM</th><th class="n">List</th><th class="n">True @${EG}TB</th><th>Source</th></tr></thead><tbody>
-${hPlans.map(p=>{const t=tco(p,EG,true,true);return `<tr><td>${esc(p.plan)}${unavail(p)?' <span class="tag u">Unavailable</span>':''}</td><td class="n">${p.vcpu}</td><td class="n">${p.ram_gb}</td><td class="n">${p.currency==='EUR'?'€':'$'}${p.price_mo?.toFixed(2)}</td><td class="n">${usd(t?.total)}</td><td class="src"><a href="${p.source}">source</a> · ${unavail(p)?'currently unavailable · ':''}${p.checked}</td></tr>`}).join('')}
+${hPlans.map(p=>{const t=tco(p,EG,true,true);return `<tr><td>${esc(p.plan)}${unavail(p)?` <span class="tag u">${esc(soldLbl(p))}</span>`:''}</td><td class="n">${p.vcpu}</td><td class="n">${p.ram_gb}</td><td class="n">${p.currency==='EUR'?'€':'$'}${p.price_mo?.toFixed(2)}</td><td class="n">${usd(t?.total)}</td><td class="src"><a href="${p.source}">source</a> · ${unavail(p)?`sold out, checked ${p.availability_checked}`:p.checked}</td></tr>`}).join('')}
 </tbody></table></div>
-<h2>Head-to-head by spec</h2>
+<h2>${answers.length?'Head-to-head by spec':'Cheapest orderable plans by spec'}</h2>
+${answers.length?'':SPECS.map(s=>{const r=rankFor(s).slice(0,8);return `<h3>${s.cpu} vCPU / ${s.ram} GB</h3><div class="tbl"><table><thead><tr><th>#</th><th>Provider</th><th>Plan</th><th class="n">True / mo</th></tr></thead><tbody>${r.map((x,i)=>`<tr><td class="n">${i+1}</td><td>${esc(x.p.provider)}</td><td>${esc(x.p.plan)}</td><td class="n">${usd(x.t.total)}</td></tr>`).join('')}</tbody></table></div>`}).join('')}
 ${answers.map(({s,h,cheaper})=>{
   const r=rankFor(s).slice(0,8);
   return `<h3>${s.cpu} vCPU / ${s.ram} GB</h3><div class="tbl"><table><thead><tr><th>#</th><th>Provider</th><th>Plan</th><th class="n">True / mo</th><th class="n">vs Hetzner / yr</th></tr></thead><tbody>
 ${r.map((x,i)=>`<tr${x.p.provider_id==='hetzner'?' style="font-weight:600"':''}><td class="n">${i+1}</td><td>${esc(x.p.provider)}</td><td>${esc(x.p.plan)}</td><td class="n">${usd(x.t.total)}</td><td class="n">${x.p.provider_id==='hetzner'?'—':yr(x.t.total-h.t.total)}</td></tr>`).join('')}
 </tbody></table></div>`;
 }).join('')}
-<p><a class="btn ghost" href="/providers/hetzner.html">Full Hetzner provider page</a> <a class="btn ghost" href="/compare/hetzner-vs-digitalocean.html">Hetzner vs DigitalOcean</a></p>
+<p><a class="btn ghost" href="/providers/hetzner.html">Full Hetzner provider page</a> <a class="btn ghost" href="/compare/digitalocean-vs-hetzner.html">Hetzner vs DigitalOcean</a></p>
+${hzUsNote()}
 ${o11yNote('Hetzner or alternative fleet')}
 ${mailBox('ghz','Watch Hetzner and cheaper alts','Send the weekly ledger')}
 ${cite(`Hetzner alternatives as of ${lastChecked}`)}
 `});
-    hub.push({file,title:'Hetzner alternatives',blurb:lead?`Hetzner ${lead.h.p.plan} ${usd(lead.h.t.total)}/mo; ${lead.cheaper.length} cheaper verified alt(s)`:`${hPlans.length} Hetzner plans tracked`});
+    hub.push({file,title:'Hetzner alternatives',blurb:lead?`Hetzner ${lead.h.p.plan} ${usd(lead.h.t.total)}/mo; ${lead.cheaper.length} cheaper verified alt(s)`:`${hPlans.length} Hetzner plans tracked, ${hPlans.filter(unavail).length} sold out; orderable alternatives ranked`});
   }
 }
 
@@ -217,10 +220,12 @@ for(const pid of ['digitalocean','vultr','linode','ovhcloud','lightsail','hostin
   const ps=plans.filter(p=>p.provider_id===pid);
   const vps=ps.filter(p=>p.status==='verified'&&p.price_mo!=null);
   if(!vps.length) continue;
-  const cheapest=vps.map(p=>({p,t:tco(p,EG,true,true)})).filter(x=>x.t).sort((a,b)=>a.t.total-b.t.total)[0];
-  if(!cheapest) continue;
+  const pricedAll=vps.map(p=>({p,t:tco(p,EG,true,true)})).filter(x=>x.t).sort((a,b)=>a.t.total-b.t.total);
+  const cheapest=pricedAll.find(x=>!unavail(x.p)),soldAll=pricedAll.filter(x=>unavail(x.p));
+  if(!pricedAll.length) continue;
   const file=`guides/${pid}-pricing.html`;
-  const answer=`As of ${pr.checked}, ${pr.name} has ${vps.length} verified plan(s) in VPSLedger. The lowest true monthly cost at ${EG} TB egress with backups is ${cheapest.p.plan} at ${usd(cheapest.t.total)}/mo (list ${cheapest.p.currency==='EUR'?'€':'$'}${cheapest.p.price_mo.toFixed(2)}${cheapest.p.promo_mo?`; intro $${cheapest.p.promo_mo.toFixed(2)}`:''}). Source: ${pr.source}.`;
+  const soldSentence=soldAll.length?` ${soldAll.map(x=>`${x.p.plan} (list ${x.p.currency==='EUR'?'€':'$'}${x.p.price_mo.toFixed(2)}, ${usd(x.t.total)}/mo true cost)`).join(' and ')} ${soldAll.length>1?'are':'is'} sold out on ${pr.name}’s page as of ${soldAll[0].p.availability_checked}${soldAll[0].p.region_scope?` and ${regionShort(soldAll[0].p)}`:''}.`:'';
+  const answer=cheapest?`As of ${pr.checked}, ${pr.name} has ${vps.length} verified plan(s) in VPSLedger. The lowest orderable true monthly cost at ${EG} TB egress with backups is ${cheapest.p.plan} at ${usd(cheapest.t.total)}/mo (list ${cheapest.p.currency==='EUR'?'€':'$'}${cheapest.p.price_mo.toFixed(2)}${cheapest.p.promo_mo?`; intro $${cheapest.p.promo_mo.toFixed(2)}`:''}).${soldSentence} Source: ${pr.source}.`:`As of ${pr.checked}, ${pr.name} has ${vps.length} verified plan(s) in VPSLedger and none is orderable right now:${soldSentence} Source: ${pr.source}.`;
   const faq=[
     [`What does ${pr.name} VPS cost?`, answer],
     ['Last verified?', pr.checked],
@@ -234,21 +239,22 @@ ${crumbs([{href:'/',label:'Home'},{href:'/guides/',label:'Guides'},{href:'/'+fil
 <section class="hero"><div class="eyebrow">Provider pricing · checked ${esc(pr.checked)}</div><h1>${esc(pr.name)} VPS pricing</h1>
 <p class="lede"><b>Answer:</b> ${esc(answer)}</p></section>
 ${keyStats([
-  ['Cheapest true / mo', `${cheapest.p.plan} — ${usd(cheapest.t.total)}`],
+  ['Cheapest orderable true / mo', cheapest?`${cheapest.p.plan} — ${usd(cheapest.t.total)}`:'none orderable (all tracked plans sold out)'],
   ['Verified plans', String(vps.length)],
   ['IPv4', pr.fees.ipv4==null?'not published':usd(pr.fees.ipv4)+'/mo'],
   ['Last verified', pr.checked],
   ['Source', pr.source],
 ])}
 <div class="tbl"><table><thead><tr><th>Plan</th><th class="n">vCPU</th><th class="n">RAM</th><th class="n">List</th><th class="n">Intro</th><th class="n">True @${EG}TB</th><th>Status</th></tr></thead><tbody>
-${vps.map(p=>{const t=tco(p,EG,true,true);return `<tr><td>${esc(p.plan)}</td><td class="n">${p.vcpu??'—'}</td><td class="n">${p.ram_gb??'—'}</td><td class="n">${p.currency==='EUR'?'€':'$'}${p.price_mo.toFixed(2)}</td><td class="n">${p.promo_mo?'$'+p.promo_mo.toFixed(2):'—'}</td><td class="n">${usd(t?.total)}</td><td>${tag(p.status)}</td></tr>`}).join('')}
+${vps.map(p=>{const t=tco(p,EG,true,true);return `<tr><td>${esc(p.plan)}</td><td class="n">${p.vcpu??'—'}</td><td class="n">${p.ram_gb??'—'}</td><td class="n">${p.currency==='EUR'?'€':'$'}${p.price_mo.toFixed(2)}</td><td class="n">${p.promo_mo?'$'+p.promo_mo.toFixed(2):'—'}</td><td class="n">${usd(t?.total)}</td><td>${tag(p.status,p)}</td></tr>`}).join('')}
 </tbody></table></div>
+${pid==='hetzner'?hzUsNote():''}
 <p><a class="btn" href="/providers/${pid}.html">Full ${esc(pr.name)} page</a> <a class="btn ghost" href="/calculator.html">TCO calculator</a> <a class="btn ghost" href="/guides/${pid}-alternatives.html">${esc(pr.name)} alternatives</a></p>
 ${o11yNote(`${pr.name} VPS`)}
 ${mailBox('gp'+pid,`Watch ${pr.name} prices`,'Send the weekly ledger')}
 ${cite(`${pr.name} VPS pricing as of ${pr.checked}`)}
 `});
-  hub.push({file,title:`${pr.name} VPS pricing`,blurb:`Cheapest verified: ${cheapest.p.plan} ${usd(cheapest.t.total)}/mo`});
+  hub.push({file,title:`${pr.name} VPS pricing`,blurb:cheapest?`Cheapest orderable: ${cheapest.p.plan} ${usd(cheapest.t.total)}/mo`:`All ${vps.length} tracked plans sold out (checked ${soldAll[0].p.availability_checked})`});
 }
 
 // Hub
@@ -269,7 +275,7 @@ ${cite(`VPSLedger guides hub as of ${lastChecked}`)}
 
 // CSV exports
 const csvEsc=s=>`"${String(s??'').replace(/"/g,'""')}"`;
-const planHeader=['id','provider_id','provider','plan','vcpu','ram_gb','disk_gb','transfer_tb','price_mo','currency','promo_mo','backup_mo','tier','status','source','checked','notes'];
+const planHeader=['id','provider_id','provider','plan','vcpu','ram_gb','disk_gb','transfer_tb','price_mo','currency','promo_mo','backup_mo','tier','status','availability','availability_checked','region_scope','source','checked','notes'];
 W('api/plans.csv',[planHeader.join(','),...plans.map(p=>planHeader.map(k=>csvEsc(p[k])).join(','))].join('\n'));
 W('api/changes.csv',[['date','provider','kind','summary','source','observed','plan_id'].join(','),...changes.map(c=>[c.date,c.provider,c.kind,c.summary,c.source,c.observed,c.plan_id].map(csvEsc).join(','))].join('\n'));
 

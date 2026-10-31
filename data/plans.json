@@ -16,7 +16,10 @@
   "status": "verified",
   "source": "https://www.digitalocean.com/pricing/droplets",
   "checked": "2026-10-30",
-  "notes": "Regular SSD Basic Droplet"
+  "notes": "Regular SSD Basic Droplet",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "digitalocean-basic-512-mib",
@@ -35,7 +38,10 @@
   "status": "verified",
   "source": "https://www.digitalocean.com/pricing/droplets",
   "checked": "2026-10-30",
-  "notes": ""
+  "notes": "",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "digitalocean-basic-4-gb",
@@ -54,7 +60,10 @@
   "status": "verified",
   "source": "https://www.digitalocean.com/pricing/droplets",
   "checked": "2026-10-30",
-  "notes": ""
+  "notes": "",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "vultr-vc2-1c-1gb",
@@ -73,7 +82,10 @@
   "status": "verified",
   "source": "https://api.vultr.com/v2/plans?type=vc2",
   "checked": "2026-10-30",
-  "notes": "Cloud Compute regular; official public API"
+  "notes": "Cloud Compute regular; official public API",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "vultr-vc2-1c-0-5gb",
@@ -92,7 +104,10 @@
   "status": "verified",
   "source": "https://api.vultr.com/v2/plans?type=vc2",
   "checked": "2026-10-30",
-  "notes": ""
+  "notes": "",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "vultr-vc2-2c-4gb",
@@ -111,7 +126,10 @@
   "status": "verified",
   "source": "https://api.vultr.com/v2/plans?type=vc2",
   "checked": "2026-10-30",
-  "notes": ""
+  "notes": "",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "linode-nanode-1-gb",
@@ -130,7 +148,10 @@
   "status": "verified",
   "source": "https://api.linode.com/v4/linode/types",
   "checked": "2026-10-30",
-  "notes": "Backups $2/mo (API)"
+  "notes": "Backups $2/mo (API)",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "linode-linode-2-gb",
@@ -149,7 +170,10 @@
   "status": "verified",
   "source": "https://api.linode.com/v4/linode/types",
   "checked": "2026-10-30",
-  "notes": "Backups $2.50/mo"
+  "notes": "Backups $2.50/mo",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "linode-linode-4-gb",
@@ -168,7 +192,10 @@
   "status": "verified",
   "source": "https://api.linode.com/v4/linode/types",
   "checked": "2026-10-30",
-  "notes": "Backups $5/mo"
+  "notes": "Backups $5/mo",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "hetzner-cx23",
@@ -186,8 +213,11 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://www.hetzner.com/cloud/cost-optimized",
-  "checked": "2026-10-30",
-  "notes": "Excl. VAT; CURRENTLY UNAVAILABLE on Hetzner cost-optimized page (checked 2026-10-30)"
+  "checked": "2026-10-31",
+  "notes": "Excl. VAT. Sold out: Hetzner cost-optimized page marks CX23 “not available” and shows “This product is currently unavailable. Please check back later.” (checked 2026-10-31). EU only (NBG1, HEL1); not offered in Hetzner US locations.",
+  "availability": "unavailable",
+  "availability_checked": "2026-10-31",
+  "region_scope": "EU only (NBG1, HEL1)"
  },
  {
   "id": "hetzner-cx33",
@@ -205,8 +235,11 @@
   "tier": "mid",
   "status": "verified",
   "source": "https://www.hetzner.com/cloud/cost-optimized",
-  "checked": "2026-10-30",
-  "notes": "Excl. VAT; CURRENTLY UNAVAILABLE on Hetzner cost-optimized page (checked 2026-10-30)"
+  "checked": "2026-10-31",
+  "notes": "Excl. VAT. Sold out: Hetzner cost-optimized page marks CX33 “not available” and shows “This product is currently unavailable. Please check back later.” (checked 2026-10-31). EU only (NBG1, HEL1); not offered in Hetzner US locations.",
+  "availability": "unavailable",
+  "availability_checked": "2026-10-31",
+  "region_scope": "EU only (NBG1, HEL1)"
  },
  {
   "id": "ovhcloud-vps-1",
@@ -225,7 +258,10 @@
   "status": "verified",
   "source": "https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US",
   "checked": "2026-10-30",
-  "notes": "No-commitment monthly (US catalog API); 12-mo prepay $4.54/mo. Unlimited traffic, 500 Mbps"
+  "notes": "No-commitment monthly (US catalog API); 12-mo prepay $4.54/mo. Unlimited traffic, 500 Mbps",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "ovhcloud-vps-2",
@@ -244,7 +280,10 @@
   "status": "verified",
   "source": "https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US",
   "checked": "2026-10-30",
-  "notes": "No-commitment monthly (US catalog API); 12-mo prepay $8.50/mo. 1 Gbps"
+  "notes": "No-commitment monthly (US catalog API); 12-mo prepay $8.50/mo. 1 Gbps",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "ovhcloud-vps-3",
@@ -263,7 +302,10 @@
   "status": "verified",
   "source": "https://api.us.ovhcloud.com/v1/order/catalog/public/vps?ovhSubsidiary=US",
   "checked": "2026-10-30",
-  "notes": "No-commitment monthly (US catalog API); 12-mo prepay $12.32/mo. 2 Gbps"
+  "notes": "No-commitment monthly (US catalog API); 12-mo prepay $12.32/mo. 2 Gbps",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "scaleway-dev1-s",
@@ -282,7 +324,10 @@
   "status": "unverified",
   "source": "https://www.scaleway.com/en/pricing/virtual-instances/",
   "checked": "2026-10-30",
-  "notes": "~\u20ac/month from hourly \u20ac0.00898; specs not legible on page"
+  "notes": "~€/month from hourly €0.00898; specs not legible on page",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "scaleway-dev1-m",
@@ -301,7 +346,10 @@
   "status": "unverified",
   "source": "https://www.scaleway.com/en/pricing/virtual-instances/",
   "checked": "2026-10-30",
-  "notes": "~\u20ac/month from hourly \u20ac0.0202; specs not legible on page"
+  "notes": "~€/month from hourly €0.0202; specs not legible on page",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "upcloud-developer-1-gb",
@@ -320,7 +368,10 @@
   "status": "verified",
   "source": "https://upcloud.com/pricing/",
   "checked": "2026-10-26",
-  "notes": "Starter plan, max 5 deployments"
+  "notes": "Starter plan, max 5 deployments",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-26",
+  "region_scope": null
  },
  {
   "id": "upcloud-premium-entry",
@@ -339,7 +390,10 @@
   "status": "unverified",
   "source": "https://upcloud.com/pricing/",
   "checked": "2026-10-26",
-  "notes": "RAM/CPU columns not legible on check date"
+  "notes": "RAM/CPU columns not legible on check date",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-26",
+  "region_scope": null
  },
  {
   "id": "contabo-cloud-vps-4",
@@ -358,7 +412,10 @@
   "status": "unverified",
   "source": "https://contabo.com/en-us/vps/",
   "checked": "2026-10-30",
-  "notes": "4 vCPU / 8 GB confirmed; \u20ac price shown \"for the first 24 months\", VAT treatment ambiguous"
+  "notes": "4 vCPU / 8 GB confirmed; € price shown \"for the first 24 months\", VAT treatment ambiguous",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "hostinger-kvm-1",
@@ -377,7 +434,10 @@
   "status": "verified",
   "source": "https://www.hostinger.com/vps-hosting",
   "checked": "2026-10-30",
-  "notes": "Promo $6.49/mo on 24-month prepay; renews $11.99"
+  "notes": "Promo $6.49/mo on 24-month prepay; renews $11.99",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "hostinger-kvm-2",
@@ -396,7 +456,10 @@
   "status": "verified",
   "source": "https://www.hostinger.com/vps-hosting",
   "checked": "2026-10-30",
-  "notes": "Promo $8.79/mo on 24-month prepay; renews $14.99"
+  "notes": "Promo $8.79/mo on 24-month prepay; renews $14.99",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "lightsail-linux-0-5-gb",
@@ -415,7 +478,10 @@
   "status": "verified",
   "source": "https://aws.amazon.com/lightsail/pricing/",
   "checked": "2026-10-30",
-  "notes": "IPv4 bundle"
+  "notes": "IPv4 bundle",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "lightsail-linux-4-gb",
@@ -434,7 +500,10 @@
   "status": "verified",
   "source": "https://aws.amazon.com/lightsail/pricing/",
   "checked": "2026-10-30",
-  "notes": "IPv4 bundle; 4 TB transfer"
+  "notes": "IPv4 bundle; 4 TB transfer",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "gcp-e2-standard-2",
@@ -453,7 +522,10 @@
   "status": "verified",
   "source": "https://cloud.google.com/products/compute/pricing/general-purpose",
   "checked": "2026-10-30",
-  "notes": "On-demand $0.06701142/h \u00d7 730 h, page default region; disk, IPv4 and egress billed separately. Shared-core e2-small/medium rates not published in the table read."
+  "notes": "On-demand $0.06701142/h × 730 h, page default region; disk, IPv4 and egress billed separately. Shared-core e2-small/medium rates not published in the table read.",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "gcp-e2-standard-4",
@@ -472,7 +544,10 @@
   "status": "verified",
   "source": "https://cloud.google.com/products/compute/pricing/general-purpose",
   "checked": "2026-10-30",
-  "notes": "On-demand $0.13402284/h \u00d7 730 h; disk, IPv4 and egress extra."
+  "notes": "On-demand $0.13402284/h × 730 h; disk, IPv4 and egress extra.",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "azure-b1s-linux-east-us",
@@ -491,7 +566,10 @@
   "status": "verified",
   "source": "https://prices.azure.com/api/retail/prices",
   "checked": "2026-10-30",
-  "notes": "$0.0104/h \u00d7 730 h, Retail Prices API; disk and IP extra"
+  "notes": "$0.0104/h × 730 h, Retail Prices API; disk and IP extra",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "azure-b2s-linux-east-us",
@@ -510,7 +588,10 @@
   "status": "verified",
   "source": "https://prices.azure.com/api/retail/prices",
   "checked": "2026-10-30",
-  "notes": "$0.0416/h \u00d7 730 h; disk and IP extra"
+  "notes": "$0.0416/h × 730 h; disk and IP extra",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "kamatera-basic",
@@ -529,7 +610,10 @@
   "status": "verified",
   "source": "https://www.kamatera.com/pricing/",
   "checked": "2026-10-30",
-  "notes": "Type A"
+  "notes": "Type A",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "kamatera-standard",
@@ -548,7 +632,10 @@
   "status": "unverified",
   "source": "https://www.kamatera.com/pricing/",
   "checked": "2026-10-30",
-  "notes": "Storage/traffic not legible"
+  "notes": "Storage/traffic not legible",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "ionos-vps-s",
@@ -567,7 +654,10 @@
   "status": "unverified",
   "source": "https://www.ionos.com/servers/vps",
   "checked": "2026-10-30",
-  "notes": "Term/promo display ambiguous; regular price not read"
+  "notes": "Term/promo display ambiguous; regular price not read",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "ionos-vps-m",
@@ -586,7 +676,10 @@
   "status": "unverified",
   "source": "https://www.ionos.com/servers/vps",
   "checked": "2026-10-30",
-  "notes": "$5/month shown with 1-year term; confirm"
+  "notes": "$5/month shown with 1-year term; confirm",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "dreamhost-stack-4",
@@ -605,7 +698,10 @@
   "status": "verified",
   "source": "https://www.dreamhost.com/hosting/vps/",
   "checked": "2026-10-30",
-  "notes": "Promo $8.99 first 3 months; renews $15.99"
+  "notes": "Promo $8.99 first 3 months; renews $15.99",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  },
  {
   "id": "dreamhost-stack-16",
@@ -624,6 +720,9 @@
   "status": "verified",
   "source": "https://www.dreamhost.com/hosting/vps/",
   "checked": "2026-10-30",
-  "notes": "Promo $22.99 first 3 months; renews $34.99"
+  "notes": "Promo $22.99 first 3 months; renews $34.99",
+  "availability": "in_stock",
+  "availability_checked": "2026-10-30",
+  "region_scope": null
  }
 ]
