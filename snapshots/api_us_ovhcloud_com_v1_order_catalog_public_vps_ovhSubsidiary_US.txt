@@ -1,0 +1,3233 @@
+"catalogId": 3787,
+"locale": {
+"currencyCode": "USD",
+"subsidiary": "US",
+"taxRate": 0
+},
+"plans": [
+"planCode": "option-storage-remote-2027-ca",
+"invoiceName": "Remote Storage 2027",
+"addonFamilies": [],
+"product": "vps-option-storage-remote-resell",
+"pricingType": "rental",
+"consumptionConfiguration": null,
+"pricings": [
+"phase": 0,
+"capacities": [
+"installation"
+],
+"commitment": 0,
+"description": "Installation fees",
+"interval": 0,
+"intervalUnit": "none",
+"quantity": {
+"min": 1,
+"max": 100
+"repeat": {
+"max": 1
+"price": 0,
+"formattedPrice": "$0.00 USD",
+"tax": 0,
+"mode": "default",
+"strategy": "tiered",
+"mustBeCompleted": false,
+"type": "rental",
+"promotions": [],
+"engagementConfiguration": null
+"upgrade"
+"description": "Upgrade fees",
+"phase": 1,
+"renew"
+"description": "Monthly fees",
+"interval": 1,
+"intervalUnit": "month",
+"max": null
+"mode": "upfront12",
+"commitment": 12,
+"description": "12 months fees",
+"min": 12,
+"max": 12
+"engagementConfiguration": {
+"defaultEndAction": "REACTIVATE_ENGAGEMENT",
+"duration": "P12M",
+"type": "upfront"
+"mode": "upfront6",
+"commitment": 6,
+"description": "6 months fees",
+"min": 6,
+"max": 6
+"duration": "P6M",
+"configurations": [
+"name": "region",
+"isCustom": false,
+"isMandatory": false,
+"values": [
+"canada"
+"family": "option-storage-ca",
+"blobs": null
+"planCode": "vps-2025-model1.LZ",
+"invoiceName": "VPS-1 LZ 2026",
+"addonFamilies": [
+"name": "automatedBackup",
+"exclusive": true,
+"mandatory": true,
+"addons": [
+"option-auto-backup-2025-7-model1.LZ",
+"option-auto-backup-2025-1-model1.LZ"
+"default": null
+"name": "cpanel",
+"mandatory": false,
+"option-cpanel-800",
+"option-cpanel-500",
+"option-cpanel-900",
+"option-cpanel-200",
+"option-cpanel-250",
+"option-cpanel-100",
+"option-cpanel-30",
+"option-cpanel-5",
+"option-cpanel-50",
+"option-cpanel-1",
+"option-cpanel-700",
+"option-cpanel-1000",
+"option-cpanel-600",
+"option-cpanel-150",
+"option-cpanel-300",
+"option-cpanel-400"
+"name": "plesk",
+"option-plesk-webhost",
+"option-plesk-webadmin",
+"option-plesk-webpro"
+"name": "os",
+"option-linux"
+"name": "snapshot",
+"option-snapshot-2025-model1.LZ"
+"product": "vps-2025-model1-lz",
+"price": 850000000,
+"formattedPrice": "$8.50 USD",
+"price": 723000000,
+"formattedPrice": "$7.23 USD",
+"price": 808000000,
+"formattedPrice": "$8.08 USD",
+"united_states"
+"name": "vps_datacenter",
+"isMandatory": true,
+"US-EAST-LZ-ATL",
+"US-EAST-LZ-DAL",
+"US-EAST-LZ-MIA",
+"US-EAST-LZ-NYC",
+"US-WEST-LZ-DEN",
+"US-WEST-LZ-LAX",
+"US-WEST-LZ-PAO",
+"US-WEST-LZ-SEA"
+"name": "vps_os",
+"AlmaLinux 10",
+"AlmaLinux 8",
+"AlmaLinux 9",
+"CloudLinux 9",
+"Debian 11",
+"Debian 12",
+"Debian 12 - Docker",
+"Debian 12 - n8n",
+"Debian 13",
+"Rocky Linux 10",
+"Rocky Linux 8",
+"Rocky Linux 9",
+"Ubuntu 22.04",
+"Ubuntu 24.04",
+"Fedora 43",
+"Fedora 44",
+"Ubuntu 26.04"
+"family": "vps-2025-lz",
+"blobs": {
+"commercial": {
+"features": [
+"name": "Anti-DDoS",
+"value": "Yes"
+"name": "KVM",
+"name": "Root access",
+"name": "API",
+"name": "IPv4 Address",
+"value": "1"
+"name": "IPv6 Address",
+"value": "/128"
+"name": "Monitoring and Interventions",
+"value": "24/7"
+"name": "SLA",
+"value": "99.9%"
+"line": "2025",
+"range": "2025"
+"tags": []
+"planCode": "vps-bv-1",
+"invoiceName": "VPS SSD Best Value 1",
+"product": "publiccloud-vps",
+"description": "- 1 month",
+"max": 5
+"price": 330000000,
+"formattedPrice": "$3.30 USD",
+"mode": "degressivity12",
+"type": "periodic"
+"mode": "degressivity24",
+"commitment": 24,
+"duration": "P24M",
+"interval": 12,
+"price": 3960000000,
+"formattedPrice": "$39.60 USD",
+"mode": "upfront24",
+"description": "24 months fees",
+"interval": 24,
+"price": 7920000000,
+"formattedPrice": "$79.20 USD",
+"US-EAST-VA"
+"Centos 6",
+"Debian 8",
+"Fedora 29",
+"Ubuntu 19.04",
+"Debian 12 - Plesk",
+"AlmaLinux 9 - cPanel",
+"FreeBSD-14.3 - UEFI",
+"FreeBSD-15-ufs - UEFI",
+"FreeBSD-15-zfs - UEFI",
+"family": "bv",
+"technical": {
+"cpu": {
+"cores": 1,
+"frequency": 2,
+"model": "vCore"
+"memory": {
+"size": 2
+"storage": {
+"disks": [
+"capacity": 20,
+"technology": "SSD"
+"raid": "local"
+"virtualization": {
+"hypervisor": "KVM OpenStack"
+"planCode": "vps-comfort-4-16-160-vps-2025-model3-degressivity12",
+"invoiceName": "VPS-3 2026",
+"option-windows-comfort-4-16-160",
+"name": "additionalDisk",
+"option-additional-disk-50g",
+"option-additional-disk-100g",
+"option-additional-disk-200g",
+"option-additional-disk-500g"
+"option-auto-backup-160g"
+"option-snapshot-160g"
+"product": "vps-2020v2-model3",
+"price": 4324000000,
+"formattedPrice": "$43.24 USD",
+"US-EAST-VA",
+"US-WEST-OR"
+"name": "vps_install_rtm",
+"if_available",
+"no"
+"AlmaLinux 8 - cPanel",
+"Windows Server 2016 Standard (Desktop)",
+"Windows Server 2019 Standard (Desktop)",
+"Windows Server 2022 Standard (Desktop)",
+"Windows Server 2025 Standard (Desktop)",
+"family": "vps-comfort-4-16-160-vps-2025-model3-degressivity12",
+"planCode": "vps-comfort-4-16-160-vps-2025-model3-degressivity24",
+"option-additional-disk-500g",
+"option-additional-disk-200g"
+"price": 3995000000,
+"formattedPrice": "$39.95 USD",
+"family": "vps-comfort-4-16-160-vps-2025-model3-degressivity24",
+"planCode": "vps-comfort-4-16-160-vps-2025-model3",
+"price": 4700000000,
+"formattedPrice": "$47.00 USD",
+"price": 49294000000,
+"formattedPrice": "$492.94 USD",
+"price": 91086000000,
+"formattedPrice": "$910.86 USD",
+"family": "vps-comfort-4-16-160-vps-2025-model3",
+"planCode": "vps-comfort-4-16-320-vps-2025-model5-degressivity12",
+"invoiceName": "VPS-5 2026",
+"option-auto-backup-320g"
+"option-snapshot-320g"
+"option-windows-comfort-4-16-320",
+"product": "vps-2020v2-model5",
+"price": 5510000000,
+"formattedPrice": "$55.10 USD",
+"family": "vps-comfort-4-16-320-vps-2025-model5-degressivity12",
+"planCode": "vps-comfort-4-16-320-vps-2025-model5-degressivity24",
+"option-linux",
+"option-windows-comfort-4-16-320"
+"price": 5091000000,
+"formattedPrice": "$50.91 USD",
+"family": "vps-comfort-4-16-320-vps-2025-model5-degressivity24",
+"planCode": "vps-comfort-4-16-320-vps-2025-model5",
+"option-cpanel-400",
+"option-cpanel-1"
+"price": 5990000000,
+"formattedPrice": "$59.90 USD",
+"price": 62823000000,
+"formattedPrice": "$628.23 USD",
+"price": 116086000000,
+"formattedPrice": "$1160.86 USD",
+"family": "vps-comfort-4-16-320-vps-2025-model5",
+"planCode": "vps-comfort-4-16-80-vps-2025-model3-degressivity12",
+"option-cpanel-500"
+"option-windows-comfort-4-16-80",
+"option-auto-backup-80g"
+"option-snapshot-80g"
+"price": 3026000000,
+"formattedPrice": "$30.26 USD",
+"family": "vps-comfort-4-16-80-vps-2025-model3-degressivity12",
+"planCode": "vps-comfort-4-16-80-vps-2025-model3-degressivity24",
+"option-windows-comfort-4-16-80"
+"price": 2796000000,
+"formattedPrice": "$27.96 USD",
+"family": "vps-comfort-4-16-80-vps-2025-model3-degressivity24",
+"planCode": "vps-comfort-4-16-80-vps-2025-model3",
+"price": 3290000000,
+"formattedPrice": "$32.90 USD",
+"price": 34506000000,
+"formattedPrice": "$345.06 USD",
+"price": 63760000000,
+"formattedPrice": "$637.60 USD",
+"family": "vps-comfort-4-16-80-vps-2025-model3",
+"planCode": "vps-comfort-4-4-80-vps-2025-model2-degressivity12",
+"invoiceName": "VPS-2 2026",
+"option-windows-comfort-4-4-80",
+"product": "vps-2020v2-model2",
+"price": 1729000000,
+"formattedPrice": "$17.29 USD",
+"family": "vps-comfort-4-4-80-vps-2025-model2-degressivity12",
+"planCode": "vps-comfort-4-4-80-vps-2025-model2-degressivity24",
+"price": 1598000000,
+"formattedPrice": "$15.98 USD",
+"family": "vps-comfort-4-4-80-vps-2025-model2-degressivity24",
+"planCode": "vps-comfort-4-4-80-vps-2025-model2",
+"price": 1880000000,
+"formattedPrice": "$18.80 USD",
+"price": 19717000000,
+"formattedPrice": "$197.17 USD",
+"price": 36434000000,
+"formattedPrice": "$364.34 USD",
+"family": "vps-comfort-4-4-80-vps-2025-model2",
+"planCode": "vps-comfort-4-8-160-vps-2025-model3-10percent",
+"option-windows-comfort-4-8-160",
+"price": 2500000000,
+"formattedPrice": "$25.00 USD",
+"price": 26220000000,
+"formattedPrice": "$262.20 USD",
+"price": 48450000000,
+"formattedPrice": "$484.50 USD",
+"family": "vps-comfort-4-8-160-vps-2025-model3-10percent",
+"planCode": "vps-comfort-4-8-160-vps-2025-model3-degressivity12-10percent",
+"price": 2300000000,
+"formattedPrice": "$23.00 USD",
+"family": "vps-comfort-4-8-160-vps-2025-model3-degressivity12-10percent",
+"planCode": "vps-comfort-4-8-160-vps-2025-model3-degressivity12",
+"price": 2511000000,
+"formattedPrice": "$25.11 USD",
+"family": "vps-comfort-4-8-160-vps-2025-model3-degressivity12",
+"planCode": "vps-comfort-4-8-160-vps-2025-model3-degressivity24",
+"price": 2320000000,
+"formattedPrice": "$23.20 USD",
+"family": "vps-comfort-4-8-160-vps-2025-model3-degressivity24",
+"planCode": "vps-comfort-4-8-160-vps-2025-model3",
+"price": 2730000000,
+"formattedPrice": "$27.30 USD",
+"price": 28632000000,
+"formattedPrice": "$286.32 USD",
+"price": 52907000000,
+"formattedPrice": "$529.07 USD",
+"family": "vps-comfort-4-8-160-vps-2025-model3",
+"planCode": "vps-comfort-4-8-320-vps-2025-model5-degressivity12",
+"option-windows-comfort-4-8-320",
+"price": 4866000000,
+"formattedPrice": "$48.66 USD",
+"family": "vps-comfort-4-8-320-vps-2025-model5-degressivity12",
+"planCode": "vps-comfort-4-8-320-vps-2025-model5-degressivity24",
+"price": 4496000000,
+"formattedPrice": "$44.96 USD",
+"family": "vps-comfort-4-8-320-vps-2025-model5-degressivity24",
+"planCode": "vps-comfort-4-8-320-vps-2025-model5",
+"option-windows-comfort-4-8-320"
+"price": 5290000000,
+"formattedPrice": "$52.90 USD",
+"price": 55482000000,
+"formattedPrice": "$554.82 USD",
+"price": 102520000000,
+"formattedPrice": "$1025.20 USD",
+"family": "vps-comfort-4-8-320-vps-2025-model5",
+"planCode": "vps-comfort-4-8-80-vps-2025-model2-degressivity12",
+"option-windows-comfort-4-8-80"
+"price": 1840000000,
+"formattedPrice": "$18.40 USD",
+"family": "vps-comfort-4-8-80-vps-2025-model2-degressivity12",
+"planCode": "vps-comfort-4-8-80-vps-2025-model2-degressivity24",
+"price": 1700000000,
+"formattedPrice": "$17.00 USD",
+"family": "vps-comfort-4-8-80-vps-2025-model2-degressivity24",
+"planCode": "vps-comfort-4-8-80-vps-2025-model2",
+"option-windows-comfort-4-8-80",
+"price": 2000000000,
+"formattedPrice": "$20.00 USD",
+"price": 20976000000,
+"formattedPrice": "$209.76 USD",
+"price": 38760000000,
+"formattedPrice": "$387.60 USD",
+"family": "vps-comfort-4-8-80-vps-2025-model2",
+"planCode": "vps-elite-8-16-160-vps-2025-model3-degressivity12",
+"option-windows-elite-8-16-160",
+"price": 4554000000,
+"formattedPrice": "$45.54 USD",
+"family": "vps-elite-8-16-160-vps-2025-model3-degressivity12",
+"planCode": "vps-elite-8-16-160-vps-2025-model3-degressivity24",
+"option-windows-elite-8-16-160"
+"price": 4207000000,
+"formattedPrice": "$42.07 USD",
+"family": "vps-elite-8-16-160-vps-2025-model3-degressivity24",
+"planCode": "vps-elite-8-16-160-vps-2025-model3",
+"price": 4950000000,
+"formattedPrice": "$49.50 USD",
+"price": 51916000000,
+"formattedPrice": "$519.16 USD",
+"price": 95931000000,
+"formattedPrice": "$959.31 USD",
+"family": "vps-elite-8-16-160-vps-2025-model3",
+"planCode": "vps-elite-8-16-320-vps-2025-model5-degressivity12",
+"option-windows-elite-8-16-320",
+"price": 5768000000,
+"formattedPrice": "$57.68 USD",
+"family": "vps-elite-8-16-320-vps-2025-model5-degressivity12",
+"planCode": "vps-elite-8-16-320-vps-2025-model5-degressivity24",
+"option-windows-elite-8-16-320"
+"price": 5329000000,
+"formattedPrice": "$53.29 USD",
+"family": "vps-elite-8-16-320-vps-2025-model5-degressivity24",
+"planCode": "vps-elite-8-16-320-vps-2025-model5",
+"price": 6270000000,
+"formattedPrice": "$62.70 USD",
+"price": 65760000000,
+"formattedPrice": "$657.60 USD",
+"price": 121513000000,
+"formattedPrice": "$1215.13 USD",
+"family": "vps-elite-8-16-320-vps-2025-model5",
+"planCode": "vps-elite-8-32-160-vps-2025-model4-degressivity12",
+"invoiceName": "VPS-4 2026",
+"option-windows-elite-8-32-160",
+"product": "vps-2020v2-model4",
+"price": 6881000000,
+"formattedPrice": "$68.81 USD",
+"family": "vps-elite-8-32-160-vps-2025-model4-degressivity12",
+"planCode": "vps-elite-8-32-160-vps-2025-model4-degressivity24",
+"price": 6358000000,
+"formattedPrice": "$63.58 USD",
+"family": "vps-elite-8-32-160-vps-2025-model4-degressivity24",
+"planCode": "vps-elite-8-32-160-vps-2025-model4",
+"price": 7480000000,
+"formattedPrice": "$74.80 USD",
+"price": 78450000000,
+"formattedPrice": "$784.50 USD",
+"price": 144962000000,
+"formattedPrice": "$1449.62 USD",
+"family": "vps-elite-8-32-160-vps-2025-model4",
+"planCode": "vps-elite-8-32-320-vps-2025-model5-degressivity12",
+"option-windows-elite-8-32-320",
+"price": 8602000000,
+"formattedPrice": "$86.02 USD",
+"family": "vps-elite-8-32-320-vps-2025-model5-degressivity12",
+"planCode": "vps-elite-8-32-320-vps-2025-model5-degressivity24",
+"option-windows-elite-8-32-320"
+"price": 7947000000,
+"formattedPrice": "$79.47 USD",
+"family": "vps-elite-8-32-320-vps-2025-model5-degressivity24",
+"planCode": "vps-elite-8-32-320-vps-2025-model5",
+"price": 9350000000,
+"formattedPrice": "$93.50 USD",
+"price": 98063000000,
+"formattedPrice": "$980.63 USD",
+"price": 181203000000,
+"formattedPrice": "$1812.03 USD",
+"family": "vps-elite-8-32-320-vps-2025-model5",
+"planCode": "vps-elite-8-8-160-vps-2025-model3-degressivity12",
+"option-windows-elite-8-8-160",
+"price": 3624000000,
+"formattedPrice": "$36.24 USD",
+"family": "vps-elite-8-8-160-vps-2025-model3-degressivity12",
+"planCode": "vps-elite-8-8-160-vps-2025-model3-degressivity24",
+"option-windows-elite-8-8-160"
+"price": 3349000000,
+"formattedPrice": "$33.49 USD",
+"family": "vps-elite-8-8-160-vps-2025-model3-degressivity24",
+"planCode": "vps-elite-8-8-160-vps-2025-model3",
+"price": 3940000000,
+"formattedPrice": "$39.40 USD",
+"price": 41323000000,
+"formattedPrice": "$413.23 USD",
+"price": 76357000000,
+"formattedPrice": "$763.57 USD",
+"family": "vps-elite-8-8-160-vps-2025-model3",
+"planCode": "vps-elite-8-8-320-vps-2025-model5-degressivity12",
+"option-windows-elite-8-8-320"
+"price": 5161000000,
+"formattedPrice": "$51.61 USD",
+"family": "vps-elite-8-8-320-vps-2025-model5-degressivity12",
+"planCode": "vps-elite-8-8-320-vps-2025-model5-degressivity24",
+"price": 4768000000,
+"formattedPrice": "$47.68 USD",
+"family": "vps-elite-8-8-320-vps-2025-model5-degressivity24",
+"planCode": "vps-elite-8-8-320-vps-2025-model5",
+"price": 5610000000,
+"formattedPrice": "$56.10 USD",
+"price": 58838000000,
+"formattedPrice": "$588.38 USD",
+"price": 108722000000,
+"formattedPrice": "$1087.22 USD",
+"family": "vps-elite-8-8-320-vps-2025-model5",
+"planCode": "vps-essential-2-4-160-vps-2025-model3-degressivity12",
+"option-windows-essential-2-4-160"
+"price": 2189000000,
+"formattedPrice": "$21.89 USD",
+"family": "vps-essential-2-4-160-vps-2025-model3-degressivity12",
+"planCode": "vps-essential-2-4-160-vps-2025-model3-degressivity24",
+"option-windows-essential-2-4-160",
+"price": 2023000000,
+"formattedPrice": "$20.23 USD",
+"family": "vps-essential-2-4-160-vps-2025-model3-degressivity24",
+"planCode": "vps-essential-2-4-160-vps-2025-model3",
+"price": 2380000000,
+"formattedPrice": "$23.80 USD",
+"price": 24961000000,
+"formattedPrice": "$249.61 USD",
+"price": 46124000000,
+"formattedPrice": "$461.24 USD",
+"family": "vps-essential-2-4-160-vps-2025-model3",
+"planCode": "vps-essential-2-4-80-vps-2025-model2-10percent",
+"option-windows-essential-2-4-80",
+"price": 1270000000,
+"formattedPrice": "$12.70 USD",
+"price": 13320000000,
+"formattedPrice": "$133.20 USD",
+"price": 24613000000,
+"formattedPrice": "$246.13 USD",
+"family": "vps-essential-2-4-80-vps-2025-model2-10percent",
+"planCode": "vps-essential-2-4-80-vps-2025-model2-degressivity12",
+"price": 1352000000,
+"formattedPrice": "$13.52 USD",
+"family": "vps-essential-2-4-80-vps-2025-model2-degressivity12",
+"planCode": "vps-essential-2-4-80-vps-2025-model2-degressivity24",
+"option-windows-essential-2-4-80"
+"price": 1249000000,
+"formattedPrice": "$12.49 USD",
+"family": "vps-essential-2-4-80-vps-2025-model2-degressivity24",
+"planCode": "vps-essential-2-4-80-vps-2025-model2",
+"price": 1470000000,
+"formattedPrice": "$14.70 USD",
+"price": 15417000000,
+"formattedPrice": "$154.17 USD",
+"price": 28489000000,
+"formattedPrice": "$284.89 USD",
+"family": "vps-essential-2-4-80-vps-2025-model2",
+"planCode": "vps-essential-2-8-160-vps-2025-model3-degressivity12",
+"option-windows-essential-2-8-160"
+"family": "vps-essential-2-8-160-vps-2025-model3-degressivity12",
+"planCode": "vps-essential-2-8-160-vps-2025-model3-degressivity24",
+"option-windows-essential-2-8-160",
+"price": 2125000000,
+"formattedPrice": "$21.25 USD",
+"family": "vps-essential-2-8-160-vps-2025-model3-degressivity24",
+"planCode": "vps-essential-2-8-160-vps-2025-model3",
+"family": "vps-essential-2-8-160-vps-2025-model3",
+"planCode": "vps-essential-2-8-80-vps-2025-model2-degressivity12",
+"option-windows-essential-2-8-80",
+"family": "vps-essential-2-8-80-vps-2025-model2-degressivity12",
+"planCode": "vps-essential-2-8-80-vps-2025-model2-degressivity24",
+"family": "vps-essential-2-8-80-vps-2025-model2-degressivity24",
+"planCode": "vps-essential-2-8-80-vps-2025-model2",
+"family": "vps-essential-2-8-80-vps-2025-model2",
+"planCode": "vps-value-1-2-80-vps-2025-model2-degressivity12",
+"option-windows-value-1-2-80"
+"price": 956000000,
+"formattedPrice": "$9.56 USD",
+"family": "vps-value-1-2-80-vps-2025-model2-degressivity12",
+"planCode": "vps-value-1-2-80-vps-2025-model2-degressivity24",
+"option-windows-value-1-2-80",
+"price": 884000000,
+"formattedPrice": "$8.84 USD",
+"family": "vps-value-1-2-80-vps-2025-model2-degressivity24",
+"planCode": "vps-value-1-2-80-vps-2025-model2",
+"price": 1040000000,
+"formattedPrice": "$10.40 USD",
+"price": 10908000000,
+"formattedPrice": "$109.08 USD",
+"price": 20155000000,
+"formattedPrice": "$201.55 USD",
+"family": "vps-value-1-2-80-vps-2025-model2",
+"planCode": "vps-value-1-4-20-vps-2025-model1-degressivity12",
+"invoiceName": "VPS-1 2026",
+"option-auto-backup-20g"
+"option-snapshot-20g"
+"option-windows-value-1-4-20"
+"product": "vps-2020v2-model1",
+"price": 846000000,
+"formattedPrice": "$8.46 USD",
+"family": "vps-value-1-4-20-vps-2025-model1-degressivity12",
+"planCode": "vps-value-1-4-20-vps-2025-model1-degressivity24",
+"price": 782000000,
+"formattedPrice": "$7.82 USD",
+"family": "vps-value-1-4-20-vps-2025-model1-degressivity24",
+"planCode": "vps-value-1-4-20-vps-2025-model1",
+"option-windows-value-1-4-20",
+"price": 920000000,
+"formattedPrice": "$9.20 USD",
+"price": 9649000000,
+"formattedPrice": "$96.49 USD",
+"price": 17830000000,
+"formattedPrice": "$178.30 USD",
+"family": "vps-value-1-4-20-vps-2025-model1",
+"planCode": "vps-value-1-4-80-vps-2025-model2-degressivity12",
+"option-windows-value-1-4-80",
+"price": 1058000000,
+"formattedPrice": "$10.58 USD",
+"family": "vps-value-1-4-80-vps-2025-model2-degressivity12",
+"planCode": "vps-value-1-4-80-vps-2025-model2-degressivity24",
+"price": 977000000,
+"formattedPrice": "$9.77 USD",
+"family": "vps-value-1-4-80-vps-2025-model2-degressivity24",
+"planCode": "vps-value-1-4-80-vps-2025-model2",
+"price": 1150000000,
+"formattedPrice": "$11.50 USD",
+"price": 12061000000,
+"formattedPrice": "$120.61 USD",
+"price": 22287000000,
+"formattedPrice": "$222.87 USD",
+"family": "vps-value-1-4-80-vps-2025-model2",
+"planCode": "vps-value-1-4-80",
+"invoiceName": "VPS Value 1-4-80",
+"option-windows-value-1-4-80"
+"product": "vps-value-1-4-80",
+"no",
+"if_available"
+"family": "vps",
+"name": "Location",
+"line": "Virtual Private Server",
+"range": "Value"
+"planCode": "vps-2027-model2",
+"invoiceName": "VPS-2 2027",
+"option-cpanel-200"
+"option-windows-2027-model2"
+"option-plesk-webpro",
+"option-plesk-webadmin"
+"name": "storage",
+"option-storage-local-2027-model2"
+"option-auto-backup-2027-7-model2",
+"option-auto-backup-2027-1-model2"
+"option-snapshot-2027-model2"
+"option-additional-disk-2027-1000g",
+"option-additional-disk-2027-100g",
+"option-additional-disk-2027-200g",
+"option-additional-disk-2027-5000g",
+"option-additional-disk-2027-500g",
+"option-additional-disk-2027-50g",
+"option-additional-disk-2027-10000g"
+"product": "vps-2027-model2",
+"price": 1000000000,
+"formattedPrice": "$10.00 USD",
+"price": 950000000,
+"formattedPrice": "$9.50 USD",
+"Ubuntu 26.04",
+"Windows Server 2025 Standard (Desktop)"
+"family": "vps-2025",
+"brick": "VPS Model 2",
+"line": "2027",
+"range": "2027"
+"tags": [
+"order-funnel:show",
+"website:show",
+"os:distribution-only",
+"os:distribution-with-application"
+"planCode": "vps-2027-model1",
+"invoiceName": "VPS-1 2027",
+"option-cpanel-900"
+"option-auto-backup-2027-1-model1",
+"option-auto-backup-2027-7-model1"
+"option-storage-local-2027-model1"
+"option-snapshot-2027-model1"
+"product": "vps-2027-model1",
+"price": 535000000,
+"formattedPrice": "$5.35 USD",
+"price": 454000000,
+"formattedPrice": "$4.54 USD",
+"price": 508000000,
+"formattedPrice": "$5.08 USD",
+"brick": "VPS Model 1",
+"planCode": "vps-2027-model4",
+"invoiceName": "VPS-4 2027",
+"option-windows-2027-model4"
+"option-auto-backup-2027-1-model4",
+"option-auto-backup-2027-7-model4"
+"option-snapshot-2027-model4"
+"option-storage-local-2027-model4"
+"product": "vps-2027-model4",
+"price": 2750000000,
+"formattedPrice": "$27.50 USD",
+"price": 2337000000,
+"formattedPrice": "$23.37 USD",
+"price": 2612000000,
+"formattedPrice": "$26.12 USD",
+"brick": "VPS Model 4",
+"planCode": "vps-le-2-2-40",
+"invoiceName": "VLE-2",
+"option-windows-le-2-2-40"
+"option-snapshot-40g"
+"option-auto-backup-40g"
+"product": "vps-le-2-2-40",
+"price": 550000000,
+"formattedPrice": "$5.50 USD",
+"price": 506000000,
+"formattedPrice": "$5.06 USD",
+"price": 467000000,
+"formattedPrice": "$4.67 USD",
+"price": 10659000000,
+"formattedPrice": "$106.59 USD",
+"family": "vps-le",
+"range": "VLE-2"
+"planCode": "vps-value-1-4-40-vps-2025-model1",
+"option-windows-value-1-4-40"
+"family": "vps-value-1-4-40-vps-2025-model1",
+"planCode": "vps-essential-2-4-40-vps-2025-model1-degressivity12",
+"option-windows-essential-2-4-40"
+"family": "vps-essential-2-4-40-vps-2025-model1-degressivity12",
+"planCode": "vps-value-1-2-40",
+"invoiceName": "VPS Value 1-2-40",
+"option-windows-value-1-2-40"
+"product": "vps-value-1-2-40",
+"price": 700000000,
+"formattedPrice": "$7.00 USD",
+"price": 644000000,
+"formattedPrice": "$6.44 USD",
+"price": 595000000,
+"formattedPrice": "$5.95 USD",
+"price": 7342000000,
+"formattedPrice": "$73.42 USD",
+"price": 13566000000,
+"formattedPrice": "$135.66 USD",
+"planCode": "vps-essential-2-8-40-vps-2025-model1-degressivity12",
+"option-windows-essential-2-8-40",
+"family": "vps-essential-2-8-40-vps-2025-model1-degressivity12",
+"planCode": "vps-essential-2-8-40-vps-2025-model1",
+"family": "vps-essential-2-8-40-vps-2025-model1",
+"planCode": "vps-essential-2-4-40-vps-2025-model1",
+"option-windows-essential-2-4-40",
+"price": 1250000000,
+"formattedPrice": "$12.50 USD",
+"price": 13110000000,
+"formattedPrice": "$131.10 USD",
+"price": 24225000000,
+"formattedPrice": "$242.25 USD",
+"family": "vps-essential-2-4-40-vps-2025-model1",
+"planCode": "vps-essential-2-8-40-vps-2025-model1-degressivity24",
+"option-windows-essential-2-8-40"
+"family": "vps-essential-2-8-40-vps-2025-model1-degressivity24",
+"planCode": "vps-value-1-4-40-vps-2025-model1-degressivity12",
+"family": "vps-value-1-4-40-vps-2025-model1-degressivity12",
+"planCode": "vps-value-1-2-40-vps-2025-model1-degressivity24",
+"family": "vps-value-1-2-40-vps-2025-model1-degressivity24",
+"planCode": "vps-value-1-2-40-vps-2025-model1-degressivity12",
+"option-windows-value-1-2-40",
+"family": "vps-value-1-2-40-vps-2025-model1-degressivity12",
+"planCode": "vps-value-1-4-40-vps-2025-model1-degressivity24",
+"option-windows-value-1-4-40",
+"family": "vps-value-1-4-40-vps-2025-model1-degressivity24",
+"planCode": "vps-essential-2-4-40-vps-2025-model1-degressivity24",
+"price": 1062000000,
+"formattedPrice": "$10.62 USD",
+"family": "vps-essential-2-4-40-vps-2025-model1-degressivity24",
+"planCode": "vps-value-1-2-40-vps-2025-model1-10percent",
+"price": 660000000,
+"formattedPrice": "$6.60 USD",
+"price": 6922000000,
+"formattedPrice": "$69.22 USD",
+"price": 12791000000,
+"formattedPrice": "$127.91 USD",
+"family": "vps-value-1-2-40-vps-2025-model1-10percent",
+"planCode": "vps-essential-2-8-40",
+"invoiceName": "VPS Essential 2-8-40",
+"product": "vps-essential-2-8-40",
+"range": "Essential"
+"planCode": "vps-essential-2-4-40",
+"invoiceName": "VPS Essential 2-4-40",
+"product": "vps-essential-2-4-40",
+"planCode": "vps-value-1-2-40-vps-2025-model1",
+"family": "vps-value-1-2-40-vps-2025-model1",
+"planCode": "vps-value-1-4-40",
+"invoiceName": "VPS Value 1-4-40",
+"product": "vps-value-1-4-40",
+"planCode": "vps-comfort-4-16-160",
+"invoiceName": "VPS Comfort 4-16-160",
+"product": "vps-comfort-4-16-160",
+"range": "Comfort"
+"planCode": "vps-comfort-4-16-320",
+"invoiceName": "VPS Comfort 4-16-320",
+"product": "vps-comfort-4-16-320",
+"planCode": "vps-comfort-4-16-80",
+"invoiceName": "VPS Comfort 4-16-80",
+"product": "vps-comfort-4-16-80",
+"planCode": "vps-comfort-4-4-80",
+"invoiceName": "VPS Comfort 4-4-80",
+"option-windows-comfort-4-4-80"
+"product": "vps-comfort-4-4-80",
+"planCode": "vps-comfort-4-8-160",
+"invoiceName": "VPS Comfort 4-8-160",
+"product": "vps-comfort-4-8-160",
+"planCode": "vps-comfort-4-8-320",
+"invoiceName": "VPS Comfort 4-8-320",
+"product": "vps-comfort-4-8-320",
+"planCode": "vps-comfort-4-8-80",
+"invoiceName": "VPS Comfort 4-8-80",
+"product": "vps-comfort-4-8-80",
+"planCode": "vps-elite-8-16-160",
+"invoiceName": "VPS Elite 8-16-160",
+"product": "vps-elite-8-16-160",
+"range": "Elite"
+"order-funnel:customizable",
+"website:customizable",
+"planCode": "vps-elite-8-16-320",
+"invoiceName": "VPS Elite 8-16-320",
+"product": "vps-elite-8-16-320",
+"planCode": "vps-elite-8-16-640",
+"invoiceName": "VPS Elite 8-16-640",
+"option-windows-elite-8-16-640"
+"option-auto-backup-640g"
+"option-snapshot-640g"
+"product": "vps-elite-8-16-640",
+"price": 10560000000,
+"formattedPrice": "$105.60 USD",
+"price": 9715000000,
+"formattedPrice": "$97.15 USD",
+"price": 8976000000,
+"formattedPrice": "$89.76 USD",
+"price": 110753000000,
+"formattedPrice": "$1107.53 USD",
+"price": 204653000000,
+"formattedPrice": "$2046.53 USD",
+"planCode": "vps-elite-8-32-160",
+"invoiceName": "VPS Elite 8-32-160",
+"product": "vps-elite-8-32-160",
+"planCode": "vps-elite-8-32-320",
+"invoiceName": "VPS Elite 8-32-320",
+"product": "vps-elite-8-32-320",
+"planCode": "vps-elite-8-32-640",
+"invoiceName": "VPS Elite 8-32-640",
+"option-windows-elite-8-32-640"
+"product": "vps-elite-8-32-640",
+"price": 12430000000,
+"formattedPrice": "$124.30 USD",
+"price": 11435000000,
+"formattedPrice": "$114.35 USD",
+"price": 10565000000,
+"formattedPrice": "$105.65 USD",
+"price": 130366000000,
+"formattedPrice": "$1303.66 USD",
+"price": 240893000000,
+"formattedPrice": "$2408.93 USD",
+"planCode": "vps-elite-8-8-160",
+"invoiceName": "VPS Elite 8-8-160",
+"product": "vps-elite-8-8-160",
+"planCode": "vps-elite-8-8-320",
+"invoiceName": "VPS Elite 8-8-320",
+"option-windows-elite-8-8-320",
+"product": "vps-elite-8-8-320",
+"planCode": "vps-elite-8-8-640",
+"invoiceName": "VPS Elite 8-8-640",
+"option-windows-elite-8-8-640"
+"product": "vps-elite-8-8-640",
+"price": 9900000000,
+"formattedPrice": "$99.00 USD",
+"price": 9108000000,
+"formattedPrice": "$91.08 USD",
+"price": 8415000000,
+"formattedPrice": "$84.15 USD",
+"price": 103831000000,
+"formattedPrice": "$1038.31 USD",
+"price": 191862000000,
+"formattedPrice": "$1918.62 USD",
+"planCode": "vps-essential-2-4-160",
+"invoiceName": "VPS Essential 2-4-160",
+"product": "vps-essential-2-4-160",
+"planCode": "vps-essential-2-4-80",
+"invoiceName": "VPS Essential 2-4-80",
+"product": "vps-essential-2-4-80",
+"planCode": "vps-essential-2-8-160",
+"invoiceName": "VPS Essential 2-8-160",
+"product": "vps-essential-2-8-160",
+"planCode": "vps-essential-2-8-80",
+"invoiceName": "VPS Essential 2-8-80",
+"option-windows-essential-2-8-80"
+"product": "vps-essential-2-8-80",
+"planCode": "vps-le-16-16-160",
+"invoiceName": "VLE-16",
+"option-windows-le-16-16-160"
+"product": "vps-le-16-16-160",
+"price": 4500000000,
+"formattedPrice": "$45.00 USD",
+"price": 4140000000,
+"formattedPrice": "$41.40 USD",
+"price": 3825000000,
+"formattedPrice": "$38.25 USD",
+"price": 47196000000,
+"formattedPrice": "$471.96 USD",
+"price": 87210000000,
+"formattedPrice": "$872.10 USD",
+"range": "VLE-16"
+"planCode": "vps-le-4-4-80",
+"invoiceName": "VLE-4",
+"option-windows-le-4-4-80"
+"product": "vps-le-4-4-80",
+"price": 1100000000,
+"formattedPrice": "$11.00 USD",
+"price": 1012000000,
+"formattedPrice": "$10.12 USD",
+"price": 935000000,
+"formattedPrice": "$9.35 USD",
+"price": 11537000000,
+"formattedPrice": "$115.37 USD",
+"price": 21318000000,
+"formattedPrice": "$213.18 USD",
+"range": "VLE-4"
+"planCode": "vps-starter-1-2-20",
+"invoiceName": "VPS Starter 1-2-20",
+"product": "vps-starter-1-2-20",
+"price": 420000000,
+"formattedPrice": "$4.20 USD",
+"value": "99.5%"
+"range": "Starter"
+"order-funnel:expand",
+"planCode": "vps-value-1-2-80",
+"invoiceName": "VPS Value 1-2-80",
+"product": "vps-value-1-2-80",
+"planCode": "vps-value-1-4-20",
+"invoiceName": "VPS Value 1-4-20",
+"product": "vps-value-1-4-20",
+"planCode": "vps-2027-model3",
+"invoiceName": "VPS-3 2027",
+"option-additional-disk-2027-10000g",
+"option-additional-disk-2027-100g"
+"option-cpanel-1000"
+"option-windows-2027-model3"
+"option-auto-backup-2027-1-model3",
+"option-auto-backup-2027-7-model3"
+"option-snapshot-2027-model3"
+"option-storage-local-2027-model3"
+"product": "vps-2027-model3",
+"price": 1450000000,
+"formattedPrice": "$14.50 USD",
+"price": 1232000000,
+"formattedPrice": "$12.32 USD",
+"price": 1377000000,
+"formattedPrice": "$13.77 USD",
+"brick": "VPS Model 3",
+"planCode": "vps-2025-model2",
+"option-windows-2025-model2"
+"option-auto-backup-2025-1-model2",
+"option-auto-backup-2025-7-model2"
+"option-snapshot-2025-model2"
+"option-additional-disk-2025-10000g",
+"option-additional-disk-2025-50g",
+"option-additional-disk-2025-100g",
+"option-additional-disk-2025-200g",
+"option-additional-disk-2025-500g",
+"option-additional-disk-2025-1000g",
+"option-additional-disk-2025-5000g"
+"product": "vps-2025-model2",
+"price": 1175000000,
+"formattedPrice": "$11.75 USD",
+"price": 999000000,
+"formattedPrice": "$9.99 USD",
+"price": 1116000000,
+"formattedPrice": "$11.16 USD",
+"planCode": "vps-2025-model5",
+"option-windows-2025-model5"
+"option-auto-backup-2025-1-model5",
+"option-auto-backup-2025-7-model5"
+"option-snapshot-2025-model5"
+"product": "vps-2025-model5",
+"price": 6450000000,
+"formattedPrice": "$64.50 USD",
+"price": 5482000000,
+"formattedPrice": "$54.82 USD",
+"price": 6127000000,
+"formattedPrice": "$61.27 USD",
+"planCode": "vps-2025-model6",
+"invoiceName": "VPS-6 2026",
+"option-windows-2025-model6"
+"option-auto-backup-2025-1-model6",
+"option-auto-backup-2025-7-model6"
+"option-snapshot-2025-model6"
+"product": "vps-2025-model6",
+"price": 8600000000,
+"formattedPrice": "$86.00 USD",
+"price": 7310000000,
+"formattedPrice": "$73.10 USD",
+"price": 8170000000,
+"formattedPrice": "$81.70 USD",
+"planCode": "vps-2025-model1",
+"option-auto-backup-2025-1-model1",
+"option-auto-backup-2025-7-model1"
+"option-snapshot-2025-model1"
+"option-windows-2025-model1",
+"product": "vps-2025-model1",
+"price": 760000000,
+"formattedPrice": "$7.60 USD",
+"price": 646000000,
+"formattedPrice": "$6.46 USD",
+"price": 722000000,
+"formattedPrice": "$7.22 USD",
+"planCode": "vps-2025-model3",
+"option-snapshot-2025-model3"
+"option-windows-2025-model3",
+"option-auto-backup-2025-1-model3",
+"option-auto-backup-2025-7-model3"
+"product": "vps-2025-model3",
+"price": 2350000000,
+"formattedPrice": "$23.50 USD",
+"price": 1997000000,
+"formattedPrice": "$19.97 USD",
+"price": 2232000000,
+"formattedPrice": "$22.32 USD",
+"planCode": "vps-2025-model4",
+"option-windows-2025-model4"
+"option-auto-backup-2025-1-model4",
+"option-auto-backup-2025-7-model4"
+"option-snapshot-2025-model4"
+"product": "vps-2025-model4",
+"price": 4350000000,
+"formattedPrice": "$43.50 USD",
+"price": 3698000000,
+"formattedPrice": "$36.98 USD",
+"price": 4132000000,
+"formattedPrice": "$41.32 USD",
+"planCode": "vps-value-1-2-40-vps-2025-model1-degressivity12-eu",
+"option-linux-eu",
+"option-windows-value-1-2-40-eu"
+"option-cpanel-1-eu",
+"option-cpanel-300-eu",
+"option-cpanel-400-eu",
+"option-cpanel-5-eu",
+"option-cpanel-50-eu",
+"option-cpanel-500-eu",
+"option-cpanel-600-eu",
+"option-cpanel-700-eu",
+"option-cpanel-800-eu",
+"option-cpanel-100-eu",
+"option-cpanel-1000-eu",
+"option-cpanel-150-eu",
+"option-cpanel-200-eu",
+"option-cpanel-250-eu",
+"option-cpanel-30-eu",
+"option-cpanel-900-eu"
+"option-plesk-webadmin-eu",
+"option-plesk-webhost-eu",
+"option-plesk-webpro-eu"
+"option-snapshot-40g-eu"
+"option-additional-disk-100g-eu",
+"option-additional-disk-200g-eu",
+"option-additional-disk-500g-eu",
+"option-additional-disk-50g-eu"
+"option-auto-backup-40g-eu"
+"product": "vps-2020v2-model1-resell",
+"name": "infrastructure",
+"preproduction",
+"production"
+"europe"
+"DE",
+"GRA",
+"SBG",
+"UK",
+"WAW"
+"family": "vps-value-1-2-40-vps-2025-model1-degressivity12-eu",
+"planCode": "vps-value-1-4-40-eu",
+"option-plesk-webpro-eu",
+"option-plesk-webhost-eu"
+"option-windows-value-1-4-40-eu",
+"option-linux-eu"
+"product": "vps-value-1-4-40-resell",
+"family": "vps-eu",
+"planCode": "vps-value-1-2-40-eu",
+"option-windows-value-1-2-40-eu",
+"product": "vps-value-1-2-40-resell",
+"planCode": "vps-elite-8-16-320-eu",
+"option-windows-elite-8-16-320-eu",
+"option-snapshot-320g-eu"
+"option-auto-backup-320g-eu"
+"product": "vps-elite-8-16-320-resell",
+"planCode": "vps-essential-2-8-80-eu",
+"option-windows-essential-2-8-80-eu"
+"option-snapshot-80g-eu"
+"option-auto-backup-80g-eu"
+"product": "vps-essential-2-8-80-resell",
+"planCode": "vps-elite-8-8-160-vps-2025-model3-eu",
+"option-windows-elite-8-8-160-eu"
+"option-snapshot-160g-eu"
+"option-auto-backup-160g-eu"
+"product": "vps-2020v2-model3-resell",
+"family": "vps-elite-8-8-160-vps-2025-model3-eu",
+"planCode": "vps-comfort-4-8-80-eu",
+"option-windows-comfort-4-8-80-eu",
+"product": "vps-comfort-4-8-80-resell",
+"planCode": "vps-value-1-4-20-eu",
+"option-windows-value-1-4-20-eu"
+"option-snapshot-20g-eu"
+"option-auto-backup-20g-eu"
+"product": "vps-value-1-4-20-resell",
+"WAW",
+"UK"
+"planCode": "vps-elite-8-8-160-vps-2025-model3-degressivity24-eu",
+"option-windows-elite-8-8-160-eu",
+"family": "vps-elite-8-8-160-vps-2025-model3-degressivity24-eu",
+"planCode": "vps-essential-2-4-40-vps-2025-model1-degressivity24-eu",
+"option-windows-essential-2-4-40-eu"
+"family": "vps-essential-2-4-40-vps-2025-model1-degressivity24-eu",
+"planCode": "vps-elite-8-16-320-vps-2025-model5-degressivity12-eu",
+"product": "vps-2020v2-model5-resell",
+"family": "vps-elite-8-16-320-vps-2025-model5-degressivity12-eu",
+"planCode": "vps-comfort-4-8-80-vps-2025-model2-eu",
+"product": "vps-2020v2-model2-resell",
+"family": "vps-comfort-4-8-80-vps-2025-model2-eu",
+"planCode": "vps-comfort-4-4-80-eu",
+"option-windows-comfort-4-4-80-eu"
+"product": "vps-comfort-4-4-80-resell",
+"planCode": "vps-essential-2-8-40-eu",
+"option-windows-essential-2-8-40-eu"
+"product": "vps-essential-2-8-40-resell",
+"planCode": "vps-comfort-4-4-80-vps-2025-model2-degressivity12-eu",
+"option-windows-comfort-4-4-80-eu",
+"family": "vps-comfort-4-4-80-vps-2025-model2-degressivity12-eu",
+"planCode": "vps-comfort-4-4-80-vps-2025-model2-degressivity24-eu",
+"family": "vps-comfort-4-4-80-vps-2025-model2-degressivity24-eu",
+"planCode": "vps-comfort-4-4-80-vps-2025-model2-eu",
+"family": "vps-comfort-4-4-80-vps-2025-model2-eu",
+"planCode": "vps-comfort-4-8-320-eu",
+"option-windows-comfort-4-8-320-eu"
+"product": "vps-comfort-4-8-320-resell",
+"planCode": "vps-essential-2-4-80-vps-2025-model2-eu",
+"option-windows-essential-2-4-80-eu",
+"family": "vps-essential-2-4-80-vps-2025-model2-eu",
+"planCode": "vps-elite-8-32-320-eu",
+"option-windows-elite-8-32-320-eu"
+"product": "vps-elite-8-32-320-resell",
+"planCode": "vps-comfort-4-16-320-eu",
+"option-cpanel-900-eu",
+"option-cpanel-800-eu"
+"option-windows-comfort-4-16-320-eu"
+"product": "vps-comfort-4-16-320-resell",
+"planCode": "vps-elite-8-8-640-eu",
+"option-windows-elite-8-8-640-eu"
+"option-snapshot-640g-eu"
+"option-auto-backup-640g-eu"
+"product": "vps-elite-8-8-640-resell",
+"planCode": "vps-elite-8-32-160-eu",
+"option-windows-elite-8-32-160-eu"
+"product": "vps-elite-8-32-160-resell",
+"planCode": "vps-value-1-2-80-eu",
+"option-windows-value-1-2-80-eu",
+"product": "vps-value-1-2-80-resell",
+"planCode": "vps-value-1-2-40-vps-2025-model1-eu",
+"option-cpanel-700-eu"
+"family": "vps-value-1-2-40-vps-2025-model1-eu",
+"planCode": "vps-comfort-4-16-80-eu",
+"option-windows-comfort-4-16-80-eu",
+"product": "vps-comfort-4-16-80-resell",
+"planCode": "vps-comfort-4-8-160-eu",
+"option-windows-comfort-4-8-160-eu",
+"product": "vps-comfort-4-8-160-resell",
+"planCode": "vps-elite-8-32-320-vps-2025-model5-eu",
+"family": "vps-elite-8-32-320-vps-2025-model5-eu",
+"planCode": "vps-elite-8-8-160-eu",
+"product": "vps-elite-8-8-160-resell",
+"planCode": "vps-starter-1-2-20-eu",
+"product": "vps-starter-1-2-20-resell",
+"planCode": "vps-elite-8-16-160-vps-2025-model3-eu",
+"option-windows-elite-8-16-160-eu"
+"family": "vps-elite-8-16-160-vps-2025-model3-eu",
+"planCode": "vps-le-2-2-40-eu",
+"option-windows-le-2-2-40-eu"
+"product": "vps-le-2-2-40-resell",
+"family": "vps-le-eu",
+"planCode": "vps-essential-2-4-80-eu",
+"option-windows-essential-2-4-80-eu"
+"product": "vps-essential-2-4-80-resell",
+"planCode": "vps-essential-2-4-160-eu",
+"option-windows-essential-2-4-160-eu",
+"product": "vps-essential-2-4-160-resell",
+"planCode": "vps-essential-2-4-40-eu",
+"product": "vps-essential-2-4-40-resell",
+"planCode": "vps-elite-8-8-320-eu",
+"option-windows-elite-8-8-320-eu"
+"product": "vps-elite-8-8-320-resell",
+"planCode": "vps-comfort-4-16-160-eu",
+"option-windows-comfort-4-16-160-eu",
+"product": "vps-comfort-4-16-160-resell",
+"planCode": "vps-le-4-4-80-eu",
+"option-windows-le-4-4-80-eu"
+"product": "vps-le-4-4-80-resell",
+"planCode": "vps-le-16-16-160-eu",
+"option-windows-le-16-16-160-eu",
+"product": "vps-le-16-16-160-resell",
+"planCode": "vps-essential-2-4-40-vps-2025-model1-degressivity12-eu",
+"option-windows-essential-2-4-40-eu",
+"family": "vps-essential-2-4-40-vps-2025-model1-degressivity12-eu",
+"planCode": "vps-elite-8-32-160-vps-2025-model4-eu",
+"option-windows-elite-8-32-160-eu",
+"product": "vps-2020v2-model4-resell",
+"family": "vps-elite-8-32-160-vps-2025-model4-eu",
+"planCode": "vps-value-1-4-80-vps-2025-model2-eu",
+"option-windows-value-1-4-80-eu"
+"family": "vps-value-1-4-80-vps-2025-model2-eu",
+"planCode": "vps-elite-8-16-320-vps-2025-model5-eu",
+"family": "vps-elite-8-16-320-vps-2025-model5-eu",
+"planCode": "vps-comfort-4-8-160-vps-2025-model3-eu",
+"family": "vps-comfort-4-8-160-vps-2025-model3-eu",
+"planCode": "vps-essential-2-4-40-vps-2025-model1-eu",
+"family": "vps-essential-2-4-40-vps-2025-model1-eu",
+"planCode": "vps-essential-2-8-160-eu",
+"option-windows-essential-2-8-160-eu"
+"product": "vps-essential-2-8-160-resell",
+"planCode": "vps-elite-8-16-640-eu",
+"option-windows-elite-8-16-640-eu"
+"product": "vps-elite-8-16-640-resell",
+"planCode": "vps-elite-8-32-640-eu",
+"option-windows-elite-8-32-640-eu",
+"product": "vps-elite-8-32-640-resell",
+"planCode": "vps-elite-8-16-160-eu",
+"option-windows-elite-8-16-160-eu",
+"product": "vps-elite-8-16-160-resell",
+"planCode": "vps-value-1-4-80-eu",
+"option-windows-value-1-4-80-eu",
+"product": "vps-value-1-4-80-resell",
+"planCode": "vps-2025-model3-eu",
+"option-auto-backup-2025-7-model3-eu",
+"option-auto-backup-2025-1-model3-eu"
+"option-windows-2025-model3-eu"
+"option-snapshot-2025-model3-eu"
+"option-additional-disk-2025-10000g-eu",
+"option-additional-disk-2025-1000g-eu",
+"option-additional-disk-2025-100g-eu",
+"option-additional-disk-2025-200g-eu",
+"option-additional-disk-2025-5000g-eu",
+"option-additional-disk-2025-500g-eu",
+"option-additional-disk-2025-50g-eu"
+"product": "vps-2025-model3-resell",
+"EU-SOUTH-MIL",
+"EU-WEST-RBX"
+"family": "vps-2025-eu",
+"planCode": "vps-2025-model5-eu",
+"option-windows-2025-model5-eu"
+"option-snapshot-2025-model5-eu"
+"option-auto-backup-2025-1-model5-eu",
+"option-auto-backup-2025-7-model5-eu"
+"product": "vps-2025-model5-resell",
+"EU-WEST-RBX",
+"EU-SOUTH-MIL"
+"planCode": "vps-2025-model4-eu",
+"option-windows-2025-model4-eu"
+"option-auto-backup-2025-1-model4-eu",
+"option-auto-backup-2025-7-model4-eu"
+"option-snapshot-2025-model4-eu"
+"product": "vps-2025-model4-resell",
+"planCode": "vps-2025-model2-eu",
+"option-windows-2025-model2-eu"
+"option-snapshot-2025-model2-eu"
+"option-auto-backup-2025-1-model2-eu",
+"option-auto-backup-2025-7-model2-eu"
+"product": "vps-2025-model2-resell",
+"planCode": "vps-2025-model1-eu",
+"option-windows-2025-model1-eu"
+"option-snapshot-2025-model1-eu"
+"option-auto-backup-2025-1-model1-eu",
+"option-auto-backup-2025-7-model1-eu"
+"product": "vps-2025-model1-resell",
+"planCode": "vps-2025-model6-eu",
+"option-windows-2025-model6-eu"
+"option-snapshot-2025-model6-eu"
+"option-auto-backup-2025-1-model6-eu",
+"option-auto-backup-2025-7-model6-eu"
+"product": "vps-2025-model6-resell",
+"planCode": "vps-2027-model3-eu",
+"option-additional-disk-2027-200g-eu",
+"option-additional-disk-2027-10000g-eu",
+"option-additional-disk-2027-1000g-eu",
+"option-additional-disk-2027-100g-eu",
+"option-additional-disk-2027-5000g-eu",
+"option-additional-disk-2027-500g-eu",
+"option-additional-disk-2027-50g-eu"
+"option-storage-local-2027-model3-eu"
+"option-windows-2027-model3-eu",
+"option-auto-backup-2027-1-model3-eu",
+"option-auto-backup-2027-7-model3-eu"
+"option-snapshot-2027-model3-eu"
+"product": "vps-2027-model3-resell",
+"planCode": "vps-2027-model2-eu",
+"option-windows-2027-model2-eu"
+"option-storage-local-2027-model2-eu"
+"option-auto-backup-2027-1-model2-eu",
+"option-auto-backup-2027-7-model2-eu"
+"option-snapshot-2027-model2-eu"
+"product": "vps-2027-model2-resell",
+"planCode": "vps-2027-model4-eu",
+"option-windows-2027-model4-eu"
+"option-storage-local-2027-model4-eu"
+"option-auto-backup-2027-1-model4-eu",
+"option-auto-backup-2027-7-model4-eu"
+"option-snapshot-2027-model4-eu"
+"product": "vps-2027-model4-resell",
+"planCode": "vps-2027-model1-eu",
+"option-storage-local-2027-model1-eu"
+"option-auto-backup-2027-1-model1-eu",
+"option-auto-backup-2027-7-model1-eu"
+"option-snapshot-2027-model1-eu"
+"product": "vps-2027-model1-resell",
+"planCode": "vps-elite-8-16-640-ca",
+"option-linux-ca",
+"option-windows-elite-8-16-640-ca"
+"option-cpanel-1-ca",
+"option-cpanel-150-ca",
+"option-cpanel-200-ca",
+"option-cpanel-250-ca",
+"option-cpanel-500-ca",
+"option-cpanel-700-ca",
+"option-cpanel-800-ca",
+"option-cpanel-900-ca",
+"option-cpanel-100-ca",
+"option-cpanel-1000-ca",
+"option-cpanel-30-ca",
+"option-cpanel-300-ca",
+"option-cpanel-400-ca",
+"option-cpanel-5-ca",
+"option-cpanel-50-ca",
+"option-cpanel-600-ca"
+"option-plesk-webadmin-ca",
+"option-plesk-webhost-ca",
+"option-plesk-webpro-ca"
+"option-snapshot-640g-ca"
+"option-additional-disk-100g-ca",
+"option-additional-disk-200g-ca",
+"option-additional-disk-500g-ca",
+"option-additional-disk-50g-ca"
+"option-auto-backup-640g-ca"
+"BHS",
+"SGP",
+"SYD"
+"family": "vps-ca",
+"planCode": "vps-value-1-2-40-vps-2025-model1-degressivity12-ca",
+"option-windows-value-1-2-40-ca"
+"option-cpanel-600-ca",
+"option-cpanel-50-ca"
+"option-snapshot-40g-ca"
+"option-auto-backup-40g-ca"
+"family": "vps-value-1-2-40-vps-2025-model1-degressivity12-ca",
+"planCode": "vps-elite-8-16-160-vps-2025-model3-ca",
+"option-windows-elite-8-16-160-ca"
+"option-auto-backup-160g-ca"
+"option-snapshot-160g-ca"
+"family": "vps-elite-8-16-160-vps-2025-model3-ca",
+"planCode": "vps-essential-2-4-80-vps-2025-model2-ca",
+"option-windows-essential-2-4-80-ca"
+"option-snapshot-80g-ca"
+"option-auto-backup-80g-ca"
+"family": "vps-essential-2-4-80-vps-2025-model2-ca",
+"planCode": "vps-comfort-4-8-320-ca",
+"option-windows-comfort-4-8-320-ca"
+"option-snapshot-320g-ca"
+"option-auto-backup-320g-ca"
+"planCode": "vps-value-1-4-20-ca",
+"option-windows-value-1-4-20-ca"
+"option-snapshot-20g-ca"
+"option-auto-backup-20g-ca"
+"planCode": "vps-comfort-4-4-80-ca",
+"option-windows-comfort-4-4-80-ca"
+"planCode": "vps-essential-2-4-40-vps-2025-model1-degressivity12-ca",
+"option-windows-essential-2-4-40-ca"
+"family": "vps-essential-2-4-40-vps-2025-model1-degressivity12-ca",
+"planCode": "vps-starter-1-2-20-ca",
+"option-linux-ca"
+"planCode": "vps-elite-8-32-160-vps-2025-model4-ca",
+"option-windows-elite-8-32-160-ca"
+"family": "vps-elite-8-32-160-vps-2025-model4-ca",
+"planCode": "vps-comfort-4-4-80-vps-2025-model2-ca",
+"family": "vps-comfort-4-4-80-vps-2025-model2-ca",
+"planCode": "vps-value-1-2-40-vps-2025-model1-ca",
+"family": "vps-value-1-2-40-vps-2025-model1-ca",
+"planCode": "vps-value-1-4-40-ca",
+"option-windows-value-1-4-40-ca"
+"planCode": "vps-comfort-4-16-80-ca",
+"option-windows-comfort-4-16-80-ca"
+"planCode": "vps-comfort-4-16-320-ca",
+"option-windows-comfort-4-16-320-ca"
+"planCode": "vps-elite-8-8-640-ca",
+"option-windows-elite-8-8-640-ca"
+"planCode": "vps-essential-2-4-40-ca",
+"planCode": "vps-value-1-2-80-ca",
+"option-windows-value-1-2-80-ca"
+"planCode": "vps-le-4-4-80-ca",
+"option-windows-le-4-4-80-ca"
+"option-plesk-webpro-ca",
+"option-plesk-webhost-ca"
+"SYD",
+"YNM"
+"family": "vps-le-ca",
+"planCode": "vps-elite-8-16-320-vps-2025-model5-ca",
+"option-windows-elite-8-16-320-ca"
+"family": "vps-elite-8-16-320-vps-2025-model5-ca",
+"planCode": "vps-elite-8-8-160-vps-2025-model3-degressivity24-ca",
+"option-windows-elite-8-8-160-ca"
+"family": "vps-elite-8-8-160-vps-2025-model3-degressivity24-ca",
+"planCode": "vps-le-16-16-160-ca",
+"option-windows-le-16-16-160-ca"
+"planCode": "vps-value-1-4-80-ca",
+"option-windows-value-1-4-80-ca"
+"planCode": "vps-value-1-2-40-ca",
+"planCode": "vps-comfort-4-8-160-vps-2025-model3-ca",
+"option-windows-comfort-4-8-160-ca"
+"family": "vps-comfort-4-8-160-vps-2025-model3-ca",
+"planCode": "vps-essential-2-4-160-ca",
+"option-windows-essential-2-4-160-ca"
+"planCode": "vps-comfort-4-16-160-ca",
+"option-windows-comfort-4-16-160-ca"
+"planCode": "vps-le-2-2-40-ca",
+"option-windows-le-2-2-40-ca"
+"planCode": "vps-comfort-4-8-80-ca",
+"option-windows-comfort-4-8-80-ca"
+"planCode": "vps-essential-2-8-40-ca",
+"option-windows-essential-2-8-40-ca"
+"planCode": "vps-comfort-4-4-80-vps-2025-model2-degressivity24-ca",
+"family": "vps-comfort-4-4-80-vps-2025-model2-degressivity24-ca",
+"planCode": "vps-elite-8-8-160-vps-2025-model3-ca",
+"family": "vps-elite-8-8-160-vps-2025-model3-ca",
+"planCode": "vps-essential-2-8-160-ca",
+"option-windows-essential-2-8-160-ca"
+"planCode": "vps-elite-8-16-160-ca",
+"planCode": "vps-comfort-4-8-80-vps-2025-model2-ca",
+"family": "vps-comfort-4-8-80-vps-2025-model2-ca",
+"planCode": "vps-essential-2-4-40-vps-2025-model1-ca",
+"family": "vps-essential-2-4-40-vps-2025-model1-ca",
+"planCode": "vps-comfort-4-4-80-vps-2025-model2-degressivity12-ca",
+"family": "vps-comfort-4-4-80-vps-2025-model2-degressivity12-ca",
+"planCode": "vps-elite-8-8-320-ca",
+"option-windows-elite-8-8-320-ca"
+"planCode": "vps-elite-8-32-640-ca",
+"option-windows-elite-8-32-640-ca"
+"planCode": "vps-elite-8-16-320-vps-2025-model5-degressivity12-ca",
+"family": "vps-elite-8-16-320-vps-2025-model5-degressivity12-ca",
+"planCode": "vps-essential-2-4-80-ca",
+"planCode": "vps-essential-2-8-80-ca",
+"option-windows-essential-2-8-80-ca"
+"planCode": "vps-elite-8-32-320-vps-2025-model5-ca",
+"option-windows-elite-8-32-320-ca"
+"family": "vps-elite-8-32-320-vps-2025-model5-ca",
+"planCode": "vps-elite-8-32-320-ca",
+"planCode": "vps-comfort-4-8-160-ca",
+"planCode": "vps-elite-8-16-320-ca",
+"planCode": "vps-elite-8-8-160-ca",
+"planCode": "vps-essential-2-4-40-vps-2025-model1-degressivity24-ca",
+"family": "vps-essential-2-4-40-vps-2025-model1-degressivity24-ca",
+"planCode": "vps-elite-8-32-160-ca",
+"planCode": "vps-value-1-4-80-vps-2025-model2-ca",
+"family": "vps-value-1-4-80-vps-2025-model2-ca",
+"planCode": "vps-2025-model2-ca",
+"option-windows-2025-model2-ca"
+"option-snapshot-2025-model2-ca"
+"option-additional-disk-2025-10000g-ca",
+"option-additional-disk-2025-1000g-ca",
+"option-additional-disk-2025-100g-ca",
+"option-additional-disk-2025-200g-ca",
+"option-additional-disk-2025-5000g-ca",
+"option-additional-disk-2025-500g-ca",
+"option-additional-disk-2025-50g-ca"
+"option-auto-backup-2025-1-model2-ca",
+"option-auto-backup-2025-7-model2-ca"
+"family": "vps-2025-ca",
+"planCode": "vps-2025-model5-ca",
+"option-auto-backup-2025-7-model5-ca",
+"option-auto-backup-2025-1-model5-ca"
+"option-windows-2025-model5-ca"
+"option-snapshot-2025-model5-ca"
+"planCode": "vps-2025-model4-ca",
+"option-windows-2025-model4-ca"
+"option-auto-backup-2025-1-model4-ca",
+"option-auto-backup-2025-7-model4-ca"
+"option-snapshot-2025-model4-ca"
+"planCode": "vps-2025-model1-ca",
+"option-windows-2025-model1-ca"
+"option-auto-backup-2025-1-model1-ca",
+"option-auto-backup-2025-7-model1-ca"
+"option-snapshot-2025-model1-ca"
+"planCode": "vps-2025-model6-ca",
+"option-windows-2025-model6-ca"
+"option-auto-backup-2025-1-model6-ca",
+"option-auto-backup-2025-7-model6-ca"
+"option-snapshot-2025-model6-ca"
+"planCode": "vps-2025-model3-ca",
+"option-windows-2025-model3-ca"
+"option-auto-backup-2025-1-model3-ca",
+"option-auto-backup-2025-7-model3-ca"
+"option-snapshot-2025-model3-ca"
+"planCode": "vps-2027-model4-ca",
+"option-snapshot-2027-model4-ca"
+"option-additional-disk-2027-5000g-ca",
+"option-additional-disk-2027-10000g-ca",
+"option-additional-disk-2027-50g-ca",
+"option-additional-disk-2027-1000g-ca",
+"option-additional-disk-2027-100g-ca",
+"option-additional-disk-2027-200g-ca",
+"option-additional-disk-2027-500g-ca"
+"option-windows-2027-model4-ca"
+"option-storage-local-2027-model4-ca"
+"option-auto-backup-2027-1-model4-ca",
+"option-auto-backup-2027-7-model4-ca"
+"planCode": "vps-2027-model2-ca",
+"option-windows-2027-model2-ca"
+"option-storage-local-2027-model2-ca"
+"option-auto-backup-2027-7-model2-ca",
+"option-auto-backup-2027-1-model2-ca"
+"option-snapshot-2027-model2-ca"
+"planCode": "vps-2027-model3-ca",
+"option-windows-2027-model3-ca"
+"option-storage-local-2027-model3-ca"
+"option-auto-backup-2027-1-model3-ca",
+"option-auto-backup-2027-7-model3-ca"
+"option-snapshot-2027-model3-ca"
+"planCode": "vps-2027-model1-ca",
+"option-storage-local-2027-model1-ca"
+"option-additional-disk-2027-500g-ca",
+"option-additional-disk-2027-50g-ca"
+"option-auto-backup-2027-7-model1-ca",
+"option-auto-backup-2027-1-model1-ca"
+"option-snapshot-2027-model1-ca"
+"planCode": "vps-2027-model2.LZ-eu",
+"invoiceName": "VPS-2 LZ 2027",
+"option-storage-remote-2027-eu"
+"option-auto-backup-2027-1-model2.LZ-eu",
+"option-auto-backup-2027-7-model2.LZ-eu"
+"option-snapshot-2027-model2.LZ-eu"
+"product": "vps-2027-model2-lz-resell",
+"EU-CENTRAL-LZ-PRG",
+"EU-SOUTH-LZ-MAD",
+"EU-WEST-LZ-AMS",
+"EU-WEST-LZ-BRU",
+"EU-WEST-LZ-MRS",
+"EU-WEST-LZ-VIE",
+"EU-WEST-LZ-ZRH"
+"family": "vps-2025-lz-eu",
+"brickSubtype": "vps-2027-LZ",
+"planCode": "vps-2027-model2.LZ",
+"option-plesk-webhost"
+"option-storage-remote-2027"
+"option-auto-backup-2027-1-model2.LZ",
+"option-auto-backup-2027-7-model2.LZ"
+"option-snapshot-2027-model2.LZ"
+"product": "vps-2027-model2-lz",
+"planCode": "vps-2027-model1.LZ-eu",
+"invoiceName": "VPS-1 LZ 2027",
+"option-auto-backup-2027-1-model1.LZ-eu",
+"option-auto-backup-2027-7-model1.LZ-eu"
+"option-cpanel-1000-eu"
+"option-plesk-webadmin-eu"
+"option-snapshot-2027-model1.LZ-eu"
+"product": "vps-2027-model1-lz-resell",
+"price": 654000000,
+"formattedPrice": "$6.54 USD",
+"price": 555000000,
+"formattedPrice": "$5.55 USD",
+"price": 621000000,
+"formattedPrice": "$6.21 USD",
+"planCode": "vps-2027-model1.LZ",
+"option-auto-backup-2027-1-model1.LZ",
+"option-auto-backup-2027-7-model1.LZ"
+"option-snapshot-2027-model1.LZ"
+"product": "vps-2027-model1-lz",
+"planCode": "vps-2025-model1.LZ-eu",
+"option-snapshot-2025-model1.LZ-eu"
+"option-auto-backup-2025-1-model1.LZ-eu",
+"option-auto-backup-2025-7-model1.LZ-eu"
+"product": "vps-2025-model1-lz-resell",
+"products": [
+"name": "vps-option-auto-backup-20g",
+"description": "VPS Automated Backup 20 GB",
+"blobs": null,
+"configurations": []
+"name": "vps-option-snapshot-20g",
+"description": "VPS Snapshot 20 GB",
+"name": "vps-option-auto-backup-7",
+"description": "VPS Automated Backup with 7 rotation",
+"name": "vps-option-linux-resell",
+"description": "VPS Linux option",
+"name": "24977",
+"description": "cPanel Premier Cloud 800",
+"license": {
+"edition": "premier-cloud",
+"nbOfAccount": "800"
+"name": "ip",
+"isCustom": true,
+"values": null
+"name": "24953",
+"description": "cPanel Premier Cloud 500",
+"nbOfAccount": "500"
+"name": "24985",
+"description": "cPanel Premier Cloud 900",
+"nbOfAccount": "900"
+"name": "24929",
+"description": "cPanel Premier Cloud 200",
+"nbOfAccount": "200"
+"name": "24933",
+"description": "cPanel Premier Cloud 250",
+"nbOfAccount": "250"
+"name": "29017",
+"description": "cPanel Premier Cloud 100",
+"nbOfAccount": "100"
+"name": "21163",
+"description": "cPanel Pro Cloud",
+"edition": "nbOfAccount"
+"name": "21159",
+"description": "cPanel Admin Cloud",
+"name": "22081",
+"description": "cPanel Plus Cloud",
+"name": "21151",
+"description": "cPanel Solo Cloud",
+"name": "vps-option-additional-disk-50g",
+"description": "VPS Additional Disk 50 GB",
+"capacity": 50
+"name": "plesk-12-vps-web-host-1m",
+"description": "Plesk for VPS Web Host Edition ( Monthly Lease )",
+"cpu": {},
+"edition": "plesk-12-webhost-for-vps"
+"name": "24969",
+"description": "cPanel Premier Cloud 700",
+"nbOfAccount": "700"
+"name": "24993",
+"description": "cPanel Premier Cloud 1000",
+"nbOfAccount": "1000"
+"name": "24961",
+"description": "cPanel Premier Cloud 600",
+"nbOfAccount": "600"
+"name": "24925",
+"description": "cPanel Premier Cloud 150",
+"nbOfAccount": "150"
+"name": "24937",
+"description": "cPanel Premier Cloud 300",
+"nbOfAccount": "300"
+"name": "24945",
+"description": "cPanel Premier Cloud 400",
+"nbOfAccount": "400"
+"name": "vps-option-linux",
+"name": "plesk-12-vps-web-admin-1m",
+"description": "Plesk for VPS Web Admin Edition ( Monthly Lease )",
+"edition": "plesk-12-webadmin-for-vps"
+"name": "plesk-12-vps-web-pro-1m",
+"description": "Plesk for VPS Web Pro Edition ( Monthly Lease )",
+"edition": "plesk-12-webpro-for-vps"
+"name": "vps-option-auto-backup-1",
+"description": "VPS Automated Backup with 1 rotation",
+"name": "vps-option-snapshot",
+"description": "VPS Snapshot",
+"name": "vps-option-storage-local-resell",
+"description": "VPS Local Storage",
+"name": "vps-option-storage-local",
+"name": "vps-option-storage-remote-resell",
+"name": "vps-option-storage-remote",
+"name": "vps-option-windows",
+"description": "VPS Windows license",
+"name": "vps-option-additional-disk-100g",
+"description": "VPS Additional Disk 100 GB",
+"capacity": 100
+"name": "vps-option-additional-disk-200g",
+"description": "VPS Additional Disk 200 GB",
+"capacity": 200
+"name": "vps-option-additional-disk-500g",
+"description": "VPS Additional Disk 500 GB",
+"capacity": 500
+"name": "vps-option-auto-backup-160g",
+"description": "VPS Automated Backup 160 GB",
+"name": "vps-option-auto-backup-320g",
+"description": "VPS Automated Backup 320 GB",
+"name": "vps-option-auto-backup-640g",
+"description": "VPS Automated Backup 640 GB",
+"name": "vps-option-auto-backup-80g",
+"description": "VPS Automated Backup 80 GB",
+"name": "vps-option-snapshot-160g",
+"description": "VPS Snapshot 160 GB",
+"name": "vps-option-snapshot-320g",
+"description": "VPS Snapshot 320 GB",
+"name": "vps-option-snapshot-40g",
+"description": "VPS Snapshot 40 GB",
+"name": "vps-option-snapshot-640g",
+"description": "VPS Snapshot 640 GB",
+"name": "vps-option-snapshot-80g",
+"description": "VPS Snapshot 80 GB",
+"name": "vps-option-windows-resell",
+"name": "vps-2025-model1-lz",
+"description": "VPS 4 vCPU 8 GB RAM 75 GB disk",
+"meta": {
+"brick": "Distributions",
+"brickSubtype": "Operating Systems",
+"name": "Ubuntu 26.04"
+"order-funnel:distribution-only"
+"os": {
+"family": "Ubuntu",
+"version": "Version 26.04"
+"value": "Ubuntu 26.04"
+"name": "Ubuntu 24.04"
+"version": "Version 24.04"
+"value": "Ubuntu 24.04"
+"name": "Ubuntu 22.04"
+"version": "Version 22.04"
+"value": "Ubuntu 22.04"
+"name": "Debian 13"
+"family": "Debian",
+"version": "Version 13"
+"value": "Debian 13"
+"name": "Debian 12"
+"version": "Version 12"
+"value": "Debian 12"
+"name": "Debian 11"
+"version": "Version 11"
+"value": "Debian 11"
+"name": "Fedora 44"
+"family": "Fedora",
+"version": "Version 44"
+"value": "Fedora 44"
+"name": "Fedora 43"
+"version": "Version 43"
+"value": "Fedora 43"
+"name": "AlmaLinux 10"
+"family": "AlmaLinux",
+"version": "Version 10"
+"value": "AlmaLinux 10"
+"name": "AlmaLinux 9"
+"version": "Version 9"
+"value": "AlmaLinux 9"
+"name": "AlmaLinux 8"
+"version": "Version 8"
+"value": "AlmaLinux 8"
+"name": "Rocky Linux 10"
+"family": "Rocky Linux",
+"value": "Rocky Linux 10"
+"name": "Rocky Linux 9"
+"value": "Rocky Linux 9"
+"name": "Rocky Linux 8"
+"value": "Rocky Linux 8"
+"name": "CloudLinux 9"
+"family": "CloudLinux",
+"value": "CloudLinux 9"
+"name": "FreeBSD-15-ufs - UEFI"
+"family": "FreeBSD",
+"version": "Version 15-ufs"
+"value": "FreeBSD-15-ufs - UEFI"
+"name": "FreeBSD-15-zfs - UEFI"
+"version": "Version 15-zfs"
+"value": "FreeBSD-15-zfs - UEFI"
+"name": "FreeBSD 14.3"
+"version": "Version 14.3"
+"value": "FreeBSD-14.3 - UEFI"
+"name": "Windows Server 2025 Standard"
+"edition": "Standard edition",
+"family": "Windows Server",
+"version": "Version 2025"
+"value": "Windows Server 2025 Standard (Desktop)"
+"name": "Windows Server 2022 Standard"
+"version": "Version 2022"
+"value": "Windows Server 2022 Standard (Desktop)"
+"name": "Windows Server 2019 Standard"
+"version": "Version 2019"
+"value": "Windows Server 2019 Standard (Desktop)"
+"name": "Windows Server 2016 Standard"
+"version": "Version 2016"
+"value": "Windows Server 2016 Standard (Desktop)"
+"brickSubtype": "Panels",
+"name": "Plesk (Debian 12)"
+"order-funnel:distribution-with-application"
+"distribution": "Debian 12",
+"family": "Plesk Debian"
+"value": "Debian 12 - Plesk"
+"name": "cPanel (AlmaLinux 9)"
+"distribution": "AlmaLinux 9",
+"family": "cPanel"
+"value": "AlmaLinux 9 - cPanel"
+"name": "cPanel (AlmaLinux 8)"
+"distribution": "AlmaLinux 8",
+"value": "AlmaLinux 8 - cPanel"
+"brickSubtype": "Operating Systems with application",
+"name": "Docker (Debian 12)"
+"family": "Docker",
+"version": "Debian 12"
+"value": "Debian 12 - Docker"
+"name": "n8n (Debian 12)"
+"family": "n8n",
+"value": "Debian 12 - n8n"
+"datacenter": {
+"city": "Milano",
+"country": "Italy"
+"value": "EU-SOUTH-MIL"
+"city": "Gravelines",
+"country": "France"
+"value": "GRA"
+"city": "Roubaix",
+"value": "EU-WEST-RBX"
+"city": "Strasbourg",
+"value": "SBG"
+"city": "Beauharnois",
+"country": "Canada"
+"value": "BHS"
+"city": "Warsaw",
+"country": "Poland"
+"value": "WAW"
+"city": "Frankfurt",
+"country": "Germany"
+"value": "DE"
+"city": "London",
+"country": "United Kingdom"
+"value": "UK"
+"city": "Sydney",
+"country": "Australia"
+"value": "SYD"
+"city": "Singapore",
+"country": "Singapore"
+"value": "SGP"
+"city": "Mumbai",
+"country": "India"
+"value": "YNM"
+"type": "vCore",
+"brand": " ",
+"cores": 4,
+"model": " "
+"size": 8
+"capacity": 75,
+"interface": "NVMe",
+"bandwidth": {
+"level": 400,
+"unlimited": true
+"name": "vps_backup_id",
+"name": "vps_backup_region",
+"name": "publiccloud-vps",
+"description": "VPS - Virtual Private Server",
+"family": "Linux distribution only"
+"value": "Debian 9"
+"value": "Archlinux"
+"value": "Centos 6"
+"value": "Centos 7"
+"value": "Centos 8"
+"value": "Debian 8"
+"value": "Fedora 29"
+"value": "FreeBSD 11 ZFS"
+"value": "Ubuntu 16.04"
+"value": "Ubuntu 18.04"
+"value": "Ubuntu 19.04"
+"value": "Debian 10"
+"value": "CoreOS Stable"
+"family": "Linux distribution with application"
+"value": "Debian 8 - Docker"
+"value": "Debian 8 - OpenVPN"
+"value": "Debian 8 - Vestacp"
+"value": "Debian 8 - Virtualmin"
+"value": "Debian 8 - WordPress"
+"name": "vps-2020v2-model3",
+"description": "VPS 8 vCPU 24 GB RAM 200 GB disk",
+"cores": 8,
+"size": 24
+"capacity": 200,
+"level": 2000,
+"name": "vps-2020v2-model5",
+"description": "VPS 16 vCPU 64 GB RAM 350 GB disk",
+"cores": 16,
+"size": 64
+"capacity": 350,
+"level": 2500,
+"name": "vps-2020v2-model2",
+"description": "VPS 6 vCPU 12 GB RAM 100 GB disk",
+"cores": 6,
+"size": 12
+"capacity": 100,
+"level": 1000,
+"name": "vps-2020v2-model4",
+"description": "VPS 12 vCPU 48 GB RAM 300 GB disk",
+"cores": 12,
+"size": 48
+"capacity": 300,
+"name": "vps-2020v2-model1",
+"level": 500,
+"name": "vps-value-1-4-80",
+"description": "VPS Value 1 vCPU 4 GB RAM 80 GB disk",
+"city": "Vint Hill",
+"country": "United States"
+"value": "US-EAST-VA"
+"city": "Hillsboro",
+"value": "US-WEST-OR"
+"brand": "Intel",
+"model": "Xeon"
+"size": 4
+"capacity": 80,
+"level": 250,
+"name": "vps-option-additional-disk-10000g",
+"description": "VPS Additional Disk 10000 GB",
+"capacity": 10000
+"name": "vps-2027-model2",
+"name": "vps_password_hash",
+"name": "vps-2027-model1",
+"description": "VPS 2 vCPU 4 GB RAM 40 GB disk",
+"cores": 2,
+"capacity": 40,
+"name": "vps-2027-model4",
+"level": 3000,
+"name": "vps-option-additional-disk-1000g",
+"description": "VPS Additional Disk 1000 GB",
+"capacity": 1000
+"name": "vps-option-additional-disk-5000g",
+"description": "VPS Additional Disk 5000 GB",
+"capacity": 5000
+"name": "vps-le-2-2-40",
+"description": "VPS Limited Edition 2 vCPU 2 GB RAM 40 GB disk",
+"brand": "AMD",
+"model": "EPYC"
+"name": "vps-value-1-2-40",
+"description": "VPS Value 1 vCPU 2 GB RAM 40 GB disk",
+"name": "vps-essential-2-8-40",
+"description": "VPS Essential 2 vCPU 8 GB RAM 40 GB disk",
+"name": "vps-essential-2-4-40",
+"description": "VPS Essential 2 vCPU 4 GB RAM 40 GB disk",
+"name": "vps-value-1-4-40",
+"description": "VPS Value 1 vCPU 4 GB RAM 40 GB disk",
+"name": "vps-option-auto-backup-40g",
+"description": "VPS Automated Backup 40 GB",
+"name": "vps-comfort-4-16-160",
+"description": "VPS Comfort 4 vCPU 16 GB RAM 160 GB disk",
+"size": 16
+"capacity": 160,
+"name": "vps-comfort-4-16-320",
+"description": "VPS Comfort 4 vCPU 16 GB RAM 320 GB disk",
+"capacity": 320,
+"name": "vps-comfort-4-16-80",
+"description": "VPS Comfort 4 vCPU 16 GB RAM 80 GB disk",
+"name": "vps-comfort-4-4-80",
+"description": "VPS Comfort 4 vCPU 4 GB RAM 80 GB disk",
+"name": "vps-comfort-4-8-160",
+"description": "VPS Comfort 4 vCPU 8 GB RAM 160 GB disk",
+"name": "vps-comfort-4-8-320",
+"description": "VPS Comfort 4 vCPU 8 GB RAM 320 GB disk",
+"name": "vps-comfort-4-8-80",
+"description": "VPS Comfort 4 vCPU 8 GB RAM 80 GB disk",
+"name": "vps-elite-8-16-160",
+"description": "VPS Elite 8 vCPU 16 GB RAM 160 GB disk",
+"name": "vps-elite-8-16-320",
+"description": "VPS Elite 8 vCPU 16 GB RAM 320 GB disk",
+"name": "vps-elite-8-16-640",
+"description": "VPS Elite 8 vCPU 16 GB RAM 640 GB disk",
+"capacity": 640,
+"name": "vps-elite-8-32-160",
+"description": "VPS Elite 8 vCPU 32 GB RAM 160 GB disk",
+"size": 32
+"name": "vps-elite-8-32-320",
+"description": "VPS Elite 8 vCPU 32 GB RAM 320 GB disk",
+"name": "vps-elite-8-32-640",
+"description": "VPS Elite 8 vCPU 32 GB RAM 640 GB disk",
+"name": "vps-elite-8-8-160",
+"description": "VPS Elite 8 vCPU 8 GB RAM 160 GB disk",
+"name": "vps-elite-8-8-320",
+"description": "VPS Elite 8 vCPU 8 GB RAM 320 GB disk",
+"name": "vps-elite-8-8-640",
+"description": "VPS Elite 8 vCPU 8 GB RAM 640 GB disk",
+"name": "vps-essential-2-4-160",
+"description": "VPS Essential 2 vCPU 4 GB RAM 160 GB disk",
+"name": "vps-essential-2-4-80",
+"description": "VPS Essential 2 vCPU 4 GB RAM 80 GB disk",
+"name": "vps-essential-2-8-160",
+"description": "VPS Essential 2 vCPU 8 GB RAM 160 GB disk",
+"name": "vps-essential-2-8-80",
+"description": "VPS Essential 2 vCPU 8 GB RAM 80 GB disk",
+"name": "vps-le-16-16-160",
+"description": "VPS Limited Edition 16 vCPU 16 GB RAM 160 GB disk",
+"name": "vps-le-4-4-80",
+"description": "VPS Limited Edition 4 vCPU 4 GB RAM 80 GB disk",
+"name": "vps-starter-1-2-20",
+"description": "VPS Starter 1 vCPU 2 GB RAM 20 GB disk",
+"interface": "SATA",
+"level": 100,
+"name": "vps-value-1-2-80",
+"description": "VPS Value 1 vCPU 2 GB RAM 80 GB disk",
+"name": "vps-value-1-4-20",
+"description": "VPS Value 1 vCPU 4 GB RAM 20 GB disk",
+"name": "vps-2027-model3",
+"name": "vps-2025-model2",
+"name": "vps-2025-model5",
+"name": "vps-2025-model6",
+"description": "VPS 24 vCPU 96 GB RAM 400 GB disk",
+"cores": 24,
+"size": 96
+"capacity": 400,
+"name": "vps-2025-model1",
+"name": "vps-2025-model3",
+"level": 1500,
+"name": "vps-2025-model4",
+"name": "vps-2020v2-model1-resell",
+"name": "vps-value-1-4-40-resell",
+"name": "vps-value-1-2-40-resell",
+"name": "vps-elite-8-16-320-resell",
+"name": "vps-essential-2-8-80-resell",
+"name": "vps-2020v2-model3-resell",
+"name": "vps-comfort-4-8-80-resell",
+"name": "vps-value-1-4-20-resell",
+"name": "vps-2020v2-model5-resell",
+"name": "vps-2020v2-model2-resell",
+"name": "vps-comfort-4-4-80-resell",
+"name": "vps-essential-2-8-40-resell",
+"name": "vps-comfort-4-8-320-resell",
+"name": "vps-elite-8-32-320-resell",
+"name": "vps-comfort-4-16-320-resell",
+"name": "vps-elite-8-8-640-resell",
+"name": "vps-elite-8-32-160-resell",
+"name": "vps-value-1-2-80-resell",
+"name": "vps-comfort-4-16-80-resell",
+"name": "vps-comfort-4-8-160-resell",
+"name": "vps-elite-8-8-160-resell",
+"name": "vps-starter-1-2-20-resell",
+"name": "vps-le-2-2-40-resell",
+"name": "vps-essential-2-4-80-resell",
+"name": "vps-essential-2-4-160-resell",
+"name": "vps-essential-2-4-40-resell",
+"name": "vps-elite-8-8-320-resell",
+"name": "vps-comfort-4-16-160-resell",
+"name": "vps-le-4-4-80-resell",
+"name": "vps-le-16-16-160-resell",
+"name": "vps-2020v2-model4-resell",
+"name": "vps-essential-2-8-160-resell",
+"name": "vps-elite-8-16-640-resell",
+"name": "vps-elite-8-32-640-resell",
+"name": "vps-elite-8-16-160-resell",
+"name": "vps-value-1-4-80-resell",
+"name": "vps-option-additional-disk-100g-resell",
+"name": "vps-option-additional-disk-200g-resell",
+"name": "vps-2025-model3-resell",
+"name": "vps-2025-model5-resell",
+"name": "vps-2025-model4-resell",
+"name": "vps-2025-model2-resell",
+"name": "vps-2025-model1-resell",
+"name": "vps-2025-model6-resell",
+"name": "vps-option-additional-disk-10000g-resell",
+"name": "vps-option-additional-disk-1000g-resell",
+"name": "vps-option-additional-disk-5000g-resell",
+"name": "vps-option-additional-disk-500g-resell",
+"name": "vps-option-additional-disk-50g-resell",
+"name": "vps-2027-model3-resell",
+"name": "vps-2027-model2-resell",
+"name": "vps-2027-model4-resell",
+"name": "vps-2027-model1-resell",
+"name": "vps-option-auto-backup-160g-resell",
+"name": "vps-option-auto-backup-1-resell",
+"name": "vps-option-auto-backup-7-resell",
+"name": "vps-option-auto-backup-20g-resell",
+"name": "vps-option-auto-backup-320g-resell",
+"name": "vps-option-auto-backup-40g-resell",
+"name": "vps-option-auto-backup-640g-resell",
+"name": "vps-option-auto-backup-80g-resell",
+"name": "vps-option-snapshot-160g-resell",
+"name": "vps-option-snapshot-resell",
+"name": "vps-option-snapshot-20g-resell",
+"name": "vps-option-snapshot-320g-resell",
+"name": "vps-option-snapshot-40g-resell",
+"name": "vps-option-snapshot-640g-resell",
+"name": "vps-option-snapshot-80g-resell",
+"name": "vps-2027-model2-lz-resell",
+"name": "vps-2027-model2-lz",
+"name": "vps-2027-model1-lz-resell",
+"name": "vps-2027-model1-lz",
+"name": "vps-2025-model1-lz-resell",
+"planCode": "option-auto-backup-20g",
+"invoiceName": "Option Automated Backup 20GB",
+"product": "vps-option-auto-backup-20g",
+"price": 190000000,
+"formattedPrice": "$1.90 USD",
+"price": 2280000000,
+"formattedPrice": "$22.80 USD",
+"price": 4560000000,
+"formattedPrice": "$45.60 USD",
+"family": "option-auto-backup",
+"brick": "Options",
+"brickSubtype": "Automated Backups",
+"name": "20 GB"
+"order-funnel:enhancement"
+"planCode": "option-snapshot-20g",
+"invoiceName": "Option Snapshot 20GB",
+"product": "vps-option-snapshot-20g",
+"price": 120000000,
+"formattedPrice": "$1.20 USD",
+"price": 1440000000,
+"formattedPrice": "$14.40 USD",
+"price": 2880000000,
+"formattedPrice": "$28.80 USD",
+"family": "option-snapshot",
+"brickSubtype": "Snapshots",
+"planCode": "option-auto-backup-2025-7-model1.LZ",
+"invoiceName": "Option Automated Backup Premium - VPS-1",
+"product": "vps-option-auto-backup-7",
+"price": 210000000,
+"formattedPrice": "$2.10 USD",
+"family": "option-auto-backup-2025-lz",
+"name": "Model1"
+"planCode": "option-linux-ca",
+"invoiceName": "Linux",
+"product": "vps-option-linux-resell",
+"family": "option-linux-ca",
+"planCode": "option-linux-eu",
+"family": "option-linux-eu",
+"planCode": "option-cpanel-800",
+"invoiceName": "Option cPanel 800 accounts",
+"product": "24977",
+"price": 37100000000,
+"formattedPrice": "$371.00 USD",
+"price": 445200000000,
+"formattedPrice": "$4452.00 USD",
+"price": 890400000000,
+"formattedPrice": "$8904.00 USD",
+"canada",
+"europe",
+"family": "option-cpanel",
+"brickSubtype": "Licenses",
+"name": "cPanel 800 accounts"
+"edition": "800 accounts",
+"images": [
+"AlmaLinux 8 - cPanel"
+"planCode": "option-cpanel-500",
+"invoiceName": "Option cPanel 500 accounts",
+"product": "24953",
+"price": 22900000000,
+"formattedPrice": "$229.00 USD",
+"price": 274800000000,
+"formattedPrice": "$2748.00 USD",
+"price": 549600000000,
+"formattedPrice": "$5496.00 USD",
+"name": "cPanel 500 accounts"
+"edition": "500 accounts",
+"planCode": "option-cpanel-900",
+"invoiceName": "Option cPanel 900 accounts",
+"product": "24985",
+"price": 41700000000,
+"formattedPrice": "$417.00 USD",
+"price": 500400000000,
+"formattedPrice": "$5004.00 USD",
+"price": 1000800000000,
+"formattedPrice": "$10008.00 USD",
+"name": "cPanel 900 accounts"
+"edition": "900 accounts",
+"planCode": "option-cpanel-200",
+"invoiceName": "Option cPanel 200 accounts",
+"product": "24929",
+"price": 8900000000,
+"formattedPrice": "$89.00 USD",
+"price": 106800000000,
+"formattedPrice": "$1068.00 USD",
+"price": 213600000000,
+"formattedPrice": "$2136.00 USD",
+"name": "cPanel 200 accounts"
+"edition": "200 accounts",
+"planCode": "option-cpanel-250",
+"invoiceName": "Option cPanel 250 accounts",
+"product": "24933",
+"price": 11100000000,
+"formattedPrice": "$111.00 USD",
+"price": 133200000000,
+"formattedPrice": "$1332.00 USD",
+"price": 266400000000,
+"formattedPrice": "$2664.00 USD",
+"name": "cPanel 250 accounts"
+"edition": "250 accounts",
+"planCode": "option-cpanel-100",
+"invoiceName": "Option cPanel 100 accounts",
+"product": "29017",
+"price": 5400000000,
+"formattedPrice": "$54.00 USD",
+"price": 64800000000,
+"formattedPrice": "$648.00 USD",
+"price": 129600000000,
+"formattedPrice": "$1296.00 USD",
+"name": "cPanel 100 accounts"
+"edition": "100 accounts",
+"planCode": "option-cpanel-30",
+"invoiceName": "Option cPanel 30 accounts",
+"product": "21163",
+"price": 3400000000,
+"formattedPrice": "$34.00 USD",
+"price": 40800000000,
+"formattedPrice": "$408.00 USD",
+"price": 81600000000,
+"formattedPrice": "$816.00 USD",
+"name": "cPanel 30 accounts"
+"edition": "30 accounts",
+"planCode": "option-cpanel-5",
+"invoiceName": "Option cPanel 5 accounts",
+"product": "21159",
+"price": 2400000000,
+"formattedPrice": "$24.00 USD",
+"price": 28800000000,
+"formattedPrice": "$288.00 USD",
+"price": 57600000000,
+"formattedPrice": "$576.00 USD",
+"name": "cPanel 5 accounts"
+"edition": "5 accounts",
+"planCode": "option-cpanel-50",
+"invoiceName": "Option cPanel 50 accounts",
+"product": "22081",
+"price": 54000000000,
+"formattedPrice": "$540.00 USD",
+"price": 108000000000,
+"formattedPrice": "$1080.00 USD",
+"united_states",
+"name": "cPanel 50 accounts"
+"edition": "50 accounts",
+"planCode": "option-cpanel-1",
+"invoiceName": "Option cPanel 1 account",
+"product": "21151",
+"price": 2200000000,
+"formattedPrice": "$22.00 USD",
+"price": 26400000000,
+"formattedPrice": "$264.00 USD",
+"price": 52800000000,
+"formattedPrice": "$528.00 USD",
+"name": "cPanel 1 account"
+"edition": "1 account",
+"planCode": "option-additional-disk-50g",
+"invoiceName": "Option Additional Disk 50GB",
+"product": "vps-option-additional-disk-50g",
+"price": 630000000,
+"formattedPrice": "$6.30 USD",
+"price": 7560000000,
+"formattedPrice": "$75.60 USD",
+"price": 15120000000,
+"formattedPrice": "$151.20 USD",
+"family": "option-additional-disk",
+"brickSubtype": "Additional Disks",
+"name": "50 GB"
+"planCode": "option-plesk-webhost",
+"invoiceName": "Option Plesk Web Host",
+"product": "plesk-12-vps-web-host-1m",
+"family": "option-plesk",
+"name": "Plesk Web Host"
+"edition": "Web Host",
+"Debian 12 - Plesk"
+"planCode": "option-cpanel-700",
+"invoiceName": "Option cPanel 700 accounts",
+"product": "24969",
+"price": 32500000000,
+"formattedPrice": "$325.00 USD",
+"price": 390000000000,
+"formattedPrice": "$3900.00 USD",
+"price": 780000000000,
+"formattedPrice": "$7800.00 USD",
+"name": "cPanel 700 accounts"
+"edition": "700 accounts",
+"planCode": "option-cpanel-1000",
+"invoiceName": "Option cPanel 1000 accounts",
+"product": "24993",
+"price": 48000000000,
+"formattedPrice": "$480.00 USD",
+"price": 576000000000,
+"formattedPrice": "$5760.00 USD",
+"price": 1152000000000,
+"formattedPrice": "$11520.00 USD",
+"name": "cPanel 1000 accounts"
+"edition": "1000 accounts",
+"planCode": "option-cpanel-600",
+"invoiceName": "Option cPanel 600 accounts",
+"product": "24961",
+"price": 27800000000,
+"formattedPrice": "$278.00 USD",
+"price": 333600000000,
+"formattedPrice": "$3336.00 USD",
+"price": 667200000000,
+"formattedPrice": "$6672.00 USD",
+"name": "cPanel 600 accounts"
+"edition": "600 accounts",
+"planCode": "option-cpanel-150",
+"invoiceName": "Option cPanel 150 accounts",
+"product": "24925",
+"price": 6400000000,
+"formattedPrice": "$64.00 USD",
+"price": 76800000000,
+"formattedPrice": "$768.00 USD",
+"price": 153600000000,
+"formattedPrice": "$1536.00 USD",
+"name": "cPanel 150 accounts"
+"edition": "150 accounts",
+"planCode": "option-cpanel-300",
+"invoiceName": "Option cPanel 300 accounts",
+"product": "24937",
+"price": 13600000000,
+"formattedPrice": "$136.00 USD",
+"price": 163200000000,
+"formattedPrice": "$1632.00 USD",
+"price": 326400000000,
+"formattedPrice": "$3264.00 USD",
+"name": "cPanel 300 accounts"
+"edition": "300 accounts",
+"planCode": "option-cpanel-400",
+"invoiceName": "Option cPanel 400 accounts",
+"product": "24945",
+"price": 18200000000,
+"formattedPrice": "$182.00 USD",
+"price": 218400000000,
+"formattedPrice": "$2184.00 USD",
+"price": 436800000000,
+"formattedPrice": "$4368.00 USD",
+"name": "cPanel 400 accounts"
+"edition": "400 accounts",
+"planCode": "option-linux",
+"product": "vps-option-linux",
+"family": "option-linux",
+"planCode": "option-plesk-webadmin",
+"invoiceName": "Option Plesk Web Admin",
+"product": "plesk-12-vps-web-admin-1m",
+"price": 13200000000,
+"formattedPrice": "$132.00 USD",
+"name": "Plesk Web Admin"
+"edition": "Web Admin",
+"planCode": "option-plesk-webpro",
+"invoiceName": "Option Plesk Web Pro",
+"product": "plesk-12-vps-web-pro-1m",
+"price": 1800000000,
+"formattedPrice": "$18.00 USD",
+"price": 21600000000,
+"formattedPrice": "$216.00 USD",
+"price": 43200000000,
+"formattedPrice": "$432.00 USD",
+"name": "Plesk Web Pro"
+"edition": "Web Pro",
+"planCode": "option-auto-backup-2027-1-model4",
+"invoiceName": "Option Automated Backup Standard - VPS-4 2027",
+"product": "vps-option-auto-backup-1",
+"promotions": [
+"description": "Autobackup option offer",
+"discount": {
+"value": 120000000,
+"formattedValue": "$1.20 USD",
+"tax": 0
+"duration": null,
+"context": "standard",
+"customFieldValues": [],
+"endDate": null,
+"formattedValue": "",
+"globalQuantity": null,
+"isForTestingPurpose": false,
+"isGlobalQuantityLimited": false,
+"minimumDuration": 2,
+"name": "VPS-2027-AutoBackup-rotation-1-FREE",
+"quantity": null,
+"startDate": "2026-06-10T09:30:00-04:00",
+"tags": null,
+"total": {
+"value": 0,
+"formattedValue": "$0.00 USD",
+"type": "percentage",
+"value": 100
+"family": "option-auto-backup-2025",
+"name": "model4"
+"planCode": "option-auto-backup-2027-7-model4",
+"invoiceName": "Option Automated Backup Premium - VPS-4 2027",
+"price": 590000000,
+"formattedPrice": "$5.90 USD",
+"name": "Model4"
+"planCode": "option-auto-backup-2027-1-model3",
+"invoiceName": "Option Automated Backup Standard - VPS-3 2027",
+"price": 80000000,
+"formattedPrice": "$0.80 USD",
+"value": 80000000,
+"formattedValue": "$0.80 USD",
+"name": "model3"
+"planCode": "option-auto-backup-2027-7-model3",
+"invoiceName": "Option Automated Backup Premium - VPS-3 2027",
+"price": 300000000,
+"formattedPrice": "$3.00 USD",
+"name": "Model3"
+"planCode": "option-auto-backup-2027-1-model2",
+"invoiceName": "Option Automated Backup Standard - VPS-2 2027",
+"price": 60000000,
+"formattedPrice": "$0.60 USD",
+"value": 60000000,
+"formattedValue": "$0.60 USD",
+"name": "Model2"
+"planCode": "option-auto-backup-2027-7-model2",
+"invoiceName": "Option Automated Backup Premium - VPS-2 2027",
+"price": 220000000,
+"formattedPrice": "$2.20 USD",
+"planCode": "option-auto-backup-2027-1-model1",
+"invoiceName": "Option Automated Backup Standard - VPS-1 2027",
+"price": 50000000,
+"formattedPrice": "$0.50 USD",
+"value": 50000000,
+"formattedValue": "$0.50 USD",
+"planCode": "option-snapshot-2027-model4",
+"invoiceName": "Option Snapshot - VPS-4 2027",
+"product": "vps-option-snapshot",
+"price": 170000000,
+"formattedPrice": "$1.70 USD",
+"family": "option-snapshot-2025",
+"planCode": "option-snapshot-2027-model3",
+"invoiceName": "Option Snapshot - VPS-3 2027",
+"price": 90000000,
+"formattedPrice": "$0.90 USD",
+"planCode": "option-snapshot-2027-model2",
+"invoiceName": "Option Snapshot - VPS-2 2027",
+"planCode": "option-storage-local-2027-model1-ca",
+"invoiceName": "Option Local Storage - VPS-1 2027",
+"product": "vps-option-storage-local-resell",
+"planCode": "option-storage-local-2027-model4-ca",
+"invoiceName": "Option Local Storage - VPS-4 2027",
+"planCode": "option-storage-local-2027-model4-eu",
+"family": "option-storage-eu",
+"planCode": "option-storage-local-2027-model4",
+"product": "vps-option-storage-local",
+"family": "option-storage",
+"planCode": "option-storage-local-2027-model3-ca",
+"invoiceName": "Option Local Storage - VPS-3 2027",
+"planCode": "option-storage-local-2027-model3-eu",
+"planCode": "option-storage-local-2027-model3",
+"planCode": "option-storage-local-2027-model2-ca",
+"invoiceName": "Option Local Storage - VPS-2 2027",
+"planCode": "option-storage-local-2027-model2-eu",
+"planCode": "option-storage-local-2027-model2",
+"planCode": "option-storage-local-2027-model1-eu",
+"planCode": "option-storage-local-2027-model1",
+"planCode": "option-storage-remote-2027-eu",
+"planCode": "option-storage-remote-2027",
+"product": "vps-option-storage-remote",
+"planCode": "option-windows-2027-model4",
+"invoiceName": "Option Windows - VPS-4",
+"product": "vps-option-windows",
+"price": 3340000000,
+"formattedPrice": "$33.40 USD",
+"family": "option-windows",
+"name": "Windows Server"
+"planCode": "option-windows-2027-model3",
+"invoiceName": "Option Windows - VPS-3",
+"price": 2030000000,
+"formattedPrice": "$20.30 USD",
+"planCode": "option-windows-2027-model2",
+"invoiceName": "Option Windows - VPS-2",
+"price": 960000000,
+"formattedPrice": "$9.60 USD",
+"planCode": "option-additional-disk-100g",
+"invoiceName": "Option Additional Disk 100GB",
+"product": "vps-option-additional-disk-100g",
+"price": 1240000000,
+"formattedPrice": "$12.40 USD",
+"price": 14880000000,
+"formattedPrice": "$148.80 USD",
+"price": 29760000000,
+"formattedPrice": "$297.60 USD",
+"name": "100 GB"
+"planCode": "option-additional-disk-200g",
+"invoiceName": "Option Additional Disk 200GB",
+"product": "vps-option-additional-disk-200g",
+"price": 1870000000,
+"formattedPrice": "$18.70 USD",
+"price": 22440000000,
+"formattedPrice": "$224.40 USD",
+"price": 44880000000,
+"formattedPrice": "$448.80 USD",
+"name": "200 GB"
+"planCode": "option-additional-disk-500g",
+"invoiceName": "Option Additional Disk 500GB",
+"product": "vps-option-additional-disk-500g",
+"price": 3730000000,
+"formattedPrice": "$37.30 USD",
+"price": 44760000000,
+"formattedPrice": "$447.60 USD",
+"price": 89520000000,
+"formattedPrice": "$895.20 USD",
+"name": "500 GB"
+"planCode": "option-auto-backup-160g",
+"invoiceName": "Option Automated Backup 160GB",
+"product": "vps-option-auto-backup-160g",
+"price": 1500000000,
+"formattedPrice": "$15.00 USD",
+"price": 18000000000,
+"formattedPrice": "$180.00 USD",
+"price": 36000000000,
+"formattedPrice": "$360.00 USD",
+"name": "160 GB"
+"planCode": "option-auto-backup-2025-1-model1.LZ",
+"invoiceName": "Option Automated Backup Standard - VPS-1 LZ 2026",
+"name": "VPS-2025-AutoBackup-rotation-1-FREE",
+"startDate": "2025-08-01T10:00:00-04:00",
+"planCode": "option-auto-backup-2025-1-model1",
+"invoiceName": "Option Automated Backup Standard - VPS-1 2026",
+"planCode": "option-auto-backup-2025-1-model2",
+"invoiceName": "Option Automated Backup Standard - VPS-2 2026",
+"name": "model2"
+"planCode": "option-auto-backup-2025-1-model3",
+"invoiceName": "Option Automated Backup Standard - VPS-3 2026",
+"price": 100000000,
+"formattedPrice": "$1.00 USD",
+"value": 100000000,
+"formattedValue": "$1.00 USD",
+"planCode": "option-auto-backup-2025-1-model4",
+"invoiceName": "Option Automated Backup Standard - VPS-4 2026",
+"price": 130000000,
+"formattedPrice": "$1.30 USD",
+"value": 130000000,
+"formattedValue": "$1.30 USD",
+"planCode": "option-auto-backup-2025-1-model5",
+"invoiceName": "Option Automated Backup Standard - VPS-5 2026",
+"price": 150000000,
+"formattedPrice": "$1.50 USD",
+"value": 150000000,
+"formattedValue": "$1.50 USD",
+"name": "model5"
+"planCode": "option-auto-backup-2025-1-model6",
+"invoiceName": "Option Automated Backup Standard - VPS-6 2026",
+"value": 170000000,
+"formattedValue": "$1.70 USD",
+"name": "model6"
+"planCode": "option-auto-backup-2025-7-model1",
+"invoiceName": "Option Automated Backup Premium - VPS-1 2026",
+"planCode": "option-auto-backup-2025-7-model2",
+"invoiceName": "Option Automated Backup Premium - VPS-2 2026",
+"price": 270000000,
+"formattedPrice": "$2.70 USD",
+"planCode": "option-auto-backup-2025-7-model3",
+"invoiceName": "Option Automated Backup Premium - VPS-3 2026",
+"price": 540000000,
+"formattedPrice": "$5.40 USD",
+"planCode": "option-auto-backup-2025-7-model4",
+"invoiceName": "Option Automated Backup Premium - VPS-4 2026",
+"price": 810000000,
+"formattedPrice": "$8.10 USD",
+"planCode": "option-auto-backup-2025-7-model5",
+"invoiceName": "Option Automated Backup Premium - VPS-5 2026",
+"price": 940000000,
+"formattedPrice": "$9.40 USD",
+"name": "Model5"
+"planCode": "option-auto-backup-2025-7-model6",
+"invoiceName": "Option Automated Backup Premium - VPS-6 2026",
+"price": 1070000000,
+"formattedPrice": "$10.70 USD",
+"name": "Model6"
+"planCode": "option-auto-backup-320g",
+"invoiceName": "Option Automated Backup 320GB",
+"product": "vps-option-auto-backup-320g",
+"price": 2980000000,
+"formattedPrice": "$29.80 USD",
+"price": 35760000000,
+"formattedPrice": "$357.60 USD",
+"price": 71520000000,
+"formattedPrice": "$715.20 USD",
+"name": "320 GB"
+"planCode": "option-auto-backup-640g",
+"invoiceName": "Option Automated Backup 640GB",
+"product": "vps-option-auto-backup-640g",
+"price": 5600000000,
+"formattedPrice": "$56.00 USD",
+"price": 67200000000,
+"formattedPrice": "$672.00 USD",
+"price": 134400000000,
+"formattedPrice": "$1344.00 USD",
+"name": "640 GB"
+"planCode": "option-auto-backup-80g",
+"invoiceName": "Option Automated Backup 80GB",
+"product": "vps-option-auto-backup-80g",
+"price": 750000000,
+"formattedPrice": "$7.50 USD",
+"price": 9000000000,
+"formattedPrice": "$90.00 USD",
+"name": "80 GB"
+"planCode": "option-snapshot-160g",
+"invoiceName": "Option Snapshot 160GB",
+"product": "vps-option-snapshot-160g",
+"price": 500000000,
+"formattedPrice": "$5.00 USD",
+"price": 6000000000,
+"formattedPrice": "$60.00 USD",
+"price": 12000000000,
+"formattedPrice": "$120.00 USD",
+"planCode": "option-snapshot-2025-model1.LZ",
+"invoiceName": "Option Snapshot - VPS-1 LZ 2026",
+"family": "option-snapshot-2025-lz",
+"planCode": "option-snapshot-2025-model1",
+"invoiceName": "Option Snapshot - VPS-1 2026",
+"planCode": "option-snapshot-2025-model2",
+"invoiceName": "Option Snapshot - VPS-2 2026",
+"planCode": "option-snapshot-2025-model3",
+"invoiceName": "Option Snapshot - VPS-3 2026",
+"price": 160000000,
+"formattedPrice": "$1.60 USD",
+"planCode": "option-snapshot-2025-model4",
+"invoiceName": "Option Snapshot - VPS-4 2026",
+"price": 230000000,
+"formattedPrice": "$2.30 USD",
+"planCode": "option-snapshot-2025-model5",
+"invoiceName": "Option Snapshot - VPS-5 2026",
+"price": 280000000,
+"formattedPrice": "$2.80 USD",
+"planCode": "option-snapshot-2025-model6",
+"invoiceName": "Option Snapshot - VPS-6 2026",
+"price": 310000000,
+"formattedPrice": "$3.10 USD",
+"planCode": "option-snapshot-320g",
+"invoiceName": "Option Snapshot 320GB",
+"product": "vps-option-snapshot-320g",
+"planCode": "option-snapshot-40g",
+"invoiceName": "Option Snapshot 40GB",
+"product": "vps-option-snapshot-40g",
+"price": 250000000,
+"formattedPrice": "$2.50 USD",
+"price": 3000000000,
+"formattedPrice": "$30.00 USD",
+"name": "40 GB"
+"planCode": "option-snapshot-640g",
+"invoiceName": "Option Snapshot 640GB",
+"product": "vps-option-snapshot-640g",
+"price": 870000000,
+"formattedPrice": "$8.70 USD",
+"price": 10440000000,
+"formattedPrice": "$104.40 USD",
+"price": 20880000000,
+"formattedPrice": "$208.80 USD",
+"planCode": "option-snapshot-80g",
+"invoiceName": "Option Snapshot 80GB",
+"product": "vps-option-snapshot-80g",
+"price": 370000000,
+"formattedPrice": "$3.70 USD",
+"price": 4440000000,
+"formattedPrice": "$44.40 USD",
+"price": 8880000000,
+"formattedPrice": "$88.80 USD",
+"planCode": "option-windows-2025-model1",
+"invoiceName": "Option Windows - VPS-1",
+"price": 900000000,
+"formattedPrice": "$9.00 USD",
+"planCode": "option-windows-2025-model2",
+"price": 1900000000,
+"formattedPrice": "$19.00 USD",
+"planCode": "option-windows-2025-model3",
+"planCode": "option-windows-2025-model4",
+"planCode": "option-windows-2025-model5",
+"invoiceName": "Option Windows - VPS-5",
+"price": 7000000000,
+"formattedPrice": "$70.00 USD",
+"planCode": "option-windows-2025-model6",
+"invoiceName": "Option Windows - VPS-6",
+"price": 8500000000,
+"formattedPrice": "$85.00 USD",
+"planCode": "option-windows-comfort-4-16-160",
+"invoiceName": "Option Windows",
+"price": 3500000000,
+"formattedPrice": "$35.00 USD",
+"price": 42000000000,
+"formattedPrice": "$420.00 USD",
+"price": 84000000000,
+"formattedPrice": "$840.00 USD",
+"planCode": "option-windows-comfort-4-16-320",
+"price": 4600000000,
+"formattedPrice": "$46.00 USD",
+"price": 55200000000,
+"formattedPrice": "$552.00 USD",
+"price": 110400000000,
+"formattedPrice": "$1104.00 USD",
+"planCode": "option-windows-comfort-4-16-80",
+"price": 3200000000,
+"formattedPrice": "$32.00 USD",
+"price": 38400000000,
+"formattedPrice": "$384.00 USD",
+"planCode": "option-windows-comfort-4-4-80",
+"planCode": "option-windows-comfort-4-8-160",
+"planCode": "option-windows-comfort-4-8-320",
+"planCode": "option-windows-comfort-4-8-80",
+"planCode": "option-windows-elite-8-16-160",
+"price": 3800000000,
+"formattedPrice": "$38.00 USD",
+"price": 45600000000,
+"formattedPrice": "$456.00 USD",
+"price": 91200000000,
+"formattedPrice": "$912.00 USD",
+"planCode": "option-windows-elite-8-16-320",
+"price": 4800000000,
+"formattedPrice": "$48.00 USD",
+"price": 115200000000,
+"formattedPrice": "$1152.00 USD",
+"planCode": "option-windows-elite-8-16-640",
+"price": 9700000000,
+"formattedPrice": "$97.00 USD",
+"price": 116400000000,
+"formattedPrice": "$1164.00 USD",
+"price": 232800000000,
+"formattedPrice": "$2328.00 USD",
+"planCode": "option-windows-elite-8-32-160",
+"price": 6300000000,
+"formattedPrice": "$63.00 USD",
+"price": 75600000000,
+"formattedPrice": "$756.00 USD",
+"price": 151200000000,
+"formattedPrice": "$1512.00 USD",
+"planCode": "option-windows-elite-8-32-320",
+"planCode": "option-windows-elite-8-32-640",
+"price": 9800000000,
+"formattedPrice": "$98.00 USD",
+"price": 117600000000,
+"formattedPrice": "$1176.00 USD",
+"price": 235200000000,
+"formattedPrice": "$2352.00 USD",
+"planCode": "option-windows-elite-8-8-160",
+"price": 3700000000,
+"formattedPrice": "$37.00 USD",
+"price": 44400000000,
+"formattedPrice": "$444.00 USD",
+"price": 88800000000,
+"formattedPrice": "$888.00 USD",
+"planCode": "option-windows-elite-8-8-320",
+"planCode": "option-windows-elite-8-8-640",
+"planCode": "option-windows-essential-2-4-160",
+"planCode": "option-windows-essential-2-4-40",
+"price": 24000000000,
+"formattedPrice": "$240.00 USD",
+"planCode": "option-windows-essential-2-4-80",
+"price": 1350000000,
+"formattedPrice": "$13.50 USD",
+"price": 16200000000,
+"formattedPrice": "$162.00 USD",
+"price": 32400000000,
+"formattedPrice": "$324.00 USD",
+"planCode": "option-windows-essential-2-8-160",
+"planCode": "option-windows-essential-2-8-40",
+"price": 1200000000,
+"formattedPrice": "$12.00 USD",
+"price": 14400000000,
+"formattedPrice": "$144.00 USD",
+"planCode": "option-windows-essential-2-8-80",
+"planCode": "option-windows-le-16-16-160",
+"planCode": "option-windows-le-2-2-40",
+"planCode": "option-windows-le-4-4-80",
+"planCode": "option-windows-value-1-2-40",
+"price": 600000000,
+"formattedPrice": "$6.00 USD",
+"price": 7200000000,
+"formattedPrice": "$72.00 USD",
+"planCode": "option-windows-value-1-2-80",
+"planCode": "option-windows-value-1-4-20",
+"planCode": "option-windows-value-1-4-40",
+"planCode": "option-windows-value-1-4-80",
+"planCode": "option-cpanel-1-eu",
+"family": "option-cpanel-eu",
+"planCode": "option-cpanel-100-eu",
+"planCode": "option-cpanel-1000-eu",
+"planCode": "option-cpanel-150-eu",
+"planCode": "option-cpanel-200-eu",
+"planCode": "option-cpanel-250-eu",
+"planCode": "option-cpanel-30-eu",
+"planCode": "option-cpanel-300-eu",
+"planCode": "option-cpanel-400-eu",
+"planCode": "option-cpanel-5-eu",
+"planCode": "option-cpanel-50-eu",
+"planCode": "option-cpanel-500-eu",
+"planCode": "option-cpanel-600-eu",
+"planCode": "option-cpanel-700-eu",
+"planCode": "option-cpanel-800-eu",
+"planCode": "option-cpanel-900-eu",
+"planCode": "option-plesk-webadmin-eu",
+"family": "option-plesk-eu",
+"planCode": "option-plesk-webhost-eu",
+"planCode": "option-plesk-webpro-eu",
+"planCode": "option-windows-2025-model1-eu",
+"product": "vps-option-windows-resell",
+"family": "option-windows-eu",
+"planCode": "option-windows-2025-model2-eu",
+"planCode": "option-windows-2025-model3-eu",
+"planCode": "option-windows-2025-model4-eu",
+"planCode": "option-windows-2025-model5-eu",
+"planCode": "option-windows-2025-model6-eu",
+"planCode": "option-windows-2027-model2-eu",
+"planCode": "option-windows-2027-model3-eu",
+"planCode": "option-windows-2027-model4-eu",
+"planCode": "option-windows-comfort-4-16-160-eu",
+"planCode": "option-windows-comfort-4-16-320-eu",
+"planCode": "option-windows-comfort-4-16-80-eu",
+"planCode": "option-windows-comfort-4-4-80-eu",
+"planCode": "option-windows-comfort-4-8-160-eu",
+"planCode": "option-windows-comfort-4-8-320-eu",
+"planCode": "option-windows-comfort-4-8-80-eu",
+"planCode": "option-windows-elite-8-16-160-eu",
+"planCode": "option-windows-elite-8-16-320-eu",
+"planCode": "option-windows-elite-8-16-640-eu",
+"planCode": "option-windows-elite-8-32-160-eu",
+"planCode": "option-windows-elite-8-32-320-eu",
+"planCode": "option-windows-elite-8-32-640-eu",
+"planCode": "option-windows-elite-8-8-160-eu",
+"planCode": "option-windows-elite-8-8-320-eu",
+"planCode": "option-windows-elite-8-8-640-eu",
+"planCode": "option-windows-essential-2-4-160-eu",
+"planCode": "option-windows-essential-2-4-40-eu",
+"planCode": "option-windows-essential-2-4-80-eu",
+"planCode": "option-windows-essential-2-8-160-eu",
+"planCode": "option-windows-essential-2-8-40-eu",
+"planCode": "option-windows-essential-2-8-80-eu",
+"planCode": "option-windows-le-16-16-160-eu",
+"planCode": "option-windows-le-2-2-40-eu",
+"planCode": "option-windows-le-4-4-80-eu",
+"planCode": "option-windows-value-1-2-40-eu",
+"planCode": "option-windows-value-1-2-80-eu",
+"planCode": "option-windows-value-1-4-20-eu",
+"planCode": "option-windows-value-1-4-40-eu",
+"planCode": "option-windows-value-1-4-80-eu",
+"planCode": "option-cpanel-1-ca",
+"family": "option-cpanel-ca",
+"planCode": "option-cpanel-100-ca",
+"planCode": "option-cpanel-1000-ca",
+"planCode": "option-cpanel-150-ca",
+"planCode": "option-cpanel-200-ca",
+"planCode": "option-cpanel-250-ca",
+"planCode": "option-cpanel-30-ca",
+"planCode": "option-cpanel-300-ca",
+"planCode": "option-cpanel-400-ca",
+"planCode": "option-cpanel-5-ca",
+"planCode": "option-cpanel-50-ca",
+"planCode": "option-cpanel-500-ca",
+"planCode": "option-cpanel-600-ca",
+"planCode": "option-cpanel-700-ca",
+"planCode": "option-cpanel-800-ca",
+"planCode": "option-cpanel-900-ca",
+"planCode": "option-plesk-webadmin-ca",
+"family": "option-plesk-ca",
+"planCode": "option-plesk-webhost-ca",
+"planCode": "option-plesk-webpro-ca",
+"planCode": "option-windows-2025-model1-ca",
+"family": "option-windows-ca",
+"planCode": "option-windows-2025-model2-ca",
+"planCode": "option-windows-2025-model3-ca",
+"planCode": "option-windows-2025-model4-ca",
+"planCode": "option-windows-2025-model5-ca",
+"planCode": "option-windows-2025-model6-ca",
+"planCode": "option-windows-2027-model2-ca",
+"planCode": "option-windows-2027-model3-ca",
+"planCode": "option-windows-2027-model4-ca",
+"planCode": "option-windows-comfort-4-16-160-ca",
+"planCode": "option-windows-comfort-4-16-320-ca",
+"planCode": "option-windows-comfort-4-16-80-ca",
+"planCode": "option-windows-comfort-4-4-80-ca",
+"planCode": "option-windows-comfort-4-8-160-ca",
+"planCode": "option-windows-comfort-4-8-320-ca",
+"planCode": "option-windows-comfort-4-8-80-ca",
+"planCode": "option-windows-elite-8-16-160-ca",
+"planCode": "option-windows-elite-8-16-320-ca",
+"planCode": "option-windows-elite-8-16-640-ca",
+"planCode": "option-windows-elite-8-32-160-ca",
+"planCode": "option-windows-elite-8-32-320-ca",
+"planCode": "option-windows-elite-8-32-640-ca",
+"planCode": "option-windows-elite-8-8-160-ca",
+"planCode": "option-windows-elite-8-8-320-ca",
+"planCode": "option-windows-elite-8-8-640-ca",
+"planCode": "option-windows-essential-2-4-160-ca",
+"planCode": "option-windows-essential-2-4-40-ca",
+"planCode": "option-windows-essential-2-4-80-ca",
+"planCode": "option-windows-essential-2-8-160-ca",
+"planCode": "option-windows-essential-2-8-40-ca",
+"planCode": "option-windows-essential-2-8-80-ca",
+"planCode": "option-windows-le-16-16-160-ca",
+"planCode": "option-windows-le-2-2-40-ca",
+"planCode": "option-windows-le-4-4-80-ca",
+"planCode": "option-windows-value-1-2-40-ca",
+"planCode": "option-windows-value-1-2-80-ca",
+"planCode": "option-windows-value-1-4-20-ca",
+"planCode": "option-windows-value-1-4-40-ca",
+"planCode": "option-windows-value-1-4-80-ca",
+"planCode": "option-additional-disk-2025-10000g",
+"invoiceName": "Option Additional Disk 10000GB",
+"product": "vps-option-additional-disk-10000g",
+"price": 50860000000,
+"formattedPrice": "$508.60 USD",
+"name": "10000 GB"
+"planCode": "option-additional-disk-2027-10000g",
+"price": 51290000000,
+"formattedPrice": "$512.90 USD",
+"planCode": "option-additional-disk-2027-1000g",
+"invoiceName": "Option Additional Disk 1000GB",
+"product": "vps-option-additional-disk-1000g",
+"price": 5130000000,
+"formattedPrice": "$51.30 USD",
+"name": "1000 GB"
+"planCode": "option-additional-disk-2027-100g",
+"price": 520000000,
+"formattedPrice": "$5.20 USD",
+"planCode": "option-additional-disk-2027-200g",
+"price": 1030000000,
+"formattedPrice": "$10.30 USD",
+"planCode": "option-additional-disk-2027-5000g",
+"invoiceName": "Option Additional Disk 5000GB",
+"product": "vps-option-additional-disk-5000g",
+"price": 25650000000,
+"formattedPrice": "$256.50 USD",
+"name": "5000 GB"
+"planCode": "option-additional-disk-2027-500g",
+"price": 2570000000,
+"formattedPrice": "$25.70 USD",
+"planCode": "option-additional-disk-2027-50g",
+"price": 260000000,
+"formattedPrice": "$2.60 USD",
+"planCode": "option-auto-backup-2027-7-model1",
+"invoiceName": "Option Automated Backup Premium - VPS-1 2027",
+"price": 140000000,
+"formattedPrice": "$1.40 USD",
+"planCode": "option-auto-backup-40g",
+"invoiceName": "Option Automated Backup 40GB",
+"product": "vps-option-auto-backup-40g",
+"planCode": "option-snapshot-2027-model1",
+"invoiceName": "Option Snapshot - VPS-1 2027",
+"price": 40000000,
+"formattedPrice": "$0.40 USD",
+"planCode": "option-additional-disk-2025-50g",
+"price": 245000000,
+"formattedPrice": "$2.45 USD",
+"planCode": "option-additional-disk-2025-100g",
+"price": 490000000,
+"formattedPrice": "$4.90 USD",
+"planCode": "option-additional-disk-2025-200g",
+"price": 980000000,
+"formattedPrice": "$9.80 USD",
+"planCode": "option-additional-disk-2025-500g",
+"price": 2456000000,
+"formattedPrice": "$24.56 USD",
+"planCode": "option-additional-disk-2025-1000g",
+"price": 5090000000,
+"formattedPrice": "$50.90 USD",
+"planCode": "option-additional-disk-2025-5000g",
+"price": 25430000000,
+"formattedPrice": "$254.30 USD",
+"planCode": "option-additional-disk-100g-eu",
+"product": "vps-option-additional-disk-100g-resell",
+"family": "option-additional-disk-eu",
+"planCode": "option-additional-disk-200g-eu",
+"product": "vps-option-additional-disk-200g-resell",
+"planCode": "option-additional-disk-2025-10000g-eu",
+"product": "vps-option-additional-disk-10000g-resell",
+"planCode": "option-additional-disk-2025-1000g-eu",
+"product": "vps-option-additional-disk-1000g-resell",
+"planCode": "option-additional-disk-2025-100g-eu",
+"planCode": "option-additional-disk-2025-200g-eu",
+"planCode": "option-additional-disk-2025-5000g-eu",
+"product": "vps-option-additional-disk-5000g-resell",
+"planCode": "option-additional-disk-2025-500g-eu",
+"product": "vps-option-additional-disk-500g-resell",
+"planCode": "option-additional-disk-2025-50g-eu",
+"product": "vps-option-additional-disk-50g-resell",
+"planCode": "option-additional-disk-2027-10000g-eu",
+"planCode": "option-additional-disk-2027-1000g-eu",
+"planCode": "option-additional-disk-2027-100g-eu",
+"planCode": "option-additional-disk-2027-200g-eu",
+"planCode": "option-additional-disk-2027-5000g-eu",
+"planCode": "option-additional-disk-2027-500g-eu",
+"planCode": "option-additional-disk-2027-50g-eu",
+"planCode": "option-additional-disk-500g-eu",
+"planCode": "option-additional-disk-50g-eu",
+"planCode": "option-auto-backup-160g-eu",
+"product": "vps-option-auto-backup-160g-resell",
+"family": "option-auto-backup-eu",
+"planCode": "option-auto-backup-2025-1-model1-eu",
+"product": "vps-option-auto-backup-1-resell",
+"family": "option-auto-backup-2025-eu",
+"planCode": "option-auto-backup-2025-1-model2-eu",
+"planCode": "option-auto-backup-2025-1-model3-eu",
+"planCode": "option-auto-backup-2025-1-model4-eu",
+"planCode": "option-auto-backup-2025-1-model5-eu",
+"planCode": "option-auto-backup-2025-1-model6-eu",
+"planCode": "option-auto-backup-2025-7-model1-eu",
+"product": "vps-option-auto-backup-7-resell",
+"planCode": "option-auto-backup-2025-7-model2-eu",
+"planCode": "option-auto-backup-2025-7-model3-eu",
+"planCode": "option-auto-backup-2025-7-model4-eu",
+"planCode": "option-auto-backup-2025-7-model5-eu",
+"planCode": "option-auto-backup-2025-7-model6-eu",
+"planCode": "option-auto-backup-2027-1-model1-eu",
+"planCode": "option-auto-backup-2027-1-model2-eu",
+"planCode": "option-auto-backup-2027-1-model3-eu",
+"planCode": "option-auto-backup-2027-1-model4-eu",
+"planCode": "option-auto-backup-2027-7-model1-eu",
+"planCode": "option-auto-backup-2027-7-model2-eu",
+"planCode": "option-auto-backup-2027-7-model3-eu",
+"planCode": "option-auto-backup-2027-7-model4-eu",
+"planCode": "option-auto-backup-20g-eu",
+"product": "vps-option-auto-backup-20g-resell",
+"planCode": "option-auto-backup-320g-eu",
+"product": "vps-option-auto-backup-320g-resell",
+"planCode": "option-auto-backup-40g-eu",
+"product": "vps-option-auto-backup-40g-resell",
+"planCode": "option-auto-backup-640g-eu",
+"product": "vps-option-auto-backup-640g-resell",
+"planCode": "option-auto-backup-80g-eu",
+"product": "vps-option-auto-backup-80g-resell",
+"planCode": "option-snapshot-160g-eu",
+"product": "vps-option-snapshot-160g-resell",
+"family": "option-snapshot-eu",
+"planCode": "option-snapshot-2025-model1-eu",
+"product": "vps-option-snapshot-resell",
+"family": "option-snapshot-2025-eu",
+"planCode": "option-snapshot-2025-model1.LZ-eu",
+"family": "option-snapshot-2025-lz-eu",
+"planCode": "option-snapshot-2025-model2-eu",
+"planCode": "option-snapshot-2025-model3-eu",
+"planCode": "option-snapshot-2025-model4-eu",
+"planCode": "option-snapshot-2025-model5-eu",
+"planCode": "option-snapshot-2025-model6-eu",
+"planCode": "option-snapshot-2027-model1-eu",
+"planCode": "option-snapshot-2027-model2-eu",
+"planCode": "option-snapshot-2027-model3-eu",
+"planCode": "option-snapshot-2027-model4-eu",
+"planCode": "option-snapshot-20g-eu",
+"product": "vps-option-snapshot-20g-resell",
+"planCode": "option-snapshot-320g-eu",
+"product": "vps-option-snapshot-320g-resell",
+"planCode": "option-snapshot-40g-eu",
+"product": "vps-option-snapshot-40g-resell",
+"planCode": "option-snapshot-640g-eu",
+"product": "vps-option-snapshot-640g-resell",
+"planCode": "option-snapshot-80g-eu",
+"product": "vps-option-snapshot-80g-resell",
+"planCode": "option-additional-disk-100g-ca",
+"family": "option-additional-disk-ca",
+"planCode": "option-additional-disk-200g-ca",
+"planCode": "option-additional-disk-2025-10000g-ca",
+"planCode": "option-additional-disk-2025-1000g-ca",
+"planCode": "option-additional-disk-2025-100g-ca",
+"planCode": "option-additional-disk-2025-200g-ca",
+"planCode": "option-additional-disk-2025-5000g-ca",
+"planCode": "option-additional-disk-2025-500g-ca",
+"planCode": "option-additional-disk-2025-50g-ca",
+"planCode": "option-additional-disk-2027-10000g-ca",
+"planCode": "option-additional-disk-2027-1000g-ca",
+"planCode": "option-additional-disk-2027-100g-ca",
+"planCode": "option-additional-disk-2027-200g-ca",
+"planCode": "option-additional-disk-2027-5000g-ca",
+"planCode": "option-additional-disk-2027-500g-ca",
+"planCode": "option-additional-disk-2027-50g-ca",
+"planCode": "option-additional-disk-500g-ca",
+"planCode": "option-additional-disk-50g-ca",
+"planCode": "option-auto-backup-160g-ca",
+"family": "option-auto-backup-ca",
+"planCode": "option-auto-backup-2025-1-model1-ca",
+"family": "option-auto-backup-2025-ca",
+"planCode": "option-auto-backup-2025-1-model2-ca",
+"planCode": "option-auto-backup-2025-1-model3-ca",
+"planCode": "option-auto-backup-2025-1-model4-ca",
+"planCode": "option-auto-backup-2025-1-model5-ca",
+"planCode": "option-auto-backup-2025-1-model6-ca",
+"planCode": "option-auto-backup-2025-7-model1-ca",
+"planCode": "option-auto-backup-2025-7-model2-ca",
+"planCode": "option-auto-backup-2025-7-model3-ca",
+"planCode": "option-auto-backup-2025-7-model4-ca",
+"planCode": "option-auto-backup-2025-7-model5-ca",
+"planCode": "option-auto-backup-2025-7-model6-ca",
+"planCode": "option-auto-backup-2027-1-model1-ca",
+"planCode": "option-auto-backup-2027-1-model2-ca",
+"planCode": "option-auto-backup-2027-1-model3-ca",
+"planCode": "option-auto-backup-2027-1-model4-ca",
+"planCode": "option-auto-backup-2027-7-model1-ca",
+"planCode": "option-auto-backup-2027-7-model2-ca",
+"planCode": "option-auto-backup-2027-7-model3-ca",
+"planCode": "option-auto-backup-2027-7-model4-ca",
+"planCode": "option-auto-backup-20g-ca",
+"planCode": "option-auto-backup-320g-ca",
+"planCode": "option-auto-backup-40g-ca",
+"planCode": "option-auto-backup-640g-ca",
+"planCode": "option-auto-backup-80g-ca",
+"planCode": "option-snapshot-160g-ca",
+"family": "option-snapshot-ca",
+"planCode": "option-snapshot-2025-model1-ca",
+"family": "option-snapshot-2025-ca",
+"planCode": "option-snapshot-2025-model2-ca",
+"planCode": "option-snapshot-2025-model3-ca",
+"planCode": "option-snapshot-2025-model4-ca",
+"planCode": "option-snapshot-2025-model5-ca",
+"planCode": "option-snapshot-2025-model6-ca",
+"planCode": "option-snapshot-2027-model1-ca",
+"planCode": "option-snapshot-2027-model2-ca",
+"planCode": "option-snapshot-2027-model3-ca",
+"planCode": "option-snapshot-2027-model4-ca",
+"planCode": "option-snapshot-20g-ca",
+"planCode": "option-snapshot-320g-ca",
+"planCode": "option-snapshot-40g-ca",
+"planCode": "option-snapshot-640g-ca",
+"planCode": "option-snapshot-80g-ca",
+"planCode": "option-auto-backup-2027-1-model1.LZ-eu",
+"invoiceName": "Option Automated Backup Standard - VPS-1 LZ 2027",
+"family": "option-auto-backup-2025-lz-eu",
+"planCode": "option-auto-backup-2027-1-model1.LZ",
+"family": "option-auto-backup-2027-lz",
+"planCode": "option-auto-backup-2027-1-model2.LZ-eu",
+"invoiceName": "Option Automated Backup Standard - VPS-2 LZ 2027",
+"family": "option-auto-backup-2027-lz-eu",
+"planCode": "option-auto-backup-2027-1-model2.LZ",
+"planCode": "option-auto-backup-2027-7-model1.LZ-eu",
+"invoiceName": "Option Automated Backup Premium - VPS-1 LZ 2027",
+"planCode": "option-auto-backup-2027-7-model1.LZ",
+"planCode": "option-auto-backup-2027-7-model2.LZ-eu",
+"invoiceName": "Option Automated Backup Premium - VPS-2 LZ 2027",
+"planCode": "option-auto-backup-2027-7-model2.LZ",
+"planCode": "option-snapshot-2027-model1.LZ-eu",
+"invoiceName": "Option Snapshot - VPS-1 LZ 2027",
+"planCode": "option-snapshot-2027-model1.LZ",
+"planCode": "option-snapshot-2027-model2.LZ-eu",
+"invoiceName": "Option Snapshot - VPS-2 LZ 2027",
+"planCode": "option-snapshot-2027-model2.LZ",
+"planCode": "option-auto-backup-2025-1-model1.LZ-eu",
+"planCode": "option-auto-backup-2025-7-model1.LZ-eu",
+"planFamilies": [
+"name": "option-auto-backup"
+"name": "option-snapshot"
+"name": "option-auto-backup-2025-lz"
+"name": "option-linux-ca"
+"name": "option-linux-eu"
+"name": "option-cpanel"
+"name": "option-additional-disk"
+"name": "option-plesk"
+"name": "option-linux"
+"name": "option-auto-backup-2025"
+"name": "option-snapshot-2025"
+"name": "option-storage-ca"
+"name": "option-storage-eu"
+"name": "option-storage"
+"name": "option-windows"
+"name": "option-snapshot-2025-lz"
+"name": "option-cpanel-eu"
+"name": "option-plesk-eu"
+"name": "option-windows-eu"
+"name": "option-cpanel-ca"
+"name": "option-plesk-ca"
+"name": "option-windows-ca"
+"name": "vps-2025-lz"
+"name": "bv"
+"name": "vps-comfort-4-16-160-vps-2025-model3-degressivity12"
+"name": "vps-comfort-4-16-160-vps-2025-model3-degressivity24"
+"name": "vps-comfort-4-16-160-vps-2025-model3"
+"name": "vps-comfort-4-16-320-vps-2025-model5-degressivity12"
+"name": "vps-comfort-4-16-320-vps-2025-model5-degressivity24"
+"name": "vps-comfort-4-16-320-vps-2025-model5"
+"name": "vps-comfort-4-16-80-vps-2025-model3-degressivity12"
+"name": "vps-comfort-4-16-80-vps-2025-model3-degressivity24"
+"name": "vps-comfort-4-16-80-vps-2025-model3"
+"name": "vps-comfort-4-4-80-vps-2025-model2-degressivity12"
+"name": "vps-comfort-4-4-80-vps-2025-model2-degressivity24"
+"name": "vps-comfort-4-4-80-vps-2025-model2"
+"name": "vps-comfort-4-8-160-vps-2025-model3-10percent"
+"name": "vps-comfort-4-8-160-vps-2025-model3-degressivity12-10percent"
+"name": "vps-comfort-4-8-160-vps-2025-model3-degressivity12"
+"name": "vps-comfort-4-8-160-vps-2025-model3-degressivity24"
+"name": "vps-comfort-4-8-160-vps-2025-model3"
+"name": "vps-comfort-4-8-320-vps-2025-model5-degressivity12"
+"name": "vps-comfort-4-8-320-vps-2025-model5-degressivity24"
+"name": "vps-comfort-4-8-320-vps-2025-model5"
+"name": "vps-comfort-4-8-80-vps-2025-model2-degressivity12"
+"name": "vps-comfort-4-8-80-vps-2025-model2-degressivity24"
+"name": "vps-comfort-4-8-80-vps-2025-model2"
+"name": "vps-elite-8-16-160-vps-2025-model3-degressivity12"
+"name": "vps-elite-8-16-160-vps-2025-model3-degressivity24"
+"name": "vps-elite-8-16-160-vps-2025-model3"
+"name": "vps-elite-8-16-320-vps-2025-model5-degressivity12"
+"name": "vps-elite-8-16-320-vps-2025-model5-degressivity24"
+"name": "vps-elite-8-16-320-vps-2025-model5"
+"name": "vps-elite-8-32-160-vps-2025-model4-degressivity12"
+"name": "vps-elite-8-32-160-vps-2025-model4-degressivity24"
+"name": "vps-elite-8-32-160-vps-2025-model4"
+"name": "vps-elite-8-32-320-vps-2025-model5-degressivity12"
+"name": "vps-elite-8-32-320-vps-2025-model5-degressivity24"
+"name": "vps-elite-8-32-320-vps-2025-model5"
+"name": "vps-elite-8-8-160-vps-2025-model3-degressivity12"
+"name": "vps-elite-8-8-160-vps-2025-model3-degressivity24"
+"name": "vps-elite-8-8-160-vps-2025-model3"
+"name": "vps-elite-8-8-320-vps-2025-model5-degressivity12"
+"name": "vps-elite-8-8-320-vps-2025-model5-degressivity24"
+"name": "vps-elite-8-8-320-vps-2025-model5"
+"name": "vps-essential-2-4-160-vps-2025-model3-degressivity12"
+"name": "vps-essential-2-4-160-vps-2025-model3-degressivity24"
+"name": "vps-essential-2-4-160-vps-2025-model3"
+"name": "vps-essential-2-4-80-vps-2025-model2-10percent"
+"name": "vps-essential-2-4-80-vps-2025-model2-degressivity12"
+"name": "vps-essential-2-4-80-vps-2025-model2-degressivity24"
+"name": "vps-essential-2-4-80-vps-2025-model2"
+"name": "vps-essential-2-8-160-vps-2025-model3-degressivity12"
+"name": "vps-essential-2-8-160-vps-2025-model3-degressivity24"
+"name": "vps-essential-2-8-160-vps-2025-model3"
+"name": "vps-essential-2-8-80-vps-2025-model2-degressivity12"
+"name": "vps-essential-2-8-80-vps-2025-model2-degressivity24"
+"name": "vps-essential-2-8-80-vps-2025-model2"
+"name": "vps-value-1-2-80-vps-2025-model2-degressivity12"
+"name": "vps-value-1-2-80-vps-2025-model2-degressivity24"
+"name": "vps-value-1-2-80-vps-2025-model2"
+"name": "vps-value-1-4-20-vps-2025-model1-degressivity12"
+"name": "vps-value-1-4-20-vps-2025-model1-degressivity24"
+"name": "vps-value-1-4-20-vps-2025-model1"
+"name": "vps-value-1-4-80-vps-2025-model2-degressivity12"
+"name": "vps-value-1-4-80-vps-2025-model2-degressivity24"
+"name": "vps-value-1-4-80-vps-2025-model2"
+"name": "vps"
+"name": "vps-2025"
+"name": "vps-le"
+"name": "vps-value-1-4-40-vps-2025-model1"
+"name": "vps-essential-2-4-40-vps-2025-model1-degressivity12"
+"name": "vps-essential-2-8-40-vps-2025-model1-degressivity12"
+"name": "vps-essential-2-8-40-vps-2025-model1"
+"name": "vps-essential-2-4-40-vps-2025-model1"
+"name": "vps-essential-2-8-40-vps-2025-model1-degressivity24"
+"name": "vps-value-1-4-40-vps-2025-model1-degressivity12"
+"name": "vps-value-1-2-40-vps-2025-model1-degressivity24"
+"name": "vps-value-1-2-40-vps-2025-model1-degressivity12"
+"name": "vps-value-1-4-40-vps-2025-model1-degressivity24"
+"name": "vps-essential-2-4-40-vps-2025-model1-degressivity24"
+"name": "vps-value-1-2-40-vps-2025-model1-10percent"
+"name": "vps-value-1-2-40-vps-2025-model1"
+"name": "vps-value-1-2-40-vps-2025-model1-degressivity12-eu"
+"name": "vps-eu"
+"name": "vps-elite-8-8-160-vps-2025-model3-eu"
+"name": "vps-elite-8-8-160-vps-2025-model3-degressivity24-eu"
+"name": "vps-essential-2-4-40-vps-2025-model1-degressivity24-eu"
+"name": "vps-elite-8-16-320-vps-2025-model5-degressivity12-eu"
+"name": "vps-comfort-4-8-80-vps-2025-model2-eu"
+"name": "vps-comfort-4-4-80-vps-2025-model2-degressivity12-eu"
+"name": "vps-comfort-4-4-80-vps-2025-model2-degressivity24-eu"
+"name": "vps-comfort-4-4-80-vps-2025-model2-eu"
+"name": "vps-essential-2-4-80-vps-2025-model2-eu"
+"name": "vps-value-1-2-40-vps-2025-model1-eu"
+"name": "vps-elite-8-32-320-vps-2025-model5-eu"
+"name": "vps-elite-8-16-160-vps-2025-model3-eu"
+"name": "vps-le-eu"
+"name": "vps-essential-2-4-40-vps-2025-model1-degressivity12-eu"
+"name": "vps-elite-8-32-160-vps-2025-model4-eu"
+"name": "vps-value-1-4-80-vps-2025-model2-eu"
+"name": "vps-elite-8-16-320-vps-2025-model5-eu"
+"name": "vps-comfort-4-8-160-vps-2025-model3-eu"
+"name": "vps-essential-2-4-40-vps-2025-model1-eu"
+"name": "option-additional-disk-eu"
+"name": "vps-2025-eu"
+"name": "option-auto-backup-eu"
+"name": "option-auto-backup-2025-eu"
+"name": "option-snapshot-eu"
+"name": "option-snapshot-2025-eu"
+"name": "option-snapshot-2025-lz-eu"
+"name": "vps-ca"
+"name": "vps-value-1-2-40-vps-2025-model1-degressivity12-ca"
+"name": "vps-elite-8-16-160-vps-2025-model3-ca"
+"name": "vps-essential-2-4-80-vps-2025-model2-ca"
+"name": "vps-essential-2-4-40-vps-2025-model1-degressivity12-ca"
+"name": "vps-elite-8-32-160-vps-2025-model4-ca"
+"name": "vps-comfort-4-4-80-vps-2025-model2-ca"
+"name": "vps-value-1-2-40-vps-2025-model1-ca"
+"name": "vps-le-ca"
+"name": "vps-elite-8-16-320-vps-2025-model5-ca"
+"name": "vps-elite-8-8-160-vps-2025-model3-degressivity24-ca"
+"name": "vps-comfort-4-8-160-vps-2025-model3-ca"
+"name": "vps-comfort-4-4-80-vps-2025-model2-degressivity24-ca"
+"name": "vps-elite-8-8-160-vps-2025-model3-ca"
+"name": "vps-comfort-4-8-80-vps-2025-model2-ca"
+"name": "vps-essential-2-4-40-vps-2025-model1-ca"
+"name": "vps-comfort-4-4-80-vps-2025-model2-degressivity12-ca"
+"name": "vps-elite-8-16-320-vps-2025-model5-degressivity12-ca"
+"name": "vps-elite-8-32-320-vps-2025-model5-ca"
+"name": "vps-essential-2-4-40-vps-2025-model1-degressivity24-ca"
+"name": "vps-value-1-4-80-vps-2025-model2-ca"
+"name": "option-additional-disk-ca"
+"name": "vps-2025-ca"
+"name": "option-auto-backup-ca"
+"name": "option-auto-backup-2025-ca"
+"name": "option-snapshot-ca"
+"name": "option-snapshot-2025-ca"
+"name": "option-auto-backup-2025-lz-eu"
+"name": "option-auto-backup-2027-lz"
+"name": "vps-2025-lz-eu"
+"name": "option-auto-backup-2027-lz-eu"

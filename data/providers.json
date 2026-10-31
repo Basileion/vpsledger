@@ -3,7 +3,7 @@
   "id": "digitalocean",
   "name": "DigitalOcean",
   "source": "https://www.digitalocean.com/pricing/droplets",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "verified",
@@ -20,7 +20,7 @@
   "id": "vultr",
   "name": "Vultr",
   "source": "https://api.vultr.com/v2/plans?type=vc2",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "unverified",
@@ -37,7 +37,7 @@
   "id": "linode",
   "name": "Linode / Akamai",
   "source": "https://api.linode.com/v4/linode/types",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "unverified",
@@ -54,7 +54,7 @@
   "id": "hetzner",
   "name": "Hetzner",
   "source": "https://www.hetzner.com/cloud/cost-optimized",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "fees": {
    "ipv4": null,
    "ipv4_s": "unverified",
@@ -65,7 +65,7 @@
    "overage": 0.001,
    "cur": "EUR",
    "overage_s": "verified",
-   "overage_n": "\u20ac1.00 per additional TB beyond 20 TB (EU)"
+   "overage_n": "€1.00 per additional TB beyond 20 TB (EU)"
   }
  },
  {
@@ -89,7 +89,7 @@
   "id": "scaleway",
   "name": "Scaleway",
   "source": "https://www.scaleway.com/en/pricing/virtual-instances/",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "fees": {
    "ipv4": null,
    "ipv4_s": "unverified",
@@ -130,7 +130,7 @@
    "ipv4_n": "IPv4 included",
    "backup_pct": null,
    "backup_s": "unverified",
-   "backup_n": "Snapshots included (1\u20133); auto backup add-on",
+   "backup_n": "Snapshots included (1–3); auto backup add-on",
    "overage": 0,
    "overage_s": "unverified",
    "overage_n": "Unlimited traffic at port speed"
@@ -140,7 +140,7 @@
   "id": "hostinger",
   "name": "Hostinger VPS",
   "source": "https://www.hostinger.com/vps-hosting",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "unverified",
@@ -157,7 +157,7 @@
   "id": "lightsail",
   "name": "AWS Lightsail",
   "source": "https://aws.amazon.com/lightsail/pricing/",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "verified",
@@ -174,7 +174,7 @@
   "id": "gcp",
   "name": "Google Cloud e2",
   "source": "https://cloud.google.com/products/compute/pricing/general-purpose",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "fees": {
    "ipv4": null,
    "ipv4_s": "unverified",
@@ -184,14 +184,14 @@
    "backup_n": "Snapshots billed per GB",
    "overage": null,
    "overage_s": "unverified",
-   "overage_n": "Internet egress billed per GB (tiered); not in this ledger \u2014 totals exclude GCP egress"
+   "overage_n": "Internet egress billed per GB (tiered); not in this ledger — totals exclude GCP egress"
   }
  },
  {
   "id": "azure",
   "name": "Azure B-series",
   "source": "https://prices.azure.com/api/retail/prices",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "fees": {
    "ipv4": null,
    "ipv4_s": "unverified",
@@ -208,7 +208,7 @@
   "id": "kamatera",
   "name": "Kamatera",
   "source": "https://www.kamatera.com/pricing/",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "unverified",
@@ -225,7 +225,7 @@
   "id": "ionos",
   "name": "IONOS",
   "source": "https://www.ionos.com/servers/vps",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "verified",
@@ -242,7 +242,7 @@
   "id": "dreamhost",
   "name": "DreamHost",
   "source": "https://www.dreamhost.com/hosting/vps/",
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "unverified",

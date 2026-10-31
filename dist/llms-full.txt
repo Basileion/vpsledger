@@ -6,7 +6,7 @@
 ### DigitalOcean
 - id: digitalocean
 - source: https://www.digitalocean.com/pricing/droplets
-- checked: 2026-10-30
+- checked: 2026-10-31
 - ipv4: 0 (verified)
 - backup: 20% (verified)
 - overage: 0.01 (unverified)
@@ -14,7 +14,7 @@
 ### Vultr
 - id: vultr
 - source: https://api.vultr.com/v2/plans?type=vc2
-- checked: 2026-10-30
+- checked: 2026-10-31
 - ipv4: 0 (unverified)
 - backup: 20% (unverified)
 - overage: 0.01 (unverified)
@@ -22,7 +22,7 @@
 ### Linode / Akamai
 - id: linode
 - source: https://api.linode.com/v4/linode/types
-- checked: 2026-10-30
+- checked: 2026-10-31
 - ipv4: 0 (unverified)
 - backup: see plan% (verified)
 - overage: 0.005 (unverified)
@@ -30,7 +30,7 @@
 ### Hetzner
 - id: hetzner
 - source: https://www.hetzner.com/cloud/cost-optimized
-- checked: 2026-10-30
+- checked: 2026-10-31
 - ipv4: not published (unverified)
 - backup: 20% (unverified)
 - overage: 0.001 (verified)
@@ -46,7 +46,7 @@
 ### Scaleway
 - id: scaleway
 - source: https://www.scaleway.com/en/pricing/virtual-instances/
-- checked: 2026-10-30
+- checked: 2026-10-31
 - ipv4: not published (unverified)
 - backup: see plan% (unverified)
 - overage: 0 (unverified)
@@ -70,7 +70,7 @@
 ### Hostinger VPS
 - id: hostinger
 - source: https://www.hostinger.com/vps-hosting
-- checked: 2026-10-30
+- checked: 2026-10-31
 - ipv4: 0 (unverified)
 - backup: 0% (verified)
 - overage: 0 (unverified)
@@ -78,7 +78,7 @@
 ### AWS Lightsail
 - id: lightsail
 - source: https://aws.amazon.com/lightsail/pricing/
-- checked: 2026-10-30
+- checked: 2026-10-31
 - ipv4: 0 (verified)
 - backup: see plan% (unverified)
 - overage: 0.09 (verified)
@@ -86,7 +86,7 @@
 ### Google Cloud e2
 - id: gcp
 - source: https://cloud.google.com/products/compute/pricing/general-purpose
-- checked: 2026-10-30
+- checked: 2026-10-31
 - ipv4: not published (unverified)
 - backup: see plan% (unverified)
 - overage: not published (unverified)
@@ -94,7 +94,7 @@
 ### Azure B-series
 - id: azure
 - source: https://prices.azure.com/api/retail/prices
-- checked: 2026-10-30
+- checked: 2026-10-31
 - ipv4: not published (unverified)
 - backup: see plan% (unverified)
 - overage: not published (unverified)
@@ -102,7 +102,7 @@
 ### Kamatera
 - id: kamatera
 - source: https://www.kamatera.com/pricing/
-- checked: 2026-10-30
+- checked: 2026-10-31
 - ipv4: 0 (unverified)
 - backup: see plan% (unverified)
 - overage: 0.01 (verified)
@@ -110,7 +110,7 @@
 ### IONOS
 - id: ionos
 - source: https://www.ionos.com/servers/vps
-- checked: 2026-10-30
+- checked: 2026-10-31
 - ipv4: 0 (verified)
 - backup: see plan% (unverified)
 - overage: 0 (unverified)
@@ -118,7 +118,7 @@
 ### DreamHost
 - id: dreamhost
 - source: https://www.dreamhost.com/hosting/vps/
-- checked: 2026-10-30
+- checked: 2026-10-31
 - ipv4: 0 (unverified)
 - backup: see plan% (unverified)
 - overage: 0 (verified)

@@ -203,7 +203,7 @@ Not only do you get the latest AI tech, but you also get your own personal consu
 Technical questions? Our award-winning experts are always available to help by phone, chat or email.
 Virtual private servers — FAQs
 Is there a limit to the number of VMs I can add in Cloud Panel?
-Yes, each customer can add up to 5 additional VMs in Cloud Panel.
+Up to 5 additional VMs are available by default. Higher limits are available on request.
 What does 1-click installation mean?
 When ordering your VPS, you can install popular applications like n8n, OpenClaw, or Vaultwarden right away — no manual setup required. In the ordering process, simply click the Applications tab, select one or more apps, and your server is automatically set up with everything you need. Docker, the web interface, and all dependencies are ready to use right away.
 How do I get started and where do I get support?
