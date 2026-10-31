@@ -1,0 +1,26 @@
+# Source: https://docs.hetzner.com/general/infrastructure-and-availability/faq-standardization-and-price-adjustment/
+# Read: 2026-10-31 ~15:20 ET (Node fetch, text extract)
+
+Standardization and price adjustment FAQ
+Last change on 2026-06-15 • Created on 2026-05-28 • ID: GE-D2DCE In this article, you will find answers to frequently asked questions about the standardization of our server portfolio and the associated price adjustment on June 15, 2026.
+Will individual configurations for RAM and storage be discontinued entirely?
+Initially, we will offer up to three fixed configurations, determined on the basis of the most frequently ordered hardware options and add-ons (~90% of all orders).
+We also aim to ensure faster availability for these than was previously the case for individually configured servers. This does not rule out new server types being added based on customer feedback.
+Custom solutions can still be requested and evaluated through our Custom Solutions service at https://www.hetzner.com/custom-solutions/ . However, we will also move away from completely free configurations here and work towards standardisation in order to maintain high service quality, keep data centre processes simple, and deliver technically pre-verified configurations more quickly.
+Will Dell servers also be discontinued?
+No. We will continue to offer brand-name servers such as Dell.
+What options do I have regarding uplinks and private LANs?
+Network add-ons, such as a 10G uplink or a Dual-25G NIC, are not part of the fixed configuration and can still be ordered through Sales and our Custom Solutions service, where technically feasible.
+These add-ons are billed separately from the server.
+Are we abandoning the dedicated server business and shifting more to the cloud?
+No. Dedicated servers are and will remain a core product within our product portfolio. Harmonising our offering enables us to provision dedicated servers faster and more efficiently.
+What RAM options/increments will be offered?
+For standard models, 512 GB of RAM is the maximum possible configuration until further notice. The minimum configuration is 64 GB of RAM.
+For all servers, except the EX44, GEX44, AX41 and AX42, we currently offer – and will continue to offer – options with ECC RAM.
+In the case of EPYC- and Xeon-based models, this is ECC registered RAM.
+Special configurations exceeding 512 GB of RAM are still available on request via our Custom Solutions service.
+Shouldn't prices actually decrease given more efficient provisioning and maintenance?
+More efficient provisioning does not change the fact that procurement prices have risen significantly. It can only mitigate their impact.
+Why are prices also increasing for Cost Optimised Cloud plans, which are based on existing hardware?
+Even operating already-deployed servers incurs ongoing costs, particularly for replacing components that fail in operation — such as CPUs, RAM, and hard drives. These are likewise affected by the considerably more strained market situation.
+Table of Contents

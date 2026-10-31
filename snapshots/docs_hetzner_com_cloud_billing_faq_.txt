@@ -1,0 +1,84 @@
+# Source: https://docs.hetzner.com/cloud/billing/faq/
+# Read: 2026-10-31 ~15:20 ET (Node fetch, text extract)
+
+FAQ
+Last change on 2020-07-07 • Created on 2020-07-02 • ID: CL-5547E How do you bill your servers?
+Servers have both a monthly price cap and a price per hour. Your server's bill will never exceed its monthly price cap. If you delete your cloud server before the end of the billing month, we will only bill you for the hourly rate. We will bill you for each cloud server until you choose to delete them. Even if you aren't actively using your server, we will bill you for it.
+Mathematically speaking, we will bill you for the minimum amount, whether that is the monthly price cap OR the hourly price multiplied by the number of hours you used the server.
+We always round up the hourly usage of a server. If you create a server just for a few minutes, we will still bill you for one whole hour. Why? When you created the server, it placed an additional load on our systems.
+Do you bill servers that are off?
+Yes, you pay for a server that has completed the creation process for as long as it exists, regardless of whether it is turned on or not. We will bill you for your servers until you delete them, independent of their state.
+This is because we allocate full resources to servers, regardless of their power state. This enables rapid startup and boot times for you.
+If you are planning to switch off a server for an extended period of time, consider taking a Snapshot of the server and deleting it, then recreating it from the Snapshot at a later point. Although server Snapshots aren't free, they might be a cheaper alternative than leaving servers switched off.
+How do you bill for Floating IPs?
+We will bill you for Floating IPs on a monthly basis. If you use your Floating IP for less than a month, we will bill you for the appropriate fraction of it.
+How do you bill for traffic?
+We only bill for outgoing traffic. Incoming and internal traffic is free.
+Internal traffic includes:
+Other Hetzner Cloud servers with the same network zone via their public IPs
+Other Hetzner Cloud servers via private communications using the Networks feature
+Hetzner Online dedicated root servers
+Other Hetzner Online servers, services, or web hosting packages
+If you exceed the traffic included in your package, we will bill you for the over-usage in blocks of 100MB. If you only consume a fraction of 100MB, we will round up to the next full 100MB.
+Example: Your server has 20TB included traffic. Within a month, you use 20.00008TB. We will bill you for 0.0001TB ( = 100MB) of over-usage.
+We will notify you, the project owner, if the traffic usage exceeds 75% of the included free traffic, and again if you reach 100%. These notifications are a convenience to help you keep track of your usage; they do not cap or stop it. Keeping an eye on your consumption is ultimately up to you. Any traffic used beyond the included amount is billed as usual, even if a notification reaches you late or does not arrive at all.
+Outgoing traffic includes:
+Other Hetzner Cloud servers with different network zones ( eu-central , us-east , us-west , ap-southeast ) via their public IPs
+How do you bill for Snapshots and Backups?
+We will bill you for Snapshots per gigabyte per month. If a Snapshot only exists for a fraction of a month, then we will only bill you for this fraction. We will only bill you for the space the compressed Snapshot uses in our storage system. So if you create a Snapshot of a disk of 40GB, we will bill you for 40GB or less — depending on how the data on your disk compresses.
+We will bill you for Backups with a monthly flat price, which is 20% of the price of the server you activate them for. So if you activate Backups for a server that costs € 3.29 ($ 4,49) per month, we will bill you for an additional € 3.29 * 0.2 = € 0.658/month ($ 4,49 * 0,2 = $ 0,898/month). For this price, you will get a total of 7 Backup slots.
+How do you bill for Primary IPs?
+We bill Primary IPs (IPv4, IPv6) and cloud servers separately, and we list both resources separately in invoices. We will bill you for all Primary IPs that have finished the creation process, including Primary IPs that are not assigned to any cloud server. If you want to stop paying for a Primary IP, you need to delete it. If it still exists, we will still bill you for it. Primary IPv6s are free and are not listed in the invoice in general.
+Example 1:
+You have one cloud server with one Primary IPv4 and you have one Primary IPv4 that is not assigned to any cloud server.
+The invoice will include:
+2 Primary IPv4
+1 Cloud Server
+Example 2:
+You have one cloud server without any Primary IP and you have two Primary IPv4s that are not assigned to any cloud server.
+We list both resources separately in all invoices, regardless of the cloud server's creation date; this is true for both old and new servers.
+How do you bill servers that have been created before the introduction of Primary IPs?
+The new way of billing applies to all cloud servers, regardless of their creation date. The price/performance ratio is the same as before. The only change that comes with the new network option is the ability to reduce costs by removing the IPv4 address.
+When will I get my invoice?
+You can manage your open invoices at any time, regardless of when we create your invoice, via your account by going to accounts.hetzner.com/invoice .
+After the first invoice, we will create invoices based on full calendar months. To space out invoices, we may create them up to 28 days after the last month was completed.
+How can I see the usage data from the last month?
+You can find the usage data on your bill, which you will receive in the following month. You can view the detailed usage data there via the individual consumption record. You can find instructions for this here . It is not possible to view the usage data if you have not yet received your invoice for the previous month. Likewise, the support team cannot provide you with an early overview. In the Hetzner Console, you can only view the usage data for the current month.
+How do I keep my costs under control?
+You can set alerts that will send you an email if you exceed a certain cost limit. To set an alert, open Hetzner Console and select "Usage" in the menu bar above the project list or go directly to console.hetzner.com/usage .
+You can set values for each project by clicking on the numbers.
+These alerts are optional and are meant to help you keep track of your spending. They are a convenience feature rather than a spending limit, so your usage is billed as usual even in the rare case that an alert email is delayed or does not reach you.
+How does Hetzner Cloud handle small amounts in invoices?
+We add up all the small amounts within an invoice to the total sum.
+Example: You use multiple servers with a price of € 0.004 / $ 0.005 for just one hour. When we create an invoice, we add all of these amounts to the total sum of the invoice. After that, we round the total sum to the last two digits using commercial rounding rules. This gives us a higher level of precision than if we used the commercial rounding rules on the sub-totals for each server.
+Can I change the currency in the invoice?
+It is not possible to change the currency after an account has been created.
+Which customer actions cause servers with legacy prices to switch to the current pricing?
+If certain customer-initiated actions are performed, servers that are still billed at old prices can move to the current pricing scheme.
+No price adjustment occurs for:
+Transferring a server to another project with the same currency
+Rebuilding a server
+A price adjustment occurs for:
+Transferring a server to another project with a different currency
+Rescaling (regardless of whether the server is scaled up or down)
+Restoring a deleted server
+Example of a project transfer between different currencies
+A project is billed in the currency that the owner of the project has configured for their account. If the currency of the target project differs from the currency of the original project, the server will be switched to the current pricing scheme upon completion of the transfer and will be billed in the currency of the target project going forward.
+In the following example, the server my-server-name is transferred from Project A (EUR €) to Project B (USD $). Since the two projects use different currencies, the current server price will be applied after the project transfer.
+Account: holu
+Currency: EUR €
+Project A
+Members
+Owner
+holu
+Admin
+john-doe
+Resources
+my-server-name
+Account: john-doe
+Currency: USD $
+Project B
+- empty -
+Why does my invoice look different?
+This is because of our new feature Primary IPs . In the past, prices for our cloud servers used to include one IPv4 and one IPv6 address per server. However, not all of our customers need public IP addresses for their cloud servers. For this reason, we have separated the cloud server resource from the public IP addresses. The new concept allows you to freely add or remove public IPs, called Primary IPs, to or from your cloud servers. Because of this, Primary IPs are now a separate feature with a fixed price that is billed separately from cloud servers. If you have one cloud server with an IPv4 address, for example, it will no longer be billed as one resource (1x cloud server) but as two resources (1x cloud server + 1x Primary IPv4). The total price for cloud servers with a Primary IPv4 is the same as before. Cloud servers without a Primary IPv4 cost less than before.
+Table of Contents

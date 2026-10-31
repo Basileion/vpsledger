@@ -59,17 +59,18 @@
   "source": "https://www.hetzner.com/cloud/cost-optimized",
   "checked": "2026-10-31",
   "fees": {
-   "ipv4": null,
-   "ipv4_s": "unverified",
-   "ipv4_n": "Primary IPv4 billed separately; amount not read on check date",
+   "ipv4": 0,
+   "ipv4_s": "verified",
+   "ipv4_n": "Already inside every plan price we list: Hetzner’s cloud pages show “Price incl. IPv4” (Primary IPv4 is € 0.50 / $ 0.60 per month excl. VAT per Hetzner Docs, read 2026-10-31), so it is not added again",
    "backup_pct": 20,
    "backup_s": "verified",
    "backup_n": "Backups are a flat 20% of the server price, 7 daily slots (Hetzner billing FAQ, read 2026-10-31)",
    "overage": 0.001,
    "cur": "EUR",
    "overage_s": "verified",
-   "overage_n": "€1.00 per additional TB beyond 20 TB (EU)",
-   "backup_src": "https://docs.hetzner.com/cloud/billing/faq/"
+   "overage_n": "€1.00 per additional TB (EU plans include 20 TB; US CPX11/CPX21 include 1/2 TB)",
+   "backup_src": "https://docs.hetzner.com/cloud/billing/faq/",
+   "ipv4_src": "https://docs.hetzner.com/cloud/servers/primary-ips/overview/"
   }
  },
  {

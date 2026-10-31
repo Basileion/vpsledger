@@ -1,0 +1,194 @@
+Cloud
+Regular Performance:
+Flexible and powerful
+Best price-performance ratio
+Low to medium CPU usage
+New hardware generations
+Create cloud instance
+The flexible plan with the
+best price-performance ratio
+With the Regular Performance plan, you get a cloud server with high availability based on shared resources.
+It is particularly suitable for web applications, small databases, and test and development environments that do not require maximum computing power on a permanent basis.
+Compared to the Cost-Optimized plan, you benefit from newer hardware generations and thus from higher overall CPU performance.
+Global availability. European data security.
+Over 1,000,000 happy customers
+VCPU
+RAM
+Drives
+Your server's bill will never exceed its monthly price cap. If you delete your cloud server before the end of the billing month, we will only bill you for the hourly rate. We will bill you for each cloud server until you choose to delete them.
+Price
+CPX02
+New
+AMD
+1 GB
+20 GB
+NVMe
+from
+/month
+€ 6.49 per month, excl. VAT
+from /month
+/hour
+€ 0.0104 per hour, excl. VAT
+Create
+This product is currently unavailable. Please check back later.
+Details
+eu-central
+FSN1
+NBG1
+HEL1
+Traffic inclusive
+20
+TB
+Cloud servers located in the EU include at least 20 TB of included traffic. For each additional TB at EU-Central locations we charge € 1.00 per hour, excl. VAT .
+ap-southeast
+SIN1
+0.5
+Cloud servers at AP locations include at least 0.5 TB of included traffic. For each additional TB at AP locations we charge € 7.40 per hour, excl. VAT .
+€ 7.99 per month, excl. VAT
+CPX12
+2 GB
+40 GB
+€ 11.99 per month, excl. VAT
+€ 0.0192 per hour, excl. VAT
+€ 15.99 per month, excl. VAT
+CPX22
+4 GB
+80 GB
+€ 19.99 per month, excl. VAT
+€ 0.0320 per hour, excl. VAT
+€ 26.99 per month, excl. VAT
+CPX32
+8 GB
+160 GB
+€ 35.99 per month, excl. VAT
+€ 0.0577 per hour, excl. VAT
+€ 49.49 per month, excl. VAT
+CPX42
+16 GB
+320 GB
+€ 69.99 per month, excl. VAT
+€ 0.1122 per hour, excl. VAT
+€ 93.99 per month, excl. VAT
+CPX52
+12
+24 GB
+480 GB
+€ 100.99 per month, excl. VAT
+€ 0.1618 per hour, excl. VAT
+€ 134.99 per month, excl. VAT
+CPX62
+16
+32 GB
+640 GB
+€ 130.49 per month, excl. VAT
+€ 0.2091 per hour, excl. VAT
+€ 172.49 per month, excl. VAT
+CPX11
+€ 17.99 per month, excl. VAT
+€ 0.0288 per hour, excl. VAT
+us-west
+HIL1
+Cloud servers located in the U.S. include at least 1 TB of included traffic. For each additional TB at U.S. locations we charge € 1.00 per hour, excl. VAT .
+us-east
+ASH1
+CPX21
+€ 32.49 per month, excl. VAT
+€ 0.0521 per hour, excl. VAT
+CPX31
+€ 62.99 per month, excl. VAT
+€ 0.1009 per hour, excl. VAT
+CPX41
+240 GB
+€ 120.99 per month, excl. VAT
+€ 0.1939 per hour, excl. VAT
+CPX51
+360 GB
+€ 238.49 per month, excl. VAT
+€ 0.3822 per hour, excl. VAT
+Show more products
+Show less products
+Price incl. IPv4
+Available Locations
+FSN
+NBG
+HEL
+ASH
+HIL
+SIN
+Shared resources enable particularly favorable prices.
+For small user groups
+Perfect for families, clubs, or small businesses (e.g., groupware, CMS/blogs)
+Medium CPU usage
+Suited for workloads that can handle variable processor performance.
+New processor generations
+The latest generations from Intel® and AMD deliver more performance than the cost-optimized plan.
+Flexibility meets performance
+The possible applications are extremely diverse. The plan is particularly suitable for services with a manageable number of users, such as families, clubs, or small businesses. It is especially useful for applications with varying workloads, such as groupware, shared media storage, or private blogs.
+Development teams can also use it for Kubernetes clusters in development and staging environments and test new features without having to pay for expensive hardware.
+Everything you need, included.
+API
+All essential functions for automatic management of the cloud infrastructure are also available via a developer-friendly REST API and a CLI tool.
+Integrations
+Integrations for various programming languages (e.g., Python and Go) and management frameworks (e.g., Ansible, Terraform, or Kubernetes) allow for a high degree of automation and integration of the cloud infrastructure, for example, in CI/CD pipelines.
+Networks
+Networks enable servers to communicate via a private network. They also allow complex network topologies to be created. Typical use cases include operating a Kubernetes cluster or a database that is not publicly accessible.
+Firewalls
+Our stateful firewalls enable easy infrastructure security without additional costs. Unwanted incoming and outgoing data traffic is blocked based on defined rules. Once configured, you can assign them to as many cloud servers as you like.
+Images
+Ubuntu, Debian, Fedora, and many other Linux distributions are available as operating systems. So whether you are looking for a particularly beginner-friendly solution or want to operate long-term, predictable enterprise servers, the right option is available.
+Cloud comparison: save on your cloud expenses
+Hetzner Cloud is the winner in terms of price-performance ratio
+The independent price-performance check shows that Hetzner offers significantly more computing power per dollar compared to its competitors. The analysis is based on objective benchmark data from sparecores.com and highlights how efficiently our cloud servers operate in relation to their costs.
+Enhance your cloud with add-ons: Backups
+Backups are automatic, daily copies of the server hard drive and enable quick recovery or the creation of a duplicate. Seven backup slots are available per server. Once the limit is reached, the oldest backup is automatically replaced. Backups are server-bound and are removed when the server is deleted.
+Other useful add-ons are Snapshots and Floating IPs.
+Snapshots
+per GB per month
+€ 0.0143, excl. VAT
+Backups
+mo. price related to instance, starting at:
+€ 1.1980, excl. VAT
+Floating IPs
+per IPv6 per month
+€ 1.00, excl. VAT
+Scale your cloud with powerful add-ons
+Block Storage
+Learn more
+Object Storage
+Load Balancer
+Start your first cloud project now
+As always, we keep it simple - from setup to use. If questions come up, though, our docs and tutorials are ready to help.
+€ 5.99, excl. VAT
+Cloud Docs
+Docs
+Cloud Guides
+Tutorials
+API Docs
+Frequently asked questions
+How do you bill your servers?
+Servers have both a monthly price cap and a price per hour. Your server's bill will never exceed its monthly price cap. If you delete your Cloud Server before the end of the billing month, you will only be billed the hourly rate. We will bill you for each cloud server until you choose to delete them. Even if you aren't actively using your server, we will bill you for it.
+What is the bandwidth of your Cloud Servers?
+The host systems for our Cloud instances all have a redundant 10 Gbits connection. This connection is shared by all instances on the host. We do not offer bandwidth guarantees for our Cloud servers, but you can expect about 300-500 Mbits.
+Is there a library to access Hetzner Cloud from my programming language?
+We currently maintain official open source libraries for Go and Python . You can find libraries for other languages created by the community in our Awesome Hetzner Cloud List . You are also welcome to develop something yourself! Take a look at our API documentation at docs.hetzner.cloud .
+Will you add additional locations in different geographic regions?
+We have continuously expanded our cloud locations in recent years. In addition to Germany and Finland, we now also have international locations in Ashburn, Virginia; Hillsboro, Oregon (USA) and Singapore. We are constantly examining possible future locations. If you don’t want to miss the opening of a new location, subscribe to our newsletter or follow us on our social media channels.
+Do you plan to add x feature?/Will you add more features?
+We want to keep adding new features and services and are always interested in hearing from you on how we can improve our product! There are several ways you can provide us with product feedback or feature requests:
+Via our forum: please post your request in the Hetzner Cloud Board
+Via email: send us your ideas to product-feedback@hetzner.com
+Unfortunately, we cannot give you a detailed roadmap of what we are working on. However, you can keep up to date by following us on our social media channels.
+Can I install Windows?
+Right now we are focusing on support for Linux as an operating system. If you wish, you may install Windows on your own, and we have seen successful installations done. However, we will not provide any support for Windows.
+What linux distributions do you support?
+Hetzner supports a range of common Linux distributions: Ubuntu, Fedora, Debian, CentOS, Rocky Linux and AlmaLinux. You can choose these when creating Cloud Servers or have them preinstalled on Dedicated Servers; you can also install any other OS manually via KVM/ISO.
+More FAQs
+Not the right one?
+Discover our other offers
+Shared: Cost Optimized
+starting from
+max/mo.
+€ 5.99 per month, excl. VAT
+Explore this plan
+Dedicated: General Purpose
+€ 43.49 per month, excl. VAT

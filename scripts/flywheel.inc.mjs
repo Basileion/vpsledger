@@ -1,7 +1,9 @@
 // Programmatic SEO + GEO flywheel for VPSLedger. Cross-links O11y Watch where relevant.
 import bfPage from './bf.inc.mjs';
+import hzPage from './hz2026.inc.mjs';
 export default function flywheel(ctx){
 const {STUDY,providers,plans,changes,P,page:page0,W,SITE,NAME,esc,usd,yr,tco,ver,verBuy=ver,unavail=()=>false,lastChecked,EG,SPECS,equiv,rankFor,mailBox,meth,asOf,FX,FX_EUR_USD,tag,aff,soldTxt=()=>'Sold out',regionShort=()=>'',hzUsNote=()=>''}=ctx;
+const HZ26='/guides/hetzner-price-increase-2026';const hz26Box=`<div class="panel" style="border-style:dashed"><div class="eyebrow">Hetzner 2026 price changes</div><p><b>Already on Hetzner?</b> Prices rose on Apr 1 and again on Jun 15, 2026 for new orders and any rescale. <a href="${HZ26}">Keep, rescale or move: the sourced timeline and true-cost math</a>.</p></div>`;
 const soldLbl=p=>`${soldTxt(p)}${p.region_scope?' · '+regionShort(p):''}`;
 const page=o=>page0(STUDY&&o.file.startsWith('guides/')?{...o,body:o.body.replace('<section class="mail">',STUDY.callout+'<section class="mail">')}:o);
 const O11Y='https://o11y-watch.pages.dev';
@@ -112,6 +114,7 @@ ${r.map((x,i)=>`<tr${x.p.provider_id==='hetzner'?' style="font-weight:600"':''}>
 }).join('')}
 <p><a class="btn ghost" href="/providers/hetzner.html">Full Hetzner provider page</a> <a class="btn ghost" href="/compare/digitalocean-vs-hetzner.html">Hetzner vs DigitalOcean</a></p>
 ${hzUsNote()}
+${hz26Box}
 ${o11yNote('Hetzner or alternative fleet')}
 ${mailBox('ghz','Watch Hetzner and cheaper alts','Send the weekly ledger')}
 ${cite(`Hetzner alternatives as of ${lastChecked}`)}
@@ -249,7 +252,7 @@ ${keyStats([
 <div class="tbl"><table><thead><tr><th>Plan</th><th class="n">vCPU</th><th class="n">RAM</th><th class="n">List</th><th class="n">Intro</th><th class="n">True @${EG}TB</th><th>Status</th></tr></thead><tbody>
 ${vps.map(p=>{const t=tco(p,EG,true,true);return `<tr><td>${esc(p.plan)}</td><td class="n">${p.vcpu??'—'}</td><td class="n">${p.ram_gb??'—'}</td><td class="n">${p.currency==='EUR'?'€':'$'}${p.price_mo.toFixed(2)}</td><td class="n">${p.promo_mo?'$'+p.promo_mo.toFixed(2):'—'}</td><td class="n">${usd(t?.total)}</td><td>${tag(p.status,p)}</td></tr>`}).join('')}
 </tbody></table></div>
-${pid==='hetzner'?hzUsNote():''}
+${pid==='hetzner'?hzUsNote()+hz26Box:''}
 <p><a class="btn" href="/providers/${pid}.html">Full ${esc(pr.name)} page</a> <a class="btn ghost" href="/calculator.html">TCO calculator</a>${altBuilt.has(pid)?` <a class="btn ghost" href="/guides/${pid}-alternatives.html">${esc(pr.name)} alternatives</a>`:''}</p>
 ${o11yNote(`${pr.name} VPS`)}
 ${mailBox('gp'+pid,`Watch ${pr.name} prices`,'Send the weekly ledger')}
@@ -260,9 +263,11 @@ ${cite(`${pr.name} VPS pricing as of ${pr.checked}`)}
 
 // Black Friday renewal math (RT-20261031-53)
 const BF=bfPage({page,SITE,NAME,esc,mailBox,crumbs,crumbLd,ORG,cite,root:ctx.root});
+// Hetzner 2026 keep/rescale/move decision guide (RT-20261030-60, RT-20261031-49)
+const HZ=hzPage({page,SITE,NAME,esc,mailBox,crumbs,crumbLd,ORG,cite,root:ctx.root,plans,P,tco,rankFor,SPECS,EG,FX_EUR_USD,FX,unavail,lastChecked});
 // Hub
 if(STUDY)hub.unshift({file:STUDY.file,title:STUDY.title,blurb:STUDY.blurb});
-hub.unshift(BF.hub);
+hub.unshift(HZ.hub);hub.unshift(BF.hub);
 page({file:'guides/index.html',og:'compare',title:`VPS pricing guides — cheapest plans, renewals, alternatives | ${NAME}`,desc:`${hub.length} sourced VPS guides: cheapest by RAM, renewal jumps, Hetzner alternatives and provider pricing explainers.`,ld:[
   ORG, crumbLd([{label:'Home',href:'/'},{label:'Guides',href:'/guides/'}]),
   {'@context':'https://schema.org','@type':'CollectionPage',name:'VPS pricing guides',url:SITE+'/guides/'}
@@ -283,5 +288,5 @@ const planHeader=['id','provider_id','provider','plan','vcpu','ram_gb','disk_gb'
 W('api/plans.csv',[planHeader.join(','),...plans.map(p=>planHeader.map(k=>csvEsc(p[k])).join(','))].join('\n'));
 W('api/changes.csv',[['date','provider','kind','summary','source','observed','plan_id'].join(','),...changes.map(c=>[c.date,c.provider,c.kind,c.summary,c.source,c.observed,c.plan_id].map(csvEsc).join(','))].join('\n'));
 
-return {org:ORG,hub,guideCount:hub.length+1,BF};
+return {org:ORG,hub,guideCount:hub.length+1,BF,HZ};
 }

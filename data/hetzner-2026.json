@@ -1,0 +1,168 @@
+{
+ "checked": "2026-10-31",
+ "ipv4_eur": 0.5,
+ "ipv4_source": "https://docs.hetzner.com/cloud/servers/primary-ips/overview/",
+ "ipv4_snapshot": "snapshots/docs_hetzner_com_cloud_servers_primary_ips_overview_.txt",
+ "ipv4_quote": "We charge € 0.50 / $ 0.60 per month (excl. VAT) for our Primary IPv4s.",
+ "events": [
+  {
+   "date": "2026-02-23",
+   "title": "April increase announced",
+   "summary": "Hetzner announces higher prices from 1 April 2026 for new orders and existing products.",
+   "source": "https://www.hetzner.com/pressroom/statement-price-adjustment/",
+   "snapshot": "snapshots/www_hetzner_com_pressroom_statement_price_adjustment_.txt",
+   "quote": "The price changes take effect on 1 April 2026 and are for both new orders and existing products."
+  },
+  {
+   "date": "2026-04-01",
+   "title": "Increase #1: everyone, including existing servers",
+   "summary": "Cloud prices rise for all servers (EU CPX22 €5.99 → €7.99, CX23 €2.99 → €3.99; US CPX11 €4.49 → €5.99, excl. VAT). No grandfathering.",
+   "source": "https://web.archive.org/web/20260513201413/https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
+   "snapshot": "snapshots/web_archive_org_20260513_docs_hetzner_com_price_adjustment_april_2026.txt",
+   "quote": "The price changes will take effect on 1 April 2026 for both new orders and existing products."
+  },
+  {
+   "date": "2026-05-27",
+   "title": "June increase announced",
+   "summary": "Hetzner announces a second increase for new orders and rescales, effective 15 June 2026.",
+   "source": "https://www.hetzner.com/pressroom/standardization-and-price-adjustment-of-our-server-products/",
+   "snapshot": "snapshots/www_hetzner_com_pressroom_standardization_and_price_adjustment_of_our_server_pro.txt",
+   "quote": "The changes apply exclusively to new orders and rescales of existing servers"
+  },
+  {
+   "date": "2026-06-15",
+   "title": "Increase #2: new orders and rescales only",
+   "summary": "From 15 June 2026, 8:00 CEST, every new cloud server and every rescale is billed at the new list (EU CPX22 €19.49, US CPX11 €17.49, excl. VAT and IPv4). Servers ordered before keep their price.",
+   "source": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
+   "snapshot": "snapshots/docs_hetzner_com_general_infrastructure_and_availability_price_adjustment_.txt",
+   "quote": "The price adjustment took effect for new orders and cloud instance rescales starting on the 15 June 2026; 8 AM CEST"
+  }
+ ],
+ "keep_quote": {
+  "text": "Existing server contracts will keep their terms and conditions and remain active.",
+  "source": "https://www.hetzner.com/pressroom/standardization-and-price-adjustment-of-our-server-products/",
+  "snapshot": "snapshots/www_hetzner_com_pressroom_standardization_and_price_adjustment_of_our_server_pro.txt"
+ },
+ "rescale_rule": {
+  "source": "https://docs.hetzner.com/cloud/billing/faq/",
+  "snapshot": "snapshots/docs_hetzner_com_cloud_billing_faq_.txt",
+  "switch": [
+   "Rescaling (regardless of whether the server is scaled up or down)",
+   "Restoring a deleted server",
+   "Transferring a server to another project with a different currency"
+  ],
+  "no_switch": [
+   "Rebuilding a server",
+   "Transferring a server to another project with the same currency"
+  ]
+ },
+ "prices": [
+  {
+   "plan": "CPX22",
+   "region": "EU",
+   "loc": "Germany / Finland",
+   "vcpu": 2,
+   "ram_gb": 4,
+   "pre_apr": 5.99,
+   "apr": 7.99,
+   "jun": 19.49,
+   "plan_id": "hetzner-cpx22",
+   "apr_row": "CPX22 Cloud Server | 0.0096 / 5.99 | 0.0128 / 7.99",
+   "jun_row": "CPX22 | 0.0128 / 7.99 | 0.0312 / 19.49"
+  },
+  {
+   "plan": "CPX32",
+   "region": "EU",
+   "loc": "Germany / Finland",
+   "vcpu": 4,
+   "ram_gb": 8,
+   "pre_apr": 10.49,
+   "apr": 13.99,
+   "jun": 35.49,
+   "plan_id": "hetzner-cpx32",
+   "apr_row": "CPX32 Cloud Server | 0.0168 / 10.49 | 0.0224 / 13.99",
+   "jun_row": "CPX32 | 0.0224 / 13.99 | 0.0569 / 35.49"
+  },
+  {
+   "plan": "CX23",
+   "region": "EU",
+   "loc": "Germany / Finland",
+   "vcpu": 2,
+   "ram_gb": 4,
+   "pre_apr": 2.99,
+   "apr": 3.99,
+   "jun": 5.49,
+   "plan_id": "hetzner-cx23",
+   "apr_row": "CX23 Cloud Server | 0.0048 / 2.99 | 0.0064 / 3.99",
+   "jun_row": "CX23 | 0.0064 / 3.99 | 0.0088 / 5.49"
+  },
+  {
+   "plan": "CX33",
+   "region": "EU",
+   "loc": "Germany / Finland",
+   "vcpu": 4,
+   "ram_gb": 8,
+   "pre_apr": 4.99,
+   "apr": 6.49,
+   "jun": 8.49,
+   "plan_id": "hetzner-cx33",
+   "apr_row": "CX33 Cloud Server | 0.0080 / 4.99 | 0.0104 / 6.49",
+   "jun_row": "CX33 | 0.0104 / 6.49 | 0.0136 / 8.49"
+  },
+  {
+   "plan": "CPX11",
+   "region": "US",
+   "loc": "USA (Ashburn / Hillsboro)",
+   "vcpu": 2,
+   "ram_gb": 2,
+   "pre_apr": 4.49,
+   "apr": 5.99,
+   "jun": 17.49,
+   "plan_id": "hetzner-cpx11-us",
+   "apr_row": "CPX11 Cloud Server | 0.0072 / 4.49 | 0.0096 / 5.99",
+   "jun_row": "CPX11 | 0.0096 / 5.99 | 0.0280 / 17.49"
+  },
+  {
+   "plan": "CPX21",
+   "region": "US",
+   "loc": "USA (Ashburn / Hillsboro)",
+   "vcpu": 3,
+   "ram_gb": 4,
+   "pre_apr": 8.99,
+   "apr": 11.99,
+   "jun": 31.99,
+   "plan_id": "hetzner-cpx21-us",
+   "apr_row": "CPX21 Cloud Server | 0.0145 / 8.99 | 0.0192 / 11.99",
+   "jun_row": "CPX21 | 0.0192 / 11.99 | 0.0513 / 31.99"
+  }
+ ],
+ "apr_snapshot": "snapshots/web_archive_org_20260513_docs_hetzner_com_price_adjustment_april_2026.txt",
+ "jun_snapshot": "snapshots/docs_hetzner_com_general_infrastructure_and_availability_price_adjustment_.txt",
+ "voices": [
+  {
+   "q": "It's so bad I will be looking at moving off Hetzner at this point. 3x is too much.",
+   "who": "urda, Hacker News",
+   "url": "https://news.ycombinator.com/item?id=48540844"
+  },
+  {
+   "q": "You continue to pay the old price as long as you don't change your plan!",
+   "who": "chadgpt3, Hacker News",
+   "url": "https://news.ycombinator.com/item?id=48540844"
+  },
+  {
+   "q": "Their USA cloud prices went from affordable to AWS and then some",
+   "who": "unsafetypin, LowEndTalk",
+   "url": "https://lowendtalk.com/discussion/218238/hetzner-price-increase/p2"
+  },
+  {
+   "q": "Is it better or worse than OVH right now?",
+   "who": "concept, LowEndTalk",
+   "url": "https://lowendtalk.com/discussion/218238/hetzner-price-increase/p2"
+  },
+  {
+   "q": "Are there no more cost-optimized servers available?",
+   "who": "r/hetzner",
+   "url": "https://www.reddit.com/r/hetzner/comments/1ux85ym/are_there_no_more_costoptimized_servers_available/"
+  }
+ ]
+}

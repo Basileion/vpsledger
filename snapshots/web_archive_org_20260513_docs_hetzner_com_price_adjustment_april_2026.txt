@@ -1,0 +1,25 @@
+# Source: https://web.archive.org/web/20260513201413/https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/
+# Original: https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/ (Hetzner Docs, ID GE-D9256, version "Last change on 2026-02-25"; the live URL now shows the 15 June 2026 table)
+# Read: 2026-10-31 ~15:18 ET (Wayback Machine capture of 2026-05-13; cloud server rows only)
+
+Hetzner Price Adjustment
+Last change on 2026-02-25 • Created on 2026-02-19 • ID: GE-D9256
+The price changes will take effect on 1 April 2026 for both new orders and existing products. For orders placed before 1 April 2026, but delivered after 1 April 2026, the adjusted prices will apply.
+All prices are excluding VAT.
+
+## Germany / Finland
+Product | Old price in € (hourly/monthly) | New price in € (hourly/monthly) | Old price in $ (hourly/monthly) | New price in $ (hourly/monthly)
+CAX11 Cloud Server | 0.0053 / 3.29 | 0.0072 / 4.49 | 0.0064 / 3.99 | 0.0088 / 5.49
+CAX21 Cloud Server | 0.0096 / 5.99 | 0.0128 / 7.99 | 0.0112 / 6.99 | 0.0152 / 9.49
+CPX22 Cloud Server | 0.0096 / 5.99 | 0.0128 / 7.99 | 0.0112 / 6.99 | 0.0152 / 9.49
+CPX32 Cloud Server | 0.0168 / 10.49 | 0.0224 / 13.99 | 0.0192 / 12.49 | 0.0256 / 15.99
+CPX42 Cloud Server | 0.0312 / 19.49 | 0.0408 / 25.49 | 0.0352 / 21.99 | 0.0481 / 29.99
+CX23 Cloud Server | 0.0048 / 2.99 | 0.0064 / 3.99 | 0.0056 / 3.49 | 0.0080 / 4.99
+CX33 Cloud Server | 0.0080 / 4.99 | 0.0104 / 6.49 | 0.0096 / 5.99 | 0.0128 / 7.99
+CX43 Cloud Server | 0.0144 / 8.99 | 0.0192 / 11.99 | 0.0160 / 9.99 | 0.0224 / 13.99
+
+## USA
+Product | Old price in € (hourly/monthly) | New price in € (hourly/monthly) | Old price in $ (hourly/monthly) | New price in $ (hourly/monthly)
+CPX11 Cloud Server | 0.0072 / 4.49 | 0.0096 / 5.99 | 0.0080 / 4.99 | 0.0112 / 6.99
+CPX21 Cloud Server | 0.0145 / 8.99 | 0.0192 / 11.99 | 0.0160 / 9.99 | 0.0224 / 13.99
+CPX31 Cloud Server | 0.0257 / 15.99 | 0.0336 / 20.99 | 0.0288 / 17.99 | 0.0400 / 24.99

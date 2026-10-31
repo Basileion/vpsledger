@@ -1,6 +1,6 @@
 # VPSLedger
 
-> True monthly VPS cost (base + IPv4 + backups + overage), 34 plans, 28 verified, 15 providers, checked 2026-10-31.
+> True monthly VPS cost (base + IPv4 + backups + overage), 38 plans, 32 verified, 15 providers, checked 2026-10-31.
 
 ## Methodology
 Prices come only from each provider's own pricing page or official public API. Verified rows were hand-checked on the date shown. We never invent a price. EUR→USD uses ECB reference 1.1188 (2026-10-26). Details: https://vpsledger.pages.dev/methodology
@@ -20,7 +20,9 @@ Prices come only from each provider's own pricing page or official public API. V
 
 ## Pricing guides
 - [Black Friday VPS deals 2026: the renewal math](https://vpsledger.pages.dev/guides/black-friday-vps-deals-2026)
+- [Hetzner 2026 price changes: keep, rescale or move?](https://vpsledger.pages.dev/guides/hetzner-price-increase-2026)
 - [VPS price per GB RAM & per vCPU — data study](https://vpsledger.pages.dev/study/vps-price-per-gb-ram)
+- [Cheapest 2 GB VPS](https://vpsledger.pages.dev/guides/cheapest-2gb-vps)
 - [Cheapest 4 GB VPS](https://vpsledger.pages.dev/guides/cheapest-4gb-vps)
 - [Cheapest 8 GB VPS](https://vpsledger.pages.dev/guides/cheapest-8gb-vps)
 - [Hetzner alternatives](https://vpsledger.pages.dev/guides/hetzner-alternatives)

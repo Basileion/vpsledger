@@ -1,0 +1,26 @@
+# Source: https://www.hetzner.com/pressroom/standardization-and-price-adjustment-of-our-server-products/
+# Read: 2026-10-31 ~15:20 ET (Node fetch, text extract)
+
+Company
+Details regarding the standardization and price adjustment of our server products effective 15 June 2026
+27th May 2026
+Back to Overview
+Edit: 15. June 2026
+As previously announced we are standardizing our dedicated server product structure and adjust our prices for certain product lines for new orders effective today, 15 June 2026, 8:00 am (CEST).
+What is changing?
+As part of the transition, we are standardizing our dedicated server portfolio. Going forward, we will base all models on clearly defined server types with the supplementary product designations “-1”, “-2”, and “-3”. This eliminates the need for individual RAM and storage configurations. We want users to be able to quickly compare and understand our products’ structure, so they can more effeciently deploy our infrastructure. Additionally, we are introducing a “limited” server type for products in limited quantities; these will have “-1-Ltd” in their name. Our “Limited” servers will consist of hardware components that we source at a lower price. When we are able to source hardware components at a lower cost, these new “limited” servers will have particularly attractive conditions.
+In parallel with the new technical standards, we are increasing our monthly prices for new orders. This is due to the ongoing challenges in the hardware procurement market. At the same time, our customers will benefit from a significant reduction in one-time setup fees for most dedicated servers. Currently rented servers are not affected by the price adjustment.
+Which products are affected?
+All dedicated servers and cloud plans at all locations are affected by this adjustment. However, web hosting products, managed servers, servers from the Server Auction, IPs, storage products, Load Balancers, Volumes, Snapshots, and Object Storage are not affected.
+Why the change?
+The standardization will allow us to more efficiently provision and maintain our dedicated servers, and to clearly and consistently structure our products. The price adjustment ensures that we will be able to continue to operate our infrastructure in a reliable, efficient, and sustainable manner. In particular, it takes into account the massive increase in procurement costs.
+What does this mean for our customers?
+Existing server contracts will keep their terms and conditions and remain active. The changes apply exclusively to new orders and rescales of existing servers, as well as the future products that we will introduct using the new product structure.
+We are aware that repeated price adjustments can be a challenge. Our commitment remains; we want to offer our customers stable and fair prices in the long term.
+We have compiled answers to frequently asked questions about the changes in an FAQ .
+You can find an overview of the new prices here .
+We would like to thank our customers for their understanding.
+Christian Fitz
+PR Manager
++49 (0) 9831 505-124
+press@hetzner

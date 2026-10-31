@@ -1,6 +1,6 @@
 # VPSLedger — full ledger
 
-34 plans, 28 verified, 15 providers. Checked through 2026-10-31. FX: 1.1188 USD/EUR on 2026-10-26.
+38 plans, 32 verified, 15 providers. Checked through 2026-10-31. FX: 1.1188 USD/EUR on 2026-10-26.
 
 ## Providers
 ### DigitalOcean
@@ -31,7 +31,7 @@
 - id: hetzner
 - source: https://www.hetzner.com/cloud/cost-optimized
 - checked: 2026-10-31
-- ipv4: not published (unverified)
+- ipv4: 0 (verified)
 - backup: 20% (verified)
 - overage: 0.001 (verified)
 
@@ -235,6 +235,50 @@
 - region: EU only (NBG1, HEL1)
 - source: https://www.hetzner.com/cloud/cost-optimized (2026-10-31)
 - notes: Excl. VAT. Sold out: Hetzner cost-optimized page marks CX33 “not available” and shows “This product is currently unavailable. Please check back later.” (checked 2026-10-31). EU only (NBG1, HEL1); not offered in Hetzner US locations.
+
+### Hetzner CPX22 (EU)
+- id: hetzner-cpx22
+- specs: 2 vCPU / 4 GB / 80 GB disk / 20 TB
+- price_mo: 19.99 EUR
+- promo_mo: none
+- status: verified
+- availability: in_stock (checked 2026-10-31)
+- region: EU (NBG1, HEL1)
+- source: https://www.hetzner.com/cloud/regular-performance (2026-10-31)
+- notes: Excl. VAT; Hetzner page price labelled “Price incl. IPv4”: € 19.99 per month (€ 0.0320/hour). Orderable on Hetzner’s Regular Performance page (no “not available” label), checked 2026-10-31. EU price; Singapore is € 26.99. June 15 2026 new-order/rescale price list: € 19.49 excl. IPv4 (was € 7.99 before June 15; € 5.99 before April 1).
+
+### Hetzner CPX32 (EU)
+- id: hetzner-cpx32
+- specs: 4 vCPU / 8 GB / 160 GB disk / 20 TB
+- price_mo: 35.99 EUR
+- promo_mo: none
+- status: verified
+- availability: in_stock (checked 2026-10-31)
+- region: EU (NBG1, HEL1)
+- source: https://www.hetzner.com/cloud/regular-performance (2026-10-31)
+- notes: Excl. VAT; Hetzner page price labelled “Price incl. IPv4”: € 35.99 per month (€ 0.0577/hour). Orderable on Hetzner’s Regular Performance page, checked 2026-10-31. EU price; Singapore is € 49.49. June 15 2026 price list: € 35.49 excl. IPv4 (was € 13.99; € 10.49 before April 1).
+
+### Hetzner CPX11 (US)
+- id: hetzner-cpx11-us
+- specs: 2 vCPU / 2 GB / 40 GB disk / 1 TB
+- price_mo: 17.99 EUR
+- promo_mo: none
+- status: verified
+- availability: in_stock (checked 2026-10-31)
+- region: US (ASH1, HIL1)
+- source: https://www.hetzner.com/cloud/regular-performance (2026-10-31)
+- notes: Excl. VAT; Hetzner page price labelled “Price incl. IPv4”: € 17.99 per month (€ 0.0288/hour), 1 TB traffic, € 1.00 per extra TB. Orderable in Ashburn and Hillsboro, checked 2026-10-31. June 15 2026 price list: € 17.49 excl. IPv4 (was € 5.99; € 4.49 before April 1).
+
+### Hetzner CPX21 (US)
+- id: hetzner-cpx21-us
+- specs: 3 vCPU / 4 GB / 80 GB disk / 2 TB
+- price_mo: 32.49 EUR
+- promo_mo: none
+- status: verified
+- availability: in_stock (checked 2026-10-31)
+- region: US (ASH1, HIL1)
+- source: https://www.hetzner.com/cloud/regular-performance (2026-10-31)
+- notes: Excl. VAT; Hetzner page price labelled “Price incl. IPv4”: € 32.49 per month (€ 0.0521/hour), 2 TB traffic, € 1.00 per extra TB. Orderable in Ashburn and Hillsboro, checked 2026-10-31. June 15 2026 price list: € 31.99 excl. IPv4 (was € 11.99; € 8.99 before April 1).
 
 ### OVHcloud VPS-1
 - id: ovhcloud-vps-1
@@ -467,13 +511,15 @@
 - notes: Promo $22.99 first 3 months; renews $34.99
 
 ## Data study: VPS price per GB RAM / per vCPU
-Across 28 verified VPS plans from 12 providers (checked through 2026-10-31), list price per GB of RAM ranges from $1.21/GB/mo (OVHcloud VPS-3) to $10.00/GB/mo (AWS Lightsail Linux 0.5 GB) — 8.3× apart; the median is $5.00/GB. Hetzner CX23 and Hetzner CX33 would rank lower per GB but are sold out as of 2026-10-31, so they are left out of these figures. Per vCPU, OVHcloud VPS-3 is cheapest at $2.42/vCPU/mo vs a $6.50 median. Intro prices hide renewal jumps of up to +85% (Hostinger VPS KVM 1).
+Across 32 verified VPS plans from 12 providers (checked through 2026-10-31), list price per GB of RAM ranges from $1.21/GB/mo (OVHcloud VPS-3) to $10.06/GB/mo (Hetzner CPX11 (US)) — 8.3× apart; the median is $5.31/GB. Hetzner CX23 and Hetzner CX33 would rank lower per GB but are sold out as of 2026-10-31, so they are left out of these figures. Per vCPU, OVHcloud VPS-3 is cheapest at $2.42/vCPU/mo vs a $7.54 median. Intro prices hide renewal jumps of up to +85% (Hostinger VPS KVM 1).
 - Page: https://vpsledger.pages.dev/study/vps-price-per-gb-ram
 - CSV: https://vpsledger.pages.dev/api/study-vps-price-per-gb.csv
 
 ## Pricing guides
 - [Black Friday VPS deals 2026: the renewal math](https://vpsledger.pages.dev/guides/black-friday-vps-deals-2026)
+- [Hetzner 2026 price changes: keep, rescale or move?](https://vpsledger.pages.dev/guides/hetzner-price-increase-2026)
 - [VPS price per GB RAM & per vCPU — data study](https://vpsledger.pages.dev/study/vps-price-per-gb-ram)
+- [Cheapest 2 GB VPS](https://vpsledger.pages.dev/guides/cheapest-2gb-vps)
 - [Cheapest 4 GB VPS](https://vpsledger.pages.dev/guides/cheapest-4gb-vps)
 - [Cheapest 8 GB VPS](https://vpsledger.pages.dev/guides/cheapest-8gb-vps)
 - [Hetzner alternatives](https://vpsledger.pages.dev/guides/hetzner-alternatives)
@@ -513,6 +559,8 @@ Across 28 verified VPS plans from 12 providers (checked through 2026-10-31), lis
 - 2026-10-26 Linode / Akamai (transfer): G8 and GPU plans do not include bundled transfer; older plans include 0–20 TB. [https://www.linode.com/pricing/]
 - 2026-10-26 Hostinger VPS (promo): KVM 2 promo $8.79/mo on 24-month term; renews at $14.99/mo. [https://www.hostinger.com/vps-hosting]
 - 2026-10-26 DreamHost (promo): Stack 16 $22.99/mo for first 3 months, then $34.99/mo. [https://www.dreamhost.com/hosting/vps/]
+- 2026-06-15 Hetzner (price increase): Second 2026 increase, for new orders and any rescale only (servers ordered before keep their price; rescaling up or down, restoring a deleted server or moving it to a different-currency project switches it to the new price). EU, excl. VAT and IPv4: CPX22 €7.99 → €19.49, CPX32 €13.99 → €35.49, CX23 €3.99 → €5.49, CX33 €6.49 → €8.49; US: CPX11 €5.99 → €17.49, CPX21 €11.99 → €31.99. Logged late; VPSLedger now tracks orderable CPX22/CPX32 (EU) and CPX11/CPX21 (US). See /guides/hetzner-price-increase-2026. [https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/]
+- 2026-04-01 Hetzner (price increase): Hetzner raised cloud prices for new orders and existing servers on 1 April 2026 (announced 23 Feb). EU, excl. VAT and IPv4: CX23 €2.99 → €3.99, CX33 €4.99 → €6.49, CPX22 €5.99 → €7.99, CPX32 €10.49 → €13.99; US: CPX11 €4.49 → €5.99, CPX21 €8.99 → €11.99. Logged late, from Hetzner's own price-adjustment page (archived copy); see /guides/hetzner-price-increase-2026. [https://web.archive.org/web/20260513201413/https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/]
 - 2026-01-01 DigitalOcean (billing): Droplets move to per-second billing (minimum 60 s or $0.01). [https://www.digitalocean.com/pricing/droplets]
 
 
@@ -570,3 +618,42 @@ The Black Friday price is not what you pay at renewal. 5 vendors show a price on
   A: 4 GB: lowest 1 year RackNerd 4 GB KVM VPS special $59.99; 2 years RackNerd 4 GB KVM VPS special $119.98; 3 years RackNerd 4 GB KVM VPS special $179.97; 8 GB: lowest 1 year RackNerd 8 GB KVM VPS special $119.99; 2 years Hostinger KVM 2 $210.96; 3 years RackNerd 8 GB KVM VPS special $359.97; 16 GB: lowest 1 year Hostinger KVM 4 $311.76; 2 years Hostinger KVM 4 $311.76; 3 years Hostinger KVM 4 $1,007.52; 32 GB: lowest 1 year Hostinger KVM 8 $623.76; 2 years Hostinger KVM 8 $623.76; 3 years Hostinger KVM 8 $1,823.52. 3-year figures are cash including each vendor's stated renewal (assumptions in the table). List prices before tax; specs differ.
 - Q: When was this checked?
   A: 2026-10-31. Each row links the vendor page we read and we keep a text snapshot of it. We re-check every vendor on Nov 27 (Black Friday) and Nov 30 (Cyber Monday). Sales change daily; re-check the vendor page before you pay.
+
+
+## Hetzner 2026 price changes: keep, rescale or move? (checked 2026-10-31)
+Page: https://vpsledger.pages.dev/guides/hetzner-price-increase-2026
+Hetzner raised cloud prices twice in 2026: on Apr 1, 2026 for every server (EU CPX22 €5.99 → €7.99/mo excl. VAT and IPv4) and on Jun 15, 2026 for new orders and any rescale only (CPX22 €19.49, 2.4× the pre-June price; US CPX11 €5.99 → €17.49). So keep a pre-June server untouched, because even scaling it down switches it to the new list (CPX32 → CPX22 costs €5.50/mo more), and if you need a different size, move: as of 2026-10-31, OVHcloud VPS-1 costs $5.35/mo all-in vs $26.84 for a new Hetzner CPX22 (EU) (2 TB egress, backups on).
+- 2026-02-23: April increase announced. Hetzner announces higher prices from 1 April 2026 for new orders and existing products. [https://www.hetzner.com/pressroom/statement-price-adjustment/]
+- 2026-04-01: Increase #1: everyone, including existing servers. Cloud prices rise for all servers (EU CPX22 €5.99 → €7.99, CX23 €2.99 → €3.99; US CPX11 €4.49 → €5.99, excl. VAT). No grandfathering. [https://web.archive.org/web/20260513201413/https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/]
+- 2026-05-27: June increase announced. Hetzner announces a second increase for new orders and rescales, effective 15 June 2026. [https://www.hetzner.com/pressroom/standardization-and-price-adjustment-of-our-server-products/]
+- 2026-06-15: Increase #2: new orders and rescales only. From 15 June 2026, 8:00 CEST, every new cloud server and every rescale is billed at the new list (EU CPX22 €19.49, US CPX11 €17.49, excl. VAT and IPv4). Servers ordered before keep their price. [https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/]
+- CPX22 (EU, 2 vCPU/4 GB): before Apr 1 €5.99, Apr 1 €7.99 (existing servers keep), Jun 15 €19.49 (new orders + rescales); excl. VAT and IPv4 (€0.50)
+- CPX32 (EU, 4 vCPU/8 GB): before Apr 1 €10.49, Apr 1 €13.99 (existing servers keep), Jun 15 €35.49 (new orders + rescales); excl. VAT and IPv4 (€0.50)
+- CX23 (EU, 2 vCPU/4 GB): before Apr 1 €2.99, Apr 1 €3.99 (existing servers keep), Jun 15 €5.49 (new orders + rescales); excl. VAT and IPv4 (€0.50)
+- CX33 (EU, 4 vCPU/8 GB): before Apr 1 €4.99, Apr 1 €6.49 (existing servers keep), Jun 15 €8.49 (new orders + rescales); excl. VAT and IPv4 (€0.50)
+- CPX11 (US, 2 vCPU/2 GB): before Apr 1 €4.49, Apr 1 €5.99 (existing servers keep), Jun 15 €17.49 (new orders + rescales); excl. VAT and IPv4 (€0.50)
+- CPX21 (US, 3 vCPU/4 GB): before Apr 1 €8.99, Apr 1 €11.99 (existing servers keep), Jun 15 €31.99 (new orders + rescales); excl. VAT and IPv4 (€0.50)
+- Rescale EU CPX22 up to CPX32: €8.49 → €35.99/mo (+€27.50; €990.00 over 36 months)
+- Rescale EU CPX32 down to CPX22: €14.49 → €19.99/mo (+€5.50; €198.00 over 36 months)
+- Rescale US CPX11 up to CPX21: €6.49 → €32.49/mo (+€26.00; €936.00 over 36 months)
+- Rescale US CPX21 down to CPX11: €12.49 → €17.99/mo (+€5.50; €198.00 over 36 months)
+- 2 vCPU/4 GB all-in at 2 TB with backups: keep Hetzner CPX22 EU $11.40; keep Hetzner CPX21 US $16.77; new Hetzner CPX22 (EU) $26.84; new Hetzner CPX21 (US) $43.62; OVHcloud VPS-1 $5.35; DreamHost Stack 4 $15.99; UpCloud Starter 4 GB / 2 vCPU $16.80; Vultr vc2-2c-4gb $24.00; AWS Lightsail Linux 4 GB $24.00/mo
+- 4 vCPU/8 GB all-in at 2 TB with backups: keep Hetzner CPX32 EU $19.45; new Hetzner CPX32 (EU) $48.32; OVHcloud VPS-2 $10.00; OVHcloud VPS-3 $14.50; DreamHost Stack 16 $34.99/mo
+- Q: What changed in Hetzner’s 2026 prices?
+  A: Hetzner raised cloud prices twice in 2026: on Apr 1, 2026 for every server (EU CPX22 €5.99 → €7.99/mo excl. VAT and IPv4) and on Jun 15, 2026 for new orders and any rescale only (CPX22 €19.49, 2.4× the pre-June price; US CPX11 €5.99 → €17.49). So keep a pre-June server untouched, because even scaling it down switches it to the new list (CPX32 → CPX22 costs €5.50/mo more), and if you need a different size, move: as of 2026-10-31, OVHcloud VPS-1 costs $5.35/mo all-in vs $26.84 for a new Hetzner CPX22 (EU) (2 TB egress, backups on).
+- Q: Do I have to migrate?
+  A: No. Hetzner: “Existing server contracts will keep their terms and conditions and remain active.” A server ordered before Jun 15, 2026 keeps its price (EU CPX22 €8.49/mo incl. IPv4) until you rescale it, restore it after deleting it, or move it to a project in another currency. Rebuilding it or moving it to a same-currency project does not change the price.
+- Q: Is Hetzner still the cheapest?
+  A: Not for new servers. For 2 vCPU / 4 GB at 2 TB egress with backups, a new CPX22 (EU) is $26.84/mo all-in and ranks #8 of 12 orderable plans we track; the cheapest is OVHcloud VPS-1 at $5.35. A pre-June CPX22 you keep is $11.40/mo on the same basis; 2 orderable plans are cheaper even than that (OVHcloud VPS-1 $5.35, OVHcloud VPS-2 $10.00), so weigh the saving against the work of migrating.
+- Q: Can I scale down to save money?
+  A: No. Hetzner's billing FAQ lists “Rescaling (regardless of whether the server is scaled up or down)” as an action that moves a server to current pricing. Scaling a pre-June CPX32 (€14.49) down to CPX22 bills €19.99/mo, €5.50 more each month.
+- Q: What does a rescale cost me?
+  A: EU CPX22 → CPX32: €8.49 → €35.99/mo (+€27.50, €990.00 over 36 months). US CPX11 → CPX21: €6.49 → €32.49/mo (+€26.00). Prices excl. VAT, incl. the €0.50 IPv4.
+- Q: Is Hetzner US still worth it?
+  A: A new US CPX21 (3 vCPU / 4 GB) is $43.62/mo all-in at 2 TB; AWS Lightsail 4 GB is $24.00 and OVHcloud VPS-1 $5.35 on the same basis. US Hetzner plans include 1–2 TB of traffic, not 20 TB.
+- Q: Is it better or worse than OVH right now?
+  A: For a new 2 vCPU / 4 GB server, yes, OVHcloud VPS-1 is cheaper: $5.35/mo vs $26.84 for Hetzner CPX22 (EU) (2 TB, backups on). A grandfathered CPX22 ($11.40) is still $6.05/mo more than OVH VPS-1, a $217.74 gap over 36 months.
+- Q: What about netcup, Leaseweb or Contabo?
+  A: Not verified in our ledger yet (Contabo is listed as unverified). We only rank prices we read on the vendor's own page; check theirs before you move.
+- Q: When was this checked?
+  A: 2026-10-31. Every Hetzner number links to Hetzner's own page or docs, and we keep a text snapshot of each. Alternative prices come from the VPSLedger ledger (each row has its own source and check date).
