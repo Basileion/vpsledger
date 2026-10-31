@@ -1,0 +1,170 @@
+Pressroom
+Hetzner introduces its first multi-GPU server with four NVIDIA Blackwell GPUs
+21st October 2026
+Products
+With the GEX430, hosting provider Hetzner is expanding its portfolio to include its first multi-GPU server. The new model is…
+Read article
+New Hetzner press articles
+All Articles
+2026
+2025
+2024
+2023
+Company
+Hetzner wins the 2026 IT Award in Gold for “Sovereign Cloud”
+16th October 2026
+Hetzner expands GPU portfolio with new GEX63 featuring NVIDIA RTX PRO 6000 Blackwell Max-Q
+6th October 2026
+Hetzner Celebrates Groundbreaking for New Corporate Headquarters in Gunzenhausen
+1st October 2026
+Hetzner expands its GPU portfolio with the GEX45
+1st September 2026
+Hetzner Once Again Named One of Bavaria’s Fastest-Growing Companies
+31st July 2026
+Hetzner Wins Two Platinum Awards at the 2026 Service Provider Awards
+17th July 2026
+New Hetzner Dedicated Servers with Enterprise Hardware from Dell
+10th June 2026
+Details regarding the standardization and price adjustment of our server products effective 15 June 2026
+27th May 2026
+Statement on the latest adjustment to setup fees (April 29, 2026)
+29th April 2026
+Hetzner introduces new Dedicated Server with Intel® Xeon® 6731P CPU and Gen5 NVMe SSDs
+21st April 2026
+Hetzner invests in ai-based network security from Nokia
+16th March 2026
+Statement on price adjustment as of April 1st 2026
+23rd February 2026
+Statement on the adjustment of setup fees
+2nd February 2026
+Hetzner presents gpu server GEX131 with NVIDIA RTX PRO™ 6000 Blackwell Max-Q
+11th December 2025
+Hetzner presents new web hosting packages for maximum performance and flexibility
+9th October 2025
+Community
+Hetzner Game Jam inspires creativity, variety, and team spirit
+27th May 2025
+Gold for Hetzner at the Server Provider Awards 2025
+26th May 2025
+Hetzner founds HT clean energy GmbH – first solar park to be built in Nassau-Weikersheim
+4th March 2025
+Hetzner Object Storage: modern storage solution for growing amounts of data
+3rd December 2024
+Hetzner introduces new GPU server for demanding AI workloads
+24th September 2024
+HETZNER CLOUD: NEW LOCATION IN SINGAPORE
+6th August 2024
+Hetzner introduces new shared vCPU cloud servers
+6th June 2024
+Hetzner receives two renowned Service Provider Awards
+8th May 2024
+Hetzner introduces three new dedicated storage servers
+30th April 2024
+Hetzner unveils server with ideal ratio of price, performance and power consumption
+18th April 2024
+10,000 euros for “Die Speis” foodbank in Gunzenhausen
+12th March 2024
+Hetzner presents a GPU server for trained AI models
+4th March 2024
+The new Hetzner Dedicated Server AX162 with AMD EPYC™ 9454P for intensive workloads
+27th February 2024
+Hetzner congratulates three apprentices on the successful completion of their studies
+13th December 2023
+Hetzner congratulates four apprentices on the successful completion of their studies
+New Dedicated Server EX130 cuts through modern workloads
+25th October 2023
+Create a game in 48 hours: Hetzner invites to game jam
+6th October 2023
+Hetzner Online welcomes new apprentices in Falkenstein
+5th September 2023
+Hetzner Online welcomes new apprentices in Gunzenhausen and Nuremberg
+4th September 2023
+Hetzner launches new dedicated vCPU cloud servers with AMD Epyc™ CPUs at unbeatable prices
+23rd August 2023
+Hetzner Online receives Service Provider Award
+5th May 2023
+Hetzner celebrates Data Center Park Helsinki’s first five years
+28th April 2023
+Hetzner’s new AX102 Dedicated Server with AMD Ryzen™ 9 7950X3D
+17th April 2023
+Hetzner introduces arm64-based cloud servers
+12th April 2023
+Hetzner launches three new dedicated servers for almost any use case
+15th March 2023
+Show More
+Show Less
+About Hetzner
+Web 591 KB
+Print 591 KB
+Hetzner is a German IT company and one of Europe’s largest and most trusted internet service providers, founded in 1997. It operates several thousand servers in state-of-the-art, energy-efficient data center parks in Nuremberg and Falkenstein (Germany) and Helsinki (Finland). Additionally, it has expanded its infrastructure to Singapore and the USA. Hetzner is best known for its dedicated servers and virtualized server infrastructure, optimized for performance, reliability, and efficiency. It stands out through its high technological quality and strong customer focus. With competitive pricing and professional customer support, Hetzner is the ideal hosting partner for businesses and internet projects of all sizes. Thanks to its strong market presence and constant drive for innovation, Hetzner has taken on a leading role not only in Europe but also internationally.
+copied to clipboard
+Press Kit
+Download All
+Web 38 KB
+Print 10 KB
+Web 36 KB
+Print 7 KB
+Web 10 KB
+Print 11 KB
+Web 18 KB
+Print 20 KB
+Web 8 KB
+Web 9 KB
+Print 13 KB
+Primary red
+C5 M100 Y80 K5
+R213 G12 B45
+#d50c2d
+Background grey
+C0 M0 Y0 K90
+R60 G60 B60
+#3c3c3b
+Secondary Background grey
+C5 M4 Y4 K0
+R245 G245 B245
+#f5f5f5
+White
+C0 M0 Y0 K0
+R255 G255 B255
+#ffffff
+Web 745 KB
+Print 2.3 MB
+Web 900 KB
+Print 2.6 MB
+Web 826 KB
+Web 845 KB
+Web 1016 KB
+Print 2.4 MB
+Web 1 MB
+Print 1.8 MB
+Web 890 KB
+Print 9.4 MB
+Web 991 KB
+Print 1.9 MB
+Web 1.2 MB
+Print 2.2 MB
+Web 1.3 MB
+Here you can download images and logos from Hetzner free of charge. The images are protected by copyright and are only to be used in the context with reference to Hetzner Online GmbH as the source. Editing is only permitted with written consent. Usage must be communicated to press@hetzner.com. Further images on request.
+Save money with refurbished servers
+Catch your refurbished dedicated servers in our server auction with decreasing prices and zero setup costs.
+Find your cheap server
+Contact
+Andreas Fischer
+Head of Marketing
+marketing@hetzner.com
+Christian Fitz
+PR Manager
++49 (0) 9831 505-124
+press@hetzner.com
+Also follow us on
+Instagram
+@hetzner.online
+YouTube
+@HetznerOnline
+@Hetzner_Online
+LinkedIn
+Hetzner
+Facebook
+Behind the racks: The Hetzner Blog is here
+From rocket simulations to recycled heat: find tech deep dives, real use cases and a look behind the scenes in the Hetzner Blog.
+Go to Hetzner Blog

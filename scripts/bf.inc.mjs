@@ -85,6 +85,7 @@ page({file,og:'changes',title:`Black Friday VPS deals 2026: renewal prices from 
 ${crumbs([{href:'/',label:'Home'},{href:'/guides/',label:'Guides'},{href:'/guides/black-friday-vps-deals-2026',label:'Black Friday VPS 2026'}])}
 <section class="hero"><div class="eyebrow">${esc(B.season)} · checked ${B.checked}</div><h1>The Black Friday VPS price isn’t what you pay at renewal.</h1>
 <p class="lede"><b>Answer:</b> ${esc(answer)}</p></section>
+${mailBox('gbft','Get newly verified Black Friday VPS prices, with renewal math, in your inbox.','Send me the weekly ledger')}
 <div class="panel"><div class="eyebrow">Key stats</div><ul style="margin:10px 0 0;padding-left:18px">
 <li><b>Vendors with a price verified on their own page:</b> ${liveV.length} (${liveV.join(', ')}), ${buyable.length} plans${upcoming.length?`; plus ${vendorsOf(upcoming).join(', ')} announced (${upcoming.length} plans, starts later)`:''}</li>
 <li><b>Renews at the same price:</b> ${sameYes.length?sameYes.join(', '):'none'} · <b>renews higher:</b> ${sameNo.join(', ')}</li>
@@ -93,6 +94,7 @@ ${SW?`<li><b>Hostinger sale window:</b> ${saleTxt} (<a href="${SW.source}" rel="
 <li><b>Checked with no Black Friday VPS price shown:</b> ${B.checked_no_bf_price.length} providers · <b>watching:</b> ${(B.watching||[]).length}</li>
 <li><b>Next re-check:</b> ${recheck}</li>
 <li><b>Last verified:</b> ${B.checked}</li></ul></div>
+<p class="micro" style="margin:12px 0 0" data-cta="bf-pro-inline">Buying a deal with an intro price? <a href="/pro?from=bf-guide">Get an alert if a plan you watch changes its renewal price →</a> <span class="note">(Pro, weekly check)</span></p>
 <h2>Lowest cash cost per RAM tier</h2>
 <ul class="bf-lowest">${lowestLines.map(({r,txt})=>`<li data-bf-lowest="${r.d.ram_gb}|0|${r.best[0].toFixed(2)}" data-bf-lowest2="${r.d.ram_gb}|1|${r.best[1].toFixed(2)}" data-bf-lowest3="${r.d.ram_gb}|2|${r.best[2].toFixed(2)}">${esc(txt)}</li>`).join('')}</ul>
 <p class="note">Across every row in the per-RAM table below: each live deal with that RAM, plus the cheapest verified, in-stock, no-prepay plan in our ledger. Announced deals that start later (${vendorsOf(upcoming).join(', ')||'none'}) are not counted.</p>

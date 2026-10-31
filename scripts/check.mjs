@@ -4,6 +4,9 @@ import fs from 'node:fs'; import path from 'node:path'; import { execFileSync } 
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 // Weekly: snapshot each unique official source page in data/plans.json, diff vs last snapshot, write reports/diff-DATE.md.
 const vendors=[...new Map(JSON.parse(fs.readFileSync(path.join(root,'data/plans.json'),'utf8')).map(m=>{const u=m.source;return [u,{id:u.replace(/^https?:\/\//,'').replace(/[^a-z0-9]+/gi,'_').slice(0,80),name:m.provider,url:u}]})).values()];
+// RT-20261031-138 (added 2026-10-31): vendor announcement pages, so a price change announced ahead (Hetzner: May 27 -> Jun 15, 2026) is caught inside the notice window.
+const ANNOUNCE=[['Hetzner (press room)','https://www.hetzner.com/pressroom/'],['Hetzner (price-adjustment docs)','https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/']];
+for(const [name,url] of ANNOUNCE)if(!vendors.some(v=>v.url===url))vendors.push({id:url.replace(/^https?:\/\//,'').replace(/[^a-z0-9]+/gi,'_').slice(0,80),name,url});
 const snapDir = path.join(root,'snapshots'); const repDir = path.join(root,'reports');
 fs.mkdirSync(snapDir,{recursive:true}); fs.mkdirSync(repDir,{recursive:true});
 const UA='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36 vpsledger-check';

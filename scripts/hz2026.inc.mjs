@@ -75,12 +75,14 @@ page({file,og:'p-hetzner',title:`Hetzner 2026 price changes: keep, rescale or mo
 ${crumbs(crumbP)}
 <section class="hero"><div class="eyebrow">Decision guide · Hetzner Cloud · checked ${C}</div><h1>Hetzner 2026 price changes: keep, rescale or move?</h1>
 <p class="lede"><b>Answer:</b> ${esc(answer)}</p><p class="note">Checked ${C} on Hetzner's own pages and docs. Prices excl. VAT. All-in = list price + IPv4 + backups + traffic overage at ${EG} TB/month; EUR at ${FX_EUR_USD} USD (ECB, ${FX.date}). For Hetzner's full current plan list see <a href="/guides/hetzner-pricing">Hetzner VPS pricing</a>; for every alternative ranked, <a href="/guides/hetzner-alternatives">Hetzner alternatives</a>.</p></section>
+${mailBox('ghz26t','Hetzner changed prices twice in 2026. Get the next change in your inbox.','Send me the weekly ledger')}
 <div class="panel"><div class="eyebrow">Key numbers</div><ul style="margin:10px 0 0;padding-left:18px">
 <li><b>EU CPX22 (2 vCPU / 4 GB):</b> ${e$(R.CPX22.pre_apr)} → ${e$(R.CPX22.apr)} (Apr 1, everyone) → ${e$(R.CPX22.jun)} (Jun 15, new orders + rescales), excl. VAT and IPv4</li>
 <li><b>US CPX11 (2 vCPU / 2 GB):</b> ${e$(R.CPX11.pre_apr)} → ${e$(R.CPX11.apr)} → ${e$(R.CPX11.jun)} (${(R.CPX11.jun/R.CPX11.apr).toFixed(1)}× in June)</li>
 <li><b>Scaling down still costs more:</b> pre-June CPX32 → CPX22 = +${e$(down.d)}/mo</li>
 <li><b>New CPX22 ranks</b> #${s24.rank} of ${s24.n} orderable 2 vCPU / 4 GB plans; cheapest is ${esc(cheap.p.provider)} ${esc(cheap.p.plan)} at ${m$(cheap.t.total)}/mo all-in</li>
 <li><b>Cost-Optimized CX23/CX33:</b> sold out on Hetzner's page (checked ${PL('hetzner-cx23').availability_checked}), so the cheap Hetzner option isn't orderable</li></ul></div>
+<p class="micro" style="margin:12px 0 0" data-cta="hz-pro-inline">Kept a pre-June server? <a href="/pro?from=hetzner-guide">Get an alert when Hetzner announces the next change →</a> <span class="note">(Pro, weekly check)</span></p>
 <h2>Timeline: what Hetzner changed in 2026</h2>
 <div class="tbl cards"><table><thead><tr><th>Date</th><th>What changed</th><th>Hetzner's words</th><th>Source</th></tr></thead><tbody>
 ${H.events.map(e=>`<tr>${L('Date',`<b>${fmtD(e.date)}</b>`)}${L('What changed',`<b>${esc(e.title)}.</b> ${esc(e.summary)}`,'wrap')}${L("Hetzner's words",`<q>${esc(e.quote)}</q>`,'wrap note')}${L('Source',src(e.source,C,/web\.archive/.test(e.source)?'Hetzner Docs (archived copy)':/pressroom/.test(e.source)?'Hetzner press release':'Hetzner Docs'),'src')}</tr>`).join('')}
