@@ -129,5 +129,13 @@
   "plan_id": "hostinger-kvm-1",
   "summary": "Correction to the Black Friday VPS guide: it bolded Hostinger as lowest for each RAM size but compared it only with Vultr and DigitalOcean, leaving out cheaper no-prepay plans in our own ledger. OVHcloud VPS-1 (2 vCPU / 4 GB, $5.35/mo, no commitment, re-read 2026-10-31) costs $64.20 / $128.40 / $192.60 over 1/2/3 years vs Hostinger KVM 1 $155.76 / $155.76 / $443.52, and OVHcloud VPS-2 (4 vCPU / 8 GB, $10/mo) is lower than KVM 2 at 1 and 3 years. The guide now adds the cheapest verified, in-stock, no-prepay plan per RAM size and a build check fails if a 'lowest' label skips a cheaper row. The 3-year column assumed a 12-month renewal Hostinger doesn't show (KVM 1 $299.64); it now uses the stated same-term renewal (24 months billed up front at month 25): KVM 1 $443.52, KVM 2 $570.72, KVM 4 $1,007.52, KVM 8 $1,823.52. Sale window Oct 19 – Dec 14, 2026 added from Hostinger's Black Friday page.",
   "source": "https://www.hostinger.com/vps-hosting"
+ },
+ {
+  "date": "2026-10-31",
+  "observed": "2026-10-31",
+  "provider": "Black Friday VPS guide",
+  "kind": "update",
+  "summary": "Black Friday VPS guide now covers 5 vendors with a price read on their own page today, not just Hostinger: RackNerd VPS specials (4 GB $59.99/yr, 8 GB $119.99/yr; the vendor says they renew at the same rate), ScalaHosting managed cloud (Black Friday Oct 19 – Dec 1; Build #1 $22.46/mo on a 1-year term, renews at $54.95/mo), AwakeHost Cloud VPS (30% off the first month, code BLACKFRIDAY30, Oct 13 – Nov 30; VPS 4 $17.49 then $24.99/mo) and Bluehost (intro price, not labelled Black Friday; NVMe 4 $227.76 for 24 months, renews $11.99/mo). Devoster's announced sale (Nov 20 – Dec 2) is listed separately with its published prices. Each row now answers “Renews at the same price?” with the vendor's own words, and shows term, sale price, renewal and 1/2/3-year cash. New lowest 3-year cash: 4 GB RackNerd $179.97 (was OVHcloud VPS-1 $192.60), 8 GB RackNerd $359.97. netcup, Contabo, JustVPS, HostGator, GreenCloud and YouStable are on a watch list with no price. Next re-checks: Nov 27 and Nov 30.",
+  "source": "https://vpsledger.pages.dev/guides/black-friday-vps-deals-2026"
  }
 ]

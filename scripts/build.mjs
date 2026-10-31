@@ -203,7 +203,7 @@ page({file:'offline.html',title:`Offline | ${NAME}`,desc:'Offline',body:`<sectio
 page({file:'404.html',title:`Not found | ${NAME}`,desc:'Not found',body:`<section class="hero"><h1>Page not found.</h1><a class="btn" href="/">Back to the ledger</a></section>`});
 const FLY=(await import('./flywheel.inc.mjs')).default({root,STUDY,providers,plans,changes,P,page,W,SITE,NAME,esc,usd,yr,tco,ver,verBuy,unavail,lastChecked,EG,SPECS,equiv,rankFor,mailBox,meth,asOf,FX,FX_EUR_USD,tag,aff,soldTxt,regionShort,hzUsNote});
 console.log('flywheel guides:',FLY.guideCount);
-if(FLY.BF){const F=FLY.BF;fs.appendFileSync(path.join(D,'llms-full.txt'),`\n\n## Black Friday VPS deals 2026: renewal math (checked ${F.B.checked})\nPage: ${F.url}\n${F.answer}\n${F.rows.map(r=>`- ${r.d.provider} ${r.d.plan} (${r.d.vcpu} vCPU/${r.d.ram_gb} GB): deal $${r.d.promo_mo}/mo on ${r.d.prepay_months}-mo prepay ($${r.d.prepay_total.toFixed(2)} today), renews $${r.d.renew_mo}/mo (+${r.jump}%); cash 1y $${r.c1.toFixed(2)}, 2y $${r.c2.toFixed(2)}, 3y $${r.c3.toFixed(2)} (renews for the same 24-month term, billed up front at month 25; covers ${r.cov3} months); source ${r.d.source}`).join('\n')}\n${(F.lowest||[]).map(x=>`- ${x}`).join('\n')}\n${F.faq.map(([q,a])=>`- Q: ${q}\n  A: ${a}`).join('\n')}\n`)}
+if(FLY.BF){fs.appendFileSync(path.join(D,'llms-full.txt'),FLY.BF.llms)}
 {
   const guideLines=(FLY.hub||[]).map(h=>`- [${h.title}](${SITE}/${h.file})`).join('\n');
   const fullPath=path.join(D,'llms-full.txt');

@@ -1,0 +1,350 @@
+# Source: https://devoster.com/black-friday/
+# Read: 2026-10-31 14:21 ET (curl)
+
+Black Friday 2026 Web Hosting, VPS & Game Server Deals | Devoster
+Skip to main content Home Services
+Blog Help About Contact
+EN
+HE
+Login
+Get Started
+Home
+Black Friday 2026
+Black Friday 2026: Web Hosting, VPS, App & Game Server Deals
+Up to 50% off your first invoice on NVMe web hosting (Enhance panel), and up to 30% off unmanaged KVM VPS in Utah, USA. The VPS deal also covers servers that come with one of 42 One-Click Apps, such as WordPress, Immich or Vaultwarden, or with a Pterodactyl game server for Minecraft, Valheim, Terraria and more. One code, applied at checkout. After the first invoice you pay the regular price shown on our plan pages, with no renewal hike.
+Starts November 20, 2026 • Runs November 20, 2026 – December 2, 2026 (UTC)
+Coupon code BF2026 Copy
+KVM VPS (USA) Web & WordPress Hosting
+On this page: KVM VPS One-Click Apps Game servers Web hosting Terms FAQ
+The offer
+Web & WordPress Hosting
+25%
+25% off the first month
+50%
+50% off the first year
+KVM VPS (USA)
+15%
+15% off the first month
+30%
+30% off the first year
+One-Click Apps & Game Servers
+15%
+15% off the first month
+30%
+30% off the first year
+Apps and game panels are free and run on a VPS plan, so the VPS discount applies to the whole order.
+Black Friday KVM VPS prices
+Intel Xeon Gold 6138 vCPUs, NVMe storage, 1 Gbps port, unlimited bandwidth and full root access in Utah, USA. Unmanaged: you run the operating system. Stock is limited by real server capacity.
+Prices you will pay once the offer starts.
+Plan
+Specs
+Monthly (15%)
+Yearly (30%)
+Nano
+1 vCPU · 1 GB RAM · 25 GB NVMe
+$3.49 $2.97 first month
+Renews at $3.49/mo
+$37.68 $26.38 first year
+Renews at $37.68/yr
+Get this deal
+Micro
+1 vCPU · 2 GB RAM · 50 GB NVMe
+$4.49 $3.82 first month
+Renews at $4.49/mo
+$48.48 $33.94 first year
+Renews at $48.48/yr
+Get this deal
+Starter
+2 vCPU · 4 GB RAM · 75 GB NVMe
+$7.99 $6.79 first month
+Renews at $7.99/mo
+$86.28 $60.40 first year
+Renews at $86.28/yr
+Get this deal
+Basic
+3 vCPU · 6 GB RAM · 100 GB NVMe
+$10.99 $9.34 first month
+Renews at $10.99/mo
+$118.68 $83.08 first year
+Renews at $118.68/yr
+Get this deal
+Advanced
+4 vCPU · 8 GB RAM · 125 GB NVMe
+$13.99 $11.89 first month
+Renews at $13.99/mo
+$151.08 $105.76 first year
+Renews at $151.08/yr
+Get this deal
+Pro
+6 vCPU · 12 GB RAM · 150 GB NVMe
+$19.99 $16.99 first month
+Renews at $19.99/mo
+$215.88 $151.12 first year
+Renews at $215.88/yr
+Get this deal
+Elite
+8 vCPU · 16 GB RAM · 175 GB NVMe
+$24.99 $21.24 first month
+Renews at $24.99/mo
+$269.88 $188.92 first year
+Renews at $269.88/yr
+Get this deal
+Mega
+10 vCPU · 24 GB RAM · 200 GB NVMe
+$34.99 $29.74 first month
+Renews at $34.99/mo
+$377.88 $264.52 first year
+Renews at $377.88/yr
+Get this deal
+Black Friday deals on One-Click Apps
+Every One-Click App is free: you pay only for the VPS it runs on, so the code takes up to 30% off the whole first invoice. We build the VPS with the app already installed, an HTTPS address on devoster.app, an admin account made for you and managed updates with a snapshot first. You keep full root. 42 apps to choose from; here are some of them.
+Prices you will pay once the offer starts.
+WordPress
+The world's most popular website and blog platform
+Nano plan
+$3.49 $2.97 first month
+Renews at $3.49/mo
+Deploy with code Details
+Open WebUI
+A private ChatGPT-style interface
+Micro plan
+$4.49 $3.82 first month
+Renews at $4.49/mo
+Deploy with code Details
+Immich
+Photo and video backup you control
+Micro plan
+$4.49 $3.82 first month
+Renews at $4.49/mo
+Deploy with code Details
+Vaultwarden
+A password manager server that works with Bitwarden apps
+Nano plan
+$3.49 $2.97 first month
+Renews at $3.49/mo
+Deploy with code Details
+Jellyfin
+Your own media server for movies, shows and music
+Micro plan
+$4.49 $3.82 first month
+Renews at $4.49/mo
+Deploy with code Details
+Uptime Kuma
+Uptime monitoring and status pages
+Nano plan
+$3.49 $2.97 first month
+Renews at $3.49/mo
+Deploy with code Details
+Ghost
+A fast publishing platform for blogs
+Nano plan
+$3.49 $2.97 first month
+Renews at $3.49/mo
+Deploy with code Details
+Odoo Community
+Open-source ERP: CRM, sales, invoicing, inventory
+Micro plan
+$4.49 $3.82 first month
+Renews at $4.49/mo
+Deploy with code Details
+Forgejo
+Private Git hosting, compatible with Gitea
+Nano plan
+$3.49 $2.97 first month
+Renews at $3.49/mo
+Deploy with code Details
+Grafana
+Dashboards with your server's metrics, ready on day one
+Nano plan
+$3.49 $2.97 first month
+Renews at $3.49/mo
+Deploy with code Details
+Paperless-ngx
+Scan, OCR and search your documents
+Micro plan
+$4.49 $3.82 first month
+Renews at $4.49/mo
+Deploy with code Details
+code-server
+VS Code in your browser, on your own server
+Micro plan
+$4.49 $3.82 first month
+Renews at $4.49/mo
+Deploy with code Details
+See all 42 One-Click Apps
+Black Friday game server hosting
+The Game Server app puts the open-source Pterodactyl panel on your own KVM VPS, with the game you pick already set up: console, file manager, SFTP, backups and a daily restart. The panel is free, so the code takes up to 30% off the VPS plan. One VPS can run several games if the RAM covers them. The server is in Utah, USA, built for players in the US and Canada.
+Prices you will pay once the offer starts.
+Game
+Smallest plan
+Recommended plan
+Monthly (15%)
+Yearly (30%)
+Minecraft: Java Edition (Paper)
+Starter
+Advanced (4 vCPU · 8 GB)
+$13.99 $11.89 first month
+Renews at $13.99/mo
+$151.08 $105.76 first year
+Renews at $151.08/yr
+Get this deal
+Minecraft: Bedrock Edition
+Micro
+Starter (2 vCPU · 4 GB)
+$7.99 $6.79 first month
+Renews at $7.99/mo
+$86.28 $60.40 first year
+Renews at $86.28/yr
+Get this deal
+Valheim
+Starter
+Basic (3 vCPU · 6 GB)
+$10.99 $9.34 first month
+Renews at $10.99/mo
+$118.68 $83.08 first year
+Renews at $118.68/yr
+Get this deal
+Terraria
+Micro
+Starter (2 vCPU · 4 GB)
+$7.99 $6.79 first month
+Renews at $7.99/mo
+$86.28 $60.40 first year
+Renews at $86.28/yr
+Get this deal
+Terraria with tModLoader
+Starter
+Advanced (4 vCPU · 8 GB)
+$13.99 $11.89 first month
+Renews at $13.99/mo
+$151.08 $105.76 first year
+Renews at $151.08/yr
+Get this deal
+Project Zomboid
+Advanced
+Pro (6 vCPU · 12 GB)
+$19.99 $16.99 first month
+Renews at $19.99/mo
+$215.88 $151.12 first year
+Renews at $215.88/yr
+Get this deal
+Factorio
+Starter
+Basic (3 vCPU · 6 GB)
+$10.99 $9.34 first month
+Renews at $10.99/mo
+$118.68 $83.08 first year
+Renews at $118.68/yr
+Get this deal
+Don't Starve Together
+Starter
+Basic (3 vCPU · 6 GB)
+$10.99 $9.34 first month
+Renews at $10.99/mo
+$118.68 $83.08 first year
+Renews at $118.68/yr
+Get this deal
+Plans and player counts are estimates for each game; mods and big worlds need more. Every player needs their own copy of the game. Game names describe what the server runs; Devoster is not affiliated with their publishers.
+How the Game Server works
+Black Friday web & WordPress hosting prices
+NVMe hosting on the Enhance control panel with free SSL, daily backups and free migration. The coupon covers Web Hosting and WordPress Hosting plans.
+Prices you will pay once the offer starts.
+Plan
+Websites / disk
+Monthly (25%)
+Yearly (50%)
+Lite
+5 · 5 GB NVMe
+$2.90 $2.18 first month
+Renews at $2.90/mo
+$22.80 $11.40 first year
+Renews at $22.80/yr
+Web Hosting WordPress
+Standard
+10 · 10 GB NVMe
+$5.90 $4.42 first month
+Renews at $5.90/mo
+$46.80 $23.40 first year
+Renews at $46.80/yr
+Web Hosting WordPress
+Pro
+20 · 50 GB NVMe
+$9.90 $7.42 first month
+Renews at $9.90/mo
+$82.80 $41.40 first year
+Renews at $82.80/yr
+Web Hosting WordPress
+First invoice only, renewals at the regular price
+The discount applies to the first invoice of a new service: the first month on monthly billing, or the first year on yearly billing.
+Renewals are billed at the regular price, which is the same price listed on our plan pages. There is no renewal price hike.
+One use per customer account. VPS orders with a One-Click App or a game server count as VPS. The coupon does not apply to domains, reseller hosting or dedicated servers.
+VPS orders still depend on live server capacity. If a plan is sold out, checkout tells you before any invoice is created.
+How to redeem
+1 Pick a plan, app or game on this page and click its button. Sign in or create an account; you land on checkout with the code already filled in.
+2 Choose monthly or yearly billing (whichever the offer covers for that product) and fill in your details.
+3 Check the invoice total before paying: the coupon discount is already taken off.
+4 Pay with PayPal or cryptocurrency. Your service, app or game server is set up automatically once the payment clears.
+Already have an account? Enter BF2026 in the "Coupon" field at checkout.
+Page updated October 30, 2026.
+Read our Black Friday hosting guide
+How to compare Black Friday hosting deals without getting caught by renewal prices.
+Read our Black Friday hosting guide
+Regular plans: VPS hosting Web hosting WordPress hosting One-Click Apps Game servers
+Black Friday FAQ
+When does the Devoster Black Friday sale run?
+From November 20, 2026 00:00 UTC to December 2, 2026 23:59 UTC. Orders placed outside those dates are billed at the regular price.
+Is the discount only on the first invoice?
+Yes. The coupon takes a percentage off the first invoice of a new service: the first month on monthly billing, or the first full year on yearly billing. Every renewal after that is billed at the regular price.
+Will my renewal price go up after Black Friday?
+No. You renew at the regular price, which is exactly the price listed on our VPS and hosting pages today. We do not have a separate, higher renewal rate.
+Which products does the coupon cover?
+Web & WordPress Hosting: 25% off the first month, 50% off the first year. KVM VPS (USA): 15% off the first month, 30% off the first year. VPS plans ordered with a One-Click App or a game server get the VPS discount. Domains, reseller hosting and dedicated servers are not included.
+Does the Black Friday code work on One-Click Apps?
+Yes. A One-Click App is a VPS plan with the app installed for you, and the app itself is free, so the VPS discount (15% off the first month or 30% off the first year) comes off the whole order. Each app has a smallest plan that has enough memory for it; checkout only offers plans the app fits on.
+Which game servers can I get on the Black Friday deal?
+Minecraft: Java Edition, Minecraft: Bedrock Edition, Valheim, Terraria, Terraria with tModLoader, Project Zomboid, Factorio, Don't Starve Together. They run in the Pterodactyl panel on your own KVM VPS in Utah, USA, which suits players in the US and Canada. The panel is free; the VPS plan gets the Black Friday discount. One VPS can run more than one game if its RAM covers them.
+Can I use the code more than once?
+The coupon can be used once per customer account. It cannot be combined with other coupons.
+Can existing customers use the Black Friday coupon?
+Yes, on a new service. The coupon applies to new orders; it does not change the price of services you already have.
+What if the VPS plan I want is sold out?
+VPS stock follows the real free capacity on our servers, and that includes servers ordered with an app or a game. If a plan is full, checkout says so before an invoice is created, and nothing is charged. You can pick another plan or try again later during the sale.
+How do I pay?
+With PayPal or cryptocurrency at checkout, or from your account balance.
+Transparent, reliable web hosting built for modern businesses.
+Contact
+contact@devoster.com
+Mor 5, Or Akiva, Israel
+Products
+Web Hosting
+WordPress Hosting
+NodeJS Hosting
+VPS Hosting
+Reseller Hosting
+Managed Hosting
+AI-Driven Solutions
+Development Services
+Domains
+Company
+About Us
+Blog
+Changelog
+Help
+Contact
+Support
+Help
+Documentation
+Support center
+Service Status
+Partners
+AnonEdge - Residential Proxies
+PulseVPN - Anonymous VPN
+VerifyPulse - SMS Verifications
+© 2026 Devoster.com. All rights reserved.
+Privacy Policy Terms of Service Cookie Policy Cookie Settings
+We value your privacy
+We use essential cookies to make our site work, and optional analytics cookies to understand how you use Devoster and improve our services. You can accept all cookies, or adjust your preferences.
+Read more in our Cookie Policy and Privacy Policy . You can change your choices at any time.
+Reject non-essential
+Customize
+Accept all

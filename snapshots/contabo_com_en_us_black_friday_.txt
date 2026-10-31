@@ -1,0 +1,861 @@
+# Source: https://contabo.com/en-us/black-friday/
+# Read: 2026-10-31 14:21 ET (curl)
+
+Contabo Black Friday Deals Coming Soon!
+New Performance VPS : AI-ready power at VPS prices, with AMD EPYC CPUs and NVMe storage.
+Cloud VPS and Bare Metal Servers for Less
+Locale Settings $
+Locale Settings
+Languages
+English
+German
+Spanish
+Country (Tax Purposes Only)
+Afghanistan
+Aland Islands
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia (10.0% VAT)
+Austria (20.0% VAT)
+Azerbaijan (18.0% VAT)
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium (21.0% VAT)
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bonaire, Sint Eustatius, Saba
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei
+Bulgaria (20.0% VAT)
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo (Brazzaville)
+Congo, Democratic Republic of the
+Cook Islands
+Costa Rica
+Cote d'Ivoire
+Croatia (25.0% VAT)
+Curacao
+Cyprus (19.0% VAT)
+Czechia (21.0% VAT)
+Denmark (25.0% VAT)
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt (14.0% VAT)
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia (24.0% VAT)
+Eswatini
+Ethiopia
+Falkland Islands
+Faroe Islands
+Fiji
+Finland (25.5% VAT)
+France (20.0% VAT)
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany (19.0% VAT)
+Ghana
+Gibraltar
+Greece (24.0% VAT)
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald Islands
+Honduras
+Hongkong
+Hungary (27.0% VAT)
+Iceland
+India (18.0% VAT)
+Indonesia (11.0% VAT)
+Iraq
+Ireland (23.0% VAT)
+Isle of Man
+Israel
+Italy (22.0% VAT)
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan (16.0% VAT)
+Kenya
+Kiribati
+Korea, South
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia (21.0% VAT)
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania (21.0% VAT)
+Luxembourg (17.0% VAT)
+Macao
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta (18.0% VAT)
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia, Federated States of
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco (20.0% VAT)
+Mozambique
+Myanmar (Burma)
+Namibia
+Nauru
+Nepal
+Netherlands (21.0% VAT)
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Macedonia
+Northern Mariana Islands
+Norway (25.0% VAT)
+Oman
+Pakistan
+Palau
+Palestine
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland (23.0% VAT)
+Portugal (23.0% VAT)
+Puerto Rico
+Qatar
+Reunion
+Romania (21.0% VAT)
+Rwanda
+Saint Barthelemy
+Saint Helena Ascension Island Tristan da Cun
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin (French part)
+Saint Pierre and Miquelon
+Saint Vincent and The Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia (15.0% VAT)
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten (Dutch part)
+Slovakia (23.0% VAT)
+Slovenia (22.0% VAT)
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Sudan
+Spain (21.0% VAT)
+Sri Lanka
+Suriname
+Svalbard Jan Mayen
+Sweden (25.0% VAT)
+Switzerland (8.1% VAT)
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey (20.0% VAT)
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine (20.0% VAT)
+United Arab Emirates (5.0% VAT)
+United Kingdom (20.0% VAT)
+United States Minor Outlying Islands
+United States of America
+Uruguay
+Uzbekistan (12.0% VAT)
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Virgin Islands (British)
+Virgin Islands (U.S.)
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+Currency Your account will be fixed to the currency you choose when ordering.
+$ U.S. Dollar
+€ Euro
+$ U.S. Dollar
+£ Pound
+Save Settings
+Help
+Login
+Sign Up
+VPS
+Core VPS
+Affordable Virtual Private Servers
+Performance VPS
+High-Performance AI-Ready Virtual Private Servers
+Max Performance VPS
+Virtual Dedicated Servers with full separation
+Storage VPS
+Large SSD Storage
+Windows VPS
+APPS & PANELS
+OpenClaw
+n8n
+Nextcloud
+WireGuard
+GitLab CE
+New! Hermes AI
+New! Paperclip AI
+New! Dokploy
+New! Coolify
+Plesk VPS
+cPanel VPS
+FEATURES
+Auto Backup
+Private Networking
+Custom Images
+Contabo API
+Contabo CLI
+Cloud Init
+Dedicated Server
+Bare Metal Servers with Raw Computing Power
+Server Deals
+Discounted Dedicated Servers
+Max Performance VPS
+Virtual Dedicated Servers with full separation
+GPU VPS
+Dedicated NVIDIA RTX PRO 6000.
+AI Training & Inference
+Fine-tune and serve your models.
+Video Rendering
+ISV-certified. No render queue.
+Scientific Computing & HPC
+Single-node CFD, MD & FEM.
+Managed GPU
+Multi-GPU clusters by vshosting.
+Apps & Panels
+OpenClaw
+AI Assistant that Actually Does Stuff.
+n8n
+Automate everything. Host it yourself.
+Nextcloud
+Collaboration. Storage. Freedom. On your server.
+Wireguard
+Privacy first. Speed included.
+GitLab CE
+Your self-hosted DevOps platform.
+New! Paperclip AI Hosting
+Deploy and manage your own apps.
+New! Dokploy Hosting
+Orchestrate AI agents on your server.
+New! Hermes AI Hosting
+Your own AI agent. Private and always on.
+New! Coolify
+Deploy Docker Apps
+DeepSeek Hosting
+Own AI. Full Control.
+Plesk
+Webhosting made simple. With Plesk.
+cPanel
+All your hosting tools. One control panel.
+Crypto Solutions
+Blockchain power. Private and reliable.
+More
+Domains
+Your name. Your domain.
+GPU Solutions
+Power for AI, Rendering, Compute.
+CDN Hosting
+Slow loads? Add CDN. Speed up.
+Pricing
+Company
+About us
+Global reach. Local performance.
+Location Overview
+Global reach. Local performance.
+Join our Team
+Work with us. Grow with us.
+Support Experience
+Real people. Real answers.
+ALL REGIONS
+European Union
+United Kingdom
+United States
+Singapore
+Japan
+India
+Australia
+SUPPORT EXPERIENCE
+Contabo HelpDesk
+Contact Support
+Contact Sales Assistance
+Server Status
+Order Status
+Tutorials / Blog
+Abuse
+Menu
+VPS
+Core VPS
+Affordable Virtual Private Servers
+Performance VPS
+High-Performance AI-Ready Virtual Private Servers
+Max Performance VPS
+Virtual Dedicated Servers with full separation
+Storage VPS
+Large SSD Storage
+Windows VPS
+APPS & PANELS
+OpenClaw
+n8n
+Nextcloud
+WireGuard
+GitLab CE
+New! Hermes AI
+New! Paperclip AI
+New! Dokploy
+New! Coolify
+Plesk VPS
+cPanel VPS
+FEATURES
+Auto Backup
+Private Networking
+Custom Images
+Contabo API
+Contabo CLI
+Cloud Init
+Dedicated Server
+Bare Metal Servers with Raw Computing Power
+Server Deals
+Discounted Dedicated Servers
+Max Performance VPS
+Virtual Dedicated Servers with full separation
+GPU VPS
+Dedicated NVIDIA RTX PRO 6000.
+AI Training & Inference
+Fine-tune and serve your models.
+Video Rendering
+ISV-certified. No render queue.
+Scientific Computing & HPC
+Single-node CFD, MD & FEM.
+Managed GPU
+Multi-GPU clusters by vshosting.
+Apps & Panels
+OpenClaw
+AI Assistant that Actually Does Stuff.
+n8n
+Automate everything. Host it yourself.
+Nextcloud
+Collaboration. Storage. Freedom. On your server.
+Wireguard
+Privacy first. Speed included.
+GitLab CE
+Your self-hosted DevOps platform.
+New! Paperclip AI Hosting
+Deploy and manage your own apps.
+New! Dokploy Hosting
+Orchestrate AI agents on your server.
+New! Hermes AI Hosting
+Your own AI agent. Private and always on.
+New! Coolify
+Deploy Docker Apps
+DeepSeek Hosting
+Own AI. Full Control.
+Plesk
+Webhosting made simple. With Plesk.
+cPanel
+All your hosting tools. One control panel.
+Crypto Solutions
+Blockchain power. Private and reliable.
+More
+Domains
+Your name. Your domain.
+GPU Solutions
+Power for AI, Rendering, Compute.
+CDN Hosting
+Slow loads? Add CDN. Speed up.
+Pricing
+Company
+About us
+Global reach. Local performance.
+Location Overview
+Global reach. Local performance.
+Join our Team
+Work with us. Grow with us.
+Support Experience
+Real people. Real answers.
+ALL REGIONS
+European Union
+United Kingdom
+United States
+Singapore
+Japan
+India
+Australia
+SUPPORT EXPERIENCE
+Contabo HelpDesk
+Contact Support
+Contact Sales Assistance
+Server Status
+Order Status
+Tutorials / Blog
+Abuse
+Locale Settings $
+Locale Settings
+Languages
+English
+German
+Spanish
+Country (Tax Purposes Only)
+Afghanistan
+Aland Islands
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia (10.0% VAT)
+Austria (20.0% VAT)
+Azerbaijan (18.0% VAT)
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium (21.0% VAT)
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bonaire, Sint Eustatius, Saba
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei
+Bulgaria (20.0% VAT)
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo (Brazzaville)
+Congo, Democratic Republic of the
+Cook Islands
+Costa Rica
+Cote d'Ivoire
+Croatia (25.0% VAT)
+Curacao
+Cyprus (19.0% VAT)
+Czechia (21.0% VAT)
+Denmark (25.0% VAT)
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt (14.0% VAT)
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia (24.0% VAT)
+Eswatini
+Ethiopia
+Falkland Islands
+Faroe Islands
+Fiji
+Finland (25.5% VAT)
+France (20.0% VAT)
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany (19.0% VAT)
+Ghana
+Gibraltar
+Greece (24.0% VAT)
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald Islands
+Honduras
+Hongkong
+Hungary (27.0% VAT)
+Iceland
+India (18.0% VAT)
+Indonesia (11.0% VAT)
+Iraq
+Ireland (23.0% VAT)
+Isle of Man
+Israel
+Italy (22.0% VAT)
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan (16.0% VAT)
+Kenya
+Kiribati
+Korea, South
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia (21.0% VAT)
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania (21.0% VAT)
+Luxembourg (17.0% VAT)
+Macao
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta (18.0% VAT)
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia, Federated States of
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco (20.0% VAT)
+Mozambique
+Myanmar (Burma)
+Namibia
+Nauru
+Nepal
+Netherlands (21.0% VAT)
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Macedonia
+Northern Mariana Islands
+Norway (25.0% VAT)
+Oman
+Pakistan
+Palau
+Palestine
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland (23.0% VAT)
+Portugal (23.0% VAT)
+Puerto Rico
+Qatar
+Reunion
+Romania (21.0% VAT)
+Rwanda
+Saint Barthelemy
+Saint Helena Ascension Island Tristan da Cun
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin (French part)
+Saint Pierre and Miquelon
+Saint Vincent and The Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia (15.0% VAT)
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten (Dutch part)
+Slovakia (23.0% VAT)
+Slovenia (22.0% VAT)
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Sudan
+Spain (21.0% VAT)
+Sri Lanka
+Suriname
+Svalbard Jan Mayen
+Sweden (25.0% VAT)
+Switzerland (8.1% VAT)
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey (20.0% VAT)
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine (20.0% VAT)
+United Arab Emirates (5.0% VAT)
+United Kingdom (20.0% VAT)
+United States Minor Outlying Islands
+United States of America
+Uruguay
+Uzbekistan (12.0% VAT)
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Virgin Islands (British)
+Virgin Islands (U.S.)
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+Currency Your account will be fixed to the currency you choose when ordering.
+$ U.S. Dollar
+€ Euro
+$ U.S. Dollar
+£ Pound
+Save Settings
+Ready for Black Friday at Contabo?
+Trustpilot
+High-value hosting that delivers.
+Sign up to our newsletter to get a reminder.
+Name
+Email
+Submit
+The privacy statement holds information on the involved data processing and right to withdraw consent.
+Thank you for subscribing to our newsletter. We will shortly send you an email
+to the address you submitted. That email will contain a confirmation link to
+complete your newsletter subscription.
+Something went wrong :(
+While you're waiting...
+Even our regular prices offer better value than most deals you'll find elsewhere. Check out your server options below.
+Core VPS
+Smart pricing for everyday projects
+from €5.50
+40 / month
+Including VAT Excluding VAT
+for the first 24 months
+Virtual Private Servers
+Proven infrastructure from 4 vCPUs, 8 GB RAM & 100 GB SSD.
+Performance VPS
+AI-ready for modern workloads
+from €13.50
+10
+80 / month
+Including VAT Excluding VAT
+for the first 24 months
+View all Performance VPS
+Latest AMD EPYC from 4 vCPUs, 8 GB RAM & 150 GB NVMe.
+Max Performance VPS
+Dedicated resources for heavy loads
+from €54.00
+43
+20 / month
+Including VAT Excluding VAT
+for the first 24 months
+View all Max Performance VPS
+No noisy neighbors. VDS from 24 GB RAM & 180 GB NVMe.
+190
+Countries Served
+900+
+US Bare Metal Servers
+575,000+
+Servers Running
+23 Years
+In business
+9 Regions 11 Locations Global Availability
+From the USA to the UK, from Europe to Asia and Australia, choose your ideal VPS hosting location for low latency worldwide.
+Keep in touch
+Latest News and Deals from us. No spam guarantee!
+Email
+Subscribe
+The privacy statement holds information on the involved data processing and right to withdraw consent.
+Thank you for subscribing to our newsletter. We will shortly send you an email
+to the address you submitted. That email will contain a confirmation link to
+complete your newsletter subscription.
+Something went wrong :(
+Products
+Cloud VPS
+Cloud VDS (Virtual Dedicated Server)
+Dedicated Servers
+Server Deals
+Storage VPS
+Private Networking
+Contabo API
+Contabo CLI
+Custom Images
+Cloud Init
+Domains
+Windows VPS
+cPanel VPS
+Forex VPS
+GPU Solutions
+Pricing
+Solutions
+Crypto Solutions
+cPanel
+Plesk
+Windows
+DDOS Protection
+CI/CD Pipelines
+Database Hosting
+eCommerce Hosting
+Nextcloud
+Self-Hosted Mail
+CDN from vshosting
+Locations
+Location Overview
+Europe
+United Kingdom
+United States
+Singapore
+Japan
+Australia
+India
+Company
+About Us
+Sustainability
+Join our Team
+Terms and Conditions
+Privacy
+Legal Notice
+Affiliate Program
+Blog
+Location Overview
+Contact & Help
+Support
+Sales
+Tutorials
+FAQ
+Server Status
+Order Status
+Abuse
+Cloud VPS and Bare Metal Servers for Less
+Privacy
+Protected
+Secure
+Checkout
+© Contabo 2003 - 2025
+Leave your details here and we'll notify you when GPU VPS becomes available.
+Email
+Name
+Notify me
+All set! We'll notify you as soon as GPU VPS is available again.
+Something went wrong. Please try again.
