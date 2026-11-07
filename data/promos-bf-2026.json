@@ -1,12 +1,12 @@
 {
- "checked": "2026-10-31",
+ "checked": "2026-11-07",
  "season": "Black Friday / Cyber Monday 2026",
  "sale_window": {
   "start": "2026-10-19",
   "end": "2026-12-14",
   "quote": "The Hostinger Black Friday sale runs from October 19 to December 14, 2026.",
   "source": "https://www.hostinger.com/black-friday",
-  "checked": "2026-10-31"
+  "checked": "2026-11-07"
  },
  "no_prepay_note": "Cheapest verified, in-stock plan per RAM tier in plans.json that bills monthly with no commitment (deal vendor excluded). OVHcloud re-read 2026-10-31 on the OVH US public catalog API: default monthly pricing, no commitment.",
  "deals": [
@@ -34,7 +34,7 @@
    "includes": "free weekly backups",
    "quote": "Today you pay $155.76 for 24 months. Renews at $11.99/mo for the same term.",
    "source": "https://www.hostinger.com/vps-hosting",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_hostinger_com_vps_hosting.txt"
   },
   {
@@ -61,7 +61,7 @@
    "includes": "free weekly backups",
    "quote": "Today you pay $210.96 for 24 months. Renews at $14.99/mo for the same term.",
    "source": "https://www.hostinger.com/vps-hosting",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_hostinger_com_vps_hosting.txt"
   },
   {
@@ -88,7 +88,7 @@
    "includes": "free weekly backups",
    "quote": "Today you pay $311.76 for 24 months. Renews at $28.99/mo for the same term.",
    "source": "https://www.hostinger.com/vps-hosting",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_hostinger_com_vps_hosting.txt"
   },
   {
@@ -115,7 +115,7 @@
    "includes": "free weekly backups",
    "quote": "Today you pay $623.76 for 24 months. Renews at $49.99/mo for the same term.",
    "source": "https://www.hostinger.com/vps-hosting",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_hostinger_com_vps_hosting.txt"
   },
   {
@@ -141,7 +141,7 @@
    "includes": "1 IPv4, 1 Gbps port",
    "quote": "1 GB KVM VPS $ 21.99 /year",
    "source": "https://www.racknerd.com/specials/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_racknerd_com_specials_.txt"
   },
   {
@@ -167,7 +167,7 @@
    "includes": "1 IPv4, 1 Gbps port",
    "quote": "2 GB KVM VPS $ 35.99 /year",
    "source": "https://www.racknerd.com/specials/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_racknerd_com_specials_.txt"
   },
   {
@@ -193,7 +193,7 @@
    "includes": "1 IPv4, 1 Gbps port",
    "quote": "4 GB KVM VPS $ 59.99 /year",
    "source": "https://www.racknerd.com/specials/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_racknerd_com_specials_.txt"
   },
   {
@@ -219,7 +219,7 @@
    "includes": "1 IPv4, 1 Gbps port",
    "quote": "6 GB KVM VPS $ 89.99 /year",
    "source": "https://www.racknerd.com/specials/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_racknerd_com_specials_.txt"
   },
   {
@@ -245,7 +245,7 @@
    "includes": "1 IPv4, 1 Gbps port",
    "quote": "8 GB KVM VPS $ 119.99 /year",
    "source": "https://www.racknerd.com/specials/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_racknerd_com_specials_.txt"
   },
   {
@@ -271,7 +271,7 @@
    "includes": "managed, backups, dedicated IP",
    "quote": "Build #1 2 cores / 4 GB / 50 GB $54.95/mo $22.46/mo",
    "source": "https://www.scalahosting.com/blog/black-friday-web-hosting-2026/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_scalahosting_com_blog_black_friday_web_hosting_2026_.txt"
   },
   {
@@ -297,7 +297,7 @@
    "includes": "managed, backups, dedicated IP",
    "quote": "Build #1 2 cores / 4 GB / 50 GB $54.95/mo $22.46/mo (59% off) $29.95/mo",
    "source": "https://www.scalahosting.com/blog/black-friday-web-hosting-2026/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_scalahosting_com_blog_black_friday_web_hosting_2026_.txt"
   },
   {
@@ -323,7 +323,7 @@
    "includes": "managed, backups, dedicated IP",
    "quote": "Build #2 4 cores / 8 GB / 100 GB $96.95/mo $33.71/mo",
    "source": "https://www.scalahosting.com/blog/black-friday-web-hosting-2026/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_scalahosting_com_blog_black_friday_web_hosting_2026_.txt"
   },
   {
@@ -349,7 +349,7 @@
    "includes": "managed, backups, dedicated IP",
    "quote": "Build #2 4 cores / 8 GB / 100 GB $96.95/mo $33.71/mo (65% off) $61.95/mo",
    "source": "https://www.scalahosting.com/blog/black-friday-web-hosting-2026/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_scalahosting_com_blog_black_friday_web_hosting_2026_.txt"
   },
   {
@@ -375,7 +375,7 @@
    "includes": "managed, backups, dedicated IP",
    "quote": "Build #3 8 cores / 16 GB / 150 GB $170.95/mo $52.46/mo",
    "source": "https://www.scalahosting.com/blog/black-friday-web-hosting-2026/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_scalahosting_com_blog_black_friday_web_hosting_2026_.txt"
   },
   {
@@ -401,7 +401,7 @@
    "includes": "managed, backups, dedicated IP",
    "quote": "Build #3 8 cores / 16 GB / 150 GB $170.95/mo $52.46/mo (69% off) $115.95/mo",
    "source": "https://www.scalahosting.com/blog/black-friday-web-hosting-2026/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_scalahosting_com_blog_black_friday_web_hosting_2026_.txt"
   },
   {
@@ -427,7 +427,7 @@
    "includes": "KVM, dedicated IP",
    "quote": "$17.49 first month",
    "source": "https://awakehost.com/black-friday/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/awakehost_com_black_friday_.txt"
   },
   {
@@ -453,7 +453,7 @@
    "includes": "KVM, dedicated IP",
    "quote": "$34.99 first month",
    "source": "https://awakehost.com/black-friday/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/awakehost_com_black_friday_.txt"
   },
   {
@@ -479,7 +479,7 @@
    "includes": "KVM, dedicated IP",
    "quote": "$69.99 first month",
    "source": "https://awakehost.com/black-friday/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/awakehost_com_black_friday_.txt"
   },
   {
@@ -505,7 +505,7 @@
    "includes": "KVM, dedicated IP",
    "quote": "$139.99 first month",
    "source": "https://awakehost.com/black-friday/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/awakehost_com_black_friday_.txt"
   },
   {
@@ -531,7 +531,7 @@
    "includes": "unmetered bandwidth",
    "quote": "For 24 month term, Due Today: $ 227.76",
    "source": "https://www.bluehost.com/vps-hosting",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_bluehost_com_vps_hosting.txt"
   },
   {
@@ -557,7 +557,7 @@
    "includes": "unmetered bandwidth",
    "quote": "For 24 month term, Due Today: $ 311.76",
    "source": "https://www.bluehost.com/vps-hosting",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_bluehost_com_vps_hosting.txt"
   },
   {
@@ -583,7 +583,7 @@
    "includes": "unmetered bandwidth",
    "quote": "For 24 month term, Due Today: $ 623.76",
    "source": "https://www.bluehost.com/vps-hosting",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/www_bluehost_com_vps_hosting.txt"
   },
   {
@@ -609,7 +609,7 @@
    "includes": "unlimited bandwidth, Utah USA",
    "quote": "$86.28 $60.40 first year",
    "source": "https://devoster.com/black-friday/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/devoster_com_black_friday_.txt"
   },
   {
@@ -635,7 +635,7 @@
    "includes": "unlimited bandwidth, Utah USA",
    "quote": "$151.08 $105.76 first year",
    "source": "https://devoster.com/black-friday/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/devoster_com_black_friday_.txt"
   },
   {
@@ -661,8 +661,89 @@
    "includes": "unlimited bandwidth, Utah USA",
    "quote": "$269.88 $188.92 first year",
    "source": "https://devoster.com/black-friday/",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "snapshot": "snapshots/devoster_com_black_friday_.txt"
+  },
+  {
+   "provider_id": "vm6",
+   "provider": "VM6",
+   "plan": "UK EPYC E4",
+   "vcpu": 2,
+   "ram_gb": 4,
+   "disk_gb": 60,
+   "disk": "NVMe",
+   "transfer_tb": 5,
+   "status": "live",
+   "label": "Black Friday (ends Mon 30 Nov 2026 23:59 GMT), code BFVPS55 yearly",
+   "sale_mo": 3.01,
+   "strike_mo": 6.69,
+   "term_months": 12,
+   "pay_today": 36.14,
+   "renew_mo": 3.01,
+   "renew_months": 12,
+   "renew_total": 36.14,
+   "renews_same": "yes",
+   "renew_quote": "Price locked: renews at this price for as long as you keep it.",
+   "renew_assumption": "Renews yearly at the same £27 (USD = GBP × Frankfurter 1.3385 on 2026-11-06 (https://api.frankfurter.dev/v1/latest?base=GBP&symbols=USD)); vendor: price locked while you keep it. Code BFVPS55, new orders, one code per customer, 14-day money-back.",
+   "includes": "2 vCPU · AMD EPYC 7642 · 4 GB ECC DDR4 · 60 GB NVMe · 5 TB · Norwich UK · 1 IPv4; list £27/yr (was £60/yr); USD = GBP × Frankfurter 1.3385 on 2026-11-06 (https://api.frankfurter.dev/v1/latest?base=GBP&symbols=USD)",
+   "quote": "£27 a year",
+   "source": "https://www.vm6.co.uk/promotions",
+   "checked": "2026-11-07",
+   "snapshot": "snapshots/www_vm6_co_uk_promotions.txt"
+  },
+  {
+   "provider_id": "vm6",
+   "provider": "VM6",
+   "plan": "UK EPYC E8",
+   "vcpu": 4,
+   "ram_gb": 8,
+   "disk_gb": 120,
+   "disk": "NVMe",
+   "transfer_tb": 8,
+   "status": "live",
+   "label": "Black Friday (ends Mon 30 Nov 2026 23:59 GMT), code BFVPS55 yearly",
+   "sale_mo": 5.42,
+   "strike_mo": 12.05,
+   "term_months": 12,
+   "pay_today": 65.05,
+   "renew_mo": 5.42,
+   "renew_months": 12,
+   "renew_total": 65.05,
+   "renews_same": "yes",
+   "renew_quote": "Price locked: renews at this price for as long as you keep it.",
+   "renew_assumption": "Renews yearly at the same £48.6 (USD = GBP × Frankfurter 1.3385 on 2026-11-06 (https://api.frankfurter.dev/v1/latest?base=GBP&symbols=USD)); vendor: price locked while you keep it. Code BFVPS55, new orders, one code per customer, 14-day money-back.",
+   "includes": "4 vCPU · AMD EPYC 7642 · 8 GB ECC DDR4 · 120 GB NVMe · 8 TB · Norwich UK · 1 IPv4; list £48.6/yr (was £108/yr); USD = GBP × Frankfurter 1.3385 on 2026-11-06 (https://api.frankfurter.dev/v1/latest?base=GBP&symbols=USD)",
+   "quote": "£48.60 a year",
+   "source": "https://www.vm6.co.uk/promotions",
+   "checked": "2026-11-07",
+   "snapshot": "snapshots/www_vm6_co_uk_promotions.txt"
+  },
+  {
+   "provider_id": "vm6",
+   "provider": "VM6",
+   "plan": "UK EPYC E16",
+   "vcpu": 6,
+   "ram_gb": 16,
+   "disk_gb": 240,
+   "disk": "NVMe",
+   "transfer_tb": 12,
+   "status": "live",
+   "label": "Black Friday (ends Mon 30 Nov 2026 23:59 GMT), code BFVPS55 yearly",
+   "sale_mo": 10.24,
+   "strike_mo": 22.75,
+   "term_months": 12,
+   "pay_today": 122.87,
+   "renew_mo": 10.24,
+   "renew_months": 12,
+   "renew_total": 122.87,
+   "renews_same": "yes",
+   "renew_quote": "Price locked: renews at this price for as long as you keep it.",
+   "renew_assumption": "Renews yearly at the same £91.8 (USD = GBP × Frankfurter 1.3385 on 2026-11-06 (https://api.frankfurter.dev/v1/latest?base=GBP&symbols=USD)); vendor: price locked while you keep it. Code BFVPS55, new orders, one code per customer, 14-day money-back.",
+   "includes": "6 vCPU · AMD EPYC 7642 · 16 GB ECC DDR4 · 240 GB NVMe · 12 TB · Norwich UK · 1 IPv4; list £91.8/yr (was £204/yr); USD = GBP × Frankfurter 1.3385 on 2026-11-06 (https://api.frankfurter.dev/v1/latest?base=GBP&symbols=USD)",
+   "quote": "£91.80 a year",
+   "source": "https://www.vm6.co.uk/promotions",
+   "checked": "2026-11-07",
+   "snapshot": "snapshots/www_vm6_co_uk_promotions.txt"
   }
  ],
  "alternatives": {
@@ -833,9 +914,9 @@
   },
   {
    "provider": "JustVPS",
-   "status": "not verified",
+   "status": "not verified / no official price page",
    "url": "https://justvps.com/",
-   "note": "Third-party sites report codes 1111J50 (50% off first term) and 1111J40 (40% off, recurring). We could not find them on justvps.com on Oct 31, so we list no price.",
+   "note": "Re-checked justvps.com on 2026-11-07: marketing site still has no 1111J50 / 1111J40 (or any Black Friday price list). Third-party blogs report 1111J50 (50% off first term) and 1111J40 (40% off, recurring), but we list no price until a vendor page or cart shows them.",
    "renews_same": "unknown"
   },
   {

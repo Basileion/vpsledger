@@ -1,0 +1,424 @@
+# Source: https://www.vm6.co.uk/promotions
+# Read: 2026-11-07 05:15 ET (curl)
+# Note: Black Friday 2026 VM6 Networks promotions page. GBP list prices; USD in ledger via Frankfurter.
+
+Black Friday 2026: Up to 60% Off VPS & Web Hosting | VM6 Networks
+Skip to content
+Looking Glass
+Service Status
+Client Login
+Register
+VM6
+Networks
+Home
+Web Hosting
+cPanel Hosting
+LiteSpeed · CloudLinux
+UK Web Hosting
+Fast cPanel alternative
+Reseller Hosting
+White-label + WHMCS Module
+VPS Hosting
+Forex VPS Hosting
+From 2.9 ms to London MT5
+Performance VPS Hosting
+Ryzen 9 9950X · from £6/mo
+Enterprise VPS Hosting
+AMD EPYC · ECC · from £5/mo
+Budget VPS Hosting
+Intel Xeon · from £1.75/mo
+Managed VPS add-on
+We monitor · patch · respond
+Dedicated Servers
+Company
+About VM6
+Our Datacentres
+Promotions
+Affiliate Programme
+Our Blog
+Webdeck Panel
+Knowledgebase
+Service Status
+Report Abuse
+Contact Us
+0
+Deploy a VPS
+VM6
+Networks
+Home
+Web Hosting
+cPanel Hosting
+UK Web Hosting
+Reseller Hosting
+VPS Hosting
+Forex VPS Hosting
+Performance VPS Hosting
+Enterprise VPS Hosting
+Budget VPS Hosting
+Managed VPS add-on
+Dedicated Servers
+Company
+About VM6
+Our Datacentres
+Promotions
+Affiliate Programme
+Our Blog
+Webdeck Panel
+Knowledgebase
+Service Status
+Contact Us
+Deploy a VPS
+Sign in to client area
+Switch theme
+Service status
+Looking glass
+Home
+Company
+Promotions
+Black Friday 2026 · Early access · Limited stock
+Black Friday:
+up to 60% off VPS & web hosting
+AMD EPYC 7642 servers with
+ECC memory, NVMe storage and a 10 Gbps port
+. Get
+55% off yearly
+or
+60% off 2-year
+billing on our E4, E8 and E16 plans, plus
+60% off yearly web hosting
+from £2.40 a year. When they're gone, they're gone.
+Deals end Monday 30 November, 23:59 GMT
+--
+Days
+--
+Hours
+--
+Mins
+--
+Secs
+VPS deals
+Web hosting deals
+VM6 NETWORKS
+BF·2026
+Up to
+60
+%
+off UK VPS & web hosting
+EPYC E4 · 4 GB · yearly
+£27
+EPYC E8 · 8 GB · yearly
+£48.60
+EPYC E16 · 16 GB · yearly
+£91.80
+Web hosting · yearly
+from £2.40
+60%
+off 2-year plans
+55%
+off yearly plans
+10 Gbps
+port on every plan
+£2.40
+a year web hosting
+Black Friday deals
+EPYC VPS: pick your plan, pick your term
+AMD EPYC VPS in Norwich. 55% off yearly, or switch to 2 years for 60% off. Each plan has a fixed number of slots at these prices.
+Pay yearly
+55% off
+Pay 2 years
+60% off
+UK EPYC E4
+Websites, bots, VPNs and dev boxes
+Limited
+Normally
+£60
+a year
+£27
+a year
+Just £2.25/month
+Save £33
+Normally
+£120
+for 2 years
+£48
+for 2 years
+Just £2.00/month
+Save £72
+2 vCPU · AMD EPYC 7642
+4 GB ECC DDR4
+60 GB NVMe
+5 TB at 10 Gbps
+Norwich, UK · 1 IPv4
+Code
+BFVPS55
+Copy
+Code
+BFVPS60
+Copy
+Claim E4 deal
+Price locked:
+renews at this price for as long as you keep it.
+Best value
+UK EPYC E8
+Busy sites, game panels and databases
+Limited
+Normally
+£108
+a year
+£48.60
+a year
+Just £4.05/month
+Save £59.40
+Normally
+£216
+for 2 years
+£86.40
+for 2 years
+Just £3.60/month
+Save £129.60
+4 vCPU · AMD EPYC 7642
+8 GB ECC DDR4
+120 GB NVMe
+8 TB at 10 Gbps
+Norwich, UK · 1 IPv4
+Code
+BFVPS55
+Copy
+Code
+BFVPS60
+Copy
+Claim E8 deal
+Price locked:
+renews at this price for as long as you keep it.
+UK EPYC E16
+Business apps, CI runners and heavy workloads
+Limited
+Normally
+£204
+a year
+£91.80
+a year
+Just £7.65/month
+Save £112.20
+Normally
+£408
+for 2 years
+£163.20
+for 2 years
+Just £6.80/month
+Save £244.80
+6 vCPU · AMD EPYC 7642
+16 GB ECC DDR4
+240 GB NVMe
+12 TB at 10 Gbps
+Norwich, UK · 1 IPv4
+Code
+BFVPS55
+Copy
+Code
+BFVPS60
+Copy
+Claim E16 deal
+Price locked:
+renews at this price for as long as you keep it.
+Your Black Friday price is locked in: plans renew at the same discounted price (yearly or every 2 years, depending on the code) for as long as the service stays active. Each code works once per customer, on new orders, and can't be combined with other codes. Deals end 23:59 GMT on Monday 30 November 2026 or when stock runs out. Our
+14-day money-back guarantee
+still applies.
+Black Friday web hosting
+60% off a year of web hosting
+UK web hosting on fast NVMe storage and DDR5, with our WebDeck control panel, free SSL and daily backups. One code,
+BFWD26
+, works on every plan when you pay yearly.
+Web Starter
+One website, email and a blog
+60% off
+Normally
+£6
+a year
+£2.40
+a year
+Just 20p/month
+Save £3.60
+1 website
+2 GB NVMe
+1,500 GB traffic
+10 email accounts
+10 databases
+Free SSL · daily backups
+Code
+BFWD26
+Copy
+Claim Starter deal
+Price locked:
+renews at this price for as long as you keep it.
+Most popular
+Web Business
+Small businesses and a few sites
+60% off
+Normally
+£24
+a year
+£9.60
+a year
+Just 80p/month
+Save £14.40
+3 websites
+5 GB NVMe
+Unmetered traffic
+25 email accounts
+20 databases
+AI website builder
+Code
+BFWD26
+Copy
+Claim Business deal
+Price locked:
+renews at this price for as long as you keep it.
+Web Pro
+Agencies, shops and busy sites
+60% off
+Normally
+£54
+a year
+£21.60
+a year
+Just £1.80/month
+Save £32.40
+5 websites
+20 GB NVMe
+Unmetered traffic
+Unlimited email accounts
+50 databases
+Dedicated IP · top priority support
+Code
+BFWD26
+Copy
+Claim Pro deal
+Price locked:
+renews at this price for as long as you keep it.
+60% off with code BFWD26 on yearly billing, and your price is locked in: plans renew at the same discounted price for as long as the service stays active. One code per order; ends 23:59 GMT on Monday 30 November 2026. Free migration and our
+14-day money-back guarantee
+still apply.
+Full web hosting details
+.
+How to claim
+Four steps to your Black Friday deal
+Pick a plan
+Choose a VPS or web hosting plan above and click Claim.
+Choose your term
+Select Annually (or Biennially for the 2-year VPS deal). The code only works on the matching term.
+Enter the code
+Paste your code into the "Promotional Code" box in the basket and click Validate.
+Deploy
+Pay and your VPS is usually online within minutes.
+Prefer paying monthly?
+DEPLOY50: half-price first month, all year round
+Not after a yearly plan? Use
+DEPLOY50
+for 50% off the first month on any Forex, Performance or Enterprise VPS.
+50% off month one
+Forex VPS Hosting
+From 2.9 ms to London MT5 on the Ryzen 9 9950X. Ideal for MT4, MT5 and prop-firm challenges.
+£13
+£6.50
+first month · UK FX 4G
+Basingstoke (Hampshire) · from £3.50 first month
+Choose a Forex plan
+50% off month one
+Performance VPS Hosting
+Ryzen 9 9950X, DDR5, NVMe and a 10 Gbps port for websites, games and apps.
+£11
+£5.50
+first month · UK AMD G4
+Coventry (Midlands) · from £3 first month
+Choose a Performance plan
+50% off month one
+Enterprise VPS Hosting
+AMD EPYC with ECC memory and a 10 Gbps port for databases and business apps.
+£5
+£2.50
+first month · UK EPYC E4
+Norwich (East of England) · from £2.50 first month
+Choose an Enterprise plan
+DEPLOY50 applies to the first month only; renewals are at the normal plan price. Not valid on the
+Budget range
+, which already starts at £1.75 a month.
+FAQ
+Black Friday: frequently asked questions
+What are the Black Friday 2026 deals?
+55% off yearly (code
+BFVPS55
+) or 60% off 2-year billing (code
+BFVPS60
+) on our
+UK EPYC
+E4, E8 and E16 VPS plans, plus 60% off yearly billing on any
+web hosting
+plan with code BFWD26.
+When do the Black Friday deals end?
+At 23:59 GMT on Monday 30 November 2026, or earlier if a plan sells out. Stock is limited and we won't add more once it's gone.
+Will my price go up when it renews?
+No. Your Black Friday price is locked in. The plan renews at the same discounted price, yearly or every 2 years depending on the code, for as long as you keep it active.
+Can existing customers use the Black Friday codes?
+Yes. Each code can be used once per customer, on a new order.
+Can I combine a Black Friday code with DEPLOY50?
+No. One promo code can be used per order.
+Where are the EPYC servers?
+In our Norwich datacentre in the East of England, on AMD EPYC 7642 hardware with ECC memory, NVMe storage and a 10 Gbps port.
+What if the code doesn't work?
+Check the billing cycle matches the code: BFVPS55 and BFWD26 need
+Annually
+, BFVPS60 needs
+Biennially
+. If it still won't apply,
+open a ticket
+and we'll sort it out.
+Black Friday stock is limited
+Up to 60% off UK EPYC VPS and web hosting. Once the slots are gone, these prices are gone too.
+Grab a deal
+Ask a question
+VM6
+Networks
+Independent UK hosting. AMD Ryzen 9 and EPYC nodes in UK datacentres, built and supported by the engineers who run them.
+VM6 Networks Ltd · Company No. 16553775
+Registered in England & Wales
+Hosting
+UK VPS Hosting
+Enterprise VPS
+WordPress VPS
+High-Traffic Hosting
+Game Server VPS
+Dedicated Servers
+UK Budget Hosting
+Specialist
+Docker VPS
+Linux VPS
+DirectAdmin VPS
+VPN & Proxy VPS
+Student Discount
+UK Forex VPS
+UK Managed VPS
+Company
+Our Blog
+Promotions
+Affiliate Programme
+Service Status
+Looking Glass
+Support & Legal
+Submit a Ticket
+Knowledgebase
+Legal & Policies
+Terms of Service
+Refund Policy
+Privacy Policy
+Cookie Settings
+© 2026 VM6 Networks Ltd. All rights reserved.
+UK datacentres · Basingstoke · Coventry · Norwich
+Cookies
+We use essential cookies to run the site, and analytics cookies to understand how it's used.
+Analytics stay off unless you accept.
+Privacy Policy
+·
+Cookie Policy
+Reject
+Accept
