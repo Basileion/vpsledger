@@ -1,5 +1,18 @@
 [
  {
+  "date": "2026-11-07",
+  "observed": "2026-11-07",
+  "provider": "Hetzner",
+  "kind": "ledger add",
+  "summary": "Added Dedicated General Purpose CCX13/CCX23/CCX33 (EU) rows at \u20ac43.49/\u20ac86.49/\u20ac138.99 incl. IPv4 from Hetzner\u2019s General Purpose page (June list \u20ac42.99/\u20ac85.99/\u20ac138.49 excl. IPv4). Re-verified Cost-Optimized CX23/CX33 and all CAX still \u201cnot available\u201d. Guide gains CCX table + Don\u2019t-do-this keep/rescale/move list backed by Hetzner billing FAQ.",
+  "source": "https://www.hetzner.com/cloud/general-purpose",
+  "plans": [
+   "hetzner-ccx13",
+   "hetzner-ccx23",
+   "hetzner-ccx33"
+  ]
+ },
+ {
   "date": "2026-01-01",
   "observed": "2026-10-26",
   "provider": "DigitalOcean",
@@ -12,7 +25,7 @@
   "observed": "2026-10-26",
   "provider": "Hetzner",
   "kind": "availability",
-  "summary": "CX23 (€5.99/mo) shown as “not available” / currently unavailable in listed locations.",
+  "summary": "CX23 (\u20ac5.99/mo) shown as \u201cnot available\u201d / currently unavailable in listed locations.",
   "source": "https://www.hetzner.com/cloud/cost-optimized"
  },
  {
@@ -38,7 +51,7 @@
   "observed": "2026-10-26",
   "provider": "OVHcloud",
   "kind": "lineup",
-  "summary": "“VPS 2027” range listed, VPS-1 from $4.54/mo (2 vCore, 4 GB).",
+  "summary": "\u201cVPS 2027\u201d range listed, VPS-1 from $4.54/mo (2 vCore, 4 GB).",
   "source": "https://www.ovhcloud.com/en/vps/"
  },
  {
@@ -46,7 +59,7 @@
   "observed": "2026-10-26",
   "provider": "Linode / Akamai",
   "kind": "transfer",
-  "summary": "G8 and GPU plans do not include bundled transfer; older plans include 0–20 TB.",
+  "summary": "G8 and GPU plans do not include bundled transfer; older plans include 0\u201320 TB.",
   "source": "https://www.linode.com/pricing/"
  },
  {
@@ -91,7 +104,7 @@
   "provider": "UpCloud",
   "kind": "correction",
   "plan_id": "upcloud-starter-1-gb",
-  "summary": "Correction: the $3.50 UpCloud row was labeled “Developer 1 GB”, a plan UpCloud now lists as discontinued. Renamed to the orderable Starter 1 GB ($3.50, 250 Mbit/s, max 5 per customer), Premium 1 GB ($6) verified and Starter 4 GB / 2 vCPU ($14) added, all re-read from UpCloud’s global pricing page. UpCloud Simple Backup (+20%) is now counted when backups are on. Discontinued plans are never ranked or suggested.",
+  "summary": "Correction: the $3.50 UpCloud row was labeled \u201cDeveloper 1 GB\u201d, a plan UpCloud now lists as discontinued. Renamed to the orderable Starter 1 GB ($3.50, 250 Mbit/s, max 5 per customer), Premium 1 GB ($6) verified and Starter 4 GB / 2 vCPU ($14) added, all re-read from UpCloud\u2019s global pricing page. UpCloud Simple Backup (+20%) is now counted when backups are on. Discontinued plans are never ranked or suggested.",
   "source": "https://upcloud.com/global/pricing/"
  },
  {
@@ -100,7 +113,7 @@
   "provider": "Vultr",
   "kind": "correction",
   "plan_id": "vultr-vc2-2c-4gb",
-  "summary": "Correction: our verdicts, rankings and savings figures left out Vultr’s published 20% backup fee while the tables on the same pages included it. Vultr vc2-2c-4gb was shown as $20.00/mo “with backups” (and $106/yr cheaper than DigitalOcean); the true cost is $24.00/mo and the gap is $57.60/yr. Affected 19 pages. One fee policy now applies everywhere (every fee we hold is counted in tables, verdicts, rankings, widget and calculator), Vultr backup (20%) and overage ($0.01/GB) and Hetzner backup (20%) are now verified from official docs, and a build check fails if any verdict price differs from its own table.",
+  "summary": "Correction: our verdicts, rankings and savings figures left out Vultr\u2019s published 20% backup fee while the tables on the same pages included it. Vultr vc2-2c-4gb was shown as $20.00/mo \u201cwith backups\u201d (and $106/yr cheaper than DigitalOcean); the true cost is $24.00/mo and the gap is $57.60/yr. Affected 19 pages. One fee policy now applies everywhere (every fee we hold is counted in tables, verdicts, rankings, widget and calculator), Vultr backup (20%) and overage ($0.01/GB) and Hetzner backup (20%) are now verified from official docs, and a build check fails if any verdict price differs from its own table.",
   "source": "https://docs.vultr.com/support/platform/billing/how-much-does-it-cost-to-enable-automatic-backups"
  },
  {
@@ -109,7 +122,7 @@
   "provider": "Hetzner",
   "kind": "availability",
   "plan_id": "hetzner-cx23",
-  "summary": "Re-checked: all 8 Cost-Optimized plans (CX23, CX33, CX43, CX53, CAX11, CAX21, CAX31, CAX41) are marked “not available” (“This product is currently unavailable. Please check back later.”). Cost-Optimized is listed for eu-central NBG1/HEL1 only.",
+  "summary": "Re-checked: all 8 Cost-Optimized plans (CX23, CX33, CX43, CX53, CAX11, CAX21, CAX31, CAX41) are marked \u201cnot available\u201d (\u201cThis product is currently unavailable. Please check back later.\u201d). Cost-Optimized is listed for eu-central NBG1/HEL1 only.",
   "source": "https://www.hetzner.com/cloud/cost-optimized"
  },
  {
@@ -118,7 +131,7 @@
   "provider": "Hetzner",
   "kind": "correction",
   "plan_id": "hetzner-cx33",
-  "summary": "Correction: VPSLedger’s “Are you overpaying?” check, calculator and guides had suggested switching to Hetzner CX23/CX33 although Hetzner lists them as unavailable since our 2026-10-26 check. They are now labeled “Sold out” and “EU only” and are no longer suggested as switch targets; savings figures were recomputed from orderable plans only.",
+  "summary": "Correction: VPSLedger\u2019s \u201cAre you overpaying?\u201d check, calculator and guides had suggested switching to Hetzner CX23/CX33 although Hetzner lists them as unavailable since our 2026-10-26 check. They are now labeled \u201cSold out\u201d and \u201cEU only\u201d and are no longer suggested as switch targets; savings figures were recomputed from orderable plans only.",
   "source": "https://www.hetzner.com/cloud/cost-optimized"
  },
  {
@@ -127,7 +140,7 @@
   "provider": "Hostinger VPS",
   "kind": "correction",
   "plan_id": "hostinger-kvm-1",
-  "summary": "Correction to the Black Friday VPS guide: it bolded Hostinger as lowest for each RAM size but compared it only with Vultr and DigitalOcean, leaving out cheaper no-prepay plans in our own ledger. OVHcloud VPS-1 (2 vCPU / 4 GB, $5.35/mo, no commitment, re-read 2026-10-31) costs $64.20 / $128.40 / $192.60 over 1/2/3 years vs Hostinger KVM 1 $155.76 / $155.76 / $443.52, and OVHcloud VPS-2 (4 vCPU / 8 GB, $10/mo) is lower than KVM 2 at 1 and 3 years. The guide now adds the cheapest verified, in-stock, no-prepay plan per RAM size and a build check fails if a 'lowest' label skips a cheaper row. The 3-year column assumed a 12-month renewal Hostinger doesn't show (KVM 1 $299.64); it now uses the stated same-term renewal (24 months billed up front at month 25): KVM 1 $443.52, KVM 2 $570.72, KVM 4 $1,007.52, KVM 8 $1,823.52. Sale window Oct 19 – Dec 14, 2026 added from Hostinger's Black Friday page.",
+  "summary": "Correction to the Black Friday VPS guide: it bolded Hostinger as lowest for each RAM size but compared it only with Vultr and DigitalOcean, leaving out cheaper no-prepay plans in our own ledger. OVHcloud VPS-1 (2 vCPU / 4 GB, $5.35/mo, no commitment, re-read 2026-10-31) costs $64.20 / $128.40 / $192.60 over 1/2/3 years vs Hostinger KVM 1 $155.76 / $155.76 / $443.52, and OVHcloud VPS-2 (4 vCPU / 8 GB, $10/mo) is lower than KVM 2 at 1 and 3 years. The guide now adds the cheapest verified, in-stock, no-prepay plan per RAM size and a build check fails if a 'lowest' label skips a cheaper row. The 3-year column assumed a 12-month renewal Hostinger doesn't show (KVM 1 $299.64); it now uses the stated same-term renewal (24 months billed up front at month 25): KVM 1 $443.52, KVM 2 $570.72, KVM 4 $1,007.52, KVM 8 $1,823.52. Sale window Oct 19 \u2013 Dec 14, 2026 added from Hostinger's Black Friday page.",
   "source": "https://www.hostinger.com/vps-hosting"
  },
  {
@@ -135,7 +148,7 @@
   "observed": "2026-10-31",
   "provider": "Black Friday VPS guide",
   "kind": "update",
-  "summary": "Black Friday VPS guide now covers 5 vendors with a price read on their own page today, not just Hostinger: RackNerd VPS specials (4 GB $59.99/yr, 8 GB $119.99/yr; the vendor says they renew at the same rate), ScalaHosting managed cloud (Black Friday Oct 19 – Dec 1; Build #1 $22.46/mo on a 1-year term, renews at $54.95/mo), AwakeHost Cloud VPS (30% off the first month, code BLACKFRIDAY30, Oct 13 – Nov 30; VPS 4 $17.49 then $24.99/mo) and Bluehost (intro price, not labelled Black Friday; NVMe 4 $227.76 for 24 months, renews $11.99/mo). Devoster's announced sale (Nov 20 – Dec 2) is listed separately with its published prices. Each row now answers “Renews at the same price?” with the vendor's own words, and shows term, sale price, renewal and 1/2/3-year cash. New lowest 3-year cash: 4 GB RackNerd $179.97 (was OVHcloud VPS-1 $192.60), 8 GB RackNerd $359.97. netcup, Contabo, JustVPS, HostGator, GreenCloud and YouStable are on a watch list with no price. Next re-checks: Nov 27 and Nov 30.",
+  "summary": "Black Friday VPS guide now covers 5 vendors with a price read on their own page today, not just Hostinger: RackNerd VPS specials (4 GB $59.99/yr, 8 GB $119.99/yr; the vendor says they renew at the same rate), ScalaHosting managed cloud (Black Friday Oct 19 \u2013 Dec 1; Build #1 $22.46/mo on a 1-year term, renews at $54.95/mo), AwakeHost Cloud VPS (30% off the first month, code BLACKFRIDAY30, Oct 13 \u2013 Nov 30; VPS 4 $17.49 then $24.99/mo) and Bluehost (intro price, not labelled Black Friday; NVMe 4 $227.76 for 24 months, renews $11.99/mo). Devoster's announced sale (Nov 20 \u2013 Dec 2) is listed separately with its published prices. Each row now answers \u201cRenews at the same price?\u201d with the vendor's own words, and shows term, sale price, renewal and 1/2/3-year cash. New lowest 3-year cash: 4 GB RackNerd $179.97 (was OVHcloud VPS-1 $192.60), 8 GB RackNerd $359.97. netcup, Contabo, JustVPS, HostGator, GreenCloud and YouStable are on a watch list with no price. Next re-checks: Nov 27 and Nov 30.",
   "source": "https://vpsledger.pages.dev/guides/black-friday-vps-deals-2026"
  },
  {
@@ -144,7 +157,7 @@
   "provider": "Hetzner",
   "kind": "price increase",
   "plan_id": "hetzner-cpx22",
-  "summary": "Hetzner raised cloud prices for new orders and existing servers on 1 April 2026 (announced 23 Feb). EU, excl. VAT and IPv4: CX23 €2.99 → €3.99, CX33 €4.99 → €6.49, CPX22 €5.99 → €7.99, CPX32 €10.49 → €13.99; US: CPX11 €4.49 → €5.99, CPX21 €8.99 → €11.99. Logged late, from Hetzner's own price-adjustment page (archived copy); see /guides/hetzner-price-increase-2026.",
+  "summary": "Hetzner raised cloud prices for new orders and existing servers on 1 April 2026 (announced 23 Feb). EU, excl. VAT and IPv4: CX23 \u20ac2.99 \u2192 \u20ac3.99, CX33 \u20ac4.99 \u2192 \u20ac6.49, CPX22 \u20ac5.99 \u2192 \u20ac7.99, CPX32 \u20ac10.49 \u2192 \u20ac13.99; US: CPX11 \u20ac4.49 \u2192 \u20ac5.99, CPX21 \u20ac8.99 \u2192 \u20ac11.99. Logged late, from Hetzner's own price-adjustment page (archived copy); see /guides/hetzner-price-increase-2026.",
   "source": "https://web.archive.org/web/20260513201413/https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/"
  },
  {
@@ -153,7 +166,7 @@
   "provider": "Hetzner",
   "kind": "price increase",
   "plan_id": "hetzner-cpx22",
-  "summary": "Second 2026 increase, for new orders and any rescale only (servers ordered before keep their price; rescaling up or down, restoring a deleted server or moving it to a different-currency project switches it to the new price). EU, excl. VAT and IPv4: CPX22 €7.99 → €19.49, CPX32 €13.99 → €35.49, CX23 €3.99 → €5.49, CX33 €6.49 → €8.49; US: CPX11 €5.99 → €17.49, CPX21 €11.99 → €31.99. Logged late; VPSLedger now tracks orderable CPX22/CPX32 (EU) and CPX11/CPX21 (US). See /guides/hetzner-price-increase-2026.",
+  "summary": "Second 2026 increase, for new orders and any rescale only (servers ordered before keep their price; rescaling up or down, restoring a deleted server or moving it to a different-currency project switches it to the new price). EU, excl. VAT and IPv4: CPX22 \u20ac7.99 \u2192 \u20ac19.49, CPX32 \u20ac13.99 \u2192 \u20ac35.49, CX23 \u20ac3.99 \u2192 \u20ac5.49, CX33 \u20ac6.49 \u2192 \u20ac8.49; US: CPX11 \u20ac5.99 \u2192 \u20ac17.49, CPX21 \u20ac11.99 \u2192 \u20ac31.99. Logged late; VPSLedger now tracks orderable CPX22/CPX32 (EU) and CPX11/CPX21 (US). See /guides/hetzner-price-increase-2026.",
   "source": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/"
  }
 ]

@@ -1,9 +1,9 @@
 {
- "checked": "2026-10-31",
+ "checked": "2026-11-07",
  "ipv4_eur": 0.5,
  "ipv4_source": "https://docs.hetzner.com/cloud/servers/primary-ips/overview/",
  "ipv4_snapshot": "snapshots/docs_hetzner_com_cloud_servers_primary_ips_overview_.txt",
- "ipv4_quote": "We charge € 0.50 / $ 0.60 per month (excl. VAT) for our Primary IPv4s.",
+ "ipv4_quote": "We charge \u20ac 0.50 / $ 0.60 per month (excl. VAT) for our Primary IPv4s.",
  "events": [
   {
    "date": "2026-02-23",
@@ -16,7 +16,7 @@
   {
    "date": "2026-04-01",
    "title": "Increase #1: everyone, including existing servers",
-   "summary": "Cloud prices rise for all servers (EU CPX22 €5.99 → €7.99, CX23 €2.99 → €3.99; US CPX11 €4.49 → €5.99, excl. VAT). No grandfathering.",
+   "summary": "Cloud prices rise for all servers (EU CPX22 \u20ac5.99 \u2192 \u20ac7.99, CX23 \u20ac2.99 \u2192 \u20ac3.99; US CPX11 \u20ac4.49 \u2192 \u20ac5.99, excl. VAT). No grandfathering.",
    "source": "https://web.archive.org/web/20260513201413/https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
    "snapshot": "snapshots/web_archive_org_20260513_docs_hetzner_com_price_adjustment_april_2026.txt",
    "quote": "The price changes will take effect on 1 April 2026 for both new orders and existing products."
@@ -32,7 +32,7 @@
   {
    "date": "2026-06-15",
    "title": "Increase #2: new orders and rescales only",
-   "summary": "From 15 June 2026, 8:00 CEST, every new cloud server and every rescale is billed at the new list (EU CPX22 €19.49, US CPX11 €17.49, excl. VAT and IPv4). Servers ordered before keep their price.",
+   "summary": "From 15 June 2026, 8:00 CEST, every new cloud server and every rescale is billed at the new list (EU CPX22 \u20ac19.49, US CPX11 \u20ac17.49, excl. VAT and IPv4). Servers ordered before keep their price.",
    "source": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
    "snapshot": "snapshots/docs_hetzner_com_general_infrastructure_and_availability_price_adjustment_.txt",
    "quote": "The price adjustment took effect for new orders and cloud instance rescales starting on the 15 June 2026; 8 AM CEST"
@@ -140,6 +140,11 @@
  "jun_snapshot": "snapshots/docs_hetzner_com_general_infrastructure_and_availability_price_adjustment_.txt",
  "voices": [
   {
+   "q": "I lost my legacy plan and ended up with a server that has lower performance and costs more than what I was paying before.",
+   "who": "r/hetzner",
+   "url": "https://www.reddit.com/r/hetzner/comments/1ucprnz/i_panicked_when_i_saw_the_new_ccx23_price/"
+  },
+  {
    "q": "It's so bad I will be looking at moving off Hetzner at this point. 3x is too much.",
    "who": "urda, Hacker News",
    "url": "https://news.ycombinator.com/item?id=48540844"
@@ -164,5 +169,74 @@
    "who": "r/hetzner",
    "url": "https://www.reddit.com/r/hetzner/comments/1ux85ym/are_there_no_more_costoptimized_servers_available/"
   }
- ]
+ ],
+ "general_purpose_source": "https://www.hetzner.com/cloud/general-purpose",
+ "general_purpose_snapshot": "snapshots/www_hetzner_com_cloud_general_purpose.txt",
+ "dedicated": [
+  {
+   "plan": "CCX13",
+   "region": "EU",
+   "loc": "Germany / Finland",
+   "vcpu": 2,
+   "ram_gb": 8,
+   "disk_gb": 80,
+   "apr": 15.99,
+   "jun": 42.99,
+   "plan_id": "hetzner-ccx13",
+   "jun_row": "CCX13 | 0.0256 / 15.99 | 0.0689 / 42.99",
+   "page_quote": "\u20ac 43.49 per month, excl. VAT"
+  },
+  {
+   "plan": "CCX23",
+   "region": "EU",
+   "loc": "Germany / Finland",
+   "vcpu": 4,
+   "ram_gb": 16,
+   "disk_gb": 160,
+   "apr": 31.49,
+   "jun": 85.99,
+   "plan_id": "hetzner-ccx23",
+   "jun_row": "CCX23 | 0.0505 / 31.49 | 0.1378 / 85.99",
+   "page_quote": "\u20ac 86.49 per month, excl. VAT"
+  },
+  {
+   "plan": "CCX33",
+   "region": "EU",
+   "loc": "Germany / Finland",
+   "vcpu": 8,
+   "ram_gb": 32,
+   "disk_gb": 240,
+   "apr": 62.49,
+   "jun": 138.49,
+   "plan_id": "hetzner-ccx33",
+   "jun_row": "CCX33 | 0.1001 / 62.49 | 0.2219 / 138.49",
+   "page_quote": "\u20ac 138.99 per month, excl. VAT"
+  }
+ ],
+ "dont": {
+  "source": "https://docs.hetzner.com/cloud/billing/faq/",
+  "snapshot": "snapshots/docs_hetzner_com_cloud_billing_faq_.txt",
+  "items": [
+   {
+    "do": "Don\u2019t rescale a pre-June server \u2014 up or down",
+    "why": "Hetzner bills the current list after \u201cRescaling (regardless of whether the server is scaled up or down).\u201d A smaller plan can still cost more than your locked price."
+   },
+   {
+    "do": "Don\u2019t delete and restore to \u201cfix\u201d a plan",
+    "why": "\u201cRestoring a deleted server\u201d also moves that server onto current pricing."
+   },
+   {
+    "do": "Don\u2019t move the server into a project billed in another currency",
+    "why": "\u201cTransferring a server to another project with a different currency\u201d switches it to the current scheme in the target currency."
+   },
+   {
+    "do": "Do rebuild in place, or move to a same-currency project, if you only need a clean image or tidy projects",
+    "why": "Hetzner lists \u201cRebuilding a server\u201d and \u201cTransferring a server to another project with the same currency\u201d as actions that do not change the price."
+   },
+   {
+    "do": "Prefer adding a second box over growing a locked one",
+    "why": "A grandfathered CCX13 kept at the pre-June price plus a new Regular Performance CPX22 is still cheaper than rescaling that CCX13 up to today\u2019s CCX23 \u2014 see the add-a-box row above (math from Hetzner\u2019s own June list + today\u2019s Regular Performance page)."
+   }
+  ]
+ }
 }

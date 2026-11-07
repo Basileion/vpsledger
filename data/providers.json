@@ -28,7 +28,7 @@
    "ipv4_n": "IPv4 included on standard plans (IPv6-only plan cheaper)",
    "backup_pct": 20,
    "backup_s": "verified",
-   "backup_n": "Automatic Backups add 20% to the instance’s base hourly or monthly price (Vultr docs, read 2026-10-31)",
+   "backup_n": "Automatic Backups add 20% to the instance\u2019s base hourly or monthly price (Vultr docs, read 2026-10-31)",
    "overage": 0.01,
    "overage_s": "verified",
    "overage_n": "$0.01/GB outbound beyond the plan quota (Vultr docs, read 2026-10-31); account-level free 2 TB/mo allotment not counted",
@@ -57,18 +57,18 @@
   "id": "hetzner",
   "name": "Hetzner",
   "source": "https://www.hetzner.com/cloud/cost-optimized",
-  "checked": "2026-10-31",
+  "checked": "2026-11-07",
   "fees": {
    "ipv4": 0,
    "ipv4_s": "verified",
-   "ipv4_n": "Already inside every plan price we list: Hetzner’s cloud pages show “Price incl. IPv4” (Primary IPv4 is € 0.50 / $ 0.60 per month excl. VAT per Hetzner Docs, read 2026-10-31), so it is not added again",
+   "ipv4_n": "Already inside every plan price we list: Hetzner\u2019s cloud pages show \u201cPrice incl. IPv4\u201d (Primary IPv4 is \u20ac 0.50 / $ 0.60 per month excl. VAT per Hetzner Docs, read 2026-10-31), so it is not added again",
    "backup_pct": 20,
    "backup_s": "verified",
    "backup_n": "Backups are a flat 20% of the server price, 7 daily slots (Hetzner billing FAQ, read 2026-10-31)",
    "overage": 0.001,
    "cur": "EUR",
    "overage_s": "verified",
-   "overage_n": "€1.00 per additional TB (EU plans include 20 TB; US CPX11/CPX21 include 1/2 TB)",
+   "overage_n": "\u20ac1.00 per additional TB (EU plans include 20 TB; US CPX11/CPX21 include 1/2 TB)",
    "backup_src": "https://docs.hetzner.com/cloud/billing/faq/",
    "ipv4_src": "https://docs.hetzner.com/cloud/servers/primary-ips/overview/"
   }
@@ -118,7 +118,7 @@
    "ipv4_n": "1 IPv4 included",
    "backup_pct": 20,
    "backup_s": "verified",
-   "backup_n": "Simple Backup “Week” plan (daily backups kept 7 days) +20% of the server plan price; “Day” plan +10% (UpCloud pricing, read 2026-10-31)",
+   "backup_n": "Simple Backup \u201cWeek\u201d plan (daily backups kept 7 days) +20% of the server plan price; \u201cDay\u201d plan +10% (UpCloud pricing, read 2026-10-31)",
    "overage": 0,
    "overage_s": "verified",
    "overage_n": "Zero-cost egress, Fair Transfer Policy",
@@ -136,7 +136,7 @@
    "ipv4_n": "IPv4 included",
    "backup_pct": null,
    "backup_s": "unverified",
-   "backup_n": "Snapshots included (1–3); auto backup add-on",
+   "backup_n": "Snapshots included (1\u20133); auto backup add-on",
    "overage": 0,
    "overage_s": "unverified",
    "overage_n": "Unlimited traffic at port speed"
@@ -190,7 +190,7 @@
    "backup_n": "Snapshots billed per GB",
    "overage": null,
    "overage_s": "unverified",
-   "overage_n": "Internet egress billed per GB (tiered); not in this ledger — totals exclude GCP egress"
+   "overage_n": "Internet egress billed per GB (tiered); not in this ledger \u2014 totals exclude GCP egress"
   }
  },
  {

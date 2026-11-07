@@ -1,6 +1,6 @@
 # VPSLedger
 
-> True monthly VPS cost (base + IPv4 + backups + overage), 38 plans, 32 verified, 15 providers, checked 2026-11-07.
+> True monthly VPS cost (base + IPv4 + backups + overage), 41 plans, 35 verified, 15 providers, checked 2026-11-07.
 
 ## Methodology
 Prices come only from each provider's own pricing page or official public API. Verified rows were hand-checked on the date shown. We never invent a price. EUR→USD uses ECB reference 1.1188 (2026-10-26). Details: https://vpsledger.pages.dev/methodology
