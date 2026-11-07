@@ -15,10 +15,10 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://www.digitalocean.com/pricing/droplets",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "Regular SSD Basic Droplet",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -37,10 +37,10 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://www.digitalocean.com/pricing/droplets",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -59,10 +59,10 @@
   "tier": "mid",
   "status": "verified",
   "source": "https://www.digitalocean.com/pricing/droplets",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -81,10 +81,10 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://api.vultr.com/v2/plans?type=vc2",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "Cloud Compute regular; official public API",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -103,10 +103,10 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://api.vultr.com/v2/plans?type=vc2",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -125,10 +125,10 @@
   "tier": "mid",
   "status": "verified",
   "source": "https://api.vultr.com/v2/plans?type=vc2",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -147,10 +147,10 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://api.linode.com/v4/linode/types",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "Backups $2/mo (API)",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -169,10 +169,10 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://api.linode.com/v4/linode/types",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "Backups $2.50/mo",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -191,10 +191,10 @@
   "tier": "mid",
   "status": "verified",
   "source": "https://api.linode.com/v4/linode/types",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "Backups $5/mo",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -213,10 +213,10 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://www.hetzner.com/cloud/cost-optimized",
-  "checked": "2026-10-31",
+  "checked": "2026-11-07",
   "notes": "Excl. VAT. Sold out: Hetzner cost-optimized page marks CX23 “not available” and shows “This product is currently unavailable. Please check back later.” (checked 2026-10-31). EU only (NBG1, HEL1); not offered in Hetzner US locations.",
   "availability": "unavailable",
-  "availability_checked": "2026-10-31",
+  "availability_checked": "2026-11-07",
   "region_scope": "EU only (NBG1, HEL1)"
  },
  {
@@ -235,10 +235,10 @@
   "tier": "mid",
   "status": "verified",
   "source": "https://www.hetzner.com/cloud/cost-optimized",
-  "checked": "2026-10-31",
+  "checked": "2026-11-07",
   "notes": "Excl. VAT. Sold out: Hetzner cost-optimized page marks CX33 “not available” and shows “This product is currently unavailable. Please check back later.” (checked 2026-10-31). EU only (NBG1, HEL1); not offered in Hetzner US locations.",
   "availability": "unavailable",
-  "availability_checked": "2026-10-31",
+  "availability_checked": "2026-11-07",
   "region_scope": "EU only (NBG1, HEL1)"
  },
  {
@@ -361,7 +361,7 @@
   "ram_gb": 8,
   "disk_gb": 75,
   "transfer_tb": null,
-  "price_mo": 10.0,
+  "price_mo": 10,
   "currency": "USD",
   "promo_mo": 8.5,
   "backup_mo": null,
@@ -592,10 +592,10 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://aws.amazon.com/lightsail/pricing/",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "IPv4 bundle",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -614,10 +614,10 @@
   "tier": "mid",
   "status": "verified",
   "source": "https://aws.amazon.com/lightsail/pricing/",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "IPv4 bundle; 4 TB transfer",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -636,10 +636,10 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://cloud.google.com/products/compute/pricing/general-purpose",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "On-demand $0.06701142/h × 730 h, page default region; disk, IPv4 and egress billed separately. Shared-core e2-small/medium rates not published in the table read.",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -658,10 +658,10 @@
   "tier": "mid",
   "status": "verified",
   "source": "https://cloud.google.com/products/compute/pricing/general-purpose",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "On-demand $0.13402284/h × 730 h; disk, IPv4 and egress extra.",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -680,10 +680,10 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://prices.azure.com/api/retail/prices",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "$0.0104/h × 730 h, Retail Prices API; disk and IP extra",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -702,10 +702,10 @@
   "tier": "mid",
   "status": "verified",
   "source": "https://prices.azure.com/api/retail/prices",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "$0.0416/h × 730 h; disk and IP extra",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -724,10 +724,10 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://www.kamatera.com/pricing/",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "Type A",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -746,10 +746,10 @@
   "tier": "mid",
   "status": "unverified",
   "source": "https://www.kamatera.com/pricing/",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "Storage/traffic not legible",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -768,10 +768,10 @@
   "tier": "entry",
   "status": "unverified",
   "source": "https://www.ionos.com/servers/vps",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "Term/promo display ambiguous; regular price not read",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -790,10 +790,10 @@
   "tier": "mid",
   "status": "unverified",
   "source": "https://www.ionos.com/servers/vps",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "$5/month shown with 1-year term; confirm",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null
  },
  {
@@ -812,10 +812,10 @@
   "tier": "entry",
   "status": "verified",
   "source": "https://www.dreamhost.com/hosting/vps/",
-  "checked": "2026-10-30",
+  "checked": "2026-11-07",
   "notes": "Promo $8.99 first 3 months; renews $15.99",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null,
   "promo_type": "intro"
  },
@@ -835,10 +835,10 @@
   "tier": "mid",
   "status": "verified",
   "source": "https://www.dreamhost.com/hosting/vps/",
-  "checked": "2026-10-31",
+  "checked": "2026-11-07",
   "notes": "Promo $22.99 first 3 months; renews $34.99",
   "availability": "in_stock",
-  "availability_checked": "2026-10-30",
+  "availability_checked": "2026-11-07",
   "region_scope": null,
   "promo_type": "intro"
  }
