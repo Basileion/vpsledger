@@ -181,13 +181,59 @@ ${cite(`${pr.name} alternatives as of ${lastChecked}`)}
 
 
 // Renewal / promo price pages
+// RT-20261031-48: promo_type 'commitment' is a term/prepay discount that renews at the same rate, not an intro-to-renewal jump.
+const isIntroPromo=p=>p&&p.promo_mo!=null&&p.promo_type!=='commitment';
 const promoProviders=[...new Set(ver.filter(p=>p.promo_mo!=null).map(p=>p.provider_id))];
 for(const pid of promoProviders){
   const pr=P[pid]; if(!pr) continue;
-  const ps=ver.filter(p=>p.provider_id===pid&&p.promo_mo!=null);
-  if(!ps.length) continue;
-  const top=ps.map(p=>({p,jump:p.price_mo-p.promo_mo,pct:(p.price_mo/p.promo_mo-1)*100})).sort((a,b)=>b.pct-a.pct)[0];
+  const psAll=ver.filter(p=>p.provider_id===pid&&p.promo_mo!=null);
+  if(!psAll.length) continue;
+  const introPs=psAll.filter(isIntroPromo);
+  const commitPs=psAll.filter(p=>p.promo_type==='commitment');
   const file=`guides/${pid}-renewal-price.html`;
+  const cur=p=>p.currency==='EUR'?'€':'$';
+  if(commitPs.length && !introPs.length){
+    const ps=commitPs;
+    const ex=[...ps].sort((a,b)=>a.price_mo-b.price_mo)[0];
+    const checked=ps.map(p=>p.checked).sort().at(-1);
+    const COMMIT_DOC='https://docs.ovhcloud.com/en/guides/account-and-service-management/managing-billing-payments-and-services/manage-commitments';
+    const US_BILLING_DOC='https://docs.us.ovhcloud.com/en/account/billing/overview';
+    const answer=`As of ${checked}, the ${pr.name} US catalog lists a no-commitment monthly price and a lower 12-month upfront price for the same VPS plans. These are term options, not an introductory price that rises at renewal. ${pr.name} documentation states that a commitment “will automatically renew for the same price and terms.” Example: ${ex.plan} is ${cur(ex)}${ex.price_mo.toFixed(2)}/mo with no commitment, or ${cur(ex)}${ex.promo_mo.toFixed(2)}/mo prepaid for 12 months. VPSLedger ranks on the no-commitment monthly price.`;
+    const faq=[
+      [`What is the ${pr.name} renewal price?`, answer],
+      ['Does the price go up at renewal?', `${pr.name} does not publish an introductory VPS price that rises at renewal. Its commitment documentation says that if you do nothing, a commitment automatically renews for the same price and terms. The lower catalog figure is a 12-month upfront term, not a first-term promo.`],
+      ['Last verified?', checked],
+    ];
+    page({file,og:'changes',title:`${pr.name} VPS renewal price (${lastChecked.slice(0,4)}) | ${NAME}`,desc:answer.slice(0,155),ld:[
+      ORG, crumbLd([{label:'Home',href:'/'},{label:'Guides',href:'/guides/'},{label:`${pr.name} renewal`,href:'/'+file}]),
+      {'@context':'https://schema.org','@type':'FAQPage',mainEntity:faq.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))}
+    ],body:`
+${crumbs([{href:'/',label:'Home'},{href:'/guides/',label:'Guides'},{href:'/'+file,label:`${pr.name} renewal`}])}
+<section class="hero"><div class="eyebrow">Term pricing · sourced</div><h1>${esc(pr.name)} renewal price</h1>
+<p class="lede"><b>Answer:</b> ${esc(answer)}</p></section>
+${keyStats([
+  [`${ex.plan} no-commitment`, `${cur(ex)}${ex.price_mo.toFixed(2)}/mo`],
+  [`${ex.plan} 12-mo upfront`, `${cur(ex)}${ex.promo_mo.toFixed(2)}/mo`],
+  ['Plans in ledger', String(ps.length)],
+  ['Renewal terms', 'Commitment renews at the same price and terms (OVHcloud docs)'],
+  ['Catalog source', ps[0].source],
+  ['Last verified', checked],
+])}
+<div class="tbl"><table><thead><tr><th>Plan</th><th class="n">12-mo upfront / mo</th><th class="n">No-commitment / mo</th><th>Source</th></tr></thead><tbody>
+${ps.map(p=>`<tr><td>${esc(p.plan)}</td><td class="n">${cur(p)}${p.promo_mo.toFixed(2)}</td><td class="n">${cur(p)}${p.price_mo.toFixed(2)}</td><td class="src"><a href="${p.source}">source</a> · ${p.checked}</td></tr>`).join('')}
+</tbody></table></div>
+<p>Prices: <a href="${ps[0].source}">OVHcloud US VPS catalog API</a> (checked ${esc(checked)}). Renewal terms: <a href="${COMMIT_DOC}">Managing commitments in the OVHcloud Console</a> (“If you do nothing at all, your commitment will automatically renew for the same price and terms.”). US upfront billing also says a 12-month VPS “will automatically renew for an equal commitment period”: <a href="${US_BILLING_DOC}">Overview of Billing with OVHcloud US</a>.</p>
+<p><a href="/providers/${pid}.html">${esc(pr.name)} provider page</a> · <a href="/changes.html">Price log</a></p>
+${o11yNote(`${pr.name} hosts`)}
+${mailBox('gr'+pid,`Watch ${pr.name} prices`,'Send the weekly ledger')}
+${cite(`${pr.name} monthly vs 12-month upfront pricing as of ${lastChecked}`)}
+`});
+    hub.push({file,title:`${pr.name} renewal price`,blurb:`${ex.plan}: ${cur(ex)}${ex.price_mo.toFixed(2)}/mo monthly; ${cur(ex)}${ex.promo_mo.toFixed(2)}/mo 12-mo prepay`});
+    continue;
+  }
+  if(!introPs.length) continue;
+  const ps=introPs;
+  const top=ps.map(p=>({p,jump:p.price_mo-p.promo_mo,pct:(p.price_mo/p.promo_mo-1)*100})).sort((a,b)=>b.pct-a.pct)[0];
   const answer=`As of ${ps[0].checked}, ${pr.name} advertises intro prices that renew higher. Example: ${top.p.plan} is $${top.p.promo_mo.toFixed(2)}/mo intro and renews at $${top.p.price_mo.toFixed(2)}/mo (+${Math.round(top.pct)}%). VPSLedger ranks on renewal/list price so year-three cost is visible.`;
   const faq=[
     [`What is the ${pr.name} renewal price?`, answer],
