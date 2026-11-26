@@ -29,19 +29,22 @@ for(const ram of [2,4,8]){
   const sold=rowsAll.filter(x=>unavail(x.p));
   const soldNote=sold.length?` ${sold.map(x=>`${x.p.provider} ${x.p.plan} (${usd(x.t.total)}/mo, ${regionShort(x.p)||'region n/a'})`).join(', ')} ${sold.length>1?'are':'is'} sold out on the provider’s page (checked ${sold[0].p.availability_checked}) and not ranked.`: '';
   const answer=`As of ${lastChecked}, among ${rows.length} orderable verified ${ram} GB RAM plans at ${EG} TB egress with backups, the cheapest true monthly cost is ${best.p.provider} ${best.p.plan} at ${usd(best.t.total)}/mo. The priciest in this slice is ${worst.p.provider} ${worst.p.plan} at ${usd(worst.t.total)}/mo — a gap of ${yr(worst.t.total-best.t.total)}/yr.${soldNote}`;
+  const desc=`Cheapest orderable ${ram} GB VPS as of ${lastChecked}: ${best.p.provider} ${best.p.plan} at ${usd(best.t.total)}/mo true cost (${EG} TB egress, backups on).`;
   const faq=[
     [`What is the cheapest ${ram} GB VPS?`, `${best.p.provider} ${best.p.plan} at ${usd(best.t.total)}/mo true cost (${EG} TB egress, backups on), checked ${best.p.checked}.`],
     ['What is “true monthly cost”?','List/renewal price + IPv4 + backups + bandwidth overage at the egress you choose. EUR converted at the ECB rate on the methodology page.'],
     ['Last verified?', lastChecked],
+    ['How do I compare two providers head-to-head?','Open the compare hub and pick a pairing. Each page uses the same true monthly cost (list/renewal + IPv4 + backups + overage).'],
+    ['Already on Hetzner or OVHcloud?','Hetzner raised list prices on Apr 1 and Jun 15, 2026; the sourced timeline is in the Hetzner 2026 price-increase guide. OVHcloud’s 12-month prepaid price is not a renewal increase — the renewal-price guide shows both rates with sources.'],
   ];
-  page({file,og:'compare',title:`Cheapest ${ram} GB VPS (${lastChecked.slice(0,4)}) — true monthly cost | ${NAME}`,desc:answer.slice(0,155),ld:[
+  page({file,og:'compare',title:`Cheapest ${ram} GB VPS (${lastChecked.slice(0,4)}): ${best.p.provider} ${best.p.plan} at ${usd(best.t.total)}/mo | ${NAME}`,desc,ld:[
     ORG,
     crumbLd([{label:'Home',href:'/'},{label:'Guides',href:'/guides/'},{label:`Cheapest ${ram} GB`,href:'/'+file}]),
     {'@context':'https://schema.org','@type':'FAQPage',mainEntity:faq.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))}
   ],body:`
 ${crumbs([{href:'/',label:'Home'},{href:'/guides/',label:'Guides'},{href:'/'+file,label:`Cheapest ${ram} GB`}])}
-<section class="hero"><div class="eyebrow">Guide · ${EG} TB egress · backups on</div><h1>Cheapest ${ram} GB VPS</h1>
-<p class="lede"><b>Answer:</b> ${esc(answer)}</p></section>
+<section class="hero"><div class="eyebrow">Guide · ${EG} TB egress · backups on · ${lastChecked}</div><h1>Cheapest ${ram} GB VPS: ${esc(best.p.provider)} ${esc(best.p.plan)}</h1>
+<div class="panel"><div class="eyebrow">Answer</div><p class="lede" style="margin:0">${esc(answer)}</p></div></section>
 ${keyStats([
   ['Cheapest', `${best.p.provider} ${best.p.plan} — ${usd(best.t.total)}/mo`],
   ['Priciest in slice', `${worst.p.provider} ${worst.p.plan} — ${usd(worst.t.total)}/mo`],
@@ -56,6 +59,9 @@ ${sold.map(x=>`<tr><td class="n">—</td><td><a href="/providers/${x.p.provider_
 </tbody></table></div>
 <p class="note">${asOf}. Ranked rows are orderable; sold-out plans are listed below the ranking, labeled, and never counted as cheapest or suggested. ${meth}.</p>
 ${o11yNote(`${ram} GB fleet`)}
+<h2>Questions</h2>
+${faq.map(([q,a])=>`<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}
+<p class="note">Related: <a href="/compare/">Compare providers</a> · <a href="/guides/hetzner-price-increase-2026">Hetzner 2026 price increase</a> · <a href="/guides/ovhcloud-renewal-price">OVHcloud monthly vs 12-month price</a>${ram!==4?` · <a href="/guides/cheapest-4gb-vps">Cheapest 4 GB VPS</a>`:''}</p>
 ${mailBox('g'+ram,`Alert me when a cheaper ${ram} GB plan appears`,'Send the weekly ledger')}
 ${cite(`Cheapest ${ram} GB VPS ranking as of ${lastChecked}`)}
 `});
